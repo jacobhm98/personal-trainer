@@ -86,6 +86,14 @@ effort the day supports.
 
 A 4:35 closing kilometre indicates reserve was still available in the middle.
 
+**Athlete correction (18 Aug 2026):** the km 4–6 losses were deliberate, not a
+limit. The Garmin's display broke the week before the race and the course had no
+clocks — the race was paced entirely blind, which also explains the uniform +5 to
++18 s offset on every km. The race plan explicitly advised conservatism on the
+km 4–6 hill to avoid blow-up risk, and that instruction was followed; the 4:35
+close shows the banked reserve. Read this race as information-limited pacing, not
+a fitness ceiling. (The broken Garmin is why the COROS Pace 4 was bought.)
+
 Also logged: **5k PR 23:30** (within the race).
 
 ---
