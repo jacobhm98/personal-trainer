@@ -24,7 +24,7 @@ Claude Code-driven training pipeline: strength plan (Google Sheet) and running p
 Google Sheet (strength) + plans/running.md
         → skills (/sync-strength, /sync-running)
         → Tredict MCP (create/schedule workouts)
-        → official COROS Training API (rolling 7 days, resync ~3h; run/bike/swim only)
+        → official COROS Training API (rolling 7 days, resync ~3h; runs AND strength relay)
         → COROS calendar → app → watch
 Reads/analysis: official COROS MCP (EU) + Strava MCP + Tredict MCP
 ```
@@ -32,10 +32,11 @@ Reads/analysis: official COROS MCP (EU) + Strava MCP + Tredict MCP
 - Structured **running** workouts reach the watch with pace targets. Targets (pace/HR)
   must be explicitly set on each workout section in Tredict, or they won't show on
   the watch.
-- **Strength cannot reach the watch** via any authorized path today (the COROS
-  Training API accepts run/bike/swim only). Strength sessions are created as planned
-  entries on the Tredict calendar — phone-visible, full detail in the description.
-  Revisit when the official COROS MCP ships `generateTrainingPlan`.
+- **Strength DOES relay to the COROS calendar** (verified 2026-08-18, contradicting
+  Tredict's older run/bike/swim-only docs): misc/strength_training entries pushed
+  from Tredict appear on the COROS training schedule with full notes. Still to
+  verify: whether they open as followable structured sessions on the watch or as
+  plain calendar entries.
 
 ## The strength program (modified 5/3/1)
 

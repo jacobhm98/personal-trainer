@@ -10,8 +10,8 @@ in files.
 - **Running**: `plans/running.md`, distilled from `running-training-brief.md`.
 - **Push**: `/sync-running` and `/sync-strength` skills create workouts via the
   Tredict MCP; Tredict relays the coming 7 days to COROS (~3 h cadence). Structured
-  runs reach the watch with pace targets; strength stays phone-side (COROS API
-  accepts run/bike/swim only).
+  runs reach the watch with pace targets; strength sessions relay to the COROS
+  calendar too (verified Aug 2026).
 - **Review**: `/training-review` compares plan vs execution using the official
   COROS MCP + Strava.
 
