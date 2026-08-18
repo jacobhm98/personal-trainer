@@ -49,7 +49,7 @@ Normal Mon/Wed/Fri/Sun rhythm and the Mon/Fri run+lift doubles begin here.
 - Fri | Easy | 7km @ 5:15-6:15/km; 4x(20s strides, 60s walk)
 - Sun | Long | 13km @ 5:45-6:15/km
 
-Notes: first continuous tempo — the race-specific session that would have helped at km 6.
+Notes: first continuous tempo — unbroken pace-holding, the most 10k-specific stimulus in the block.
 
 ## Week 4 (of 2026-09-07) — consolidation, ~32 km
 
