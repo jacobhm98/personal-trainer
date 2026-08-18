@@ -12,10 +12,9 @@ if absent, infer the next un-pushed week from `state/sync-log.md`), optional
 `start YYYY-MM-DD` (date of the week's first session), optional `dry-run` (stop
 after the confirmation table; make no writes).
 
-Reality check first: strength workouts **cannot reach the watch** — the COROS
-Training API accepts run/bike/swim only. These entries are for the phone-visible
-Tredict calendar and training-load tracking. Say this in the output so it's never
-a surprise.
+Strength entries relay from Tredict to the COROS training calendar (verified
+2026-08-18). Push them as misc/strength_training with the full set table in the
+notes — the notes travel with the entry to COROS.
 
 ## Steps
 
