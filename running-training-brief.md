@@ -16,6 +16,14 @@ relying on any derived number._
 | Location | Stockholm, Sweden |
 | Running experience | First-ever 10k race was 15 Aug 2026 |
 
+**Athlete correction (18 Aug 2026):** not a novice — a detrained runner. Jacob
+has previously run sub-41 for 10k at ~70 kg bodyweight (before the strength-focused
+years added ~10 kg). Treat him as retraining, not learning: expect faster-than-novice
+aerobic regain, intact economy and pacing skill. The sub-40 question is therefore
+mass-dominated, not trainability-dominated: his old engine rebuilt at 80 kg computes
+to ~44:30-45:30; sub-40 at 80 kg would need an absolute engine ~15% larger than he
+has ever had, while at ~75-76 kg it needs only his old one plus a little.
+
 **Physiological shape: high ceiling, small tank.** Interval capability is well
 ahead of endurance. This is the defining fact about this athlete and it drives
 every recommendation below.
