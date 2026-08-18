@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "coros-official": {
+      "type": "http",
+      "url": "https://mcpeu.coros.com/mcp"
+    }
+  }
+}
