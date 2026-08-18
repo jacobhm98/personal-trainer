@@ -26,7 +26,7 @@ and only running-specific qualities (impact volume tolerance, steady-state
 threshold) detrained. The "high ceiling, small tank" profile is the classic combat
 -athlete signature. Also: weight-class experience means bodyweight management is a
 practiced skill. Ramp/tissue caution unchanged — impact volume is the one currency
-combat sports never paid in. The sub-40 question is therefore
+combat sports never paid in. MMA is fully retired as of 2026 (startup life — no structured mat time); the current load budget is exactly 4 runs + 4 lifts + Sat rest. The sub-40 question is therefore
 mass-dominated, not trainability-dominated: his old engine rebuilt at 80 kg computes
 to ~44:30-45:30; sub-40 at 80 kg would need an absolute engine ~15% larger than he
 has ever had, while at ~75-76 kg it needs only his old one plus a little.
