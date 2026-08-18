@@ -19,9 +19,14 @@ relying on any derived number._
 **Athlete correction (18 Aug 2026):** not a novice — a detrained runner. Jacob
 has previously run sub-41 for 10k at ~70 kg bodyweight — early 2020, aged 22,
 during a marathon build (so: prior tolerance of 50+ km/week volume), before the
-strength-focused years added ~10 kg. The ~6.5-year gap tempers the regain-speed
-advantage (experienced returner, not freshly detrained), but economy, pacing skill,
-and volume history persist. The sub-40 question is therefore
+strength-focused years added ~10 kg. The gap years were NOT sedentary: regular
+kickboxing/MMA training throughout (formerly competed at national level) plus
+lifting — so general conditioning and the interval ceiling were cross-maintained,
+and only running-specific qualities (impact volume tolerance, steady-state
+threshold) detrained. The "high ceiling, small tank" profile is the classic combat
+-athlete signature. Also: weight-class experience means bodyweight management is a
+practiced skill. Ramp/tissue caution unchanged — impact volume is the one currency
+combat sports never paid in. The sub-40 question is therefore
 mass-dominated, not trainability-dominated: his old engine rebuilt at 80 kg computes
 to ~44:30-45:30; sub-40 at 80 kg would need an absolute engine ~15% larger than he
 has ever had, while at ~75-76 kg it needs only his old one plus a little.
