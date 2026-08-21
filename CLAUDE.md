@@ -34,9 +34,11 @@ Reads/analysis: official COROS MCP (EU) + Strava MCP + Tredict MCP
   the watch.
 - **Strength DOES relay to the COROS calendar** (verified 2026-08-18, contradicting
   Tredict's older run/bike/swim-only docs): misc/strength_training entries pushed
-  from Tredict appear on the COROS training schedule with full notes. Still to
-  verify: whether they open as followable structured sessions on the watch or as
-  plain calendar entries.
+  from Tredict appear on the COROS training schedule with full notes. They open on
+  the watch as *followable* sessions, but only as a shell (~4 generic sections, no
+  rep/load content — verified 2026-08-19: taps through in ~5 min). **Protocol:
+  strength entries are scheduling + notes reference only. Don't start the scheduled
+  workout on the watch; record a plain Strength activity for the actual training.**
 
 ## The strength program (modified 5/3/1)
 
