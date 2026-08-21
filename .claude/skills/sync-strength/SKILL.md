@@ -14,7 +14,10 @@ after the confirmation table; make no writes).
 
 Strength entries relay from Tredict to the COROS training calendar (verified
 2026-08-18). Push them as misc/strength_training with the full set table in the
-notes — the notes travel with the entry to COROS.
+notes — the notes travel with the entry to COROS. On the watch they open as
+followable sessions but only as a content-free shell (verified 2026-08-19), so
+they serve as scheduling + notes reference only: the user records the actual
+lifting as a plain Strength activity and does not start the scheduled workout.
 
 ## Steps
 
