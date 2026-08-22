@@ -26,21 +26,30 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
 - Thu | Quality | WU 2km easy; 4x(1km @ 4:50/km, 60s jog); CD 1.5km easy
 - Sun | Long | 11km @ 5:45-6:15/km
 
-Notes: work travel in Denver, flying home Fri evening, landing Sat. Alternating
-singles Mon-Fri (Mon squat done, Wed dips, Fri AM deadlift pre-flight), Sat rest
-in transit, Sun double: long run AM + pull-ups PM. Three runs instead of four;
-the dropped easy 5k is the cheapest cut in a post-race week. Threshold cruise
-intervals open the block gently. Standard Mon/Wed/Fri/Sun run days resume Week 2.
+Notes: work travel in Denver. Originally built around a Fri-evening flight (Sat rest
+in transit, Sun double); flight later moved to Tue 25th, so as executed: Mon squat,
+Tue easy, Wed dips, Thu 4x1k, Fri deadlift, Sat long run (moved from Sun), Sun
+pull-ups only. Three runs instead of four; the dropped easy 5k is the cheapest cut
+in a post-race week. Threshold cruise intervals open the block gently.
 
-## Week 2 (of 2026-08-24) — ~34 km
+## Week 2 (of 2026-08-24) — travel week, reshuffled, ~35 km
 
-- Mon | Easy | 8km @ 5:15-6:15/km
-- Wed | Quality | WU 2km easy; 4x(4min @ 4:00-4:05/km, 3min jog); CD 1.5km easy
-- Fri | Easy | 6km @ 5:15-6:15/km; 4x(20s strides, 60s walk)
+- Mon | Quality | WU 2km easy; 4x(4min @ 4:10-4:18/km, 3min jog); CD 1.5km easy
+- Tue | Easy | 8km @ 5:15-6:15/km
+- Thu | Easy | 6km @ 5:15-6:15/km; 4x(20s strides, 60s walk)
 - Sun | Long | 12km @ 5:45-6:15/km
 
-Notes: VO2max week — the familiar 4×4 (outdoor equivalent of 15.3 kph treadmill).
-Normal Mon/Wed/Fri/Sun rhythm and the Mon/Fri run+lift doubles begin here.
+Notes (reshuffled 2026-08-21): flight home moved to Tue 16:00 from Denver; Mon–Tue in a
+Lone Tree hotel (~1,800 m), working days, landing Wed. Running front-loaded, lifting
+pushed to the back of the week. Mon 4×4 is the VO2max session (normally 4:00-4:05/km)
+with **altitude-adjusted targets** — ~4:10-4:18/km outdoors, ≈14.3-14.6 kph on a
+treadmill instead of 15.3 — run it by effort, last rep at the limit; it is the HRmax
+pin session (max HR is not suppressed at this altitude). Tue AM easy 8k is a
+shakeout before 17 h of sitting; cut it first if the morning gets eaten. Wed = rest
+(landing). Thu easy + strides by feel (jetlag day 1). Strength override this week
+(no lifting Mon–Tue — hotel + work): Thu D1 Squat PM (double with the easy run),
+Fri D2 Dips, Sat D3 Deadlift (Sat rest waived once), Sun D4 Pull-ups PM after the
+long run. Normal Mon/Wed/Fri/Sun rhythm and Sat rest resume Week 3.
 
 ## Week 3 (of 2026-08-31) — ~36 km
 
