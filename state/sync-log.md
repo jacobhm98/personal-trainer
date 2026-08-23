@@ -11,3 +11,4 @@ Append-only. One row per workout pushed to (or updated in) Tredict.
 | 2026-08-18 | 531 W1 D3 | 2026-08-21 | 531 W1 D3 Deadlift | plan rcNpDgR46 | 5@124.96 5@144.19 5+@163.41; moved to Fri 07:00 Denver pre-flight |
 | 2026-08-18 | 531 W1 D4 | 2026-08-23 | 531 W1 D4 Pull-ups | plan rcNpDgR46 | D1 squat done 17 Aug, not pushed; Sun double: long run AM, pull-ups PM |
 | 2026-08-22 | run W1 long (move) | 2026-08-22 | Run W1 Sat Long 11k | td8qxMs5dvYm2gU8mX4shi | moved Sun 23 -> Sat 22 10:00 MDT (16:00Z) via planned-workout-change-date; flight moved to Tue so Sat is free; deadlift done Fri 21 as scheduled; pull-ups stay Sun |
+| 2026-08-23 | 531 W1 D4 (move) | 2026-08-26 | 531 W1 D4 Pull-ups | efgDdF1XotvknUZvhiHzGs | moved Sun 23 -> Wed 26 18:00 CEST (16:00Z) via planned-workout-change-date; Sun spent on a hike, session carried into W2 (lands 14:30 Wed, gym after) |
