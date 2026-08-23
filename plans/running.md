@@ -36,7 +36,7 @@ in a post-race week. Threshold cruise intervals open the block gently.
 
 - Mon | Quality | WU 2km easy; 4x(4min @ 4:10-4:18/km, 3min jog); CD 1.5km easy
 - Tue | Easy | 8km @ 5:15-6:15/km
-- Thu | Easy | 6km @ 5:15-6:15/km; 4x(20s strides, 60s walk)
+- Thu | Easy | 6km @ 5:15-6:15/km
 - Sun | Long | 12km @ 5:45-6:15/km
 
 Notes (reshuffled 2026-08-21): flight home moved to Tue 16:00 from Denver; Mon–Tue in a
@@ -47,8 +47,8 @@ treadmill instead of 15.3 — run it by effort, last rep at the limit; it is the
 pin session (max HR is not suppressed at this altitude). Tue AM easy 8k is a
 shakeout before 17 h of sitting; cut it first if the morning gets eaten. Wed:
 land 14:30, then the carried-over **W1 D4 Pull-ups** in the evening (skipped Sun
-23 for a hike; lightest session of the cycle, jetlag-tolerable). Thu easy +
-strides by feel (jetlag day 1). Strength override this week (no lifting Mon–Tue —
+23 for a hike; lightest session of the cycle, jetlag-tolerable). Thu easy run
+by feel (jetlag day 1). Strength override this week (no lifting Mon–Tue —
 hotel + work): Wed W1-D4 Pull-ups PM, Thu D1 Squat PM (double with the easy run),
 Fri D2 Dips, Sat D3 Deadlift (Sat rest waived once), Sun D4 Pull-ups PM after the
 long run. Contingency if Mon's 4×4 dies (workshop + AW): 4×4 moves to Fri at sea
@@ -59,7 +59,7 @@ becomes easy-or-nothing. Normal Mon/Wed/Fri/Sun rhythm and Sat rest resume Week 
 
 - Mon | Easy | 8km @ 5:15-6:15/km
 - Wed | Quality | WU 2km easy; 20min @ 4:50/km; CD 2km easy
-- Fri | Easy | 7km @ 5:15-6:15/km; 4x(20s strides, 60s walk)
+- Fri | Easy | 7km @ 5:15-6:15/km
 - Sun | Long | 13km @ 5:45-6:15/km
 
 Notes: first continuous tempo — unbroken pace-holding, the most 10k-specific stimulus in the block.
@@ -68,7 +68,7 @@ Notes: first continuous tempo — unbroken pace-holding, the most 10k-specific s
 
 - Mon | Easy | 7km @ 5:15-6:15/km
 - Wed | Quality | WU 2km easy; 4x(4min @ 4:00-4:05/km, 3min jog); CD 1.5km easy
-- Fri | Easy | 5km @ 5:15-6:15/km; 4x(20s strides, 60s walk)
+- Fri | Easy | 5km @ 5:15-6:15/km
 - Sun | Long | 12km @ 5:45-6:15/km
 
 Notes: volume step-back to absorb the build.
@@ -77,28 +77,28 @@ Notes: volume step-back to absorb the build.
 
 - Mon | Easy | 9km @ 5:15-6:15/km
 - Wed | Quality | WU 2km easy; 5x(1km, 60s jog) alternating: reps 1/3/5 @ 4:50/km, reps 2/4 @ 4:40/km; CD 1.5km easy
-- Fri | Easy | 7km @ 5:15-6:15/km; 4x(20s strides, 60s walk)
+- Fri | Easy | 7km @ 5:15-6:15/km
 - Sun | Long | 14km @ 5:45-6:15/km
 
 ## Week 6 (of 2026-09-21) — ~40 km
 
 - Mon | Easy | 9km @ 5:15-6:15/km
 - Wed | Quality | WU 2km easy; 4x(4min @ 4:00-4:05/km, 3min jog); CD 2km easy
-- Fri | Easy | 7.5km @ 5:15-6:15/km; 4x(20s strides, 60s walk)
+- Fri | Easy | 7.5km @ 5:15-6:15/km
 - Sun | Long | 15km @ 5:45-6:15/km, last 2km @ 4:50/km
 
 ## Week 7 (of 2026-09-28) — ~41 km
 
 - Mon | Easy | 9km @ 5:15-6:15/km
 - Wed | Quality | WU 2km easy; 15min @ 4:50/km + 10min @ 4:40/km continuous; CD 1.8km easy
-- Fri | Easy | 7km @ 5:15-6:15/km; 4x(20s strides, 60s walk)
+- Fri | Easy | 7km @ 5:15-6:15/km
 - Sun | Long | 16km @ 5:45-6:15/km
 
 ## Week 8 (of 2026-10-05) — ~42 km
 
 - Mon | Easy | 9km @ 5:15-6:15/km
 - Wed | Quality | WU 2km easy; 4x(4min @ 4:00-4:05/km, 3min jog); CD 2km easy
-- Fri | Easy | 7.5km @ 5:15-6:15/km; 4x(20s strides, 60s walk)
+- Fri | Easy | 7.5km @ 5:15-6:15/km
 - Sun | Long | 17km @ 5:45-6:15/km, last 2km @ 4:45/km
 
 Notes: pushed progression per user request (2026-08-18) — additions are easy/long
@@ -111,6 +111,6 @@ niggle → repeat the previous week's volume instead of progressing.
   shift slower. Recalibrate with COROS Track Run mode once the Pace 4 arrives.
 - Weeks beyond 8: race-specific phase (goal-race-pace 2-3km repeats @ ~4:30-4:35,
   tune-up 5k) once a target race is chosen — aim for a flat, properly-seeded 10k
-  ~late Oct/Nov. Race-pace touches during the build (added 2026-08-18): strides on
-  Fri easy runs, 4:40 alternates in W5, progressive tempo W7, long-run finishes
-  W6/W8. Current race pace ~4:42/km; goal race pace ~4:30-4:35/km.
+  ~late Oct/Nov. Race-pace touches during the build (added 2026-08-18):
+  4:40 alternates in W5, progressive tempo W7, long-run finishes W6/W8. Strides
+  dropped from all easy runs per user (2026-08-23). Current race pace ~4:42/km; goal race pace ~4:30-4:35/km.
