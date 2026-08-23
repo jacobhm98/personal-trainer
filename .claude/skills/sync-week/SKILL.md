@@ -33,7 +33,9 @@ if absent, infer the next un-pushed week from `state/sync-log.md`) and optional
    stop and discuss; date moves use `planned-workout-change-date`; **never
    delete-and-recreate** (deletes don't propagate to COROS — CLAUDE.md).
 5. Present ONE confirmation table — every run (name, structure, pace targets) and
-   every lift (name, all sets as sets×reps@kg incl. FSL and assistance). If
+   every lift (name, all sets as sets×reps@kg incl. FSL and assistance). Show
+   paces **human-readable** (`4:10-4:18/km`, `easy 5:15-6:15/km`); put the raw
+   Tredict encoding (`254±4 s/km`) in parentheses after, or omit it. If
    `dry-run`, stop here. Wait for explicit confirmation.
 6. On confirmation, create ONE plan via `plan-creation` named `W<N>
    (<Monday's date>)` containing all sessions as day-numbered trainings
