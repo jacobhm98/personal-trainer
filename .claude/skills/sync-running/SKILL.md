@@ -27,7 +27,8 @@ optional `dry-run` (stop after the confirmation table; make no writes).
    CLAUDE.md). Date moves for already-applied workouts use
    `planned-workout-change-date`.
 4. Present a confirmation table: day, date, workout name (`Run W3 Wed 5x1k @4:50`
-   convention), and full structure with paces. If `dry-run` was given, stop here.
+   convention), and full structure with paces shown human-readable
+   (`4:45-4:55/km`), raw sec/km±padding encoding optional in parentheses. If `dry-run` was given, stop here.
 5. On explicit confirmation, create ONE plan via `plan-creation` named for the week
    (e.g. `Run W3 (2026-09-01)`), with each session as a day-numbered training
    (day 1 = the week's Monday; set `time` from config). Build steps per the schema
