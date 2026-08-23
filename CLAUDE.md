@@ -22,7 +22,7 @@ Claude Code-driven training pipeline: strength plan (Google Sheet) and running p
 
 ```
 Google Sheet (strength) + plans/running.md
-        → skills (/sync-strength, /sync-running)
+        → skills (/sync-week; /sync-strength + /sync-running for one-offs)
         → Tredict MCP (create/schedule workouts)
         → official COROS Training API (rolling 7 days, resync ~3h; runs AND strength relay)
         → COROS calendar → app → watch
