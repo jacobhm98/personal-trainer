@@ -45,11 +45,15 @@ pushed to the back of the week. Mon 4×4 is the VO2max session (normally 4:00-4:
 with **altitude-adjusted targets** — ~4:10-4:18/km outdoors, ≈14.3-14.6 kph on a
 treadmill instead of 15.3 — run it by effort, last rep at the limit; it is the HRmax
 pin session (max HR is not suppressed at this altitude). Tue AM easy 8k is a
-shakeout before 17 h of sitting; cut it first if the morning gets eaten. Wed = rest
-(landing). Thu easy + strides by feel (jetlag day 1). Strength override this week
-(no lifting Mon–Tue — hotel + work): Thu D1 Squat PM (double with the easy run),
+shakeout before 17 h of sitting; cut it first if the morning gets eaten. Wed:
+land 14:30, then the carried-over **W1 D4 Pull-ups** in the evening (skipped Sun
+23 for a hike; lightest session of the cycle, jetlag-tolerable). Thu easy +
+strides by feel (jetlag day 1). Strength override this week (no lifting Mon–Tue —
+hotel + work): Wed W1-D4 Pull-ups PM, Thu D1 Squat PM (double with the easy run),
 Fri D2 Dips, Sat D3 Deadlift (Sat rest waived once), Sun D4 Pull-ups PM after the
-long run. Normal Mon/Wed/Fri/Sun rhythm and Sat rest resume Week 3.
+long run. Contingency if Mon's 4×4 dies (workshop + AW): 4×4 moves to Fri at sea
+level with standard 4:00-4:05 targets, dips stay Fri PM (one-off rule bend), Mon
+becomes easy-or-nothing. Normal Mon/Wed/Fri/Sun rhythm and Sat rest resume Week 3.
 
 ## Week 3 (of 2026-08-31) — ~36 km
 
