@@ -36,8 +36,8 @@ in a post-race week. Threshold cruise intervals open the block gently.
 
 - Mon | Quality | WU 2km easy; 4x(4min @ 4:10-4:18/km, 3min jog); CD 1.5km easy
 - Tue | Easy | 8km @ 5:15-6:15/km
-- Thu | Easy | 6km @ 5:15-6:15/km
-- Sun | Long | 12km @ 5:45-6:15/km
+- Thu | Easy | 8km @ 5:15-6:15/km
+- Sun | Long | 13km @ 5:45-6:15/km
 
 Notes (reshuffled 2026-08-21): flight home moved to Tue 16:00 from Denver; Mon–Tue in a
 Lone Tree hotel (~1,800 m), working days, landing Wed. Running front-loaded, lifting
@@ -54,6 +54,9 @@ Fri D2 Dips, Sat D3 Deadlift (Sat rest waived once), Sun D4 Pull-ups PM after th
 long run. Contingency if Mon's 4×4 dies (workshop + AW): 4×4 moves to Fri at sea
 level with standard 4:00-4:05 targets, dips stay Fri PM (one-off rule bend), Mon
 becomes easy-or-nothing. Normal Mon/Wed/Fri/Sun rhythm and Sat rest resume Week 3.
+Amended 2026-08-25: Tue shakeout came in short (4.85 of 8 km, pre-flight); volume
+recovered by bumping Thu 6→8 km and Sun long 12→13 km. Pushed Tredict entries still
+say 6/12 — edit the two distances in the Tredict UI (don't delete-and-recreate).
 
 ## Week 3 (of 2026-08-31) — ~36 km
 
