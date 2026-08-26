@@ -55,8 +55,8 @@ long run. Contingency if Mon's 4×4 dies (workshop + AW): 4×4 moves to Fri at s
 level with standard 4:00-4:05 targets, dips stay Fri PM (one-off rule bend), Mon
 becomes easy-or-nothing. Normal Mon/Wed/Fri/Sun rhythm and Sat rest resume Week 3.
 Amended 2026-08-25: Tue shakeout came in short (4.85 of 8 km, pre-flight); volume
-recovered by bumping Thu 6→8 km and Sun long 12→13 km. Pushed Tredict entries still
-say 6/12 — edit the two distances in the Tredict UI (don't delete-and-recreate).
+recovered by bumping Thu 6→8 km and Sun long 12→13 km. Pushed Tredict entries left
+at 6/12 by choice — he runs past the workout-complete prompt on the watch.
 
 ## Week 3 (of 2026-08-31) — ~36 km
 

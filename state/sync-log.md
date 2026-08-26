@@ -20,4 +20,4 @@ Append-only. One row per workout pushed to (or updated in) Tredict.
 | 2026-08-23 | 531 W2 D3 | 2026-08-29 | 531 W2 D3 Deadlift | plan k9kEqG1ch | 3@134.58 3@153.8 3+@173.03; Sat rest waived (travel week); 09:00 |
 | 2026-08-23 | run W2 Sun | 2026-08-30 | Run W2 Sun Long 12k | plan k9kEqG1ch | long easy 5:45-6:15; 11:00, ~24h after deadlift by design |
 | 2026-08-23 | 531 W2 D4 | 2026-08-30 | 531 W2 D4 Pull-ups | plan k9kEqG1ch | 3@BW 3@+2.0 3+@+12.25, FSL 5x5@BW; 17:00 after long run |
-| 2026-08-25 | run W2 Thu+Sun (amend) | 2026-08-27/30 | Run W2 Thu Easy 6k -> 8k, Run W2 Sun Long 12k -> 13k | plan k9kEqG1ch | Tue shakeout short (4.85 of 8 km); volume recovered on Thu/Sun. plans/running.md updated; Tredict entries NOT editable via MCP — user edits the two distances in the Tredict UI (no delete-and-recreate) |
+| 2026-08-25 | run W2 Thu+Sun (amend) | 2026-08-27/30 | Run W2 Thu Easy 6k -> 8k, Run W2 Sun Long 12k -> 13k | plan k9kEqG1ch | Tue shakeout short (4.85 of 8 km); volume recovered on Thu/Sun. plans/running.md updated; Tredict entries left at 6/12 by choice; user runs past the workout-complete prompt on the watch |
