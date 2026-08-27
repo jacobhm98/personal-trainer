@@ -50,6 +50,9 @@ Reads/analysis: official COROS MCP (EU) + Strava MCP + Tredict MCP
   list at the top, and a `Schedule` block. If anchors don't match, stop and ask.
 - Dips and pull-ups TMs are **totals including bodyweight**; the week grid shows
   *added* weight (`BW` = bodyweight only).
+- **5s PRO**: main-lift work sets are straight 5s (5/5/5 at the week's percentages),
+  no AMRAP/plus sets — write set tables as `5@weight`, never `3+@`/`5+@`
+  (user confirmed 2026-08-27).
 - FSL 5x5 back-off sets on dips/pull-ups. All weights kg.
 - Day split (from the sheet's Schedule block):
   D1 Squat + Seated DB press + Abs; D2 Dips + Chin-ups + Abs;
