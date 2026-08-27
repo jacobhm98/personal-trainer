@@ -112,8 +112,13 @@ niggle → repeat the previous week's volume instead of progressing.
 
 - Treadmill calibration (brief §7.1) — if the belt runs fast, VO2max outdoor paces
   shift slower. Recalibrate with COROS Track Run mode once the Pace 4 arrives.
-- Weeks beyond 8: race-specific phase (goal-race-pace 2-3km repeats @ ~4:30-4:35,
-  tune-up 5k) once a target race is chosen — aim for a flat, properly-seeded 10k
-  ~late Oct/Nov. Race-pace touches during the build (added 2026-08-18):
+- Block endpoint (updated 2026-08-27): Hässelbyloppet Oct 11 likely OUT — user may
+  not be in Sweden. W8 Sun becomes a **testing session** instead: first choice a
+  flat 10k solo TT (or any local race wherever he is), fallback an all-out 5k
+  (parkrun works anywhere). Either doubles as the HRmax pin. Convert W8 to a
+  mini-taper test week at the W7 Sunday review (trim Wed quality, no 17k long run);
+  W7 becomes the last big week. Weeks beyond 8: race-specific phase (goal-race-pace
+  2-3km repeats @ ~4:30-4:35, tune-up 5k) once a target race is chosen — aim for a
+  flat, properly-seeded 10k ~late Oct/Nov. Race-pace touches during the build (added 2026-08-18):
   4:40 alternates in W5, progressive tempo W7, long-run finishes W6/W8. Strides
   dropped from all easy runs per user (2026-08-23). Current race pace ~4:42/km; goal race pace ~4:30-4:35/km.
