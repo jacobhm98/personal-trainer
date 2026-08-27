@@ -113,9 +113,10 @@ niggle → repeat the previous week's volume instead of progressing.
 - Treadmill calibration (brief §7.1) — if the belt runs fast, VO2max outdoor paces
   shift slower. Recalibrate with COROS Track Run mode once the Pace 4 arrives.
 - Block endpoint (updated 2026-08-27): Hässelbyloppet Oct 11 likely OUT — user may
-  not be in Sweden. W8 Sun becomes a **testing session** instead: first choice a
-  flat 10k solo TT (or any local race wherever he is), fallback an all-out 5k
-  (parkrun works anywhere). Either doubles as the HRmax pin. Convert W8 to a
+  not be in Sweden. W8 Sun (Oct 11) = **flat 10k solo TT** (decided 2026-08-27),
+  graded at face value against the 45:00-45:30 block target — no solo-TT discount,
+  per user ("i can push myself without a group"). Doubles as the HRmax pin.
+  Convert W8 to a
   mini-taper test week at the W7 Sunday review (trim Wed quality, no 17k long run);
   W7 becomes the last big week. Weeks beyond 8: race-specific phase (goal-race-pace
   2-3km repeats @ ~4:30-4:35, tune-up 5k) once a target race is chosen — aim for a
