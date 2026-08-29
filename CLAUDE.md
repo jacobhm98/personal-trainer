@@ -5,9 +5,14 @@ Claude Code-driven training pipeline: strength plan (Google Sheet) and running p
 
 ## Hard rules
 
-1. **Never write to the Google Sheet.** It is the source of truth for strength.
-   Read it with `mcp__claude_ai_Google_Drive__read_file_content`,
-   fileId `1weU4bSEZPBC6yZgvIe89ZUfcqoV5FJ-mXb8fkMwTRSQ`.
+1. **Don't write to the Google Sheet unless explicitly told to.** It is the source of
+   truth for strength. Read it with `mcp__claude_ai_Google_Drive__read_file_content`,
+   fileId `1weU4bSEZPBC6yZgvIe89ZUfcqoV5FJ-mXb8fkMwTRSQ`. Writes are allowed only on a
+   direct instruction naming the change (amended 2026-08-29, when the Schedule block was
+   edited on request): use the `gws` CLI
+   (`gws sheets spreadsheets values update`; strip the leading `Using keyring backend:`
+   line before parsing JSON). Always dump the tab to the scratchpad as a backup first,
+   and never touch TM/1RM/percentage cells without being asked.
 2. **Read weights from the sheet cells — never recompute them from the TM.**
    Recompute only as a sanity check; on any mismatch, stop and ask instead of guessing.
 3. **Confirm before pushing.** Every sync shows a full summary table (day, date,
@@ -52,12 +57,37 @@ Reads/analysis: official COROS MCP (EU) + Strava MCP + Tredict MCP
   *added* weight (`BW` = bodyweight only).
 - **5s PRO**: main-lift work sets are straight 5s (5/5/5 at the week's percentages),
   no AMRAP/plus sets — write set tables as `5@weight`, never `3+@`/`5+@`
-  (user confirmed 2026-08-27).
-- FSL 5x5 back-off sets on dips/pull-ups. All weights kg.
-- Day split (from the sheet's Schedule block):
-  D1 Squat + Seated DB press + Abs; D2 Dips + Chin-ups + Abs;
-  D3 Deadlift + Curl + Abs; D4 Pull-ups + Dips + Abs.
-  Assistance: Lunges, Row, Lateral raises.
+  (documented 2026-08-27; user clarified 2026-08-29 he has been running 5s PRO **the
+  entire time** — it was just never written down). Do NOT read the sheet's
+  65/75/85 - 70/80/90 - 75/85/95 grid as classic 5/3/1 with AMRAP top sets.
+- **Progression rule (user's own, confirmed 2026-08-29).** The target is **5 reps on
+  the top set every week**, and it should feel like roughly a **5RM**. Then:
+  - **Hit it → TM +2.5 kg.**
+  - **Miss it → re-run the week at the same TM.**
+
+  So a missed top set is a *re-run trigger*, not a stall and not a reset signal. The
+  rule self-calibrates the TM to ~92% of true 1RM (if 95% TM is to equal a 5RM, and a
+  5RM ≈ 87% of 1RM, then TM ≈ 0.916 × 1RM). **Never propose a TM reset off a missed
+  top set — the rule already handles it.** Occasional larger resets are acceptable to
+  him but are his call, not a default (sheet history shows one: deadlift TM 182.25 →
+  177.25 mid-history). Corroboration: deadlift TM sits at 192.25 in *both* of the last
+  two tabs — that held TM is the record of a miss-and-re-run, not a stable ceiling.
+- **FSL** back-off sets on **all four main lifts**, at that week's first-set weight:
+  - **Dips and pull-ups → 5×5.** Encoded in the sheet as an explicit `FSL 5x5` row.
+  - **Squat and deadlift → 3×5.** Reduced from 5×5 on **2026-08-29** to hold lower-body
+    volume down while running volume ramps. **Temporary** — revisit once weekly km
+    plateaus (~W7–W8 of the running block) or if strength stalls.
+
+  Squat/deadlift FSL is **not in the sheet at all** (user confirmed 2026-08-28) — derive
+  it from that week's first-set cell. All weights kg.
+- Day split (from the sheet's Schedule block, restructured 2026-08-29) — **exactly
+  3 exercises per day**:
+  D1 Squat + Row + Seated DB press; D2 Dips + Chin-ups + Abs;
+  D3 Deadlift + Curl + Lateral raises; D4 Pull-ups + Dips + Abs.
+  The standalone Assistance day (Lunges, Row, Lateral raises) was **removed** — Row and
+  Lateral raises folded into D1/D3; Lunges is now unused (its 80 kg reference is still in
+  the assistance weight list at the top of the tab). **Abs is 2x/week (D2, D4), not
+  daily** — user doesn't want it every session, and not on back-to-back lifting days.
 
 ## Running
 
