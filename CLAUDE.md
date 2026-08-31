@@ -19,9 +19,18 @@ Claude Code-driven training pipeline: strength plan (Google Sheet) and running p
    session, sets×reps@kg or paces) and waits for explicit user confirmation before
    creating anything in Tredict.
 4. **Log every push** by appending to `state/sync-log.md`.
-5. **Deletes don't propagate to COROS.** Deleting a planned workout in Tredict leaves
-   it on the COROS calendar (COROS API limitation; manual removal in the COROS app
-   only). Always prefer *editing* an existing Tredict workout over delete-and-recreate.
+5. **Deletes don't propagate to COROS, and neither does moving a workout out of the
+   relay window.** Deleting a planned workout in Tredict leaves it on the COROS
+   calendar (COROS API limitation; manual removal in the COROS app only). Verified
+   2026-08-30: rescheduling 8 entries from the coming week to 2027-01-04 did **not**
+   clear them from COROS either — the relay is effectively *additive* over its rolling
+   7 days. It pushes what Tredict currently has and never removes what it already sent.
+   A within-window date change does propagate (used successfully 2026-08-22/23).
+   Always prefer *editing* an existing Tredict workout over delete-and-recreate.
+   **Never re-apply a plan to fix a wrong start date** — re-applying ADDS a second copy
+   rather than moving the first (learned 2026-08-30: produced 16 entries, all 8 stale
+   ones stranded on COROS). Fix a wrong start date with `planned-workout-change-date`
+   on each entry instead, while it is still inside the 7-day window.
 
 ## Architecture
 
@@ -62,16 +71,24 @@ Reads/analysis: official COROS MCP (EU) + Strava MCP + Tredict MCP
   65/75/85 - 70/80/90 - 75/85/95 grid as classic 5/3/1 with AMRAP top sets.
 - **Progression rule (user's own, confirmed 2026-08-29).** The target is **5 reps on
   the top set every week**, and it should feel like roughly a **5RM**. Then:
-  - **Hit it → TM +2.5 kg.**
-  - **Miss it → re-run the week at the same TM.**
+  - **Hit it → that lift's TM +2.5 kg.**
+  - **Miss it → that lift's TM holds, so it re-runs the same weights next cycle.**
 
-  So a missed top set is a *re-run trigger*, not a stall and not a reset signal. The
-  rule self-calibrates the TM to ~92% of true 1RM (if 95% TM is to equal a 5RM, and a
-  5RM ≈ 87% of 1RM, then TM ≈ 0.916 × 1RM). **Never propose a TM reset off a missed
-  top set — the rule already handles it.** Occasional larger resets are acceptable to
-  him but are his call, not a default (sheet history shows one: deadlift TM 182.25 →
-  177.25 mid-history). Corroboration: deadlift TM sits at 192.25 in *both* of the last
-  two tabs — that held TM is the record of a miss-and-re-run, not a stable ceiling.
+  **This is per-lift, not program-wide** (user corrected 2026-08-30): a missed squat
+  top set does not re-run anything for deadlift, dips or pull-ups — they progress on
+  their own results. What stays synchronised is the **week number**: all four lifts
+  advance W1 → W2 → W3 together, and a single lift is never re-run out of phase with
+  the others (see the in-phase rule he stated 2026-08-29). Only the TM progression is
+  independent.
+
+  A missed top set is therefore a *hold* on one lift, not a stall, not a reset signal,
+  and not a program-wide event. The rule self-calibrates each TM to ~92% of that lift's
+  true 1RM (if 95% TM is to equal a 5RM, and a 5RM ≈ 87% of 1RM, then TM ≈ 0.916 × 1RM).
+  **Never propose a TM reset off a missed top set — the rule already handles it.**
+  Occasional larger resets are acceptable to him but are his call, not a default (sheet
+  history shows one: deadlift TM 182.25 → 177.25 mid-history). Corroboration: deadlift
+  TM sits at 192.25 in *both* of the last two tabs — that held TM is the record of a
+  miss, while squat bumped 161.75 → 164.25 over the same turnover.
 - **FSL** back-off sets on **all four main lifts**, at that week's first-set weight:
   - **Dips and pull-ups → 5×5.** Encoded in the sheet as an explicit `FSL 5x5` row.
   - **Squat and deadlift → 3×5.** Reduced from 5×5 on **2026-08-29** to hold lower-body

@@ -51,7 +51,13 @@ plus ~60–70 km of treadmill work.
 
 - Outdoor volume flat across the whole period — maintenance, not a build
 - Monthly totals: 63 / 62 / 81 / 74 km
-- **Longest run ever: 12.9 km** (30 April) — never exceeded
+- **Longest run in this training period: 13.11 km** (9 March 2026, 216 m gain).
+  Next: 13.02 km (30 Aug 2026), 12.93 km (30 April), 12.90 km (31 Oct 2025).
+  Corrected 2026-08-30 from Strava — the earlier "longest ever 12.9 km (30 April),
+  never exceeded" was wrong twice over: the 9 March run was already longer, and
+  **"ever" is far higher** — he ran a marathon build at 50+ km/week in early 2020,
+  so his lifetime long run is well beyond anything in this period. Read these as
+  *recent* long-run history, not a lifetime ceiling.
 - Peak week 34.4 km; three weeks under 10 km; one week at zero
 - Easy pace 5:04–5:17/km
 - Frequency: mostly 2 outdoor runs/week + ~0.6 treadmill sessions/week
@@ -172,6 +178,47 @@ speak a short sentence, sustainable for an hour if forced. Coming from 4×4s,
 4:50/km will feel too easy for the first ten minutes. That is correct. Running
 threshold too fast is the most common way to get neither adaptation.
 
+### Long-run decoupling (Pa:HR) — tracked every long run
+
+The single most informative metric in this block: it measures aerobic durability
+directly, which is the exact gap in the "high ceiling, small tank" profile (§1).
+
+**Method (Friel).** Warm up 10-15 min, then steady effort, split *that* in half.
+Fixed convention so numbers stay comparable week to week:
+
+> Drop the **first 2 km** (~12 min at long-run pace, inside Friel's 10-15 min
+> window), split the remainder into equal halves, drop the middle km if odd.
+> `Pa:HR = speed / avg HR` per half.
+> `decoupling = (2nd half Pa:HR - 1st half Pa:HR) / 1st half Pa:HR`
+
+**Never compute it over the whole run.** The opening km is HR onset kinetics, not
+drift, and including it inflates the figure badly — on 2026-08-30 the naive number
+was 8.6% against a true 1.8%.
+
+| Decoupling | Read |
+|---|---|
+| **< 5%** | Aerobically adapted for that duration and pace |
+| **5-10%** | At or slightly past current durability; normal when going longer than recently |
+| **> 10%** | Too fast, too long, underfuelled, too hot, or under-recovered |
+
+**Caveats.** Heat and fuelling move it independently of fitness (past ~75-90 min in
+a deficit, glycogen depletion pushes HR up). Wrist HR is good but not chest-strap
+good — treat +/-1% as noise. And Friel designed this for a *steady effort at aerobic
+threshold*; these long runs start cold, drift up naturally, and sit below AeT, all of
+which read lower than a textbook test. **Use the trend, not any single value.**
+
+**What to watch as the long run grows 13 -> 17 km:** under 5% at 16-17 km in W7/W8
+is strong evidence the aerobic base supports a 45:00 10k. Creeping to 5-7% as
+distance grows is expected. Past 8-10% at constant pace, act in this order:
+pace to the slow end of the band, then fuelling, then hold distance instead of
+progressing.
+
+**Log:**
+
+| Date | Distance | Pace | Decoupling |
+|---|---|---|---|
+| 2026-08-30 | 13.03 km | 5:59/km | **1.8%** |
+
 ### Lifting day sequencing
 
 - **Run first, lift second.** Running on squat-fatigued legs degrades mechanics
@@ -202,7 +249,8 @@ between this and maintaining heavy squatting.
 
 **Half marathon: NOT YET DISCUSSED.** No target time, date, or race chosen.
 Needs input before any plan is built. Relevant context: longest run to date is
-12.9 km, so the long-run build in §5 is prerequisite regardless of target.
+~13 km in this training period (lifetime is higher — see §2), so the long-run
+build in §5 is prerequisite regardless of target.
 
 **Free improvement available without added volume:**
 - Race-specific skill — first-to-second race gains of 1–2 min are normal

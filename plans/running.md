@@ -19,6 +19,13 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
 - Paces (min/km): easy 5:15–6:15, long 5:45–6:15, threshold 4:45–4:55, VO2max 4:00–4:05.
 - Threshold execution: comfortably hard, short-sentence pace — do not run it faster.
 - Mon is the squat day: run in the morning, lift in the evening, easy running only.
+- **The easy run after the long run is the shorter of the two** (set 2026-08-31).
+  Mon follows Sunday's long run *and* precedes the squat session, so it gets the
+  lighter of the week's two easy runs; the longer one goes on Fri. Weekly volume is
+  unchanged. Evidence: 2026-08-31 easy 8k ran 5:38/km at HR 169 on the same route and
+  profile as 2026-08-27's 5:37/km at HR 164 — **+5 bpm for the same pace**, the only
+  difference being ~20 h after a 13 km long run. Also protects the squat top set
+  (brief §5: squatting on run-fatigued legs costs kilos on the bar).
 
 ## Week 1 (of 2026-08-17) — post-race recovery + ramp start, travel week, ~24 km
 
@@ -69,39 +76,39 @@ Notes: first continuous tempo — unbroken pace-holding, the most 10k-specific s
 
 ## Week 4 (of 2026-09-07) — consolidation, ~32 km
 
-- Mon | Easy | 7km @ 5:15-6:15/km
+- Mon | Easy | 5km @ 5:15-6:15/km
 - Wed | Quality | WU 2km easy; 4x(4min @ 4:00-4:05/km, 3min jog); CD 1.5km easy
-- Fri | Easy | 5km @ 5:15-6:15/km
+- Fri | Easy | 7km @ 5:15-6:15/km
 - Sun | Long | 12km @ 5:45-6:15/km
 
 Notes: volume step-back to absorb the build.
 
 ## Week 5 (of 2026-09-14) — ~39 km
 
-- Mon | Easy | 9km @ 5:15-6:15/km
+- Mon | Easy | 7km @ 5:15-6:15/km
 - Wed | Quality | WU 2km easy; 5x(1km, 60s jog) alternating: reps 1/3/5 @ 4:50/km, reps 2/4 @ 4:40/km; CD 1.5km easy
-- Fri | Easy | 7km @ 5:15-6:15/km
+- Fri | Easy | 9km @ 5:15-6:15/km
 - Sun | Long | 14km @ 5:45-6:15/km
 
 ## Week 6 (of 2026-09-21) — ~40 km
 
-- Mon | Easy | 9km @ 5:15-6:15/km
+- Mon | Easy | 7.5km @ 5:15-6:15/km
 - Wed | Quality | WU 2km easy; 4x(4min @ 4:00-4:05/km, 3min jog); CD 2km easy
-- Fri | Easy | 7.5km @ 5:15-6:15/km
+- Fri | Easy | 9km @ 5:15-6:15/km
 - Sun | Long | 15km @ 5:45-6:15/km, last 2km @ 4:50/km
 
 ## Week 7 (of 2026-09-28) — ~41 km
 
-- Mon | Easy | 9km @ 5:15-6:15/km
+- Mon | Easy | 7km @ 5:15-6:15/km
 - Wed | Quality | WU 2km easy; 15min @ 4:50/km + 10min @ 4:40/km continuous; CD 1.8km easy
-- Fri | Easy | 7km @ 5:15-6:15/km
+- Fri | Easy | 9km @ 5:15-6:15/km
 - Sun | Long | 16km @ 5:45-6:15/km
 
 ## Week 8 (of 2026-10-05) — ~42 km
 
-- Mon | Easy | 9km @ 5:15-6:15/km
+- Mon | Easy | 7.5km @ 5:15-6:15/km
 - Wed | Quality | WU 2km easy; 4x(4min @ 4:00-4:05/km, 3min jog); CD 2km easy
-- Fri | Easy | 7.5km @ 5:15-6:15/km
+- Fri | Easy | 9km @ 5:15-6:15/km
 - Sun | Long | 17km @ 5:45-6:15/km, last 2km @ 4:45/km
 
 Notes: pushed progression per user request (2026-08-18) — additions are easy/long
