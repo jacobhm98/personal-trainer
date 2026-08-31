@@ -28,6 +28,12 @@ default last 7 days.
      faster than 4:45/km — running threshold too fast is the failure mode called
      out in `running-training-brief.md` §5.
    - **Ramp rate**: actual weekly km vs the ~10%/week rule; flag jumps.
+   - **Long-run decoupling (Pa:HR)**: compute for **every long run** and append the
+     result to the log table in `running-training-brief.md` §5. Use the fixed
+     convention defined there — drop the first 2 km, split the remainder in half,
+     drop the middle km if odd. **Never compute it over the whole run**; the opening
+     km is HR onset kinetics and inflates the number badly. Report the value against
+     the trend, not as a pass/fail on one run.
    - **Recovery**: HRV/sleep/load flags from COROS data, especially in a caloric
      deficit (the brief expects some squat stall — that's the trade, not a problem).
 4. Report a concise summary: per-session table, then findings, then suggested
