@@ -97,6 +97,23 @@ Reads/analysis: official COROS MCP (EU) + Strava MCP + Tredict MCP
 
   Squat/deadlift FSL is **not in the sheet at all** (user confirmed 2026-08-28) — derive
   it from that week's first-set cell. All weights kg.
+- **7th Week Protocol** (Wendler, *5/3/1 Forever*). After **two completed 3-week
+  cycles (= 6 weeks)**, week 7 is a dedicated week rather than the start of a new
+  cycle. First one scheduled for the week of **2026-09-07** (running W4), which is
+  also the running deload — user had not run a purposeful 5/3/1 deload in a long
+  time. Two variants:
+  - **Deload** (the one chosen for 2026-09-07): `5 @ 40% TM`, `5 @ 50% TM`,
+    `5 @ 60% TM`. **No FSL, no PR sets**, assistance minimal or skipped.
+  - **TM Test**: `5 @ 70%`, `5 @ 80%`, `5 @ 90%`, then `3-5 @ 100% TM`. Five reps =
+    TM is correct and can rise; 3-4 = hold; under 3 = drop it. Don't propose this
+    unasked — his hit/miss rule already tests the TM continuously.
+
+  **Loaded-bodyweight caveat:** 40-60% of the dips (115) and pull-up (102.5) TM totals
+  all fall *below* bodyweight 80 kg, so those two are simply **3x5 bodyweight** on a
+  deload.
+
+  The sheet has **no deload column**, so these are derived from the TM rather than read
+  from cells — a sanctioned exception to hard rule 2, alongside squat/deadlift FSL.
 - Day split (from the sheet's Schedule block, restructured 2026-08-29) — **exactly
   3 exercises per day**:
   D1 Squat + Row + Seated DB press; D2 Dips + Chin-ups + Abs;
@@ -114,6 +131,14 @@ executable weekly schedule the sync skill parses; its schema is defined at the t
 of that file. Key paces: easy 5:15–6:15/km, long 5:45–6:15/km, threshold
 4:45–4:55/km, VO2max ~4:00–4:05/km (treadmill 4×4 @ 15.3 kph). Threshold must feel
 comfortably hard — do not let sessions drift faster.
+
+**Norwegian realignment (2026-09-03, from running W4):** Mon recovery run, Wed +
+Fri **sub-threshold** sessions (bands by rep length, HR ceilings — flat ~180 until
+the W4 Wed HRmax pin test 2026-09-09, then %-of-max — and the "two more reps"
+rule; see the plan schema), Fri run AM before the deadlift PM, Sun long.
+VO2max retired except race-pace sharpening in the last 3 weeks. **10k TT moved to
+Sun 2026-11-01, target sub-45**, gated by a 5k tune-up Oct 18 (≤21:40, else Nov 8).
+Sub-T sessions are deliberately unheroic — do not let them drift to threshold.
 
 ## Naming conventions
 
