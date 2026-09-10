@@ -16,8 +16,9 @@ One score, the **impressiveness** of a two-domain performance:
   underlying z), plus the two domain z's so the balance is visible.
 
 Horizon: the 30th birthday, ~March 2028 (**open**: exact date). Baseline: the
-**2026-11-01 checkpoint** (§7; moved from 2026-10-11 on 2026-09-03 when the TT was
-pushed back — gate Oct 18, fallback 2026-11-08).
+**2026-12-06 checkpoint** (§7; moved twice on 2026-09-03 — Oct 11 → Nov 1 when the
+TT was pushed back, then to Dec 6 when the fall TT was scrapped for a base block;
+the running input is the W16 all-out 5k, Riegel-converted).
 
 ## 2. Design decisions
 
@@ -146,10 +147,11 @@ people who would never enter a race or log a lift, which the marginal references
 
 ## 7. Baseline, cadence, logging
 
-- **Baseline = 2026-11-01 checkpoint** (moved 2026-09-03, TT pushed back; fallback
-  2026-11-08 if the Oct 18 gate misses): the flat 10k solo TT that day, plus the W3
-  top sets of cycle C15 ending 2026-10-25 (best of the last two cycles per lift).
-  Both domains measured within a week of each other.
+- **Baseline = 2026-12-06 checkpoint** (moved 2026-09-03 when the fall 10k TT was
+  scrapped for the base block): the W16 **all-out 5k** that day (Riegel 1.06 →
+  10k-equivalent; un-tapered by design — face value per standing rule), plus the
+  W3 top sets of cycle C17 (week of 2026-12-07). Both domains measured within a
+  week of each other.
 - **Strength** updates every cycle (W3 week, every 3 weeks; 7th-week protocol weeks
   carry no strength update unless a TM test is run).
 - **Running** updates on every race/TT, targeted every 8–12 weeks.
@@ -178,14 +180,15 @@ total, pull-ups ~128 total), taken as ~97th of finishers and ~90th of loggers pe
 `z_run ≈ 2.8`, `z_str ≈ 2.5`, `Z ≈ 3.8` → **~1 in 13,000**.
 
 Today's provisional strength inputs: squat 4 @ 156.04 → 176.8; deadlift 4 @ 182.64 (last
-cycle) → 207.0; dips 5 @ 109.25 total → 127.5 if 5 reps (**open**); pull-ups 5 @ 97.38
+cycle) → 207.0; dips 5 @ 109.25 total → **127.5 confirmed** (user 2026-09-03: "5 top
+reps easy" on 2026-08-31 → dips TM 115 → 117.5 next cycle); pull-ups 5 @ 97.38
 total → 113.6 if 5 reps (Thu).
 
 ## 9. Open items
 
 1. Birthday date (sets the horizon).
-2. Dips W3 top-set reps, 2026-08-31 (lap ran 49.8 s vs ~19 s for the earlier sets — the
-   watch counted 4, its rep counter is unreliable).
+2. ~~Dips W3 top-set reps, 2026-08-31~~ — resolved 2026-09-03: **5, easy** (the
+   watch's count of 4 was wrong, as suspected).
 3. Weekly weigh-ins from now on (context column; also feeds the dips/pull-up totals).
 4. Retrieve and freeze the reference tables (§4); fit `r_run`, `r_str` (§6); pick `ρ`,
    `ρ_L`.
@@ -196,7 +199,7 @@ total → 113.6 if 5 reps (Thu).
 
 If the reference tables can't be built to an acceptable standard, the fallback is the
 ratio index: `C = 10000 / T` (m/s), `S = Σ E1RM` (kg), `FI = 100 · sqrt((C/C₀)(S/S₀))`
-with the 2026-11-01 checkpoint as `C₀, S₀`. Equal-weighted average of log-changes;
+with the 2026-12-06 checkpoint as `C₀, S₀`. Equal-weighted average of log-changes;
 +2% in either domain = +1 point; no external data; no standing information.
 
 ## Appendix B — worked arithmetic (check the script against this)
