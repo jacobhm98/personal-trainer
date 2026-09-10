@@ -152,16 +152,40 @@ paces** (added 2026-09-11 after the 09-10 session held 4:53/km exactly and drift
    This is the primary control and it needs **no pinned HRmax** — a plateau at a fixed
    work rate *is* the sustainable-steady-state boundary, measured on the day. It is
    strictly better than the %-of-max ceiling and should be preferred to it.
-2. **Across-rep drift**: end-of-rep HR from rep 2 to the final rep must rise **≤8 bpm**.
-   Catches the session that ratchets because the floats aren't clearing, even when each
-   individual rep plateaus.
+2. **Late-rep plateau** (refined 2026-09-11 — supersedes a flat "≤8 bpm across the
+   session" rule, which was wrong): judge the final reps by whether they still plateau
+   *internally*, not by how much higher they sit than rep 2. **Cardiac drift raises HR
+   5–10 bpm/hour at constant intensity with lactate completely flat** — plasma volume
+   falls with sweating, stroke volume drops, HR rises to hold cardiac output; more
+   indoors with no airflow. Over a 45 min session that consumes the entire 8 bpm budget,
+   so the raw gap can't distinguish metabolic failure from thermoregulation. Within a
+   single 5–6 min rep, thermal drift is negligible, so a rep that fails to plateau is
+   failing metabolically. Rep 8 levelling off 8 bpm above rep 2 = fine, that's drift.
+   Rep 8 climbing throughout = over the line. Use the session-wide rise only as a coarse
+   flag: >12–15 bpm is beyond what drift explains (the 09-10 session ran +15 *and* had
+   no rep plateau — it failed both readings).
 3. **Two more reps**: he must finish able to do two more. Ask; his RPE is reliable.
 
 It should plateau *early and comfortably*, not barely by the end — sub-T targets
 ~2.5–3.5 mmol, under MLSS, not on it. All three passing easily = creep the pace faster.
-Any failing = slow by 5 s/km next session. On <6 min reps skip check 1 (HR never
-stabilises, you're measuring lag) and anchor the bands on the long-rep sessions
-instead, deriving short-rep paces from them — see the schema in `plans/running.md`.
+Any failing = slow by 5 s/km next session.
+
+**On <6 min reps, check 1 gives a false pass — do not rely on it** (corrected
+2026-09-11 from the 09-10 HR stream, via Strava `get_activity_streams`; the COROS MCP
+does not expose HR time series and `analyzeActivityDetail` only re-summarises).
+Short reps *do* plateau — every rep on 09-10 was flat to within ±2 bpm over its last
+45 s. But a 3 min rep settles at *baseline + the rep's demand*, so when the baseline
+creeps the plateau creeps with it and the test still reads as a pass. That session
+plateaued at 170 → 185 across 8 reps with the float floor rising 165 → 178. On 6-10 min
+reps there is time to reach the true steady state for that pace, which is what makes
+the test meaningful. Anchor the bands on long-rep sessions and derive short-rep paces
+from them — see the schema in `plans/running.md`.
+
+**Recovery length is a lever, not just pace.** The 09-10 failure was accumulation from
+short floats, not reps in the severe domain: HR fell 5-9 bpm in every float (lap
+averages hide this — HR keeps rising ~15-20 s *into* a float, so the average reads
+high; use the stream). When a session ratchets but the reps plateau, consider
+lengthening the float before slowing the pace — it preserves more of the stimulus.
 Confounders that add non-metabolic drift: treadmill heat/no airflow, illness, wrist-HR
 noise. Read the shape, not individual seconds.
 

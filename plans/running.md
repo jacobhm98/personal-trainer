@@ -39,16 +39,30 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   threshold 4:45–4:55, VO2max 4:00–4:05 (retired from the weekly rotation 2026-09-03).
 - **Sub-threshold bands** (Norwegian singles, set 2026-09-03) — scale by rep length:
   3min reps 4:48–4:55, 6min reps 4:55–5:00, 8–10min reps 5:00–5:05.
-  **PROVISIONALLY TOO FAST — under revision from 2026-09-10.** The bands were derived
-  on 09-03 from an assumed threshold of 4:45–4:55, which came from the estimated
-  ~47:00 10k shape. At that level 10k pace ≈ threshold pace, so the band was set
-  essentially *at* LT2; sub-T is meant to sit 3–6% below it. Evidence: the accidental
-  8×3min on 2026-09-10 held 4:53/km exactly on every rep and drifted **167 → 182 bpm**
-  with no plateau — the signature of running above threshold, not under it. Warm-up
-  HR that day was normal (5:50/km at 149 vs 6:08/km at 155 on 09-07), so illness does
-  not explain it; treadmill heat accounts for a few bpm at most.
-  **New control: drift, not a fixed pace.** Next sub-T session starts at **5:00/km**
-  and holds. If drift across the reps is ≤8 bpm and the two-more-reps test passes,
+  **UNVALIDATED IN EITHER DIRECTION — do not assume too fast** (revised 2026-09-11
+  after the user pushed back; an earlier version of this note claimed "provisionally
+  too fast" and was wrong to). The bands descend from an assumed threshold of
+  4:45–4:55, which descends from the **~47:00 10k estimate — a number that has never
+  been measured.** The objection that sub-T was set *at* threshold rather than under it
+  only holds if that estimate is right. His counter, which is sound: "i think im fitter
+  than 47:00, so to me the sub-T is fine." If true threshold is nearer 4:35, then
+  4:48–4:55 sits 13–20 s/km below it, which is correct sub-T placement, and every band
+  in this plan is conservative rather than hot.
+  The 09-10 evidence is weaker than first reported: 2 of 3 checks **passed** (every rep
+  plateaued to ±2 bpm over its last 45 s; he finished able to do two more, easily). Only
+  the session ratchet failed (plateau 170 → 185, float floor 165 → 178) — and that is
+  the metric most contaminated by the two known confounders, treadmill heat (5–10
+  bpm/hr) and illness. Mechanism looks like accumulation from 60 s floats, not reps in
+  the severe domain.
+  **Every running data point in this block is a floor, not a measure** — Midnattsloppet
+  was paced blind, the 09-02 tempo was run to a prescription, 09-10 stopped with reps in
+  hand. Nothing has been run to failure since August, so nothing can confirm or refute
+  the estimate. This is the strongest argument for doing the COROS fitness test early:
+  it replaces the single load-bearing guess the whole plan hangs off, in one session,
+  rather than waiting for the Dec 6 5k.
+  **New control: drift, not a fixed pace** — and it is robust to the estimate being
+  wrong either way, which is why it is worth keeping regardless. W5 Wed runs the band
+  **as written, 4:55–5:00 for the 6min reps**, starting at the slow end. If drift across the reps is ≤8 bpm and the two-more-reps test passes,
   that is the band and it may creep faster over time. If drift exceeds 8 bpm, slow by
   5 s/km next session. This self-corrects toward his real threshold instead of
   inheriting an estimate built on an estimate. Confirm on the first clean session
@@ -186,9 +200,54 @@ to %-of-max (see schema). Refine at the Oct 18 5k and the Nov 1 TT — an all-ou
 ## Week 5 (of 2026-09-14) — ~40 km
 
 - Mon | Easy | 6km @ 5:45-6:15/km
-- Wed | Quality | WU 2km easy; 5x(6min @ 4:55-5:00/km, 75s jog); CD 1.5km easy
+- Wed | Test | **ALL-OUT 5k TIME TRIAL, OUTDOORS** (replaces the 5x6min sub-T)
 - Fri | Quality | WU 2km easy; 8x(3min @ 4:48-4:55/km, 60s jog); CD 1.5km easy
 - Sun | Long | 14km @ 5:45-6:15/km
+
+### Wed 2026-09-16 — 5k TT (decided 2026-09-10, user's call: "fuck it")
+
+**Why it is the priority session of the block.** Every pace band, the fitness-index
+baseline and the sub-44 gate descend from a **~47:00 10k estimate that has never been
+measured** — his own assessment from 2026-08-18, off a race paced blind on a broken
+watch. Three live estimates disagree by four minutes: **44:00** (Strava's prediction),
+**47:00** (his August estimate), **~47-48** (inferred from the 09-02 tempo, 20 min at
+4:42 grade-adjusted costing 181 bpm). Every running data point in the block is a
+**floor, not a measure** — Midnattsloppet paced blind, 09-02 run to a prescription,
+09-10 stopped with reps in hand. Nothing has been run to failure since August. One TT
+replaces all three guesses, and the finish HR pins HRmax for free (a 5k finish lands
+within a few bpm of true max), closing both open calibration questions at once.
+
+**Outdoors, not the treadmill** (he proposed the belt first). Two reasons: treadmill
+belts run 2-5% off with no way to detect it, which is 30-70 s of error over 5k in a
+number about to anchor everything; and the **Dec 6 endpoint 5k is outdoors**, so a
+belt baseline would not be comparable to it — and comparing them is the point of the
+block.
+
+**Course:** 400 m track preferred (12.5 laps, count them, ignore watch distance — GPS
+over-reads on a track); else a flat **2.5 km out-and-back**, which cancels wind and net
+gradient in a way a loop does not. No lights, crossings or tight turns.
+
+**Pacing ladder** — open conservative and build; the error is asymmetric (6 s/km too
+slow costs ~15 s, 6 s/km too fast costs the whole test, and a negative-split 5k is
+near-optimal anyway):
+
+| km | Target |
+|---|---|
+| 1 | 4:30 — will feel far too easy; check at 400 m, that is where he will be 10-15 s/km hot |
+| 2 | 4:28 |
+| 3 | 4:25 — if this is comfortable, Strava is right; jump early |
+| 4 | 4:20 |
+| 5 | empty it |
+
+That lands ~22:00 (= 45:50 10k). Room to run 4:10s off it if he is 44:00 shape.
+
+**Capture:** stop dead at the line, stand still, watch HR for 20 s before touching
+anything — that peak is the HRmax pin, and standing still is when wrist optical is at
+its best (no chest strap available; see the 09-06 cadence-lock artefact).
+
+**Open for the W5 sync:** C14 W1 restarts Monday with squat at 65/75/85% — a real
+session 48 h before a maximal effort. **Move it to after the TT** rather than
+compromise the number.
 
 ## Week 6 (of 2026-09-21) — ~41.5 km
 

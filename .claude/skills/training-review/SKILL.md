@@ -29,9 +29,13 @@ default last 7 days.
      out in `running-training-brief.md` §5.
    - **Sub-T verification** — mandatory on every sub-threshold session, from
      `queryActivityLapData`. Report all three: (1) **within-rep HR plateau** on reps
-     ≥6 min — must level off in the second half, still climbing at every rep's end
-     means the pace is above threshold; (2) **across-rep drift** — end-of-rep HR from
-     rep 2 to the last rep, must be **≤8 bpm**; (3) **two-more-reps** — ask him. All
+     ≥6 min ONLY — on shorter reps it gives a false pass, and lap averages are not
+     enough for any of this: pull the HR stream from Strava `get_activity_streams`
+     (COROS MCP has no time series) — must level off in the second half, still climbing at every rep's end
+     means the pace is above threshold; (2) **late-rep plateau** — do the final reps
+     still level off *within themselves*? Judge that, not the raw rise from rep 2:
+     cardiac drift adds 5-10 bpm/hour at constant intensity with lactate flat, so the
+     session-wide gap is only a coarse flag (>12-15 bpm exceeds what drift explains); (3) **two-more-reps** — ask him. All
      passing easily → propose creeping the pace faster; any failing → propose 5 s/km
      slower next session. Full rule and rationale in CLAUDE.md (Running).
    - **Ramp rate**: actual weekly km. Progression is **RPE-gated, not
