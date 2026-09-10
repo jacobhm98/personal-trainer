@@ -27,7 +27,17 @@ default last 7 days.
    - **Quality execution**: interval paces vs targets. Flag threshold sessions run
      faster than 4:45/km — running threshold too fast is the failure mode called
      out in `running-training-brief.md` §5.
-   - **Ramp rate**: actual weekly km vs the ~10%/week rule; flag jumps.
+   - **Sub-T verification** — mandatory on every sub-threshold session, from
+     `queryActivityLapData`. Report all three: (1) **within-rep HR plateau** on reps
+     ≥6 min — must level off in the second half, still climbing at every rep's end
+     means the pace is above threshold; (2) **across-rep drift** — end-of-rep HR from
+     rep 2 to the last rep, must be **≤8 bpm**; (3) **two-more-reps** — ask him. All
+     passing easily → propose creeping the pace faster; any failing → propose 5 s/km
+     slower next session. Full rule and rationale in CLAUDE.md (Running).
+   - **Ramp rate**: actual weekly km. Progression is **RPE-gated, not
+     percentage-capped** (user's call 2026-09-07) — build off what he actually ran and
+     do not re-propose a ~10%/week ceiling. The constraints that still bind are the
+     long run growing ~1 km/week and the niggle rule.
    - **Long-run decoupling (Pa:HR)**: compute for **every long run** and append the
      result to the log table in `running-training-brief.md` §5. Use the fixed
      convention defined there — drop the first 2 km, split the remainder in half,

@@ -136,9 +136,34 @@ comfortably hard — do not let sessions drift faster.
 Fri **sub-threshold** sessions (bands by rep length, HR ceilings — flat ~180 until
 the W4 Wed HRmax pin test 2026-09-09, then %-of-max — and the "two more reps"
 rule; see the plan schema), Fri run AM before the deadlift PM, Sun long.
-VO2max retired except race-pace sharpening in the last 3 weeks. **10k TT moved to
-Sun 2026-11-01, target sub-45**, gated by a 5k tune-up Oct 18 (≤21:40, else Nov 8).
+VO2max retired. **No fall 10k (TT scrapped 2026-09-03): base block to 55 km/wk**,
+long run → 20k, down-weeks ~every 4th week; endpoint = **all-out 5k Sun
+2026-12-06** in a down-week, no taper, graded at face value. HR-led calibration
+(post-pin %-of-max ceilings; pace bands re-anchored ~every 3 weeks). Next race
+gate: sub-44 Barcelona, date TBD.
 Sub-T sessions are deliberately unheroic — do not let them drift to threshold.
+
+**Sub-T verification — run this on EVERY sub-T session, at review and when setting
+paces** (added 2026-09-11 after the 09-10 session held 4:53/km exactly and drifted
+167 → 182 bpm with no plateau). Three checks, all from lap data:
+
+1. **Within-rep plateau** (reps ≥6 min): HR must level off in the second half of the
+   rep and hold. Still climbing at the end of every rep → pace is above threshold.
+   This is the primary control and it needs **no pinned HRmax** — a plateau at a fixed
+   work rate *is* the sustainable-steady-state boundary, measured on the day. It is
+   strictly better than the %-of-max ceiling and should be preferred to it.
+2. **Across-rep drift**: end-of-rep HR from rep 2 to the final rep must rise **≤8 bpm**.
+   Catches the session that ratchets because the floats aren't clearing, even when each
+   individual rep plateaus.
+3. **Two more reps**: he must finish able to do two more. Ask; his RPE is reliable.
+
+It should plateau *early and comfortably*, not barely by the end — sub-T targets
+~2.5–3.5 mmol, under MLSS, not on it. All three passing easily = creep the pace faster.
+Any failing = slow by 5 s/km next session. On <6 min reps skip check 1 (HR never
+stabilises, you're measuring lag) and anchor the bands on the long-rep sessions
+instead, deriving short-rep paces from them — see the schema in `plans/running.md`.
+Confounders that add non-metabolic drift: treadmill heat/no airflow, illness, wrist-HR
+noise. Read the shape, not individual seconds.
 
 ## Naming conventions
 

@@ -46,6 +46,10 @@ Notable strengths:
 
 ## 2. Training history (mid-Apr to mid-Aug 2026)
 
+**RESOLVED 2026-09-07 — true volume was ~30-31 km/week, not 23-24.** The logged figure below counts *outdoor* runs only. Jacob confirmed one unlogged **treadmill session per week at 6-8 km**: "the treadmill miles never got logged. lets call it one session per week at 6-8km." Add ~7 km/wk to every logged figure in this section. He puts the ~30 km/wk level at **about a year**, not just the 17-week spring window.
+
+**Consequence for the diagnosis:** "detrained" is too strong for the aerobic base. A year at ~30 km/wk is a real platform, so the limiter was **intensity distribution**, not volume — easy runs at 169 bpm and uncontrolled quality, which is exactly what the 2026-09-03 Norwegian realignment targets. It also means the ramp to 55 km/wk starts from a maintained base rather than a standing start.
+
 **~23–24 km/week all-in.** 280 km outdoors across 30 logged runs in 17 weeks,
 plus ~60–70 km of treadmill work.
 
@@ -154,7 +158,7 @@ One day doubles as a lifting day.
 
 ### Build rate
 
-From ~23 km/week to ~38 is a ~55% increase. **Ramp at ~10%/week — start at
+From ~23 km/week to ~38 is a ~55% increase. **[Superseded 2026-09-07: the true baseline was ~30-31 km/wk once unlogged treadmill volume is counted, so the real increase to 38 was ~25%, and 30 -> 55 is ~83%. Ramp governance is now RPE-gated per plans/running.md, not percentage-capped.]** **Ramp at ~10%/week — start at
 26–28 km and take 5–7 weeks to reach target.** Do not jump straight in.
 
 **The long run is the priority variable.** All the missing adaptation lives
