@@ -35,14 +35,32 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
 - Types: `Easy`, `Quality`, `Long`.
 - Structure segments separated by `;`. `WU`/`CD` = warm-up/cool-down.
   Repeats: `5x(1km @ 4:50/km, 60s jog)`. Continuous: `20min @ 4:50/km` or `8km @ 5:15-6:15/km`.
+- **Long-run pacing cross-check (Daniels).** He runs long runs at **E pace**, defined
+  as 59–74% VO2max ≈ **65–79% HRmax**, roughly **T-pace + 60–90 s/km**. This is the
+  *citable* basis for a long run running above Bakken's 70% easy cap — there is no
+  Bakken long-run figure. E pace also falls out of the VDOT tables on Tuesday as a
+  second opinion on the band.
+  Daniels also caps the long run at the lesser of **25–30% of weekly volume** or
+  **150 min**. W15's 20 km in a 55.5 km week is **36%** — inside the time ceiling
+  (~2 h) but over the volume one. Soft guidance for lower-mileage runners; flagged, not
+  changed.
+- **SIGNAL SPLIT (user 2026-09-12): easy + long runs run off HR; sub-T runs off pace.**
+  Sub-T HR tiers become a **post-hoc review check, not something he watches mid-rep**.
+  On a sub-T session: pace steers, **RPE aborts** (the two-more-reps question is the
+  in-session safety valve — a fixed pace on a bad day will cook him), HR diagnoses at
+  review. Sub-T wants flat consistent terrain, since a pace target cannot see a hill.
 - **EASY RUNS ARE HR-CAPPED, NOT PACE-CAPPED** (user's call 2026-09-12, from Bakken:
   easy running capped at **70% HRmax**). Pace bands below are now descriptive, not
   prescriptive — the cap governs, and being under it is always fine.
   - **Easy / recovery runs: ≤70% HRmax.** Provisional max **200** until the Tue 09-15
     TT returns a real figure → **cap 140 bpm**.
-  - **Long run: ≤75% → cap 150 bpm.** Deliberately looser: cardiac drift alone adds
-    5–10 bpm over 90+ min at constant effort, so a 70% cap on a 20k would mean slowing
-    down all run to chase a number moving for non-metabolic reasons.
+  - **Long run: start ≤70% (140), drift allowed toward ~150.** Corrected 2026-09-12 —
+    Bakken specifies ≤70% for easy/recovery and nothing separate for long runs; the
+    earlier "≤75% cap" here was **my inference wrongly attributed to him**. The drift
+    reasoning stands (a fixed 70% ceiling over 90+ min means slowing progressively to
+    chase a number rising for thermoregulatory reasons), and Daniels' E pace at
+    **65–79% HRmax** independently supports long runs above 70% — but cap the *opening*
+    rather than inventing a higher ceiling.
   - **Expect this to feel absurdly slow — roughly 7:00–7:20/km.** Every easy run to date
     has sat at 78–84% of an assumed 200 (155–169 bpm). If the cap really does land there,
     that is not an error, it is the "high ceiling, small tank" profile showing up
@@ -176,6 +194,25 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   Two independent systems agreeing.
   The 2026-09-02 tempo at 181 avg was over the line. These sessions are deliberately
   unheroic — accumulation is the stimulus. Do not race them.
+- **The "X session" (Bakken's term) is a slot whose content changes by phase** — user's
+  framing 2026-09-12: "we are base building at the moment... this is all about aerobic
+  capacity, so long runs fit well. when we get closer to finishing the block we can
+  adjust the x session to be 10k specific."
+  - **Base phase (now → W11):** X = **the Sunday long run**. Not race-specific for a 10k
+    in the strict sense, but it targets his actual limiter — durability, the "small
+    tank" — so it earns the slot. Long runs stay **clean easy**; the quality budget
+    lives on Tue/Fri.
+  - **Late block:** X becomes **10k-specific** (10k-pace intervals, hills). **Trigger
+    point not yet set — decide at the W11 down week (of 2026-10-26)**, a natural
+    checkpoint since it is already a deload and a cycle boundary.
+  - **Known consequence, accepted:** VO2max was retired 2026-09-03, so as written this
+    block has **nothing above threshold for 13 weeks**. Dec 6's 5k will be run on legs
+    that have not been over threshold since August and will under-represent his fitness.
+    Accepted because Dec 6 is explicitly not a goal race (no taper, face value) — which
+    is also the argument that X may never flip inside this block and 10k-specific work
+    belongs to the Barcelona build instead. **Cheapest hedge if it is wanted:** 6–8 ×
+    10–15 s maximal hill sprints with full recovery on an easy day — ~5 min, negligible
+    fatigue (too short to generate meaningful lactate), preserves turnover and economy.
 - Day roles — **restructured 2026-09-12 (user's design), in force from W6.** The
   5/3/1 sequence D1→D2→D3→D4 runs in order with the lifting week starting Tuesday:
   **Mon easy recovery run** (no lift); **Tue sub-T AM + D1 Squat PM**; **Wed D2 Dips**
@@ -306,8 +343,23 @@ to %-of-max (see schema). Refine at the Oct 18 5k and the Nov 1 TT — an all-ou
 
 - Mon | Easy | 6km @ 5:45-6:15/km
 - Tue | Test | **ALL-OUT 5k TIME TRIAL, OUTDOORS** (replaces Tuesday's sub-T; D1 Squat follows in the PM)
-- Fri | Quality | WU 2km easy; 8x(3min @ 4:48-4:55/km, 60s jog); CD 1.5km easy
+- Fri | Quality | WU 2km easy; 5x(6min @ TBD from the TT, 60s jog); CD 1.5km easy
 - Sun | Long | 14km @ 5:45-6:15/km
+
+### W5 Friday changed 8x3 -> 5x6 (2026-09-12, user's catch)
+
+Three reasons, all of which I had missed: he **already ran an 8x3 on Thu 09-10**, so the two
+sessions would sit 8 days apart — which contradicts them being the minority format; Friday
+09-18 is the **first session on TT-derived paces**, the one most worth verifying; and
+that verification needs **reps >=6 min**, since the plateau check gives a false pass on
+short reps. 5x6 rather than 6x6 because it is 3 days after a maximal TT in a week that
+also restarts C14. W6 Tue takes the 6x6 instead.
+
+**Do not push Friday's session before the TT.** Tredict cannot edit a workout's steps,
+only its title and notes — so pace targets pushed with guessed numbers are permanent.
+Build it Tuesday evening once T-pace is known. W5's push covers Mon, Sun and the four
+lifts only; Tuesday stays blank (he uses the GPX route + COROS race-pace screen, and a
+competing structured workout is exactly the 09-10 trap).
 
 ### Tue 2026-09-15 — 5k TT (decided 2026-09-10, user's call: "fuck it"; moved Wed -> Tue 2026-09-12 with the new week structure)
 
@@ -362,21 +414,21 @@ unlikely anyway.
 ## Week 6 (of 2026-09-21) — ~42 km
 
 - Mon | Easy | 6km @ 5:45-6:15/km
-- Tue | Quality | WU 2km easy; 5x(6min @ 4:55-5:00/km, 75s jog); CD 1.5km easy
+- Tue | Quality | WU 2km easy; 6x(6min @ 4:55-5:00/km, 60s jog); CD 1.5km easy
 - Fri | Quality | WU 2km easy; 3x(10min @ 5:00-5:05/km, 90s jog); CD 1.5km easy
 - Sun | Long | 15km @ 5:45-6:15/km
 
 ## Week 7 (of 2026-09-28) — ~45 km
 
 - Mon | Easy | 6km @ 5:45-6:15/km
-- Tue | Quality | WU 2km easy; 6x(6min @ 4:55-5:00/km, 75s jog); CD 1.5km easy
+- Tue | Quality | WU 2km easy; 6x(6min @ 4:55-5:00/km, 60s jog); CD 1.5km easy
 - Fri | Quality | WU 2km easy; 3x(10min @ 5:00-5:05/km, 90s jog); CD 1.5km easy
 - Sun | Long | 16km @ 5:45-6:15/km
 
 ## Week 8 (of 2026-10-05) — down week, ~38.5 km
 
 - Mon | Easy | 6km @ 5:45-6:15/km
-- Tue | Quality | WU 2km easy; 4x(6min @ 4:55-5:00/km, 75s jog); CD 1.5km easy
+- Tue | Quality | WU 2km easy; 4x(6min @ 4:55-5:00/km, 60s jog); CD 1.5km easy
 - Fri | Quality | WU 2km easy; 3x(10min @ 5:00-5:05/km, 90s jog); CD 1.5km easy
 - Sun | Long | 13km @ 5:45-6:15/km
 
@@ -392,7 +444,7 @@ volume instead of progressing.
 ## Week 9 (of 2026-10-12) — ~47 km
 
 - Mon | Easy | 7km @ 5:45-6:15/km
-- Tue | Quality | WU 2km easy; 6x(6min @ 4:55-5:00/km, 75s jog); CD 2km easy
+- Tue | Quality | WU 2km easy; 6x(6min @ 4:55-5:00/km, 60s jog); CD 2km easy
 - Fri | Quality | WU 2km easy; 3x(10min @ 5:00-5:05/km, 90s jog); CD 2km easy
 - Sun | Long | 17km @ 5:45-6:15/km
 
@@ -409,7 +461,7 @@ Notes: judge W9 against W7 (43 → 46 = +7%), not against the W8 down-week.
 ## Week 11 (of 2026-10-26) — down week + lifting 7th Week deload, ~40 km
 
 - Mon | Easy | 6km @ 5:45-6:15/km
-- Tue | Quality | WU 2km easy; 5x(6min @ 4:55-5:00/km, 75s jog); CD 1.5km easy
+- Tue | Quality | WU 2km easy; 5x(6min @ 4:55-5:00/km, 60s jog); CD 1.5km easy
 - Fri | Quality | WU 2km easy; 3x(10min @ 5:00-5:05/km, 90s jog); CD 1.5km easy
 - Sun | Long | 13km @ 5:45-6:15/km
 
@@ -421,7 +473,7 @@ in the same week.
 ## Week 12 (of 2026-11-02) — ~51.5 km
 
 - Mon | Easy | 8km @ 5:45-6:15/km
-- Tue | Quality | WU 2.5km easy; 6x(6min @ 4:55-5:00/km, 75s jog); CD 2km easy
+- Tue | Quality | WU 2.5km easy; 6x(6min @ 4:55-5:00/km, 60s jog); CD 2km easy
 - Fri | Quality | WU 2.5km easy; 4x(10min @ 5:00-5:05/km, 90s jog); CD 2km easy
 - Sun | Long | 18km @ 5:45-6:15/km
 
@@ -432,7 +484,7 @@ bands re-anchored from W5-W11 session data before this week is synced.
 ## Week 13 (of 2026-11-09) — ~52.5 km
 
 - Mon | Easy | 8km @ 5:45-6:15/km
-- Tue | Quality | WU 2.5km easy; 6x(6min @ 4:55-5:00/km, 75s jog); CD 2km easy
+- Tue | Quality | WU 2.5km easy; 6x(6min @ 4:55-5:00/km, 60s jog); CD 2km easy
 - Fri | Quality | WU 2.5km easy; 4x(10min @ 5:00-5:05/km, 90s jog); CD 2km easy
 - Sun | Long | 19km @ 5:45-6:15/km
 
@@ -446,7 +498,7 @@ bands re-anchored from W5-W11 session data before this week is synced.
 ## Week 15 (of 2026-11-23) — PEAK, ~55.5 km
 
 - Mon | Easy | 10km @ 5:45-6:15/km
-- Tue | Quality | WU 3km easy; 6x(6min @ 4:55-5:00/km, 75s jog); CD 2.5km easy
+- Tue | Quality | WU 3km easy; 6x(6min @ 4:55-5:00/km, 60s jog); CD 2.5km easy
 - Fri | Quality | WU 3km easy; 4x(10min @ 5:00-5:05/km, 90s jog); CD 2.5km easy
 - Sun | Long | 20km @ 5:45-6:15/km
 
@@ -457,7 +509,7 @@ bands here are placeholders; they will have been re-anchored twice by now.
 ## Week 16 (of 2026-11-30) — down week + all-out 5k, ~31 km
 
 - Mon | Easy | 7km @ 5:45-6:15/km
-- Tue | Quality | WU 2km easy; 4x(6min @ 4:55-5:00/km, 75s jog); CD 2km easy
+- Tue | Quality | WU 2km easy; 4x(6min @ 4:55-5:00/km, 60s jog); CD 2km easy
 - Fri | Easy | 5km @ 5:45-6:15/km
 - Sun | Quality | WU 3km easy; 5km all-out; CD 2km easy
 

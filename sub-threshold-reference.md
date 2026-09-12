@@ -5,6 +5,13 @@ Sources: **Marius Bakken, *The Norwegian Method Applied*** (2026) — relayed by
 user 2026-09-11/12 — plus session evidence from this athlete's own data. Jack
 Daniels supplies the T-pace anchor only.
 
+**PROVENANCE — read this first.** Claims are tagged so inference is never mistaken for
+doctrine: **[B]** = stated by Bakken, **[D]** = Daniels, **[S]** = this athlete's own
+session data, **[C]** = *my inference*, defensible but not sourced. Anything untagged is
+mechanism or background, not a prescription. This convention was added 2026-09-12 after
+I attributed a long-run HR cap to Bakken that I had invented myself — if you catch
+another, tag it or cut it.
+
 This is the **single source of truth for sub-T paces and HR ceilings.** `CLAUDE.md`
 points here; `plans/running.md` carries the week-by-week prescriptions derived from
 it. If they disagree, this file wins and the others get corrected.
@@ -43,8 +50,8 @@ version of this file routed the pace derivation through Riegel unnecessarily.
 
 - Also yields a **near-max HR** at the finish (a 5k finish lands within a few bpm of
   true max), which feeds §3.
-- Sanity check on the output: T-pace should land roughly **10k race pace + 6–10 s/km**
-  for a runner in the 40–50 min range.
+- Sanity check on the output **[C]**: T-pace should land roughly **10k race pace +
+  6–10 s/km** for a runner in the 40–50 min range. My rule of thumb, not Daniels'.
 
 ### 1.3 %HRmax zones  *(fallback)*
 
@@ -60,6 +67,26 @@ near-max**; the 30-min gives **LTHR**. Two anchors, two tests, both wanted.
 **not scheduled**, and that costs less than an earlier draft of this file claimed. The
 5k anchors the **pace** side completely, and pace is the prescription. What is lost is
 only LTHR, which would have been a second, redundant route to the same place.
+
+**WHICH SIGNAL GOVERNS WHICH SESSION** (user's call 2026-09-12: "lets aim to run long
+and easy runs roughly off hr and the sub-T work off pace goals"):
+
+| Session | Governed by | Why |
+|---|---|---|
+| Easy / recovery / long | **HR** | Long enough for HR to settle; no precision needed, just a ceiling; pace varies hugely with terrain and fatigue while the physiological target does not |
+| Sub-T reps | **Pace** | 3–10 min is exactly where HR lag bites worst, and HR is confounded by heat, sleep and illness; pace is instantaneous and anchored to a measured T-pace |
+
+Three-way division of labour on a sub-T session:
+- **Pace steers**, in real time.
+- **RPE aborts** — the two-more-reps question is the in-session safety valve. Running a
+  fixed pace on a bad day will otherwise cook him. If reps 4–5 say there aren't two more
+  left, end the session regardless of the watch.
+- **HR diagnoses afterwards** — plateau shape (§4) and drift spread (§5), read at review.
+  The §3 tiers are therefore a **post-hoc check, not a ceiling he watches while running**.
+
+Operational: pace targets don't know about hills or wind, and a fixed 5:00/km over-cooks
+every climb. Run sub-T on flat consistent terrain, or score it on grade-adjusted pace at
+review rather than raw.
 
 **The resulting hierarchy — use it in this order:**
 
@@ -114,20 +141,33 @@ Do **not** confuse this with **Daniels T-pace at 88–92% HRmax**, which is **LT
 the top of threshold, not sub-threshold. Setting sub-T ceilings off the 88–92% anchor
 makes every session too hot; this project did exactly that until 2026-09-12.
 
+**The zone is 80–87% [B]. The split across rep lengths below is [C]** — my construction
+by analogy with his pace tiers in §2, not something he states. Treat the boundaries as
+soft; the §4 checks outrank them.
+
 | Tier | % HRmax |
 |---|---|
-| 1–3 min  | 85–87% |
-| 4–6 min  | 83–85% |
-| 8–12 min | 80–83% |
+| 1–3 min  | 85–87% **[C]** |
+| 4–6 min  | 83–85% **[C]** |
+| 8–12 min | 80–83% **[C]** |
 
 Read as **end-of-rep values** — HR lags, especially on short reps.
 
-**Full intensity map:** easy **≤70%**, long run **≤75%**, sub-T **80–87%**, Daniels
-threshold **88–92%**. Nothing should live between the long-run cap and the sub-T
-floor — that gap is the polarisation.
+**Full intensity map:** easy/recovery **≤70%** **[B]**, long run **starts ≤70%, drift
+allowed** (see below), sub-T **80–87%** **[B]**, Daniels threshold **88–92%** **[D]**.
 
-**Cross-check between §1.1 and §3:** if LTHR ≈ 88–90% of max, then the golden zone
-(LTHR − 4–7) ≈ **84–87%** — i.e. the **1–3 min tier**. So the golden zone is the
+**Long run — corrected 2026-09-12.** Bakken specifies **≤70% for easy/recovery runs
+[B]** and nothing separate for long runs; an earlier version of this file carried a
+"≤75% long-run cap" **attributed to him that I invented [C]**. The honest position:
+**cap the opening at 70% and let it drift**, rather than setting a higher ceiling. The
+drift reasoning is sound **[C]** — a fixed 70% ceiling over 90+ min forces progressive
+slowing to chase a number rising for thermoregulatory reasons — and there is real
+support for long runs sitting above 70%, but it comes from **Daniels' E pace, 59–74%
+VO2max ≈ 65–79% HRmax [D]**, not from Bakken.
+
+**Cross-check between §1.1 and §3 [C]** (the LTHR ≈ 88–90% of max step is general
+physiology, not from either source): the golden zone (LTHR − 4–7) ≈ **84–87%** — i.e.
+the **1–3 min tier**. So the golden zone is the
 short-rep end of the ladder, and longer reps sit progressively below it. That is the
 same direction the pace offsets tier, from two independent systems.
 
@@ -164,13 +204,23 @@ rises to maintain cardiac output. Core temperature does the rest.
 | **7–10 bpm**  | Correctly pitched — leave it alone |
 | **> 10–12 bpm** | Lactate is rising — slow 5 s/km next session |
 
-**Scale by session duration.** 7–10 is quoted for a 6×6, which runs ~42 min with
-floats. A 3×10 is only ~33 min → expect **5–8**.
+**Scale by session duration [C].** 7–10 is quoted for a 6×6 **[B]**, which with 60 s
+floats runs ~41 min. Scaling that to the other staples — my figures, not his:
 
-**Recovery length is a lever, not just pace.** If a session ratchets *but the reps
-still plateau internally*, the mechanism is accumulation from short floats rather
-than reps in the severe domain. Lengthen the float before slowing the pace — it
-preserves more of the stimulus.
+| Session | Duration with floats | Expected spread |
+|---|---|---|
+| 3×10 | ~33 min | **5–8** **[C]** |
+| 6×6  | ~41 min | **7–10** **[B]** |
+| 4×10 | ~44.5 min | **7–10** **[C]** |
+
+A 4×10 is the *longest* staple session, so do not read its spread against the 3×10
+figure.
+
+**Recovery length is a lever — but only on short-rep sessions.** If a session ratchets
+*but the reps still plateau internally*, the mechanism is accumulation from short floats
+rather than reps in the severe domain. On **3-min sessions**, lengthen the float before
+slowing the pace — it preserves more of the stimulus. On **6- and 10-min sessions the
+floats are specified (60 s / 90 s) [B]**, so pace is the only lever there.
 
 ---
 
@@ -208,6 +258,38 @@ three appearances across the whole Sep–Dec block against sixteen staple sessio
 
 **Alternate rep length**: the two weekly sessions never use the same one. A 6-min day
 pairs with a 10-min day.
+
+**Recovery lengths are specified, not free parameters [B]** (user 2026-09-12):
+
+| Rep length | Float |
+|---|---|
+| 3 min  | 60 s |
+| 6 min  | **60 s** |
+| 10 min | **90 s** |
+
+**The 10-min intervals are the toughest session [B]** (user 2026-09-12). Mechanism:
+they have the **tightest relative recovery** (600 s work : 90 s float = 6.7:1, against
+6:1 for a 6-min rep), and they spend the **most time at true steady state** — a 3-min
+rep gives much of itself up to HR onset kinetics, while a 10-min rep sits at target
+intensity for 8+ minutes. Same nominal zone, far more time actually in it. That is
+precisely what the pace tiering in §2 compensates for: T + 17–19 s/km for the 10s
+against T + 10–12 for the 6s.
+
+**Two consequences:**
+- **The 4×10 belongs on Friday**, which follows Thursday's full rest day and therefore
+  has the freshest legs of the week (Tuesday sits two days off the long run). The cost
+  lands on that evening's deadlift, which is the accepted trade under running-priority.
+- **The 10-min sessions are the best diagnostic in the week.** §4's plateau check needs
+  reps ≥6 min and works best on the longest ones, since a 10-min rep has time to reach
+  and hold a genuine steady state. So the hardest session also carries the most
+  information about whether the §2 pace derivation is right — weight it accordingly at
+  review.
+
+Note the 6 min rep runs a **1:6 work:recovery ratio** — tight. That has a consequence
+for §5: **"lengthen the float before slowing the pace" no longer applies to 6- and
+10-min sessions**, since the float is now doctrine. On those, **pace is the only
+adjustment lever**. The float remains negotiable only on the short-rep sessions, which
+is where the 09-10 accumulation problem actually occurred.
 
 Weekly sub-T dose in the current block runs **60 → 76 min**.
 
