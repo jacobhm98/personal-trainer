@@ -126,7 +126,9 @@ Reads/analysis: official COROS MCP (EU) + Strava MCP + Tredict MCP
 ## Running
 
 `running-training-brief.md` is the coaching reference (history, race data, pace
-zones, caveats — read it before changing the plan). `plans/running.md` is the
+zones, caveats — read it before changing the plan). **`sub-threshold-reference.md`**
+is the sub-T knowledge bank (calibration protocols, pace/HR tiers, drift numbers,
+confounders) — read it before touching any sub-threshold session. `plans/running.md` is the
 executable weekly schedule the sync skill parses; its schema is defined at the top
 of that file. Key paces: easy 5:15–6:15/km, long 5:45–6:15/km, threshold
 4:45–4:55/km, VO2max ~4:00–4:05/km (treadmill 4×4 @ 15.3 kph). Threshold must feel
@@ -143,51 +145,29 @@ long run → 20k, down-weeks ~every 4th week; endpoint = **all-out 5k Sun
 gate: sub-44 Barcelona, date TBD.
 Sub-T sessions are deliberately unheroic — do not let them drift to threshold.
 
-**Sub-T verification — run this on EVERY sub-T session, at review and when setting
-paces** (added 2026-09-11 after the 09-10 session held 4:53/km exactly and drifted
-167 → 182 bpm with no plateau). Three checks, all from lap data:
+**`sub-threshold-reference.md` is the single source of truth for sub-T paces, HR
+ceilings and session verification.** Read it before prescribing or reviewing any
+sub-threshold session. It holds the Bakken material the user relayed 2026-09-11/12:
+the two calibration protocols (30-min TT → LTHR → golden zone; 5k TT → Daniels T-pace),
+the rep-length pace offsets, the %HRmax tiers, expected HR drift, and the confounders.
+If that file and this one ever disagree, **that file wins** — correct this one.
 
-1. **Within-rep plateau** (reps ≥6 min): HR must level off in the second half of the
-   rep and hold. Still climbing at the end of every rep → pace is above threshold.
-   This is the primary control and it needs **no pinned HRmax** — a plateau at a fixed
-   work rate *is* the sustainable-steady-state boundary, measured on the day. It is
-   strictly better than the %-of-max ceiling and should be preferred to it.
-2. **Late-rep plateau** (refined 2026-09-11 — supersedes a flat "≤8 bpm across the
-   session" rule, which was wrong): judge the final reps by whether they still plateau
-   *internally*, not by how much higher they sit than rep 2. **Cardiac drift raises HR
-   5–10 bpm/hour at constant intensity with lactate completely flat** — plasma volume
-   falls with sweating, stroke volume drops, HR rises to hold cardiac output; more
-   indoors with no airflow. Over a 45 min session that consumes the entire 8 bpm budget,
-   so the raw gap can't distinguish metabolic failure from thermoregulation. Within a
-   single 5–6 min rep, thermal drift is negligible, so a rep that fails to plateau is
-   failing metabolically. Rep 8 levelling off 8 bpm above rep 2 = fine, that's drift.
-   Rep 8 climbing throughout = over the line. Use the session-wide rise only as a coarse
-   flag: >12–15 bpm is beyond what drift explains (the 09-10 session ran +15 *and* had
-   no rep plateau — it failed both readings).
-3. **Two more reps**: he must finish able to do two more. Ask; his RPE is reliable.
+Minimum you must not get wrong without opening it:
 
-It should plateau *early and comfortably*, not barely by the end — sub-T targets
-~2.5–3.5 mmol, under MLSS, not on it. All three passing easily = creep the pace faster.
-Any failing = slow by 5 s/km next session.
-
-**On <6 min reps, check 1 gives a false pass — do not rely on it** (corrected
-2026-09-11 from the 09-10 HR stream, via Strava `get_activity_streams`; the COROS MCP
-does not expose HR time series and `analyzeActivityDetail` only re-summarises).
-Short reps *do* plateau — every rep on 09-10 was flat to within ±2 bpm over its last
-45 s. But a 3 min rep settles at *baseline + the rep's demand*, so when the baseline
-creeps the plateau creeps with it and the test still reads as a pass. That session
-plateaued at 170 → 185 across 8 reps with the float floor rising 165 → 178. On 6-10 min
-reps there is time to reach the true steady state for that pace, which is what makes
-the test meaningful. Anchor the bands on long-rep sessions and derive short-rep paces
-from them — see the schema in `plans/running.md`.
-
-**Recovery length is a lever, not just pace.** The 09-10 failure was accumulation from
-short floats, not reps in the severe domain: HR fell 5-9 bpm in every float (lap
-averages hide this — HR keeps rising ~15-20 s *into* a float, so the average reads
-high; use the stream). When a session ratchets but the reps plateau, consider
-lengthening the float before slowing the pace — it preserves more of the stimulus.
-Confounders that add non-metabolic drift: treadmill heat/no airflow, illness, wrist-HR
-noise. Read the shape, not individual seconds.
+- **Verify every sub-T session on three checks**: within-rep plateau (≥6 min reps
+  only — shorter reps give a false pass), session-wide HR spread against the expected
+  drift band, and the two-more-reps question. All passing easily → creep the pace
+  faster; any failing → slow 5 s/km.
+- **Expected spread is 7–10 bpm for a 6×6** (5–8 for a 3×10). That is *correct
+  execution*, not failure. Under 5 = too easy; over 10–12 = too hot.
+- **Sub-T lives at 80–87% HRmax**, tiered by rep length. 88–92% is Daniels T-pace at
+  LT2 — a different thing. Do not set sub-T ceilings off the 88–92% anchor.
+- **Pace is derived, never guessed**: T-pace + 3–5 s/km (1–3 min), +10–12 (4–6 min),
+  +17–19 (8–12 min).
+- **This needs the HR stream, not lap averages** — lap data hides float recovery. COROS
+  has no time series; pull it from Strava `get_activity_streams`.
+- **When a confounder is present** (illness, alcohol, treadmill heat, bad sleep),
+  discard HR-derived conclusions outright rather than asterisking them.
 
 ## Naming conventions
 
