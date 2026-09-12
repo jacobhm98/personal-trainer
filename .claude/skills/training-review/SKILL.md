@@ -34,8 +34,10 @@ default last 7 days.
      (COROS MCP has no time series) — must level off in the second half, still climbing at every rep's end
      means the pace is above threshold; (2) **late-rep plateau** — do the final reps
      still level off *within themselves*? Judge that, not the raw rise from rep 2:
-     cardiac drift adds 5-10 bpm/hour at constant intensity with lactate flat, so the
-     session-wide gap is only a coarse flag (>12-15 bpm exceeds what drift explains); (3) **two-more-reps** — ask him. All
+     cardiac drift means spread is expected even at
+     constant lactate — Bakken's figure for a 6x6 is **7-10 bpm**, so score it as
+     <5 = too easy (creep faster), 7-10 = correct, >10-12 = too hot (slow 5 s/km);
+     scale down to 5-8 for a ~33 min 3x10; (3) **two-more-reps** — ask him. All
      passing easily → propose creeping the pace faster; any failing → propose 5 s/km
      slower next session. Full rule and rationale in CLAUDE.md (Running).
    - **Ramp rate**: actual weekly km. Progression is **RPE-gated, not
