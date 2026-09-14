@@ -192,8 +192,21 @@ Minimum you must not get wrong without opening it:
   (e.g. easy 5:15–6:15 → value 345, padding 30; threshold 4:45–4:55 → value 290,
   padding 5; VO2max 4:00–4:05 → value 243, padding 3). The default `targetMode`
   "range" is %-of-capacity (ftpa/hrMax) — don't use it unless capacities are set.
-  Always set a pace target on every step or nothing shows on the watch. Per-step
+  Always set a target on every step or nothing shows on the watch. Per-step
   `note` (≤255 chars) displays on the watch.
+  **Easy and long runs are HR-governed (2026-09-12) — push `targetZoneType:
+  "heartrate"` with `targets.heartrate {value, padding}`, NOT a pace target.** Also set
+  a `targets.pace` value alongside it so Tredict can still compute distance/duration;
+  the schema supports both, and the zone type decides which one the watch enforces.
+  Easy run ≈ value 130 padding 10 (120–140). Long run is better as **two steps** —
+  first half 132±8 (124–140), second half 145±5 (140–150) — since "start ≤140 and let
+  it drift" cannot be expressed as one band.
+  **Learned the hard way 2026-09-12:** W5's easy 6k and long 14k were pushed with pace
+  bands of 5:45–6:15 and the HR cap only in the notes. At 140 bpm he runs ~7:00/km, so
+  the watch would have alerted him for being too slow while he was executing correctly.
+  The plan was already applied and **steps cannot be edited after creation**, so the
+  only remedy was retitling both to "RUN BY HR, IGNORE THE PACE BAND" and telling him to
+  start a plain run. Get the zone type right at push time — there is no fix afterwards.
 - `time` on a plan training = minutes from midnight (default 1020 = 17:00).
 - **Strength**: `sportType: "misc"` + `subSportType: "strength_training"` works as a
   structured Tredict entry (set table in `notes`, ≤2048 chars). Rest days:
