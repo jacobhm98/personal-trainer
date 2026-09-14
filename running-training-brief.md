@@ -222,6 +222,7 @@ progressing.
 | Date | Distance | Pace | Decoupling |
 |---|---|---|---|
 | 2026-08-30 | 13.03 km | 5:59/km | **1.8%** |
+| 2026-09-13 | 14.01 km | 6:32/km | **−2.3%** |
 
 ### Lifting day sequencing
 
