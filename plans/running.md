@@ -16,7 +16,7 @@ fall.** The Nov 1 TT (which had briefly replaced the Oct 11 TT) is **scrapped** 
 user's call: a TT is ~2.5 weeks of development budget (sharpening + taper +
 recovery) spent on curiosity. Instead: **build to 55 km/week** (the config
 ceiling) with 2 well-executed sub-T sessions and a progressively growing long run
-(→ ~20 km), down-weeks roughly every 4th week, until the peak is reached — then
+(→ 18 km, capped 2026-09-15), down-weeks roughly every 4th week, until the peak is reached — then
 **one all-out 5k inside a normal down-week** (~Sun 2026-12-06, no taper) to feed
 curiosity, re-anchor the pace bands, refine the HRmax pin, and stamp the fitness-
 index running input (Riegel 5k→10k). Calibration between now and then is HR-led:
@@ -41,9 +41,10 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   Bakken long-run figure. E pace also falls out of the VDOT tables on Tuesday as a
   second opinion on the band.
   Daniels also caps the long run at the lesser of **25–30% of weekly volume** or
-  **150 min**. W15's 20 km in a 55.5 km week is **36%** — inside the time ceiling
-  (~2 h) but over the volume one. Soft guidance for lower-mileage runners; flagged, not
-  changed.
+  **150 min**. With the long run capped at 18 km (2026-09-15), it runs **31–35%** of
+  weekly volume from W10 to W15 — still a little over the volume guideline, and well
+  inside the time one (~2 h at HR-governed pace). Soft guidance for lower-mileage
+  runners; flagged, not changed.
 - **SIGNAL SPLIT (user 2026-09-12): easy + long runs run off HR; sub-T runs off pace.**
   Sub-T HR tiers become a **post-hoc review check, not something he watches mid-rep**.
   On a sub-T session: pace steers, **RPE aborts** (the two-more-reps question is the
@@ -52,8 +53,8 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
 - **EASY RUNS ARE HR-CAPPED, NOT PACE-CAPPED** (user's call 2026-09-12, from Bakken:
   easy running capped at **70% HRmax**). Pace bands below are now descriptive, not
   prescriptive — the cap governs, and being under it is always fine.
-  - **Easy / recovery runs: ≤70% HRmax.** Provisional max **200** until the Tue 09-15
-    TT returns a real figure → **cap 140 bpm**.
+  - **Easy / recovery runs: ≤70% HRmax.** Provisional max **~200**, kept after the
+    09-15 TT peaked at only 193 (next check: the W11 TT) → **cap 140 bpm**.
   - **Long run: start ≤70% (140), drift allowed toward ~150.** Corrected 2026-09-12 —
     Bakken specifies ≤70% for easy/recovery and nothing separate for long runs; the
     earlier "≤75% cap" here was **my inference wrongly attributed to him**. The drift
@@ -71,11 +72,16 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
     late). Real but smaller than the ±7 bpm uncertainty in the assumed max — **do not
     correct for it.** Run at consistent times where possible.
 - Paces (min/km, now descriptive): easy 5:15–6:15, recovery 5:45–6:15, long 5:45–6:15,
-  threshold 4:45–4:55, VO2max 4:00–4:05 (retired from the weekly rotation 2026-09-03).
-- **Sub-threshold bands** (Norwegian singles, set 2026-09-03) — scale by rep length:
-  3min reps 4:48–4:55, 6min reps 4:55–5:00, 8–10min reps 5:00–5:05.
+  **T-pace 4:40 (measured 2026-09-15)**, VO2max 4:00–4:05 (retired from the weekly
+  rotation 2026-09-03).
+- **Sub-threshold bands — MEASURED 2026-09-15** from the 5k TT (21:57 grade-adjusted →
+  VDOT 44.7 → T-pace 4:40): **1–3 min reps 4:43–4:45, 4–6 min 4:50–4:52, 8–12 min
+  4:57–4:59.** Record and method in `sub-threshold-reference.md` §8.1. **Next re-anchor:
+  the W11 5k TT, Tue 2026-10-27.** Between tests the session checks move the bands (all
+  passing easily → creep faster; any failing → slow 5 s/km). These replace the
+  placeholders set 2026-09-03: 4:48–4:55 / 4:55–5:00 / 5:00–5:05.
   **PACE DERIVATION — Bakken's two rules (recorded 2026-09-12, user supplied from the
-  book). These govern; the literal numbers above are placeholders until the TT.**
+  book). These govern.**
 
   1. **Headline: sub-T runs ~8-12 s/km slower than Jack Daniels T-pace.** That figure
      corresponds to the **4-6 min** tier — the bread-and-butter session — so read it as
@@ -93,24 +99,25 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
      Each tier is **~7 s/km slower than the one above**, and each band is **~7 s wide**.
      Note rule 2's mid-tier (+10-12) sits inside rule 1's 8-12 range — they agree.
 
-  **Pipeline once the Tue 09-15 TT lands:** 5k time → Riegel 1.06 → 10k-equivalent →
-  Daniels VDOT → **T-pace** → apply the three offsets above. Do not set sub-T paces any
-  other way from then on. As a sanity check, T-pace should land roughly **10k race pace
-  + 6-10 s/km** for a runner in the 40-50 min range.
+  **Pipeline (first run 2026-09-15):** 5k time, **grade-adjusted** → Daniels VDOT →
+  **T-pace** → apply the three offsets above. **No Riegel step** — Daniels' tables take a
+  5k directly; Riegel only produces the 10k-equivalent. Do not set sub-T paces any other
+  way. As a sanity check, T-pace should land roughly **10k race pace + 6-10 s/km** for a
+  runner in the 40-50 min range.
 
-  **How the current placeholders compare** (assumed T 4:45-4:52): the rule would give
-  1-3 min 4:48-4:57, 4-6 min 4:55-5:04, 8-12 min 5:02-5:11. The written 3-min and 6-min
-  bands are close; the **8-10 min band (5:00-5:05) is ~5 s/km too fast** at both ends.
-  All three get replaced after the TT anyway — flagging it so the long-rep sessions are
-  not run hot in the meantime.
+  **How the placeholders compared — resolved 2026-09-15.** They assumed T 4:45–4:52; the
+  measured T is 4:40, so all three placeholder bands were **3–10 s/km conservative, not
+  hot** — including the 8–10 min band this note once flagged as too fast.
 
   **Session menu, set 2026-09-12 from Marius Bakken's book (user's call).** His
   bread-and-butter sub-T sessions are **6×6 min** and **3–4×10 min**; those are now the
   staple and everything else is the exception. Shorter/faster work (8–10×3 min) stays
-  in the rotation but as the **minority** — three appearances in the whole block (W5,
-  W10, W14) against ten staple sessions. Bakken also prescribes *alternating* rep
+  in the rotation but as the **minority** — planned for W5, W10 and W14, **now W10 and
+  W14** (W5's became the 5×6 on 09-12). Bakken also prescribes *alternating* rep
   length, so the two weekly sessions never use the same one: a 6-min day pairs with a
   10-min day.
+  **RESOLVED 2026-09-15 by the 5k TT: T-pace 4:40 — his read was right, and every
+  placeholder band was conservative. Kept below for history.**
   **UNVALIDATED IN EITHER DIRECTION — do not assume too fast** (revised 2026-09-11
   after the user pushed back; an earlier version of this note claimed "provisionally
   too fast" and was wrong to). The bands descend from an assumed threshold of
@@ -132,6 +139,8 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   the estimate. This is the strongest argument for doing the COROS fitness test early:
   it replaces the single load-bearing guess the whole plan hangs off, in one session,
   rather than waiting for the Dec 6 5k.
+  **SUPERSEDED — paces now come from the TT pipeline above, and the drift threshold is
+  Bakken's 7–10 bpm band (`sub-threshold-reference.md` §5), not ≤8. Kept for history.**
   **New control: drift, not a fixed pace** — and it is robust to the estimate being
   wrong either way, which is why it is worth keeping regardless. W5 Wed runs the band
   **as written, 4:55–5:00 for the 6min reps**, starting at the slow end. If drift across the reps is ≤8 bpm and the two-more-reps test passes,
@@ -139,6 +148,8 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   5 s/km next session. This self-corrects toward his real threshold instead of
   inheriting an estimate built on an estimate. Confirm on the first clean session
   (W5), and settle it properly with a measured fitness test once healthy.
+  **SUPERSEDED 2026-09-15** — the W5 5×6 experiment starting at 5:05 gave way to the
+  measured TT bands; the plateau logic below lives on in `sub-threshold-reference.md` §4/§6.
   **Anchor on the LONG reps, derive the short ones** (decided 2026-09-11). Rep length
   genuinely changes sub-T pace — shorter reps accumulate less lactate per rep and get a
   better recovery ratio (8×3min/60s ≈ 1:3, 3×10min/90s ≈ 1:7), so they run faster for
@@ -148,13 +159,13 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   experiment on **W5 Wed's 5×6min, starting at 5:05/km**, then derive the rest from the
   settled band — 3min ≈ 6 s/km faster, 8–10min ≈ 5 s/km slower — instead of running
   three independent experiments on noisy data.
-  Controls, in order: **drift ≤8 bpm**; the pace band; the **HR ceiling**; finish
+  Controls, in order: **session drift within `sub-threshold-reference.md` §5** (7–10 bpm for a 6×6); the pace band; the **HR ceiling**; finish
   every session able to do two more reps. If any says too hot, slow the rep. **HR CEILINGS — REPLACED 2026-09-12** (user supplied from Bakken; the old flat ~180
   and the ≤90/88/86% tiers are retired). Bakken: the **threshold zone for a well-trained
   amateur is 80–87% HRmax**. The old tiers were set off Daniels' T-pace anchor (88–92%),
   which is **LT2** — the top of threshold, not sub-threshold. Sub-T belongs in 80–87%.
-  Tiered so the fastest reps sit at the top of the zone (provisional max **200** until
-  the Tue 09-15 TT):
+  Tiered so the fastest reps sit at the top of the zone (provisional max **~200** — kept
+  after the 09-15 TT peaked at only 193; next check the W11 TT):
 
   | Tier | % HRmax | bpm @ max 200 |
   |---|---|---|
@@ -167,7 +178,7 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   the start, out of the zone by ~rep 4, which is where the two-more-reps test would also
   have failed. The 09-02 tempo averaged 181 (90.5%), exactly where a *Daniels threshold*
   session should sit. Both bands land correctly on real data.
-  Full intensity map: easy ≤70% (140), long ≤75% (150), sub-T 80–87% (160–174) —
+  Full intensity map: easy ≤70% (140), long starts ≤70% and drifts to ~150, sub-T 80–87% (160–174) —
   nothing lives between 150 and 160.
 
   **30-MINUTE TT — the direct LTHR test (added 2026-09-12, Bakken protocol via user).**
@@ -178,8 +189,9 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   *above* threshold, so its average HR sits ~4–8 bpm above LTHR — never read a 5k
   average as threshold HR. The 5k gives **performance + near-max**; the 30-min gives
   **LTHR**. Two anchors, two tests.
-  **NOT SCHEDULED — user is doing one TT only (2026-09-12).** The 5k on Tue 09-15 is
-  it; the W7 30-min TT was proposed and dropped, and W7 Tue reverts to its 6×6.
+  **NOT SCHEDULED — the 30-min TT was dropped 2026-09-12.** Calibration runs on 5k TTs
+  only: Tue 09-15, plus a second in W11 (Tue 10-27, added 2026-09-15). The W7 30-min TT
+  was proposed and dropped, and W7 Tue reverts to its 6×6.
   **This costs less than first stated.** The 5k anchors the **pace** side outright —
   Daniels' tables take a 5k time directly, so it is 5k → VDOT → T-pace → offsets, no
   Riegel step. Pace is the prescription; the in-session checks verify it; the %-of-max
@@ -343,8 +355,14 @@ to %-of-max (see schema). Refine at the Oct 18 5k and the Nov 1 TT — an all-ou
 
 - Mon | Easy | 6km @ 5:45-6:15/km
 - Tue | Test | **ALL-OUT 5k TIME TRIAL, OUTDOORS** (replaces Tuesday's sub-T; D1 Squat follows in the PM)
-- Fri | Quality | WU 2km easy; 5x(6min @ TBD from the TT, 60s jog); CD 1.5km easy
-- Sun | Long | 14km @ 5:45-6:15/km
+- Fri | Quality | WU 2km easy; 5x(6min @ 4:50-4:52/km, 60s jog); CD 2km easy
+- Sun | Long | 15km @ 5:45-6:15/km
+
+**Amended 2026-09-15 (user's call): hold W4's executed 39.7 km.** The TT day came in at
+8.1 km (1.8 km warm-up), not the ~10 assumed, which left the week at ~38.4. Sun long
+14 → 15 km (+1 km on W4's executed 14.01 — inside the ~1 km/week long-run cap) and
+Fri CD 1.5 → 2 km. Week
+lands ~39.9 km: Mon 6.0 + Tue 8.1 (done) + Fri ~10.8 + Sun 15.
 
 ### W5 Friday changed 8x3 -> 5x6 (2026-09-12, user's catch)
 
@@ -362,6 +380,12 @@ lifts only; Tuesday stays blank (he uses the GPX route + COROS race-pace screen,
 competing structured workout is exactly the 09-10 trap).
 
 ### Tue 2026-09-15 — 5k TT (decided 2026-09-10, user's call: "fuck it"; moved Wed -> Tue 2026-09-12 with the new week structure)
+
+**RESULT 2026-09-15: 22:07 clock, 21:57 grade-adjusted → VDOT 44.7 → T-pace 4:40/km.**
+Sub-T bands: **1–3 min 4:43–4:45, 4–6 min 4:50–4:52, 8–12 min 4:57–4:59.** Peak HR 193
+in ~15 °C; HRmax kept at ~200 provisional. Full record, splits and method in
+`sub-threshold-reference.md` §8.1, which wins on any disagreement. The planning notes
+below were written before the run.
 
 **Why it is the priority session of the block.** Every pace band, the fitness-index
 baseline and the sub-44 gate descend from a **~47:00 10k estimate that has never been
@@ -414,22 +438,22 @@ unlikely anyway.
 ## Week 6 (of 2026-09-21) — ~42 km
 
 - Mon | Easy | 6km @ 5:45-6:15/km
-- Tue | Quality | WU 2km easy; 6x(6min @ 4:55-5:00/km, 60s jog); CD 1.5km easy
-- Fri | Quality | WU 2km easy; 3x(10min @ 5:00-5:05/km, 90s jog); CD 1.5km easy
+- Tue | Quality | WU 2km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 1.5km easy
+- Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 1.5km easy
 - Sun | Long | 15km @ 5:45-6:15/km
 
 ## Week 7 (of 2026-09-28) — ~45 km
 
 - Mon | Easy | 6km @ 5:45-6:15/km
-- Tue | Quality | WU 2km easy; 6x(6min @ 4:55-5:00/km, 60s jog); CD 1.5km easy
-- Fri | Quality | WU 2km easy; 3x(10min @ 5:00-5:05/km, 90s jog); CD 1.5km easy
+- Tue | Quality | WU 2km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 1.5km easy
+- Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 1.5km easy
 - Sun | Long | 16km @ 5:45-6:15/km
 
 ## Week 8 (of 2026-10-05) — down week, ~38.5 km
 
 - Mon | Easy | 6km @ 5:45-6:15/km
-- Tue | Quality | WU 2km easy; 4x(6min @ 4:55-5:00/km, 60s jog); CD 1.5km easy
-- Fri | Quality | WU 2km easy; 3x(10min @ 5:00-5:05/km, 90s jog); CD 1.5km easy
+- Tue | Quality | WU 2km easy; 4x(6min @ 4:50-4:52/km, 60s jog); CD 1.5km easy
+- Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 1.5km easy
 - Sun | Long | 13km @ 5:45-6:15/km
 
 Notes W5-W8 (rewritten 2026-09-12 for the Bakken session menu): sub-T dose runs
@@ -444,8 +468,8 @@ volume instead of progressing.
 ## Week 9 (of 2026-10-12) — ~47 km
 
 - Mon | Easy | 7km @ 5:45-6:15/km
-- Tue | Quality | WU 2km easy; 6x(6min @ 4:55-5:00/km, 60s jog); CD 2km easy
-- Fri | Quality | WU 2km easy; 3x(10min @ 5:00-5:05/km, 90s jog); CD 2km easy
+- Tue | Quality | WU 2km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 2km easy
+- Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 2km easy
 - Sun | Long | 17km @ 5:45-6:15/km
 
 Notes: judge W9 against W7 (43 → 46 = +7%), not against the W8 down-week.
@@ -454,62 +478,90 @@ Notes: judge W9 against W7 (43 → 46 = +7%), not against the W8 down-week.
 ## Week 10 (of 2026-10-19) — ~51 km
 
 - Mon | Easy | 8km @ 5:45-6:15/km
-- Tue | Quality | WU 2.5km easy; 10x(3min @ 4:48-4:55/km, 60s jog); CD 2km easy
-- Fri | Quality | WU 2.5km easy; 4x(10min @ 5:00-5:05/km, 90s jog); CD 2km easy
+- Tue | Quality | WU 2.5km easy; 10x(3min @ 4:43-4:45/km, 60s jog); CD 2km easy
+- Fri | Quality | WU 2.5km easy; 4x(10min @ 4:57-4:59/km, 90s jog); CD 2km easy
 - Sun | Long | 18km @ 5:45-6:15/km
 
-## Week 11 (of 2026-10-26) — down week + lifting 7th Week deload, ~40 km
+## Week 11 (of 2026-10-26) — down week + lifting 7th Week deload + second 5k TT, ~40 km
 
 - Mon | Easy | 6km @ 5:45-6:15/km
-- Tue | Quality | WU 2km easy; 5x(6min @ 4:55-5:00/km, 60s jog); CD 1.5km easy
-- Fri | Quality | WU 2km easy; 3x(10min @ 5:00-5:05/km, 90s jog); CD 1.5km easy
+- Tue | Test | **ALL-OUT 5k TIME TRIAL, OUTDOORS, same route as 09-15** (replaces Tuesday's 5x6min; deload D1 Squat follows in the PM)
+- Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 1.5km easy
 - Sun | Long | 13km @ 5:45-6:15/km
 
 Notes: running down-week aligned with the lifting 7th Week Protocol deload
 (C14 = W5-W7, C15 = W8-W10, deload Oct 26 - Nov 1) — the whole organism recovers
 in the same week.
 
+**Second 5k TT — added 2026-09-15 for W10, moved to W11 the same day (user's call).**
+Six weeks after the first, re-anchoring T-pace and every sub-T band after W6–W10.
+- **Why W11, not W10:** W10 is C15 W3, so the TT would have landed six hours before a
+  95% squat top set, where a TT-confounded miss holds the TM for a whole cycle. W11's
+  squat is the 7th Week deload (40/50/60% TM), so the clash disappears. It also mirrors
+  09-15 closely — a Tuesday two days after the long run, a ~40 km week, light lifting
+  (C14 W1 then, deload now) — which is what keeps the two results comparable.
+- **Cost, accepted:** a maximal effort inside a down week trims some of its recovery,
+  the same trade the Dec 6 5k already makes by design. Volume is unchanged: the TT day
+  (≈ WU 3 + 5 + CD 2) runs about the same as the 5×6 it replaces.
+- **Same route** (`stockholm-tt-postlight.gpx`), scored on **grade-adjusted** time
+  (`sub-threshold-reference.md` §8.1). Pacing targets get set the week before, off
+  W6–W10 session data.
+- **Friday's 3×10 is built after the TT, not before** — its band will change, and
+  Tredict cannot edit steps after creation. The 4:57–4:59 above is the 09-15 value,
+  standing in until then.
+- **Lessons from 09-15:** km 1 is the descent — hold the planned split, don't bank time;
+  keep the watch **running** through the 20 s stand-still (on 09-15 it was stopped first
+  and the reading was lost); warm up ~3 km with strides before reaching the start.
+- **Feeds the W11 X-session checkpoint** — a fresh fitness read lands in the same week
+  the flip decision is due.
+
 
 ## Week 12 (of 2026-11-02) — ~51.5 km
 
 - Mon | Easy | 8km @ 5:45-6:15/km
-- Tue | Quality | WU 2.5km easy; 6x(6min @ 4:55-5:00/km, 60s jog); CD 2km easy
-- Fri | Quality | WU 2.5km easy; 4x(10min @ 5:00-5:05/km, 90s jog); CD 2km easy
+- Tue | Quality | WU 2.5km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 2km easy
+- Fri | Quality | WU 2.5km easy; 4x(10min @ 4:57-4:59/km, 90s jog); CD 2km easy
 - Sun | Long | 18km @ 5:45-6:15/km
 
 Notes: judge W12 against W10 (48 → 49), not against the W11 down-week. Sub-T pace
-bands re-anchored from W5-W11 session data before this week is synced.
+bands come from the W11 TT, adjusted by W11 Friday's session checks, before this week is synced.
 
 
-## Week 13 (of 2026-11-09) — ~52.5 km
-
-- Mon | Easy | 8km @ 5:45-6:15/km
-- Tue | Quality | WU 2.5km easy; 6x(6min @ 4:55-5:00/km, 60s jog); CD 2km easy
-- Fri | Quality | WU 2.5km easy; 4x(10min @ 5:00-5:05/km, 90s jog); CD 2km easy
-- Sun | Long | 19km @ 5:45-6:15/km
-
-## Week 14 (of 2026-11-16) — ~54 km
+## Week 13 (of 2026-11-09) — ~53 km
 
 - Mon | Easy | 9km @ 5:45-6:15/km
-- Tue | Quality | WU 2.5km easy; 10x(3min @ 4:48-4:55/km, 60s jog); CD 2km easy
-- Fri | Quality | WU 2.5km easy; 4x(10min @ 5:00-5:05/km, 90s jog); CD 2km easy
-- Sun | Long | 20km @ 5:45-6:15/km
+- Tue | Quality | WU 2.5km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 2km easy
+- Fri | Quality | WU 2.5km easy; 4x(10min @ 4:57-4:59/km, 90s jog); CD 2km easy
+- Sun | Long | 18km @ 5:45-6:15/km
 
-## Week 15 (of 2026-11-23) — PEAK, ~55.5 km
+Notes: **long run capped at 18 km from here (user's call 2026-09-15)**, reached in W10.
+Weekly totals are unchanged — the km the long run would have added move to Monday's
+easy run instead: W13 Mon 8 → 9 / long 19 → 18; W14 Mon 9 → 11 / long 20 → 18; W15
+Mon 10 → 12 / long 20 → 18. Monday stays the lightest run of every week (12 km in W15
+against 13.7 and 14.2 on the quality days), but at HR ≤140 it now runs ~80 min.
 
-- Mon | Easy | 10km @ 5:45-6:15/km
-- Tue | Quality | WU 3km easy; 6x(6min @ 4:55-5:00/km, 60s jog); CD 2.5km easy
-- Fri | Quality | WU 3km easy; 4x(10min @ 5:00-5:05/km, 90s jog); CD 2.5km easy
-- Sun | Long | 20km @ 5:45-6:15/km
+## Week 14 (of 2026-11-16) — ~54.5 km
 
-Notes: the block target — 55 km, 60 min sub-T, 20k long run, all absorbed. Pace
-bands here are placeholders; they will have been re-anchored twice by now.
+- Mon | Easy | 11km @ 5:45-6:15/km
+- Tue | Quality | WU 2.5km easy; 10x(3min @ 4:43-4:45/km, 60s jog); CD 2km easy
+- Fri | Quality | WU 2.5km easy; 4x(10min @ 4:57-4:59/km, 90s jog); CD 2km easy
+- Sun | Long | 18km @ 5:45-6:15/km
+
+## Week 15 (of 2026-11-23) — PEAK, ~58 km
+
+- Mon | Easy | 12km @ 5:45-6:15/km
+- Tue | Quality | WU 3km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 2.5km easy
+- Fri | Quality | WU 3km easy; 4x(10min @ 4:57-4:59/km, 90s jog); CD 2.5km easy
+- Sun | Long | 18km @ 5:45-6:15/km
+
+Notes: the block target — 55 km, 60 min sub-T, 18k long run, all absorbed. Pace
+bands here are the 09-15 values; the W11 TT and the session checks will have moved them by now.
 
 
 ## Week 16 (of 2026-11-30) — down week + all-out 5k, ~31 km
 
 - Mon | Easy | 7km @ 5:45-6:15/km
-- Tue | Quality | WU 2km easy; 4x(6min @ 4:55-5:00/km, 60s jog); CD 2km easy
+- Tue | Quality | WU 2km easy; 4x(6min @ 4:50-4:52/km, 60s jog); CD 2km easy
 - Fri | Easy | 5km @ 5:45-6:15/km
 - Sun | Quality | WU 3km easy; 5km all-out; CD 2km easy
 
@@ -536,6 +588,6 @@ conversation informed by this result.
   and no-solo-discount rules carry over to the 5k. **Open: which race is the
   sub-44 "Barcelona" gate** — pick the race + date (likely Jan-Mar 2027 window);
   that sets when the base block hands over to a race build. Strides dropped from
-  all easy runs per user (2026-08-23). Current race shape ~47:00 (4:42/km).
-- **Tredict trial ends ~2026-10-17** — before the W10/W11 syncs and the Nov 1 TT.
+  all easy runs per user (2026-08-23). Current race shape: **45:46 10k-equivalent (4:35/km)**, from the 09-15 5k TT; re-measured at W11.
+- **Tredict trial ends ~2026-10-17** — before the W10/W11 syncs, and W11 carries the second 5k TT.
   Decide before then: pay the $49/yr or swap the push layer to Intervals.icu.

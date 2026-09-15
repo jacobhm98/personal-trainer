@@ -129,7 +129,7 @@ Also logged: **5k PR 23:30** (within the race).
 |---|---|---|
 | Easy | 5:15–6:15/km | Already doing this correctly |
 | Long run | 5:45–6:15/km | |
-| Threshold | 4:45–4:55/km | **Currently untrained — biggest gap** |
+| Threshold | 4:45–4:55/km (Aug estimate) — **T-pace 4:40 measured 2026-09-15**, see `sub-threshold-reference.md` §8.1 | **Currently untrained — biggest gap** |
 | 10k race | ~4:50/km | Flat course |
 | VO2max / interval | ~4:00–4:05/km | Outdoor-equivalent of 15.3 kph treadmill |
 

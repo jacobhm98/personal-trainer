@@ -130,16 +130,19 @@ zones, caveats — read it before changing the plan). **`sub-threshold-reference
 is the sub-T knowledge bank (calibration protocols, pace/HR tiers, drift numbers,
 confounders) — read it before touching any sub-threshold session. `plans/running.md` is the
 executable weekly schedule the sync skill parses; its schema is defined at the top
-of that file. Key paces: easy 5:15–6:15/km, long 5:45–6:15/km, threshold
-4:45–4:55/km, VO2max ~4:00–4:05/km (treadmill 4×4 @ 15.3 kph). Threshold must feel
-comfortably hard — do not let sessions drift faster.
+of that file. Key paces: easy and long runs are **HR-governed** (easy ≤140; long starts
+≤140 and drifts toward ~150). **T-pace 4:40/km** (5k TT 2026-09-15); **sub-T 4:43–4:45
+(1–3 min reps) / 4:50–4:52 (4–6 min) / 4:57–4:59 (8–12 min)** — current values live in
+`sub-threshold-reference.md` §8, and the next re-anchor is the **W11 5k TT, Tue
+2026-10-27**. VO2max work is retired. Sub-T must feel comfortably hard — do not let
+sessions drift faster.
 
 **Norwegian realignment (2026-09-03, from running W4):** Mon recovery run, Wed +
 Fri **sub-threshold** sessions (bands by rep length, HR ceilings — flat ~180 until
 the W4 Wed HRmax pin test 2026-09-09, then %-of-max — and the "two more reps"
 rule; see the plan schema), Fri run AM before the deadlift PM, Sun long.
 VO2max retired. **No fall 10k (TT scrapped 2026-09-03): base block to 55 km/wk**,
-long run → 20k, down-weeks ~every 4th week; endpoint = **all-out 5k Sun
+long run → 18k (capped 2026-09-15), down-weeks ~every 4th week; endpoint = **all-out 5k Sun
 2026-12-06** in a down-week, no taper, graded at face value. HR-led calibration
 (post-pin %-of-max ceilings; pace bands re-anchored ~every 3 weeks). Next race
 gate: sub-44 Barcelona, date TBD.
@@ -189,8 +192,8 @@ Minimum you must not get wrong without opening it:
   warmup|active|recover|rest|cooldown; interval repeats via
   `{repetitions, steps[...]}`. For our fixed pace prescriptions use
   `targetMode: "padding"` with `targets.pace.value` in **sec/km** + `padding`
-  (e.g. easy 5:15–6:15 → value 345, padding 30; threshold 4:45–4:55 → value 290,
-  padding 5; VO2max 4:00–4:05 → value 243, padding 3). The default `targetMode`
+  (e.g. 6-min sub-T 4:51 ±3 → value 291, padding 3; 10-min sub-T 4:58 ±3 → value 298,
+  padding 3). The default `targetMode`
   "range" is %-of-capacity (ftpa/hrMax) — don't use it unless capacities are set.
   Always set a target on every step or nothing shows on the watch. Per-step
   `note` (≤255 chars) displays on the watch.
