@@ -63,7 +63,7 @@ A ~22 min 5k is run **above** threshold, so its average HR sits **4–8 bpm abov
 LTHR**. Never read a 5k average as threshold HR. The 5k gives **performance +
 near-max**; the 30-min gives **LTHR**. Two anchors, two tests, both wanted.
 
-**Decision 2026-09-12: one TT only — the 5k.** The 30-min TT is documented here but
+**Decision 2026-09-12: one TT only — the 5k.** *(Amended 2026-09-15: a second 5k TT added in W11, Tue 10-27; still no 30-min TT.)* The 30-min TT is documented here but
 **not scheduled**, and that costs less than an earlier draft of this file claimed. The
 5k anchors the **pace** side completely, and pace is the prescription. What is lost is
 only LTHR, which would have been a second, redundant route to the same place.
@@ -299,17 +299,81 @@ Weekly sub-T dose in the current block runs **60 → 76 min**.
 
 | Quantity | Value | Status |
 |---|---|---|
-| HRmax | 200 | **ASSUMED.** Observed floor 195 (2026-08-20, altitude, recovery jog). 186 reached on a non-maximal session 2026-09-10, so the true figure is likely 200–205. |
-| LTHR | — | **NOT MEASURED, and will not be** — one TT only. Golden-zone method unavailable. |
-| T-pace | — | **NOT MEASURED.** Derives from the 5k TT, Tue 2026-09-15. |
-| 10k shape | 47:00 | **ASSUMED**, user's own estimate 2026-08-18 off a race paced blind. Strava predicts 44:00; the 09-02 tempo implies ~47–48. Four minutes of disagreement, nothing measured. |
+| HRmax | ~200 | **PROVISIONAL — kept 2026-09-15 (user's call).** The 5k TT recorded a peak of only **193**, run outdoors in ~15 °C — cool, so no heat pushing HR up — on wrist optical, which under-reads maximal peaks by 5–15 bpm (§6). That is below the 195 floor observed 2026-08-20 (altitude, recovery jog), so it neither lowers nor pins the max. Next chance: the W11 5k TT, Tue 2026-10-27. |
+| LTHR | — | **NOT MEASURED, and will not be** — 5k TTs only; the 30-min TT is not scheduled. Golden-zone method unavailable. |
+| VDOT | **44.7** | **MEASURED 2026-09-15**, from the grade-adjusted 5k (21:57). Raw clock gives 44.3. See §8.1. |
+| T-pace | **4:40/km** | **MEASURED 2026-09-15**, from VDOT 44.7. Raw clock gives 4:42. See §8.1. |
+| 10k shape | **45:46** | **DERIVED 2026-09-15** — Riegel from the grade-adjusted 5k (raw clock: 46:07). Replaces the unmeasured 47:00 (his August estimate); lands between that and Strava's 44:00. |
 | Easy cap | ≤140 bpm | Provisional on max 200 |
 | Long-run cap | ≤150 bpm | Provisional on max 200 |
+| Sub-T paces | **4:43–4:45 / 4:50–4:52 / 4:57–4:59** | **MEASURED 2026-09-15** — T-pace 4:40 plus the §2 offsets, for 1–3 / 4–6 / 8–12 min reps |
 | Sub-T ceilings | 170–174 / 166–170 / 160–166 | Provisional on max 200 |
 
-**Every running data point in this block is a floor, not a measure** —
-Midnattsloppet was paced blind, the 09-02 tempo was run to a prescription, the 09-10
-session stopped with reps in hand. Nothing has been run to failure since August.
+**Until 2026-09-15 every running data point in this block was a floor, not a
+measure** — Midnattsloppet was paced blind, the 09-02 tempo was run to a prescription,
+the 09-10 session stopped with reps in hand. The 5k TT is the first all-out effort
+since August and the first measured anchor.
+
+### 8.1 5k TT record — Tue 2026-09-15 [S]
+
+**Conditions.** Outdoors in Stockholm, **~15 °C**, TT start 11:51. Resting HR 53, sleep
+HRV 61 ms (normal; baseline 56), 8h15 sleep. He reported slightly heavy legs beforehand,
+48 h after the 14k long run. Warm-up 1.81 km, cool-down 1.23 km.
+
+**Result.**
+
+| | km 1 | km 2 | km 3 | km 4 | km 5 | 5k |
+|---|---|---|---|---|---|---|
+| Clock | 4:01 | 4:23 | 4:21 | 4:37 | 4:44 | **22:07** |
+| Grade-adjusted (COROS) | 4:06 | 4:19 | 4:22 | 4:31 | 4:39 | **21:57** |
+| Avg HR | 180 | 188 | 189 | 191 | 191 | 188 |
+
+- **Shoelace stop:** watch paused for 17 s at 2.35 km, so it is already excluded from
+  22:07. Slowing down and restarting cost a few seconds more; not adjusted.
+- **Course:** +31 / −32 m. Net flat, but climbs cost more than descents give back —
+  COROS grade-adjusted pace puts the terrain at ~10 s.
+- **Pacing:** planned 21:41 on 4:13 / 4:28 / 4:19 / 4:28 / 4:13. Km 1 went 12 s fast on
+  the descent, and the fade from km 4 is real rather than terrain: grade-adjusted pace
+  4:06 → 4:39, power 346 → 304 W, stride 1.44 → 1.22 m. Graded at face value — nothing
+  added back for the pacing, the legs or the stop.
+
+**HR.** Average 188, ~190 over the final 15 min. **Peak 193**, reached in km 3 rather
+than at the finish; 190–191 across the line and 188 when the watch was stopped. The
+planned 20 s stand-still happened but **is not in the file** — the watch was stopped
+before it. **Decision: HRmax stays ~200, provisional** (reasoning in the §8 table).
+
+**Conversion.** Decision 2026-09-15: **anchor on the grade-adjusted time.** Sub-T is run
+on flat terrain, so the anchor should describe flat running. This corrects the
+measurement only; pacing, legs and the stop stay in the result.
+
+| | 5k | VDOT | T-pace | 10k equivalent (Riegel) |
+|---|---|---|---|---|
+| **Grade-adjusted — use this** | **21:57** | **44.7** | **4:40/km** | **45:46** |
+| Raw clock | 22:07 | 44.3 | 4:42/km | 46:07 |
+
+Method **[D]**: Daniels–Gilbert equations.
+VO2 = −4.60 + 0.182258·v + 0.000104·v² (v in m/min);
+%max = 0.8 + 0.1894393·e^(−0.012778·t) + 0.2989558·e^(−0.1932605·t) (t in min);
+VDOT = VO2 / %max. **T-pace = the velocity at 88% of VDOT.** Checked against the
+published table: VDOT 50 → T 4:15/km.
+
+**Sub-T bands** — T-pace 4:40 plus the §2 offsets:
+
+| Rep length | Offset | Band | Watch target |
+|---|---|---|---|
+| 1–3 min | T + 3–5 s/km | **4:43–4:45** | 4:44 ±3 |
+| 4–6 min | T + 10–12 s/km | **4:50–4:52** | 4:51 ±3 |
+| 8–12 min | T + 17–19 s/km | **4:57–4:59** | 4:58 ±3 |
+
+The watch target widens each band to ±3 s/km, because GPS pace noise is larger than a
+2 s band **[C]**.
+
+**Consequences.**
+- **Overturns the 09-10 read.** 4:53/km was called "probably at threshold" after the
+  8×3. It is 8–10 s slower than the 3-min band that session belonged in. His "could have
+  done two more reps" was right.
+- **HR side unchanged:** easy ≤140, long ≤150 and the §3 tiers stay provisional on ~200.
+- **W11 and Dec 6 comparisons:** same route, grade-adjusted time.
 
 ---
 
@@ -317,8 +381,9 @@ session stopped with reps in hand. Nothing has been run to failure since August.
 
 | When | Test | Yields |
 |---|---|---|
-| **Tue 2026-09-15** | All-out **5k TT**, outdoors | Performance → T-pace → §2 bands; near-max HR → §3 |
-| ~~Tue 2026-09-28~~ | ~~30-min TT~~ — **dropped 2026-09-12, one TT only** | — (LTHR stays unmeasured) |
+| ~~Tue 2026-09-15~~ **DONE** | All-out **5k TT**, outdoors | **21:57 grade-adjusted (22:07 clock) → VDOT 44.7 → T-pace 4:40.** Peak HR 193; HRmax kept ~200 provisional. Full record in §8.1 |
+| **Tue 2026-10-27** (W11) | All-out **5k TT**, outdoors, **same route**, grade-adjusted | Re-anchors T-pace and all §2 bands after W6–W10; another HRmax read. Added 2026-09-15 (user's call) — W11 rather than W10, to avoid a 95% squat top set the same evening |
+| ~~Tue 2026-09-28~~ | ~~30-min TT~~ — **dropped 2026-09-12** | — (LTHR stays unmeasured) |
 | **Sun 2026-12-06** | All-out **5k**, block endpoint | Re-anchors everything; comparable to 09-15 |
 
 With only the 5k, the **pace** side is measured and the **HR** side stays approximate

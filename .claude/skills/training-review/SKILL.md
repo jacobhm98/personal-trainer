@@ -24,8 +24,8 @@ default last 7 days.
    - Strava MCP only for what COROS lacks (e.g. segment/stream comparisons).
 3. Assess:
    - **Adherence**: each planned session done / moved / skipped.
-   - **Quality execution**: interval paces vs targets. Flag threshold sessions run
-     faster than 4:45/km — running threshold too fast is the failure mode called
+   - **Quality execution**: interval paces vs targets. Flag sub-T reps run faster
+     than the band for their rep length (current bands: `sub-threshold-reference.md` §8) — running threshold too fast is the failure mode called
      out in `running-training-brief.md` §5.
    - **Sub-T verification** — mandatory on every sub-threshold session, from
      `queryActivityLapData`. Report all three: (1) **within-rep HR plateau** on reps
