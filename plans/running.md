@@ -380,10 +380,11 @@ are junk until then) and switch the sub-T ceilings from the flat ~180 placeholde
 to %-of-max (see schema). Refine at the Oct 18 5k and the Nov 1 TT — an all-out
 5k finish typically lands within a few bpm of true max.
 
-## Week 5 (of 2026-09-14) — ~40 km
+## Week 5 (of 2026-09-14) — ~45 km
 
 - Mon | Easy | 6km @ 5:45-6:15/km
 - Tue | Test | **ALL-OUT 5k TIME TRIAL, OUTDOORS** (replaces Tuesday's sub-T; D1 Squat follows in the PM)
+- Thu | Easy | 5km, HR <=140 — **added 2026-09-16 on the day** (user: "im kinda down to run an easy run tomorrow as well")
 - Fri | Quality | WU 2km easy; 5x(6min @ 4:50-4:52/km, 60s jog); CD 2km easy
 - Sun | Long | 15km @ 5:45-6:15/km
 
@@ -392,6 +393,16 @@ to %-of-max (see schema). Refine at the Oct 18 5k and the Nov 1 TT — an all-ou
 14 → 15 km (+1 km on W4's executed 14.01 — inside the ~1 km/week long-run cap) and
 Fri CD 1.5 → 2 km. Week
 lands ~39.9 km: Mon 6.0 + Tue 8.1 (done) + Fri ~10.8 + Sun 15.
+
+**Amended again 2026-09-16: Thursday easy 5 km added**, taking the week to **~44.9 km,
++13% on W4's executed 39.7** — the largest week-on-week step of the block. Accepted under
+the RPE-gated rule, and well timed: W7 loses ~10 km to the gorilla treks, so the volume is
+better banked now than later. Two consequences, both accepted: it **spends W5's clear day**
+(Thursday), and it sits the day before the block's first sub-T session on measured paces,
+so it runs at **HR <=140 and no faster** or it costs more than it adds. Plain run, nothing
+pushed to Tredict.
+**Knock-on:** W6 is planned at ~42 km, now a *step down* from W5. That is fine — W6 and W7
+are the travel weeks and act as the dip, with W8's down week behind them.
 
 ### W5 Friday changed 8x3 -> 5x6 (2026-09-12, user's catch)
 
