@@ -44,7 +44,7 @@ default last 7 days.
      percentage-capped** (user's call 2026-09-07) — build off what he actually ran and
      do not re-propose a ~10%/week ceiling. The constraints that still bind are the
      long run growing ~1 km/week and the niggle rule.
-   - **Long-run decoupling (Pa:HR)**: compute for **every long run** and append the
+   - **Decoupling (Pa:HR)**: compute for **the week's longest easy run** — Thursday from W6 (the dedicated long run was dropped 2026-09-16) — and append the
      result to the log table in `running-training-brief.md` §5. Use the fixed
      convention defined there — drop the first 2 km, split the remainder in half,
      drop the middle km if odd. **Never compute it over the whole run**; the opening

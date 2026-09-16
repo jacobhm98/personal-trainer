@@ -130,22 +130,32 @@ zones, caveats — read it before changing the plan). **`sub-threshold-reference
 is the sub-T knowledge bank (calibration protocols, pace/HR tiers, drift numbers,
 confounders) — read it before touching any sub-threshold session. `plans/running.md` is the
 executable weekly schedule the sync skill parses; its schema is defined at the top
-of that file. Key paces: easy and long runs are **HR-governed** (easy ≤140; long starts
-≤140 and drifts toward ~150). **T-pace 4:40/km** (5k TT 2026-09-15); **sub-T 4:43–4:45
+of that file. Key paces: easy runs are **HR-governed** (≤140; Thursday's
+longest run starts ≤140 and drifts toward ~150). **T-pace 4:40/km** (5k TT 2026-09-15); **sub-T 4:43–4:45
 (1–3 min reps) / 4:50–4:52 (4–6 min) / 4:57–4:59 (8–12 min)** — current values live in
-`sub-threshold-reference.md` §8, and the next re-anchor is the **W11 5k TT, Tue
-2026-10-27**. VO2max work is retired. Sub-T must feel comfortably hard — do not let
+`sub-threshold-reference.md` §8, and the next re-anchor is the **W10 5k TT, Fri
+2026-10-23**. VO2max work is retired. Sub-T must feel comfortably hard — do not let
 sessions drift faster.
 
 **Norwegian realignment (2026-09-03, from running W4):** Mon recovery run, Wed +
 Fri **sub-threshold** sessions (bands by rep length, HR ceilings — flat ~180 until
 the W4 Wed HRmax pin test 2026-09-09, then %-of-max — and the "two more reps"
 rule; see the plan schema), Fri run AM before the deadlift PM, Sun long.
-VO2max retired. **No fall 10k (TT scrapped 2026-09-03): base block to 55 km/wk**,
-long run → 18k (capped 2026-09-15), down-weeks ~every 4th week; endpoint = **all-out 5k Sun
-2026-12-06** in a down-week, no taper, graded at face value. HR-led calibration
+VO2max retired. **No fall 10k (TT scrapped 2026-09-03): base block to 55 km/wk** (ceiling raised 2026-09-16 with the five-run week; peak ~58),
+long run → 18k (capped 2026-09-15, then dropped entirely 2026-09-16 — see below), down-weeks ~every 4th week. **Endpoint retired 2026-09-16** — instead a **5k TT every
+~5th week** as a routine progress check and sub-T re-anchor (09-15 → Fri 2026-10-23 →
+Sun 2026-12-06), each replacing that week's Friday 4×10. No taper, graded at face value. HR-led calibration
 (post-pin %-of-max ceilings; pace bands re-anchored ~every 3 weeks). Next race
 gate: sub-44 Barcelona, date TBD.
+**Week restructured 2026-09-16 (user's call, from Bakken — two sub-T days plus an X
+session for ambitious recreational runners).** Five runs, in force from W6: **Mon** easy
+recovery, **Tue** sub-T + D1 Squat, **Wed** D2 Dips (no run), **Thu** easy — the week's
+longest run, no lift — **Fri** sub-T + D3 Deadlift, **Sat** D4 Pull-ups, **Sun X session** — a
+supra-threshold drip alternating **200 m hills** and **45/15s** (2-3 × 10 × 45 s @
+4:10-4:20/km). The **dedicated long run is gone** ("we dont need a dedicated long run, im
+not in a marathon block"); Thursday's run carries the decoupling measurement instead, and the full rest day is
+spent to buy it (invariant superseded 2026-09-16).
+This closes the "nothing above threshold for 13 weeks" hole flagged 2026-09-03.
 Sub-T sessions are deliberately unheroic — do not let them drift to threshold.
 
 **`sub-threshold-reference.md` is the single source of truth for sub-T paces, HR
