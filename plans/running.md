@@ -463,30 +463,32 @@ be recorded as such, exactly like the Friday deadlift confound. Under the hit/mi
 rule it simply holds the TM. C14 W1 is the lightest week of the cycle, so a miss is
 unlikely anyway.
 
-## Week 6 (of 2026-09-21) — ~38.5 km, new structure starts (deliberately light)
+## Week 6 (of 2026-09-21) — ~41.5 km, new structure starts
 
-- Mon | Easy | 5km @ 5:45-6:15/km
+- Mon | Easy | 6km @ 5:45-6:15/km
 - Tue | Quality | WU 2km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 1.5km easy
-- Thu | Easy | 5km @ 5:45-6:15/km
+- Thu | Easy | 7km @ 5:45-6:15/km
 - Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 1.5km easy
 - Sun | X | EASY HILLS: WU 2.5km easy; 6x(200m uphill controlled, jog down); CD 2km easy
 
 Notes: **first week of the 2026-09-16 restructure** — five runs, Thursday easy added,
 Sunday converted from long run to X session. W5 keeps the old shape (its Friday 5x6 is
 already pushed and its Sunday is a 15 km long run); the change starts here.
-**Ramped in on the user's call 2026-09-16** ("i think we need to slowly ramp into this
-intensity"): a **short 5 km Thursday** and **easy hills** — 6 reps, controlled effort,
-not maximal, full jog-down recovery. The point this week is to run the new shape at all,
-not to hit a number.
-**Volume dips to ~38.5, below W5's 39.9, on purpose.** Adding a fifth run and a brand-new
-session type in the same week is enough new stress; the km can wait. W6-W9 therefore sit
-~2-3 km under the 2026-09-15 ladder and **rejoin it at W10**.
+**Intensity ramps, volume does not** (user's call 2026-09-16 to ramp in, corrected the
+same day): the X session starts as **easy hills** — 6 reps, controlled effort, not
+maximal, full jog-down recovery — and goes hard in W7. Thursday starts modest at 7 km and
+grows from there.
+**Volume still builds: ~41.5 km, +4% on W5's 39.9.** An earlier draft had this week at
+38.6 km, which was an artefact of deleting the 15 km long run rather than a decision —
+the 6.9 km X session replaces it and the new Thursday run has to make that up, not just
+sit alongside it. Corrected on the user's catch: "why is w6 lower total volume when we've
+added an easy day? makes no sense." W6-W9 now ramp cleanly into W10.
 
-## Week 7 (of 2026-09-28) — ~41.5 km
+## Week 7 (of 2026-09-28) — ~43.5 km
 
-- Mon | Easy | 5km @ 5:45-6:15/km
+- Mon | Easy | 6km @ 5:45-6:15/km
 - Tue | Quality | WU 2km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 1.5km easy
-- Thu | Easy | 7km @ 5:45-6:15/km
+- Thu | Easy | 8km @ 5:45-6:15/km
 - Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 1.5km easy
 - Sun | X | HILLS: WU 2.5km easy; 8x(200m uphill hard, jog down); CD 2km easy
 
@@ -510,15 +512,15 @@ recovery on schedule. HARD RULE unchanged: any shin/achilles/knee niggle → rep
 previous week's volume instead of progressing.
 
 
-## Week 9 (of 2026-10-12) — ~46 km
+## Week 9 (of 2026-10-12) — ~46.5 km
 
 - Mon | Easy | 6km @ 5:45-6:15/km
 - Tue | Quality | WU 2km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 2km easy
-- Thu | Easy | 8km @ 5:45-6:15/km
+- Thu | Easy | 8.5km @ 5:45-6:15/km
 - Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 2km easy
 - Sun | X | 45/15s (first one): WU 3km easy; 2x(8x(45s @ 4:10-4:20/km, 15s float)), 3min jog between blocks; CD 2.5km easy
 
-Notes: judge W9 against W7 (41.5 → 46), not against the W8 down-week.
+Notes: judge W9 against W7 (43.5 → 46.5 = +7%), not against the W8 down-week.
 **First 45/15 session of the block** — 8 reps per block rather than 10, since this is the
 first genuine VO2max work since August. It goes to 2x10 in W11. The ramp finishes here:
 W10 rejoins the 2026-09-15 volume ladder.
