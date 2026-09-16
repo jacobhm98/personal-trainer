@@ -235,9 +235,15 @@ floats are specified (60 s / 90 s) [B]**, so pace is the only lever there.
 - **Lap averages hide float recovery.** HR keeps *rising* for 15–20 s into a float, so
   the float's average reads high and recovery looks absent when it isn't. Always use
   the HR stream.
-- **Data source:** the COROS MCP exposes **no HR time series** and
-  `analyzeActivityDetail` only re-summarises. Pull the stream from Strava
-  `get_activity_streams`.
+- **Data source — solved 2026-09-15.** The COROS MCP's summary tools expose no HR time
+  series and `analyzeActivityDetail` only re-summarises, but **the FIT file does**:
+  `queryActivityFitFileDownloadUrls` (labelId + sportType) returns a URL, curl it, and
+  parse with **fitdecode** — `uv run --with fitdecode python ...`, no install needed.
+  **fitparse fails on COROS files** ("Invalid field size 1 for type 'uint32'"); fitdecode
+  in `ErrorHandling.IGNORE` mode reads them fine. Gives 1 Hz distance and HR plus
+  **timer start/stop events**, which is how the 17 s shoelace pause inside the 09-15 TT
+  was found. Strava `get_activity_streams` is the alternative when that MCP is connected;
+  it was disconnected on 2026-09-16, so do not depend on it.
 - **Treadmill:** no airflow → thermal drift well above the 5–10 bpm/hr baseline.
   Belts also run 2–5% off with no way to detect it, so never set paces from one.
 - **Illness / alcohol / poor sleep:** raise HR at any given intensity. When a
