@@ -34,8 +34,8 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
 - <Day> | <Type> | <structure>
 ```
 
-- Types: `Easy`, `Quality`, `X`, `Rest`, `Trek`, `Long`. **`Long` is retired from W6 (2026-09-16)** — there is no dedicated long run any more; `X` is the Sunday supra-threshold session.
-  `Rest` and `Trek` were added 2026-09-16 for the Rwanda block: `Rest` is a travel or clear day and `Trek` is a gorilla-trek day. Neither gets pushed to Tredict as a workout.
+- Types: `Easy`, `Quality`, `X`, `Rest`, `Trek`, `Lift`, `Long`. **`Long` is retired from W6 (2026-09-16)** — there is no dedicated long run any more; `X` is the Sunday supra-threshold session.
+  `Rest`, `Trek` and `Lift` were added 2026-09-16 for the Rwanda block: `Rest` is a travel or clear day, `Trek` is a gorilla-trek day, and `Lift` is a lifting-only day with no run. `Rest` and `Trek` are not pushed to Tredict as workouts.
 - Structure segments separated by `;`. `WU`/`CD` = warm-up/cool-down.
   Repeats: `5x(1km @ 4:50/km, 60s jog)`. Continuous: `20min @ 4:50/km` or `8km @ 5:15-6:15/km`.
 - **Longest-run pacing cross-check (Daniels).** From W6 the week's longest run is
@@ -464,14 +464,14 @@ be recorded as such, exactly like the Friday deadlift confound. Under the hit/mi
 rule it simply holds the TM. C14 W1 is the lightest week of the cycle, so a miss is
 unlikely anyway.
 
-## Week 6 (of 2026-09-21) — RWANDA, arrival week, ~42 km
+## Week 6 (of 2026-09-21) — RWANDA, arrival week, ~42 km (~47 with the optional Monday run)
 
-- Mon | Rest | **FLY STOCKHOLM -> KIGALI.** Travel day; run only if the schedule hands you an easy 30 min
-- Tue | Easy | 6km, HR <=140 (expect 20-40s/km slower than home — altitude, not fitness)
-- Wed | Easy | 6km, HR <=140
+- Mon | Rest | **FLY STOCKHOLM -> KIGALI.** Travel day. **Optional** easy 5-6km in the evening if the flight lands early enough — take it if it is there, skip it without guilt
+- Tue | Easy | 6km, HR <=140 (expect 20-40s/km slower than home — altitude, not fitness) + **C14 W2 D1 Squat PM**
+- Wed | Easy | 6km, HR <=140 + **C14 W2 D2 Dips PM**
 - Thu | Easy | 8km, HR <=140
-- Fri | Quality | WU 2km easy; 5x(6min @ **HR 166-170, NOT pace**, 60s jog); CD 1.5km easy
-- Sat | Easy | 5km, HR <=140
+- Fri | Quality | WU 2km easy; 5x(6min @ **HR 166-170, NOT pace**, 60s jog); CD 1.5km easy + **C14 W2 D3 Deadlift PM**
+- Sat | Easy | 5km, HR <=140 + **C14 W2 D4 Pull-ups PM**
 - Sun | X | EASY HILLS: WU 2.5km easy; 6x(200m uphill controlled, jog down); CD 2km easy
 
 Notes: **first week of the 2026-09-16 restructure** — five runs, Thursday easy added,
@@ -489,13 +489,14 @@ added an easy day? makes no sense." W6-W9 now ramp cleanly into W10.
 
 ### TRAVEL BLOCK — Rwanda, 2026-09-21 to 2026-10-05 (told 2026-09-16)
 
-Flights **Mon 09-21 out** and **Mon 10-05 back**; **gorilla trekking Fri 10-02 to Sun
-10-04**. Covers W6, W7 and W8's Monday. User's instruction: "i'd like to rescue as much
-mileage as possible."
+Flights **Mon 09-21 out** and **Mon 10-05, departing 20:00, landing Stockholm midday
+Tue 10-06**; **gorilla trekking Fri 10-02 to Sun 10-04**. Based in **Kigali** apart from
+the trek. Covers W6, W7 and the front of W8. User's instruction: "i'd like to rescue as
+much mileage as possible."
 
 - **No time-zone shift.** Sweden (CEST) and Rwanda (CAT) are both UTC+2 — zero jet lag,
   which is why W6 can carry a normal week's volume from Tuesday onward.
-- **Altitude ~1,570 m** in Kigali; the Volcanoes NP trek days run ~2,300-3,000 m.
+- **Altitude ~1,570 m** in Kigali (confirmed — based there apart from the trek); the Volcanoes NP trek days run ~2,300-3,000 m.
   Unacclimatised, expect sea-level pace bands to be **10-20 s/km optimistic**, and
   Rwanda's terrain is hilly on top of that, so pace is doubly invalid.
 - **SUB-T RUNS BY HR FOR THE TRIP, NOT PACE.** Target the 4-6 min tier — **166-170 bpm**
@@ -504,9 +505,10 @@ mileage as possible."
   on 10-09, the first quality session home.
 - **Easy runs need no adjustment** — they are already HR-capped at 140, so altitude
   self-corrects by slowing the pace. A 7:00/km easy run at 1,570 m is correct execution.
-- **Mileage is rescued by adding days, not lengthening them.** With no lifting (pending
-  gym access), Wednesday and Saturday are free, so W6 runs six days and still lands ~42
-  km. The travel day is the week's clear day.
+- **Mileage is rescued by adding days, not lengthening them.** W6 runs six days and still
+  lands ~42 km; the extra runs sit on Wednesday and Saturday, which carry only upper-body
+  lifts, so the legs take no extra hard work. The outbound travel day is that week's clear
+  day; in W8 it is Tuesday.
 - **The three trek days are the X session and the long run, several times over** — 4-8 h
   on steep ground at altitude. Do not run quality around them, and expect the descents to
   produce real DOMS on 10-04/05. W8's Monday flight is the recovery day, and W8 was
@@ -514,16 +516,25 @@ mileage as possible."
 - **W10's TT (Fri 10-23) stays put** — 2.5 weeks after return, with W8 and W9 to rebuild.
   Two weeks at 1,570 m is not altitude training; expect no boost and grade it at face
   value like every other check.
-- **Lifting: OPEN** — depends on gym access, unknown at the time of writing. If none, C14
-  W2/W3 slide two weeks and every cycle mapping after them moves with it (see
-  `plans/config.md`).
+- **Lifting continues on schedule** — user 2026-09-16: "i will likely have access to a
+  gym. i can find one." So **C14 W2 runs in W6 and C14 W3 in W7**, and no cycle mapping
+  moves.
+  - **W6 gets all four days** (Tue squat, Wed dips, Fri deadlift, Sat pull-ups, each PM
+    after that day's run). **W7 gets D1 and D2 only** — D3 and D4 land on trek days.
+  - **A skipped session is not a missed top set.** The hit/miss rule needs an attempt; no
+    attempt is no evidence, so **deadlift and pull-up TMs hold** into C15 rather than
+    rising. Squat and dips progress on whatever their W7 top sets say.
+  - **Weights from a found gym are not comparable to the sheet** — different bars,
+    plates and calibration. Record what was done, run the prescribed loads if the
+    equipment allows, substitute freely if it does not, and **never advance a TM off an
+    improvised session**.
 
 ## Week 7 (of 2026-09-28) — RWANDA, trek week, ~33.5 km running + 3 trek days
 
 - Mon | Easy | 8km, HR <=140
-- Tue | Quality | WU 2km easy; 6x(6min @ **HR 166-170, NOT pace**, 60s jog); CD 1.5km easy
-- Wed | Easy | 6km, HR <=140
-- Thu | Easy | 8km, HR <=140 — last run before the treks
+- Tue | Quality | WU 2km easy; 6x(6min @ **HR 166-170, NOT pace**, 60s jog); CD 1.5km easy + **C14 W3 D1 Squat PM**
+- Wed | Easy | 6km, HR <=140 + **C14 W3 D2 Dips PM**
+- Thu | Easy | 8km, HR <=140 — last run before the treks. **No lift** — nothing heavy going into three trek days
 - Fri | Trek | **GORILLA TREK** (Volcanoes NP, ~2,300-3,000 m) — no running
 - Sat | Trek | **GORILLA TREK** — no running
 - Sun | Trek | **GORILLA TREK** — no running
@@ -536,21 +547,34 @@ altitude, so the week's *training* is not down 10 km, only its running-specific 
 - **Nothing hard on Thursday.** Going into three consecutive trek days flat is worth more
   than the 2 km an extra session would add.
 - The X session is skipped: the treks cover the same ground, with interest.
+- **Lifting gets D1 and D2 only.** D3 deadlift and D4 pull-ups fall on trek days and are
+  dropped — see the travel-block note for what that does to the TMs.
 
 ## Week 8 (of 2026-10-05) — down week + re-entry, ~34 km
 
-- Mon | Rest | **FLY KIGALI -> STOCKHOLM.** Travel day, and the peak of the trek DOMS — rest
-- Tue | Easy | 5km, HR <=140 — legs will be sore from three days of descending
-- Wed | Easy | 6km, HR <=140
-- Thu | Easy | 6km, HR <=140
+- Mon | Easy | 5km in Kigali, HR <=140 — day after the last trek, legs sore; **flight leaves 20:00**
+- Tue | Rest | **LAND STOCKHOLM ~midday** off an overnight flight — rest. Optional 20 min shakeout in the evening only if you feel human
+- Wed | Easy | 6km, HR <=140 + **C15 W1 D1 Squat PM**
+- Thu | Easy | 6km, HR <=140 + **C15 W1 D2 Dips PM**
 - Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 1.5km easy — **back on pace bands, sea level**
-- Sun | X | EASY HILLS: WU 2.5km easy; 6x(200m uphill controlled, jog down); CD 2km easy
+- Sat | Lift | **C15 W1 D3 Deadlift** (no run)
+- Sun | X | EASY HILLS: WU 2.5km easy; 6x(200m uphill controlled, jog down); CD 2km easy + **C15 W1 D4 Pull-ups PM**
 
 Notes: re-entry week, and the down week was already scheduled here — good luck rather
-than planning. One quality session instead of two, since Tuesday is 24-48 h after the last
-trek and the flight. **Friday is the first session back on pace**: if 4:57-4:59 feels
-harder than it should, that is the travel block, not lost fitness — take the slow end and
-let W9 sort it out.
+than planning. **The 20:00 departure on 10-05 buys back a training day**: Monday is a
+normal easy run in Kigali, and Tuesday takes the travel hit instead (overnight flight,
+landing midday).
+- **Lifting resumes Wednesday, not Tuesday**, because Tuesday is the arrival day. That
+  pushes D3 deadlift to **Saturday** to keep the squat->deadlift gap at 72 h, and D4
+  pull-ups onto Sunday after the hills. A one-off arrangement for this week only.
+- **KNOWN CONSTRAINT BREAK, accepted:** Saturday's deadlift leaves **72 h to W9's Tuesday
+  squat**, against the standing **96 h deadlift->squat** rule. The compressed week cannot
+  satisfy both gaps — moving the deadlift to Friday would make squat->deadlift 48 h, which
+  is worse. Accepted because **C15 W1 is the lightest week of the cycle** (65/75/85%), so
+  both sessions are submaximal. If Tuesday's squat feels heavy, move it to Wednesday for
+  that week; do not read a miss there as TM evidence.
+- **Friday is the first session back on pace**: if 4:57-4:59 feels harder than it should,
+  that is the travel block, not lost fitness — take the slow end and let W9 sort it out.
 
 Notes W6-W8: sub-T dose runs 66 → 66 → 54 min, alternating 6-min and 10-min reps every
 session. **The X session is hills-only through W8** — easy 6x200m (W6), hard 8x200m (W7),
