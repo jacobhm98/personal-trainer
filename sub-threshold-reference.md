@@ -45,7 +45,7 @@ highest on the list that has fresh data.
 > apply the rep-length offsets in §2.
 
 **No Riegel step is needed here** — that conversion is only for the 10k-equivalent
-that feeds the fitness index and the race gates. Corrected 2026-09-12; an earlier
+used for race gates and for comparing TTs across distances. Corrected 2026-09-12; an earlier
 version of this file routed the pace derivation through Riegel unnecessarily.
 
 - Also yields a **near-max HR** at the finish (a 5k finish lands within a few bpm of
