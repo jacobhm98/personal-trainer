@@ -178,8 +178,10 @@ Minimum you must not get wrong without opening it:
   LT2 — a different thing. Do not set sub-T ceilings off the 88–92% anchor.
 - **Pace is derived, never guessed**: T-pace + 3–5 s/km (1–3 min), +10–12 (4–6 min),
   +17–19 (8–12 min).
-- **This needs the HR stream, not lap averages** — lap data hides float recovery. COROS
-  has no time series; pull it from Strava `get_activity_streams`.
+- **This needs the HR stream, not lap averages** — lap data hides float recovery. Get it
+  from the **COROS FIT file** (`queryActivityFitFileDownloadUrls` → curl → parse with
+  **fitdecode**, not fitparse; see `sub-threshold-reference.md` §6). Strava
+  `get_activity_streams` also works when that MCP is connected.
 - **When a confounder is present** (illness, alcohol, treadmill heat, bad sleep),
   discard HR-derived conclusions outright rather than asterisking them.
 

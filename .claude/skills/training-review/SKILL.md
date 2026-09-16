@@ -30,8 +30,9 @@ default last 7 days.
    - **Sub-T verification** — mandatory on every sub-threshold session, from
      `queryActivityLapData`. Report all three: (1) **within-rep HR plateau** on reps
      ≥6 min ONLY — on shorter reps it gives a false pass, and lap averages are not
-     enough for any of this: pull the HR stream from Strava `get_activity_streams`
-     (COROS MCP has no time series) — must level off in the second half, still climbing at every rep's end
+     enough for any of this: pull the HR stream from the COROS FIT file
+     (`queryActivityFitFileDownloadUrls` -> curl -> fitdecode; Strava
+     `get_activity_streams` if connected) — must level off in the second half, still climbing at every rep's end
      means the pace is above threshold; (2) **late-rep plateau** — do the final reps
      still level off *within themselves*? Judge that, not the raw rise from rep 2:
      cardiac drift means spread is expected even at
