@@ -34,7 +34,8 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
 - <Day> | <Type> | <structure>
 ```
 
-- Types: `Easy`, `Quality`, `X`, `Long`. **`Long` is retired from W6 (2026-09-16)** — there is no dedicated long run any more; `X` is the Sunday supra-threshold session.
+- Types: `Easy`, `Quality`, `X`, `Rest`, `Trek`, `Long`. **`Long` is retired from W6 (2026-09-16)** — there is no dedicated long run any more; `X` is the Sunday supra-threshold session.
+  `Rest` and `Trek` were added 2026-09-16 for the Rwanda block: `Rest` is a travel or clear day and `Trek` is a gorilla-trek day. Neither gets pushed to Tredict as a workout.
 - Structure segments separated by `;`. `WU`/`CD` = warm-up/cool-down.
   Repeats: `5x(1km @ 4:50/km, 60s jog)`. Continuous: `20min @ 4:50/km` or `8km @ 5:15-6:15/km`.
 - **Longest-run pacing cross-check (Daniels).** From W6 the week's longest run is
@@ -463,12 +464,14 @@ be recorded as such, exactly like the Friday deadlift confound. Under the hit/mi
 rule it simply holds the TM. C14 W1 is the lightest week of the cycle, so a miss is
 unlikely anyway.
 
-## Week 6 (of 2026-09-21) — ~41.5 km, new structure starts
+## Week 6 (of 2026-09-21) — RWANDA, arrival week, ~42 km
 
-- Mon | Easy | 6km @ 5:45-6:15/km
-- Tue | Quality | WU 2km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 1.5km easy
-- Thu | Easy | 7km @ 5:45-6:15/km
-- Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 1.5km easy
+- Mon | Rest | **FLY STOCKHOLM -> KIGALI.** Travel day; run only if the schedule hands you an easy 30 min
+- Tue | Easy | 6km, HR <=140 (expect 20-40s/km slower than home — altitude, not fitness)
+- Wed | Easy | 6km, HR <=140
+- Thu | Easy | 8km, HR <=140
+- Fri | Quality | WU 2km easy; 5x(6min @ **HR 166-170, NOT pace**, 60s jog); CD 1.5km easy
+- Sat | Easy | 5km, HR <=140
 - Sun | X | EASY HILLS: WU 2.5km easy; 6x(200m uphill controlled, jog down); CD 2km easy
 
 Notes: **first week of the 2026-09-16 restructure** — five runs, Thursday easy added,
@@ -478,30 +481,76 @@ already pushed and its Sunday is a 15 km long run); the change starts here.
 same day): the X session starts as **easy hills** — 6 reps, controlled effort, not
 maximal, full jog-down recovery — and goes hard in W7. Thursday starts modest at 7 km and
 grows from there.
-**Volume still builds: ~41.5 km, +4% on W5's 39.9.** An earlier draft had this week at
+**Volume still builds: ~42 km, +5% on W5's 39.9.** An earlier draft had this week at
 38.6 km, which was an artefact of deleting the 15 km long run rather than a decision —
 the 6.9 km X session replaces it and the new Thursday run has to make that up, not just
 sit alongside it. Corrected on the user's catch: "why is w6 lower total volume when we've
 added an easy day? makes no sense." W6-W9 now ramp cleanly into W10.
 
-## Week 7 (of 2026-09-28) — ~43.5 km
+### TRAVEL BLOCK — Rwanda, 2026-09-21 to 2026-10-05 (told 2026-09-16)
 
-- Mon | Easy | 6km @ 5:45-6:15/km
-- Tue | Quality | WU 2km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 1.5km easy
-- Thu | Easy | 8km @ 5:45-6:15/km
-- Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 1.5km easy
-- Sun | X | HILLS: WU 2.5km easy; 8x(200m uphill hard, jog down); CD 2km easy
+Flights **Mon 09-21 out** and **Mon 10-05 back**; **gorilla trekking Fri 10-02 to Sun
+10-04**. Covers W6, W7 and W8's Monday. User's instruction: "i'd like to rescue as much
+mileage as possible."
 
-Notes: second X session, and the first one run genuinely hard — 8 reps rather than 6, at
-effort. Still hills: the 45/15s wait until W9 so only one variable moves at a time.
+- **No time-zone shift.** Sweden (CEST) and Rwanda (CAT) are both UTC+2 — zero jet lag,
+  which is why W6 can carry a normal week's volume from Tuesday onward.
+- **Altitude ~1,570 m** in Kigali; the Volcanoes NP trek days run ~2,300-3,000 m.
+  Unacclimatised, expect sea-level pace bands to be **10-20 s/km optimistic**, and
+  Rwanda's terrain is hilly on top of that, so pace is doubly invalid.
+- **SUB-T RUNS BY HR FOR THE TRIP, NOT PACE.** Target the 4-6 min tier — **166-170 bpm**
+  end-of-rep (83-85% of ~200) — plus the two-more-reps rule. Record the pace achieved for
+  information only and do **not** compare it to the 4:50-4:52 band. Revert to pace bands
+  on 10-09, the first quality session home.
+- **Easy runs need no adjustment** — they are already HR-capped at 140, so altitude
+  self-corrects by slowing the pace. A 7:00/km easy run at 1,570 m is correct execution.
+- **Mileage is rescued by adding days, not lengthening them.** With no lifting (pending
+  gym access), Wednesday and Saturday are free, so W6 runs six days and still lands ~42
+  km. The travel day is the week's clear day.
+- **The three trek days are the X session and the long run, several times over** — 4-8 h
+  on steep ground at altitude. Do not run quality around them, and expect the descents to
+  produce real DOMS on 10-04/05. W8's Monday flight is the recovery day, and W8 was
+  already a down week, so the re-entry lands where it should.
+- **W10's TT (Fri 10-23) stays put** — 2.5 weeks after return, with W8 and W9 to rebuild.
+  Two weeks at 1,570 m is not altitude training; expect no boost and grade it at face
+  value like every other check.
+- **Lifting: OPEN** — depends on gym access, unknown at the time of writing. If none, C14
+  W2/W3 slide two weeks and every cycle mapping after them moves with it (see
+  `plans/config.md`).
 
-## Week 8 (of 2026-10-05) — down week, ~37.5 km
+## Week 7 (of 2026-09-28) — RWANDA, trek week, ~33.5 km running + 3 trek days
 
-- Mon | Easy | 5km @ 5:45-6:15/km
-- Tue | Quality | WU 2km easy; 4x(6min @ 4:50-4:52/km, 60s jog); CD 1.5km easy
-- Thu | Easy | 6km @ 5:45-6:15/km
-- Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 1.5km easy
+- Mon | Easy | 8km, HR <=140
+- Tue | Quality | WU 2km easy; 6x(6min @ **HR 166-170, NOT pace**, 60s jog); CD 1.5km easy
+- Wed | Easy | 6km, HR <=140
+- Thu | Easy | 8km, HR <=140 — last run before the treks
+- Fri | Trek | **GORILLA TREK** (Volcanoes NP, ~2,300-3,000 m) — no running
+- Sat | Trek | **GORILLA TREK** — no running
+- Sun | Trek | **GORILLA TREK** — no running
+
+Notes: running is front-loaded into Mon-Thu because Fri-Sun are the treks. ~33.5 km of
+running against W7's planned 43.5 — but the three trek days are hours on steep ground at
+altitude, so the week's *training* is not down 10 km, only its running-specific part.
+- **Tuesday is the week's only quality session, run by HR** (166-170), not pace. By then
+  you have a week at altitude, so it should feel more normal than W6's.
+- **Nothing hard on Thursday.** Going into three consecutive trek days flat is worth more
+  than the 2 km an extra session would add.
+- The X session is skipped: the treks cover the same ground, with interest.
+
+## Week 8 (of 2026-10-05) — down week + re-entry, ~34 km
+
+- Mon | Rest | **FLY KIGALI -> STOCKHOLM.** Travel day, and the peak of the trek DOMS — rest
+- Tue | Easy | 5km, HR <=140 — legs will be sore from three days of descending
+- Wed | Easy | 6km, HR <=140
+- Thu | Easy | 6km, HR <=140
+- Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 1.5km easy — **back on pace bands, sea level**
 - Sun | X | EASY HILLS: WU 2.5km easy; 6x(200m uphill controlled, jog down); CD 2km easy
+
+Notes: re-entry week, and the down week was already scheduled here — good luck rather
+than planning. One quality session instead of two, since Tuesday is 24-48 h after the last
+trek and the flight. **Friday is the first session back on pace**: if 4:57-4:59 feels
+harder than it should, that is the travel block, not lost fitness — take the slow end and
+let W9 sort it out.
 
 Notes W6-W8: sub-T dose runs 66 → 66 → 54 min, alternating 6-min and 10-min reps every
 session. **The X session is hills-only through W8** — easy 6x200m (W6), hard 8x200m (W7),
