@@ -242,8 +242,9 @@ floats are specified (60 s / 90 s) [B]**, so pace is the only lever there.
   **fitparse fails on COROS files** ("Invalid field size 1 for type 'uint32'"); fitdecode
   in `ErrorHandling.IGNORE` mode reads them fine. Gives 1 Hz distance and HR plus
   **timer start/stop events**, which is how the 17 s shoelace pause inside the 09-15 TT
-  was found. Strava `get_activity_streams` is the alternative when that MCP is connected;
-  it was disconnected on 2026-09-16, so do not depend on it.
+  was found. Strava `get_activity_streams` is **not available** — the Strava MCP is
+  subscriber-only and this account is not eligible (checked 2026-09-16). Treat the COROS
+  FIT file as the only stream source unless he takes out a Strava subscription.
 - **Treadmill:** no airflow → thermal drift well above the 5–10 bpm/hr baseline.
   Belts also run 2–5% off with no way to detect it, so never set paces from one.
 - **Illness / alcohol / poor sleep:** raise HR at any given intensity. When a
