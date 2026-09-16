@@ -10,7 +10,7 @@ relying on any derived number._
 
 | | |
 |---|---|
-| Bodyweight | 81 kg, cutting to ~78 kg over ~2 months (~375 g/week) |
+| Bodyweight | **~80 kg, held — cut abandoned 2026-09-16.** 176 cm. Gradual recomp at this weight rather than a deficit; user: "im quite content at ~80... i can just gradually recomp here". Previously: 81 kg cutting to ~78 kg over ~2 months (~375 g/week). |
 | Background | Strength athlete first, runner second |
 | Squat | 152.5 kg × 5 (est. 1RM ~175 kg, ~2.16× bodyweight) |
 | Location | Stockholm, Sweden |
@@ -30,6 +30,14 @@ combat sports never paid in. MMA is fully retired as of 2026 (startup life — n
 mass-dominated, not trainability-dominated: his old engine rebuilt at 80 kg computes
 to ~44:30-45:30; sub-40 at 80 kg would need an absolute engine ~15% larger than he
 has ever had, while at ~75-76 kg it needs only his old one plus a little.
+
+**Decision 2026-09-16: the cut is abandoned** — he holds ~80 kg and recomps gradually.
+That settles the mass question by taking the harder side of it. **Sub-44 Barcelona is
+unaffected**: 4:24/km sits comfortably inside the rebuilt engine at 80 kg. **Sub-40 is now
+engine-dominated** — the ~15% figure above stops being one of two routes and becomes the
+requirement. Recomp helps only at the margin: 10 km costs the same to carry whether the
+80 kg is muscle or fat, and upper-body muscle is aerobic dead weight. Price weight out of
+race predictions from here and treat sub-40 as a multi-year engine project.
 
 **Physiological shape: high ceiling, small tank.** Interval capability is well
 ahead of endurance. This is the defining fact about this athlete and it drives
@@ -241,8 +249,12 @@ progressing.
 
 ### Expected squat behaviour
 
-Expect a stall or slight dip through the build — added systemic fatigue plus a
-caloric deficit. This is the trade, not a problem. Protein 160–175 g/day; keep
+**Revised 2026-09-16 (cut abandoned).** Expect a stall or slight dip through the build
+from added systemic fatigue alone — the caloric deficit that was half the explanation is
+gone. **A stall is therefore more informative than it used to be:** with no deficit to
+excuse it, a missed top set is real evidence about the TM or about running load, and the
+per-lift hit/miss rule reads cleanly. Eating at maintenance also makes gradual recomp the
+realistic strength path rather than a holding action. Protein 160–175 g/day; keep
 intensity (heavy triples and fives), cut accessory volume.
 
 ---
@@ -278,7 +290,7 @@ build in §5 is prerequisite regardless of target.
    estimate is a console reading. Belts typically read 1–3% fast (5%+ when
    worn), and error is systematic, not random. Consoles calibrate to motor RPM
    rather than belt speed, and belts lose speed under load — which scales with
-   bodyweight, so 81 kg sees more of it. **If the belt is 3% fast, VDOT drops
+   bodyweight, so 80 kg sees more of it. **If the belt is 3% fast, VDOT drops
    to 43–44 and the 10k prediction shifts ~1.5 min slower.** Highest-value
    open item.
    - Fix A: tape on belt, count revolutions over 60 s at a slow setting,
