@@ -19,9 +19,9 @@ ceiling at the time; raised 2026-09-16 with the five-run week — peak now ~58) 
 (→ 18 km, capped 2026-09-15), down-weeks roughly every 4th week, until the peak is reached — then
 **one all-out 5k inside a normal down-week** (~Sun 2026-12-06, no taper) to feed
 curiosity, re-anchor the pace bands, refine the HRmax pin, and stamp the fitness-
-index running input (Riegel 5k→10k). **Superseded 2026-09-16:** the Dec 6 5k is no longer
-the thing the block points at. 5k TTs now run **every ~5th week** as routine checks
-(09-15 → W10 Fri 10-23 → Dec 6), each replacing that week's Friday 4×10. Calibration between now and then is HR-led:
+index running input (Riegel 5k→10k). **Superseded 2026-09-16:** the block has no endpoint
+at all. 5k TTs run **every 5th week** as routine checks (09-15 → Fri 10-23 → Fri 11-27),
+each replacing that week's Friday 4×10, and the Dec 6 5k is dropped. Calibration between now and then is HR-led:
 after the W4 Wed pin, the %-of-max ceilings are fixed and pace floats up with
 fitness; bands re-anchored from session data every ~3 weeks. Next race gate =
 sub-44 Barcelona (date TBD — see open items).
@@ -50,11 +50,14 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   most intensive sub-T session — the Friday 4×10** — so the week loses a hard session
   rather than gaining one. No taper, no sharpening, graded at face value; if a TT lands
   on a bad day, that is data too and the next one is five weeks out.
-  Schedule: **09-15 (done, Tue)** → **Fri 2026-10-23 (W10)** → **Sun 2026-12-06 (W16)**.
-  The Dec 6 5k keeps its date but **is no longer the block endpoint** — it is simply the
-  next check in the cadence (demoted 2026-09-16; it had been the thing the whole block
-  pointed at since 2026-09-03). Each one returns: 5k time → VDOT → T-pace → all three §2
-  bands, plus an HRmax reading, plus a Riegel 10k-equivalent for the fitness index.
+  Schedule — **strictly every 5 weeks, W5/W10/W15** (user 2026-09-16: "dec 6th is a
+  completely arbitrary date, lets stick to a schedule instead"):
+  **Tue 09-15 (done)** → **Fri 2026-10-23 (W10)** → **Fri 2026-11-27 (W15)** → next would
+  be ~Fri 2027-01-01, which belongs to the Barcelona build rather than this block.
+  **The Dec 6 5k is gone entirely** — it was the block endpoint from 2026-09-03, demoted
+  to a check on 2026-09-16 and dropped the same day once the cadence made its date
+  arbitrary. W16 is now an ordinary down week. Each TT returns: 5k time → VDOT → T-pace →
+  all three §2 bands, plus an HRmax reading, plus a Riegel 10k-equivalent for the index.
   Run the **same route** every time and score on **grade-adjusted** time.
 - **SIGNAL SPLIT (user 2026-09-12): easy + long runs run off HR; sub-T runs off pace.**
   Sub-T HR tiers become a **post-hoc review check, not something he watches mid-rep**.
@@ -201,7 +204,7 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   average as threshold HR. The 5k gives **performance + near-max**; the 30-min gives
   **LTHR**. Two anchors, two tests.
   **NOT SCHEDULED — the 30-min TT was dropped 2026-09-12.** Calibration runs on 5k TTs
-  only: Tue 09-15, plus one every ~5th week from 2026-09-16 (Fri 2026-10-23, Sun 2026-12-06). The W7 30-min TT
+  only: Tue 09-15, plus one every ~5th week from 2026-09-16 (Fri 2026-10-23, Fri 2026-11-27). The W7 30-min TT
   was proposed and dropped, and W7 Tue reverts to its 6×6.
   **This costs less than first stated.** The 5k anchors the **pace** side outright —
   Daniels' tables take a 5k time directly, so it is 5k → VDOT → T-pace → offsets, no
@@ -231,11 +234,11 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   - **Hills run on effort, not pace.** A 200 m rep is ~40 s; it is not a sprint.
   - **What this fixes:** the block previously had **nothing above threshold for 13
     weeks** before an all-out 5k (flagged and accepted 2026-09-03, with hill sprints
-    named as the cheapest hedge). The drip removes that hole, so Dec 6 is not run on legs
+    named as the cheapest hedge). The drip removes that hole, so the TTs are not run on legs
     that have not been fast since August.
   - **W12 skips it** — that week's 5k TT *is* the supra-threshold session, so Sunday
-    reverts to an easy run. W16's Sunday is the Dec 6 all-out 5k, which is the X session
-    by another name.
+    reverts to an easy run. In W10 and W15 the TT sits on **Friday**, replacing the 4×10,
+    so Sunday's X session runs as normal.
   - **The dedicated long run goes with it** (same call). User: "we dont need a dedicated
     long run, im not in a marathon block." **Thursday's easy run** becomes the week's
     longest (6.5 km in W6 → ~12.5 km at peak) and carries the **decoupling measurement**
@@ -357,7 +360,7 @@ identical running volume will cost more.
 W5-W16 ramp is stale. **Not being re-spaced** — user's call 2026-09-06: "lets take
 each week as it comes." The written W5-W16 numbers are therefore a sketch, not a
 commitment; set each week's volume at its own sync off the previous week's
-*executed* km. The Dec 6 5k still happens but is no longer an endpoint (2026-09-16);
+*executed* km. The block has no endpoint at all from 2026-09-16 (TTs every 5th week);
 the 55 km/wk ceiling was **raised
 2026-09-16** (user: "with this many days we can build past 55km reasonably") now that the
 same volume spreads over five runs instead of four.
@@ -425,9 +428,9 @@ within a few bpm of true max), closing both open calibration questions at once.
 
 **Outdoors, not the treadmill** (he proposed the belt first). Two reasons: treadmill
 belts run 2-5% off with no way to detect it, which is 30-70 s of error over 5k in a
-number about to anchor everything; and the **Dec 6 endpoint 5k is outdoors**, so a
-belt baseline would not be comparable to it — and comparing them is the point of the
-block.
+number about to anchor everything; and **every later TT in the cadence is outdoors**, so a
+belt baseline would not be comparable to them — and comparing them is the point of the
+series.
 
 **Course:** 400 m track preferred (12.5 laps, count them, ignore watch distance — GPS
 over-reads on a track); else a flat **2.5 km out-and-back**, which cancels wind and net
@@ -595,37 +598,38 @@ W10 TT (Fri 10-23), adjusted by the W11 and W12 session checks, before this week
 - Fri | Quality | WU 2.5km easy; 4x(10min @ 4:57-4:59/km, 90s jog); CD 2km easy
 - Sun | X | 45/15s: WU 3km easy; 2x(10x(45s @ 4:10-4:20/km, 15s float)), 3min jog between blocks; CD 2.5km easy
 
-## Week 15 (of 2026-11-23) — PEAK, ~58 km
+## Week 15 (of 2026-11-23) — PEAK, ~55.5 km, 5k progress check
 
-- Mon | Easy | 6km @ 5:45-6:15/km
+- Mon | Easy | 7km @ 5:45-6:15/km
 - Tue | Quality | WU 3km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 2.5km easy
-- Thu | Easy | 11km @ 5:45-6:15/km
-- Fri | Quality | WU 3km easy; 4x(10min @ 4:57-4:59/km, 90s jog); CD 2.5km easy
-- Sun | X | 45/15s (big): WU 3km easy; 3x(10x(45s @ 4:10-4:20/km, 15s float)), 3min jog between blocks; CD 3km easy
+- Thu | Easy | 14km @ 5:45-6:15/km
+- Fri | Test | **ALL-OUT 5k TT, OUTDOORS, same route as 09-15** (replaces Friday's 4x10; D3 Deadlift follows in the PM)
+- Sun | X | HILLS: WU 3km easy; 12x(200m uphill hard, jog down); CD 3km easy
 
-Notes: the block target — ~58 km, 76 min sub-T, longest run ~11 km, all absorbed. Pace
-bands here are the 09-15 values; the W10 TT and the session checks will have moved them
-by now. **The X alternation is broken deliberately at the end** — W14 and W15 both run
-45/15s so the last supra-threshold work before Dec 6 is the VO2max format, not hills.
+Notes: **third 5k of the cadence, Fri 2026-11-27** — five weeks after W10's, same slot,
+same route, replacing Friday's 4×10 again. Peak week: ~55.5 km, longest run 14 km on
+Thursday, 41 min of sub-T on Tuesday.
+- **Sunday runs hills, not 45/15s.** Alternation would have given 45/15s, but this week
+  already carries a maximal 5k on Friday; hills are the cheap format and keep the week's
+  third hard session honest.
+- Pace bands here are the 09-15 values — the W10 TT and the session checks will have
+  moved them well before this week is synced.
 
 
-## Week 16 (of 2026-11-30) — down week + 5k progress check, ~32 km
+## Week 16 (of 2026-11-30) — down week, ~32 km
 
 - Mon | Easy | 5km @ 5:45-6:15/km
 - Tue | Quality | WU 2km easy; 4x(6min @ 4:50-4:52/km, 60s jog); CD 2km easy
-- Thu | Easy | 5km @ 5:45-6:15/km
-- Fri | Easy | 3km @ 5:45-6:15/km
-- Sun | X | **ALL-OUT 5k**: WU 3km easy; 5km all-out; CD 2km easy
+- Thu | Easy | 6km @ 5:45-6:15/km
+- Fri | Easy | 5km @ 5:45-6:15/km
+- Sun | X | EASY HILLS: WU 2.5km easy; 6x(200m uphill controlled, jog down); CD 2km easy
 
-Notes: **Sun Dec 6 = the third 5k of the cadence**, six weeks after W10's — this week's X
-session, inside a normal down-week, not tapered for. **Demoted 2026-09-16 from "the block
-endpoint" to an ordinary progress check** (user: stop prioritising it). Graded at face
-value per standing rule. It still does the same work as any other check: re-anchors the
-pace bands, gives another HRmax reading, and stamps the fitness-index running input
-(Riegel 1.06 → 10k-equivalent). It sits on Sunday rather than Friday because this is a
-down week and Friday is already an easy 3 km. Falls in lifting C17 W2 — no accommodation.
-What comes after the block (Barcelona build timing, structure) is a fresh planning
-conversation, no longer one hanging on this single result.
+Notes: **the Dec 6 all-out 5k is gone** — dropped 2026-09-16 once TTs moved to a fixed
+5-week schedule and its date turned out to be arbitrary (user's words). This is now a
+plain down week following W15's TT: one sub-T session, easy hills, no test.
+Falls in lifting C17 W2 — no accommodation.
+**The written block ends here**, but nothing ends with it: the cadence continues (next TT
+~Fri 2027-01-01) and W17 onward gets planned when the Barcelona race and date are picked.
 
 ## Open items
 

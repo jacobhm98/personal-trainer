@@ -143,8 +143,9 @@ the W4 Wed HRmax pin test 2026-09-09, then %-of-max — and the "two more reps"
 rule; see the plan schema), Fri run AM before the deadlift PM, Sun long.
 VO2max retired. **No fall 10k (TT scrapped 2026-09-03): base block to 55 km/wk** (ceiling raised 2026-09-16 with the five-run week; peak ~58),
 long run → 18k (capped 2026-09-15, then dropped entirely 2026-09-16 — see below), down-weeks ~every 4th week. **Endpoint retired 2026-09-16** — instead a **5k TT every
-~5th week** as a routine progress check and sub-T re-anchor (09-15 → Fri 2026-10-23 →
-Sun 2026-12-06), each replacing that week's Friday 4×10. No taper, graded at face value. HR-led calibration
+5th week** as a routine progress check and sub-T re-anchor (09-15 → Fri 2026-10-23 →
+Fri 2026-11-27 → ~Fri 2027-01-01), each replacing that week's Friday 4×10. The Dec 6 5k
+is dropped: an arbitrary date once a schedule exists. No taper, graded at face value. HR-led calibration
 (post-pin %-of-max ceilings; pace bands re-anchored ~every 3 weeks). Next race
 gate: sub-44 Barcelona, date TBD.
 **Week restructured 2026-09-16 (user's call, from Bakken — two sub-T days plus an X
