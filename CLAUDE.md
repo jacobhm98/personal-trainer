@@ -146,14 +146,16 @@ long run → 18k (capped 2026-09-15, then dropped entirely 2026-09-16 — see be
 5th week** as a routine progress check and sub-T re-anchor (09-15 → Fri 2026-10-23 →
 Fri 2026-11-27 → ~Fri 2027-01-01), each replacing that week's Friday 4×10. The Dec 6 5k
 is dropped: an arbitrary date once a schedule exists. No taper, graded at face value. HR-led calibration
-(post-pin %-of-max ceilings; pace bands re-anchored ~every 3 weeks). Next race
-gate: sub-44 Barcelona, date TBD.
+(post-pin %-of-max ceilings; pace bands re-anchored ~every 3 weeks). **No race
+until spring/summer 2027** (retargeted 2026-09-16) — autumn/winter is base building proper,
+block goal ~60 km/wk.
 **Week restructured 2026-09-16 (user's call, from Bakken — two sub-T days plus an X
 session for ambitious recreational runners).** Five runs, in force from W6: **Mon** easy
 recovery, **Tue** sub-T + D1 Squat, **Wed** D2 Dips (no run), **Thu** easy — the week's
-longest run, no lift — **Fri** sub-T + D3 Deadlift, **Sat** D4 Pull-ups, **Sun X session** — a
-supra-threshold drip alternating **200 m hills** and **45/15s** (2-3 × 10 × 45 s @
-4:10-4:20/km). The **dedicated long run is gone** ("we dont need a dedicated long run, im
+longest run, no lift — **Fri** sub-T + D3 Deadlift, **Sat** D4 Pull-ups, **Sun easy run** (8-14 km). The
+**X session is deferred** (2026-09-16) until volume holds ~60 km/wk — two quality days,
+not three, while mileage is the priority; **6-8 × 10-15 s hill strides** on the end of
+Sunday's run every other week keep turnover alive in the meantime. The **dedicated long run is gone** ("we dont need a dedicated long run, im
 not in a marathon block"); Thursday's run carries the decoupling measurement instead, and the full rest day is
 spent to buy it (invariant superseded 2026-09-16).
 This closes the "nothing above threshold for 13 weeks" hole flagged 2026-09-03.

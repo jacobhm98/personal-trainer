@@ -15,7 +15,7 @@ tolerable intensity. Sparked by Bakken's *The Norwegian Method Applied* (2026).
 fall.** The Nov 1 TT (which had briefly replaced the Oct 11 TT) is **scrapped** —
 user's call: a TT is ~2.5 weeks of development budget (sharpening + taper +
 recovery) spent on curiosity. Instead: **build to 55 km/week** (the config
-ceiling at the time; raised 2026-09-16 with the five-run week — peak now ~58) with 2 well-executed sub-T sessions and a progressively growing long run
+ceiling at the time; raised 2026-09-16 with the five-run week, then again when the X session was deferred — **block goal now ~60 km/week, reached at W15**) with 2 well-executed sub-T sessions and a progressively growing long run
 (→ 18 km, capped 2026-09-15), down-weeks roughly every 4th week, until the peak is reached — then
 **one all-out 5k inside a normal down-week** (~Sun 2026-12-06, no taper) to feed
 curiosity, re-anchor the pace bands, refine the HRmax pin, and stamp the fitness-
@@ -23,8 +23,9 @@ index running input (Riegel 5k→10k). **Superseded 2026-09-16:** the block has 
 at all. 5k TTs run **every 5th week** as routine checks (09-15 → Fri 10-23 → Fri 11-27),
 each replacing that week's Friday 4×10, and the Dec 6 5k is dropped. Calibration between now and then is HR-led:
 after the W4 Wed pin, the %-of-max ceilings are fixed and pace floats up with
-fitness; bands re-anchored from session data every ~3 weeks. Next race gate =
-sub-44 Barcelona (date TBD — see open items).
+fitness; bands re-anchored from session data every ~3 weeks. **Race condition is now targeted for spring/summer 2027** (user 2026-09-16: "we're not
+really on a timeline... im happy to write off autumn/winter as base building proper"), so
+autumn and winter are base building with no race to serve. **Block goal: ~60 km/week.**
 
 ## Schema (parsed by /sync-running)
 
@@ -34,7 +35,7 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
 - <Day> | <Type> | <structure>
 ```
 
-- Types: `Easy`, `Quality`, `X`, `Rest`, `Trek`, `Lift`, `Long`. **`Long` is retired from W6 (2026-09-16)** — there is no dedicated long run any more; `X` is the Sunday supra-threshold session.
+- Types: `Easy`, `Quality`, `X`, `Rest`, `Trek`, `Lift`, `Long`. **`Long` is retired from W6 (2026-09-16)** — there is no dedicated long run any more; `X` is the Sunday supra-threshold session — **dormant from 2026-09-16**, since Sunday is an easy run until volume holds ~60 km.
   `Rest`, `Trek` and `Lift` were added 2026-09-16 for the Rwanda block: `Rest` is a travel or clear day, `Trek` is a gorilla-trek day, and `Lift` is a lifting-only day with no run. `Rest` and `Trek` are not pushed to Tredict as workouts.
 - Structure segments separated by `;`. `WU`/`CD` = warm-up/cool-down.
   Repeats: `5x(1km @ 4:50/km, 60s jog)`. Continuous: `20min @ 4:50/km` or `8km @ 5:15-6:15/km`.
@@ -221,29 +222,33 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   Two independent systems agreeing.
   The 2026-09-02 tempo at 181 avg was over the line. These sessions are deliberately
   unheroic — accumulation is the stimulus. Do not race them.
-- **The "X session" (Bakken's term) — REDEFINED 2026-09-16 (user's call, from the book).**
-  Bakken prescribes **two sub-T days plus one X session** for ambitious recreational
-  runners, and the X session is a standing drip of **anaerobic / supra-threshold** work —
-  hills or 45/15s — not a slot whose content follows the phase. *(I argued that a third
-  quality day would breach the concentration principle. Wrong: three quality touches is
-  the prescribed dose for this category, and the user corrected it.)*
-  - **Slot: Sunday**, alternating weekly — **hills** one week, **45/15s** the next.
-  - **Hills:** 8–12 × 200 m uphill hard, jog down. Force, economy and turnover at
-    near-zero lactate; the cheap week.
-  - **45/15s:** 2–3 × (10 × 45 s @ **4:10–4:20/km**, 15 s float), 3 min jog between
-    blocks. ~3k effort. A real VO2max session — treat it as the week's third hard day.
-  - **Hills run on effort, not pace.** A 200 m rep is ~40 s; it is not a sprint.
-  - **What this fixes:** the block previously had **nothing above threshold for 13
-    weeks** before an all-out 5k (flagged and accepted 2026-09-03, with hill sprints
-    named as the cheapest hedge). The drip removes that hole, so the TTs are not run on legs
-    that have not been fast since August.
-  - **W12 skips it** — that week's 5k TT *is* the supra-threshold session, so Sunday
-    reverts to an easy run. In W10 and W15 the TT sits on **Friday**, replacing the 4×10,
-    so Sunday's X session runs as normal.
-  - **The dedicated long run goes with it** (same call). User: "we dont need a dedicated
-    long run, im not in a marathon block." **Thursday's easy run** becomes the week's
-    longest (6.5 km in W6 → ~12.5 km at peak) and carries the **decoupling measurement**
-    that the Sunday long run used to provide.
+- **The "X session" — DEFERRED 2026-09-16 (user's second call the same day).** Bakken
+  prescribes **two sub-T days plus one X session** for ambitious recreational runners, and
+  the X session is a standing drip of **anaerobic / supra-threshold** work. It is still the
+  right end state. It is **not** the right thing to add while weekly volume is the priority:
+  a third hard day competes directly with mileage growth, and the block to December is
+  base building proper (user 2026-09-16: "we're not really on a timeline... im happy to
+  write off autumn/winter as base building proper").
+  - **Until volume holds ~60 km/week, Sunday is an easy run** of 8–14 km — the week's
+    second long-ish run alongside Thursday. Two quality days (Tue, Fri), not three.
+  - **Hill strides stay, as the cheap hedge:** **6–8 × 10–15 s hill sprints, full
+    recovery**, tacked onto the end of Sunday's easy run **every other week** (W9, W11,
+    W13, W15). ~5 min of work, too short to produce meaningful lactate, and they hold on
+    to turnover, leg stiffness and economy — the qualities that quietly rot over months of
+    nothing faster than 5:30/km and do not come back quickly.
+  - **Trigger to reinstate the X session: three consecutive weeks at ~60 km with sessions
+    feeling routine** — a condition, not a date. At that point Sunday converts to
+    **45/15s: 2–3 × (10 × 45 s @ ~3k effort, 15 s float), 3 min jog between blocks**, and
+    the three-quality-day week designed on 2026-09-16 takes over. Realistically that is
+    the spring/summer 2027 race build, not this block.
+  - **Hills, when they return as full sessions:** 8–12 × 200 m uphill hard, jog down, run
+    on effort rather than pace.
+  - **Known consequence, accepted:** apart from the strides and a 5k TT every 5 weeks,
+    this block has nothing above threshold. That is the deliberate cost of buying mileage,
+    and the strides are what keep the door open.
+  - **The dedicated long run stays gone** (user 2026-09-16: "we dont need a dedicated long
+    run, im not in a marathon block"). **Thursday** is the week's longest run and carries
+    the **decoupling measurement**; Sunday is now a close second.
 - Day roles — **restructured 2026-09-16 (user's design), in force from W6.** Supersedes
   the 2026-09-12 four-run week, which this otherwise keeps intact:
   **Mon easy recovery** (no lift, follows Sunday's X); **Tue sub-T AM + D1 Squat PM**;
@@ -475,7 +480,7 @@ be recorded as such, exactly like the Friday deadlift confound. Under the hit/mi
 rule it simply holds the TM. C14 W1 is the lightest week of the cycle, so a miss is
 unlikely anyway.
 
-## Week 6 (of 2026-09-21) — RWANDA, arrival week, ~42 km (~47 with the optional Monday run)
+## Week 6 (of 2026-09-21) — RWANDA, arrival week, ~43 km (~48 with the optional Monday run)
 
 - Mon | Rest | **FLY STOCKHOLM -> KIGALI.** Travel day. **Optional** easy 5-6km in the evening if the flight lands early enough — take it if it is there, skip it without guilt
 - Tue | Easy | 6km, HR <=140 (expect 20-40s/km slower than home — altitude, not fitness) + **C14 W2 D1 Squat PM**
@@ -483,20 +488,20 @@ unlikely anyway.
 - Thu | Easy | 8km, HR <=140
 - Fri | Quality | WU 2km easy; 5x(6min @ **HR 166-170, NOT pace**, 60s jog); CD 1.5km easy + **C14 W2 D3 Deadlift PM**
 - Sat | Easy | 5km, HR <=140 + **C14 W2 D4 Pull-ups PM**
-- Sun | X | EASY HILLS: WU 2.5km easy; 6x(200m uphill controlled, jog down); CD 2km easy
+- Sun | Easy | 8km, HR <=140
 
-Notes: **first week of the 2026-09-16 restructure** — five runs, Thursday easy added,
-Sunday converted from long run to X session. W5 keeps the old shape (its Friday 5x6 is
-already pushed and its Sunday is a 15 km long run); the change starts here.
-**Intensity ramps, volume does not** (user's call 2026-09-16 to ramp in, corrected the
-same day): the X session starts as **easy hills** — 6 reps, controlled effort, not
-maximal, full jog-down recovery — and goes hard in W7. Thursday starts modest at 7 km and
-grows from there.
-**Volume still builds: ~42 km, +5% on W5's 39.9.** An earlier draft had this week at
-38.6 km, which was an artefact of deleting the 15 km long run rather than a decision —
-the 6.9 km X session replaces it and the new Thursday run has to make that up, not just
-sit alongside it. Corrected on the user's catch: "why is w6 lower total volume when we've
-added an easy day? makes no sense." W6-W9 now ramp cleanly into W10.
+Notes: **first week of the 2026-09-16 restructure** — five runs, Thursday easy added, and
+Sunday converted from the long run to a **second easy run**. (The X session was designed
+and then deferred the same day; see the schema.) W5 keeps the old shape — its Friday 5x6
+is already pushed and its Sunday is a 15 km long run — so the change starts here.
+**~43 km, a shade under W5's 44.9.** W5 took a deliberate one-off bump (the Thursday 5 km
+added on 09-16) and W6 is the outbound travel week, so a flat-to-slightly-down week here
+is right. The ramp resumes at W9. An earlier draft had W6 at 38.6 km, which was an
+artefact of deleting the 15 km long run rather than a decision — the Sunday easy run
+replaces it and Thursday has to make that up, not just sit alongside it. Corrected on the
+user's catch: "why is w6 lower total volume when we've added an easy day? makes no sense."
+**No strides this week** — the first days at 1,570 m are not where you introduce them.
+They start in W9, back at sea level.
 
 ### TRAVEL BLOCK — Rwanda, 2026-09-21 to 2026-10-05 (told 2026-09-16)
 
@@ -517,10 +522,10 @@ much mileage as possible."
 - **Easy runs need no adjustment** — they are already HR-capped at 140, so altitude
   self-corrects by slowing the pace. A 7:00/km easy run at 1,570 m is correct execution.
 - **Mileage is rescued by adding days, not lengthening them.** W6 runs six days and still
-  lands ~42 km; the extra runs sit on Wednesday and Saturday, which carry only upper-body
+  lands ~43 km; the extra runs sit on Wednesday and Saturday, which carry only upper-body
   lifts, so the legs take no extra hard work. The outbound travel day is that week's clear
   day; in W8 it is Tuesday.
-- **The three trek days are the X session and the long run, several times over** — 4-8 h
+- **The three trek days are the week's hard aerobic work, several times over** — 4-8 h
   on steep ground at altitude. Do not run quality around them, and expect the descents to
   produce real DOMS on 10-04/05. W8's Monday flight is the recovery day, and W8 was
   already a down week, so the re-entry lands where it should.
@@ -557,11 +562,11 @@ altitude, so the week's *training* is not down 10 km, only its running-specific 
   you have a week at altitude, so it should feel more normal than W6's.
 - **Nothing hard on Thursday.** Going into three consecutive trek days flat is worth more
   than the 2 km an extra session would add.
-- The X session is skipped: the treks cover the same ground, with interest.
+- Sunday's easy run goes too: the treks cover that ground, with interest.
 - **Lifting gets D1 and D2 only.** D3 deadlift and D4 pull-ups fall on trek days and are
   dropped — see the travel-block note for what that does to the TMs.
 
-## Week 8 (of 2026-10-05) — down week + re-entry, ~34 km
+## Week 8 (of 2026-10-05) — down week + re-entry, ~35 km
 
 - Mon | Easy | 5km in Kigali, HR <=140 — day after the last trek, legs sore; **flight leaves 20:00**
 - Tue | Rest | **LAND STOCKHOLM ~midday** off an overnight flight — rest. Optional 20 min shakeout in the evening only if you feel human
@@ -569,7 +574,7 @@ altitude, so the week's *training* is not down 10 km, only its running-specific 
 - Thu | Easy | 6km, HR <=140 + **C15 W1 D2 Dips PM**
 - Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 1.5km easy — **back on pace bands, sea level**
 - Sat | Lift | **C15 W1 D3 Deadlift** (no run)
-- Sun | X | EASY HILLS: WU 2.5km easy; 6x(200m uphill controlled, jog down); CD 2km easy + **C15 W1 D4 Pull-ups PM**
+- Sun | Easy | 8km, HR <=140 + **C15 W1 D4 Pull-ups PM**
 
 Notes: re-entry week, and the down week was already scheduled here — good luck rather
 than planning. **The 20:00 departure on 10-05 buys back a training day**: Monday is a
@@ -577,7 +582,7 @@ normal easy run in Kigali, and Tuesday takes the travel hit instead (overnight f
 landing midday).
 - **Lifting resumes Wednesday, not Tuesday**, because Tuesday is the arrival day. That
   pushes D3 deadlift to **Saturday** to keep the squat->deadlift gap at 72 h, and D4
-  pull-ups onto Sunday after the hills. A one-off arrangement for this week only.
+  pull-ups onto Sunday after the easy run. A one-off arrangement for this week only.
 - **KNOWN CONSTRAINT BREAK, accepted:** Saturday's deadlift leaves **72 h to W9's Tuesday
   squat**, against the standing **96 h deadlift->squat** rule. The compressed week cannot
   satisfy both gaps — moving the deadlift to Friday would make squat->deadlift 48 h, which
@@ -588,26 +593,29 @@ landing midday).
   that is the travel block, not lost fitness — take the slow end and let W9 sort it out.
 
 Notes W6-W8: sub-T dose runs 66 → 66 → 54 min, alternating 6-min and 10-min reps every
-session. **The X session is hills-only through W8** — easy 6x200m (W6), hard 8x200m (W7),
-back to easy 6x200m in this down week. The 45/15s start in W9, and the hills-vs-45/15
-alternation proper starts from W10.
+session. **Sunday is an easy run throughout** — the X session is deferred until volume
+holds ~60 km/week (see the schema), so these weeks carry **two quality days, not three**.
+**Hill strides start in W9** and run every other week from there; none during the travel
+block or the re-entry week.
 Down-weeks every ~4th week (W8, W12, W16) — the base block earns its ramp by paying
 recovery on schedule. HARD RULE unchanged: any shin/achilles/knee niggle → repeat the
 previous week's volume instead of progressing.
 
 
-## Week 9 (of 2026-10-12) — ~46.5 km
+## Week 9 (of 2026-10-12) — ~47 km
 
 - Mon | Easy | 6km @ 5:45-6:15/km
 - Tue | Quality | WU 2km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 2km easy
 - Thu | Easy | 8.5km @ 5:45-6:15/km
 - Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 2km easy
-- Sun | X | 45/15s (first one): WU 3km easy; 2x(8x(45s @ 4:10-4:20/km, 15s float)), 3min jog between blocks; CD 2.5km easy
+- Sun | Easy | 10km @ 5:45-6:15/km, then **6x(10-15s hill sprint, full recovery)** at the end
 
-Notes: judge W9 against W7 (43.5 → 46.5 = +7%), not against the W8 down-week.
-**First 45/15 session of the block** — 8 reps per block rather than 10, since this is the
-first genuine VO2max work since August. It goes to 2x10 in W11. The ramp finishes here:
-W10 rejoins the 2026-09-15 volume ladder.
+Notes: **judge W9 against W6's 43.1 km** (43.1 → 47.2 = +9.5%) — not against W7's trek
+week or W8's re-entry, both of which are travel-distorted rather than planned down weeks.
+**First strides of the block:** 6 × 10-15 s hill sprints on the end of Sunday's easy run,
+walking back for full recovery. About five minutes of work, too short to produce
+meaningful lactate. They repeat every other week (W9, W11, W13, W15) and are, apart from
+the 5k TTs, the only fast running in the block.
 
 
 ## Week 10 (of 2026-10-19) — ~50 km, 5k progress check
@@ -616,7 +624,7 @@ W10 rejoins the 2026-09-15 volume ladder.
 - Tue | Quality | WU 2.5km easy; 10x(3min @ 4:43-4:45/km, 60s jog); CD 2km easy
 - Thu | Easy | 10km @ 5:45-6:15/km
 - Fri | Test | **ALL-OUT 5k TT, OUTDOORS, same route as 09-15** (replaces Friday's 4x10; D3 Deadlift follows in the PM)
-- Sun | X | HILLS: WU 3km easy; 12x(200m uphill hard, jog down); CD 3km easy
+- Sun | Easy | 11km @ 5:45-6:15/km
 
 Notes: **second 5k of the cadence** — five weeks after 09-15, per the every-5th-week rule
 in the schema. It replaces Friday's 4×10, the most intensive sub-T session of the week, so
@@ -633,13 +641,13 @@ W10 trades a hard session rather than adding one. **No taper** — it is a check
 - Returns T-pace and all three sub-T bands for W11 onward. **Friday's session in W11 is
   built after this**, not before — Tredict cannot edit steps after creation.
 
-## Week 11 (of 2026-10-26) — lifting 7th Week deload, running builds, ~51.5 km
+## Week 11 (of 2026-10-26) — lifting 7th Week deload, running builds, ~53.5 km
 
 - Mon | Easy | 6km @ 5:45-6:15/km
 - Tue | Quality | WU 2.5km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 2km easy
 - Thu | Easy | 9.5km @ 5:45-6:15/km
 - Fri | Quality | WU 2.5km easy; 4x(10min @ 4:57-4:59/km, 90s jog); CD 2km easy
-- Sun | X | 45/15s: WU 3km easy; 2x(10x(45s @ 4:10-4:20/km, 15s float)), 3min jog between blocks; CD 2.5km easy
+- Sun | Easy | 12km @ 5:45-6:15/km, then **8x(10-15s hill sprint, full recovery)** at the end
 
 Notes: lifting runs the **7th Week Protocol deload** (C14 = W5-W7, C15 = W8-W10,
 deload Oct 26 - Nov 1) while **running builds through it** — the same pattern as W4.
@@ -650,65 +658,64 @@ build weeks after W8's down week and four before W16's. Swapping W11 and W12 eve
 out: running down weeks now fall on **W8, W12 and W16**, three build weeks before each.
 
 
-## Week 12 (of 2026-11-02) — down week, ~39 km
+## Week 12 (of 2026-11-02) — down week, ~40 km
 
 - Mon | Easy | 5.5km @ 5:45-6:15/km
 - Tue | Quality | WU 2km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 1.5km easy
 - Thu | Easy | 5km @ 5:45-6:15/km
 - Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 1.5km easy
-- Sun | X | EASY HILLS: WU 2.5km easy; 6x(200m uphill controlled, jog down); CD 2km easy
+- Sun | Easy | 8km @ 5:45-6:15/km
 
 Notes: running down week, swapped in from W11 on 2026-09-15 (see W11). Lifting starts
 C16 here, so this is not a lifting deload.
 **The TT that briefly lived here is gone** — it moved to W10 when the every-5th-week
 cadence was set (2026-09-16). W12 is now an ordinary down week: sub-T dose drops to 48
-min and the X session takes the easy-hills version.
+min and Sunday is a plain 8 km easy run.
 
 
-## Week 13 (of 2026-11-09) — ~52.5 km
+## Week 13 (of 2026-11-09) — ~55.5 km
 
 - Mon | Easy | 6km @ 5:45-6:15/km
 - Tue | Quality | WU 2.5km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 2km easy
 - Thu | Easy | 11km @ 5:45-6:15/km
 - Fri | Quality | WU 2.5km easy; 4x(10min @ 4:57-4:59/km, 90s jog); CD 2km easy
-- Sun | X | HILLS: WU 3km easy; 10x(200m uphill hard, jog down); CD 2.5km easy
+- Sun | Easy | 12.5km @ 5:45-6:15/km, then **8x(10-15s hill sprint, full recovery)** at the end
 
 Notes: judge W13 against W11, not against the W12 down week. Sub-T bands come from the
 W10 TT (Fri 10-23), adjusted by the W11 and W12 session checks, before this week is synced.
 
-## Week 14 (of 2026-11-16) — ~54.5 km
+## Week 14 (of 2026-11-16) — ~57.5 km
 
 - Mon | Easy | 6.5km @ 5:45-6:15/km
 - Tue | Quality | WU 2.5km easy; 10x(3min @ 4:43-4:45/km, 60s jog); CD 2km easy
 - Thu | Easy | 12.5km @ 5:45-6:15/km
 - Fri | Quality | WU 2.5km easy; 4x(10min @ 4:57-4:59/km, 90s jog); CD 2km easy
-- Sun | X | 45/15s: WU 3km easy; 2x(10x(45s @ 4:10-4:20/km, 15s float)), 3min jog between blocks; CD 2.5km easy
+- Sun | Easy | 13km @ 5:45-6:15/km
 
-## Week 15 (of 2026-11-23) — PEAK, ~55.5 km, 5k progress check
+## Week 15 (of 2026-11-23) — PEAK, ~60 km, 5k progress check
 
-- Mon | Easy | 7km @ 5:45-6:15/km
+- Mon | Easy | 8km @ 5:45-6:15/km
 - Tue | Quality | WU 3km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 2.5km easy
 - Thu | Easy | 14km @ 5:45-6:15/km
 - Fri | Test | **ALL-OUT 5k TT, OUTDOORS, same route as 09-15** (replaces Friday's 4x10; D3 Deadlift follows in the PM)
-- Sun | X | HILLS: WU 3km easy; 12x(200m uphill hard, jog down); CD 3km easy
+- Sun | Easy | 14km @ 5:45-6:15/km, then **8x(10-15s hill sprint, full recovery)** at the end
 
 Notes: **third 5k of the cadence, Fri 2026-11-27** — five weeks after W10's, same slot,
-same route, replacing Friday's 4×10 again. Peak week: ~55.5 km, longest run 14 km on
+same route, replacing Friday's 4×10 again. Peak week: **~60 km — the block target**, longest run 14 km on
 Thursday, 41 min of sub-T on Tuesday.
-- **Sunday runs hills, not 45/15s.** Alternation would have given 45/15s, but this week
-  already carries a maximal 5k on Friday; hills are the cheap format and keep the week's
-  third hard session honest.
+- **Sunday is an easy 14 km with strides on the end**, not an X session — the X session
+  is deferred until volume holds ~60 km (see the schema).
 - Pace bands here are the 09-15 values — the W10 TT and the session checks will have
   moved them well before this week is synced.
 
 
-## Week 16 (of 2026-11-30) — down week, ~32 km
+## Week 16 (of 2026-11-30) — down week, ~33 km
 
 - Mon | Easy | 5km @ 5:45-6:15/km
 - Tue | Quality | WU 2km easy; 4x(6min @ 4:50-4:52/km, 60s jog); CD 2km easy
 - Thu | Easy | 6km @ 5:45-6:15/km
 - Fri | Easy | 5km @ 5:45-6:15/km
-- Sun | X | EASY HILLS: WU 2.5km easy; 6x(200m uphill controlled, jog down); CD 2km easy
+- Sun | Easy | 8km @ 5:45-6:15/km
 
 Notes: **the Dec 6 all-out 5k is gone** — dropped 2026-09-16 once TTs moved to a fixed
 5-week schedule and its date turned out to be arbitrary (user's words). This is now a
@@ -731,8 +738,8 @@ Falls in lifting C17 W2 — no accommodation.
   (2026-09-03 evening, user: a TT is development budget spent on curiosity; a
   base block to 55 km/wk is the efficient medium-term play). Face-value grading
   and no-solo-discount rules carry over to the 5k. **Open: which race is the
-  sub-44 "Barcelona" gate** — pick the race + date (likely Jan-Mar 2027 window);
-  that sets when the base block hands over to a race build. Strides dropped from
+  sub-44 "Barcelona" gate** — **retargeted 2026-09-16 to the spring/summer 2027 window**;
+  pick the race and date when the base block is done. No timeline pressure before then. Strides dropped from
   all easy runs per user (2026-08-23). Current race shape: **45:46 10k-equivalent (4:35/km)**, from the 09-15 5k TT; re-measured at W12.
 - **Tredict trial ends ~2026-10-17** — before the W10/W11 syncs, and W12 carries the second 5k TT.
   Decide before then: pay the $49/yr or swap the push layer to Intervals.icu.
