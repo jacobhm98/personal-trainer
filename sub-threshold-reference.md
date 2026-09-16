@@ -63,7 +63,7 @@ A ~22 min 5k is run **above** threshold, so its average HR sits **4–8 bpm abov
 LTHR**. Never read a 5k average as threshold HR. The 5k gives **performance +
 near-max**; the 30-min gives **LTHR**. Two anchors, two tests, both wanted.
 
-**Decision 2026-09-12: one TT only — the 5k.** *(Amended 2026-09-15: a second 5k TT added in W11, Tue 10-27; still no 30-min TT.)* The 30-min TT is documented here but
+**Decision 2026-09-12: one TT only — the 5k.** *(Amended 2026-09-16: 5k TTs now run every ~5th week as routine checks — 09-15, W10 Fri 10-23, Dec 6 — each replacing that week's Friday 4×10. Still no 30-min TT.)* The 30-min TT is documented here but
 **not scheduled**, and that costs less than an earlier draft of this file claimed. The
 5k anchors the **pace** side completely, and pace is the prescription. What is lost is
 only LTHR, which would have been a second, redundant route to the same place.
@@ -97,8 +97,9 @@ review rather than raw.
    a max that is approximate — the 5k finish reading is a *floor*, since wrist optical
    under-reads peaks by 5–15 bpm. **If §3 disagrees with 1 and 2, §3 loses.**
 
-Rationale for choosing the 5k over the 30-min: the block endpoint (2026-12-06) is a 5k,
-so a 5k baseline makes that result directly interpretable.
+Rationale for choosing the 5k over the 30-min: the block's recurring progress check is a
+5k (every ~5th week from 2026-09-16), so a 5k baseline makes each result directly
+comparable to the last.
 
 ---
 
@@ -277,7 +278,7 @@ against T + 10–12 for the 6s.
 
 **Two consequences:**
 - **The 4×10 belongs on Friday**, which follows Thursday's full rest day and therefore
-  has the freshest legs of the week (Tuesday sits two days off the long run). The cost
+  has the freshest legs of the week (Tuesday sits two days off Sunday's X session). The cost
   lands on that evening's deadlift, which is the accepted trade under running-priority.
 - **The 10-min sessions are the best diagnostic in the week.** §4's plateau check needs
   reps ≥6 min and works best on the longest ones, since a 10-min rep has time to reach
@@ -299,7 +300,7 @@ Weekly sub-T dose in the current block runs **60 → 76 min**.
 
 | Quantity | Value | Status |
 |---|---|---|
-| HRmax | ~200 | **PROVISIONAL — kept 2026-09-15 (user's call).** The 5k TT recorded a peak of only **193**, run outdoors in ~15 °C — cool, so no heat pushing HR up — on wrist optical, which under-reads maximal peaks by 5–15 bpm (§6). That is below the 195 floor observed 2026-08-20 (altitude, recovery jog), so it neither lowers nor pins the max. Next chance: the W11 5k TT, Tue 2026-10-27. |
+| HRmax | ~200 | **PROVISIONAL — kept 2026-09-15 (user's call).** The 5k TT recorded a peak of only **193**, run outdoors in ~15 °C — cool, so no heat pushing HR up — on wrist optical, which under-reads maximal peaks by 5–15 bpm (§6). That is below the 195 floor observed 2026-08-20 (altitude, recovery jog), so it neither lowers nor pins the max. Next chance: the W10 5k TT, Fri 2026-10-23. |
 | LTHR | — | **NOT MEASURED, and will not be** — 5k TTs only; the 30-min TT is not scheduled. Golden-zone method unavailable. |
 | VDOT | **44.7** | **MEASURED 2026-09-15**, from the grade-adjusted 5k (21:57). Raw clock gives 44.3. See §8.1. |
 | T-pace | **4:40/km** | **MEASURED 2026-09-15**, from VDOT 44.7. Raw clock gives 4:42. See §8.1. |
@@ -373,7 +374,7 @@ The watch target widens each band to ±3 s/km, because GPS pace noise is larger 
   8×3. It is 8–10 s slower than the 3-min band that session belonged in. His "could have
   done two more reps" was right.
 - **HR side unchanged:** easy ≤140, long ≤150 and the §3 tiers stay provisional on ~200.
-- **W11 and Dec 6 comparisons:** same route, grade-adjusted time.
+- **Every later TT:** same route, grade-adjusted time, so the series compares to itself.
 
 ---
 
@@ -382,9 +383,13 @@ The watch target widens each band to ±3 s/km, because GPS pace noise is larger 
 | When | Test | Yields |
 |---|---|---|
 | ~~Tue 2026-09-15~~ **DONE** | All-out **5k TT**, outdoors | **21:57 grade-adjusted (22:07 clock) → VDOT 44.7 → T-pace 4:40.** Peak HR 193; HRmax kept ~200 provisional. Full record in §8.1 |
-| **Tue 2026-10-27** (W11) | All-out **5k TT**, outdoors, **same route**, grade-adjusted | Re-anchors T-pace and all §2 bands after W6–W10; another HRmax read. Added 2026-09-15 (user's call) — W11 rather than W10, to avoid a 95% squat top set the same evening |
+| **Fri 2026-10-23** (W10) | All-out **5k TT**, outdoors, **same route**, grade-adjusted | Re-anchors T-pace and all §2 bands after W6–W9; another HRmax read. Replaces that week's Friday 4×10 |
 | ~~Tue 2026-09-28~~ | ~~30-min TT~~ — **dropped 2026-09-12** | — (LTHR stays unmeasured) |
-| **Sun 2026-12-06** | All-out **5k**, block endpoint | Re-anchors everything; comparable to 09-15 |
+| **Sun 2026-12-06** (W16) | All-out **5k**, routine check | Re-anchors everything; comparable to 09-15 and 10-23. **No longer the block endpoint** (demoted 2026-09-16) |
+
+**Cadence (2026-09-16):** a 5k TT every ~5th week, replacing that week's **Friday 4×10** —
+the most intensive sub-T session — so a TT week trades a hard session rather than adding
+one. No taper; graded at face value; same route every time.
 
 With only the 5k, the **pace** side is measured and the **HR** side stays approximate
 all block. That is the right way round: pace is the prescription, HR is the rail.

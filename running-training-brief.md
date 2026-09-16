@@ -195,6 +195,11 @@ Fixed convention so numbers stay comparable week to week:
 > `Pa:HR = speed / avg HR` per half.
 > `decoupling = (2nd half Pa:HR - 1st half Pa:HR) / 1st half Pa:HR`
 
+**Measured on Thursday's run from 2026-09-16** — the week's longest — since the
+dedicated Sunday long run was dropped in the restructure of that date. Earlier rows in
+the log below came from Sunday long runs; the intensity is the same (HR-governed, start
+≤140), the distance is smaller.
+
 **Never compute it over the whole run.** The opening km is HR onset kinetics, not
 drift, and including it inflates the figure badly — on 2026-08-30 the naive number
 was 8.6% against a true 1.8%.
