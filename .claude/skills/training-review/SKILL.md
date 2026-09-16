@@ -51,8 +51,9 @@ default last 7 days.
      drop the middle km if odd. **Never compute it over the whole run**; the opening
      km is HR onset kinetics and inflates the number badly. Report the value against
      the trend, not as a pass/fail on one run.
-   - **Recovery**: HRV/sleep/load flags from COROS data, especially in a caloric
-     deficit (the brief expects some squat stall — that's the trade, not a problem).
+   - **Recovery**: HRV/sleep/load flags from COROS data. **No caloric deficit from
+     2026-09-16** (cut abandoned, weight held ~80 kg), so a squat stall no longer has that
+     excuse — treat a missed top set as real evidence about the TM or about running load.
 4. Report a concise summary: per-session table, then findings, then suggested
    adjustments. Suggestions are never auto-applied — plan changes go through the
    user editing `plans/running.md` / the sheet, then a re-sync.
