@@ -189,6 +189,16 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   | 4–6 min  | 83–85% | 166–170 |
   | 8–12 min | 80–83% | 160–166 |
 
+  > **THESE CEILINGS DO NOT FIT THIS ATHLETE — established 2026-09-18. Do not prescribe
+  > from them.** The 09-18 session ran the 4:51 band at **185–187 bpm** sustained, 15–19
+  > above the 4–6 min tier, with every rep plateauing internally. The 09-15 TT averaged
+  > 188, and a 5k sits 4–8 bpm above LTHR, giving **LTHR ≈ 180–184** — so 166–170 sits
+  > roughly 15 bpm *below* his actual threshold and would prescribe an easy run in place
+  > of a quality session. The tier split is [C] inference (`sub-threshold-reference.md`
+  > §3), and §3 already ranks the §4 checks above it. **Sub-T is prescribed on PACE + RPE**
+  > (user 2026-09-18), verified by within-rep plateau. Kept here as Bakken's framework and
+  > as the record of why it was set aside, not as a live prescription.
+
   End-of-rep values; HR lags on short reps. **Corroborated by his own sessions:** the
   09-10 8×3min ran rep 2 at 167 (83.5%) and rep 8 at 182 (91%) — correctly pitched at
   the start, out of the zone by ~rep 4, which is where the two-more-reps test would also
@@ -265,10 +275,19 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   **SUPERSEDED — the full rest day is gone.** "One full rest day per week, no run, no
   lift" was an invariant from 2026-09-12; putting the fifth run on Thursday spends it.
   **This rests on one condition** (user 2026-09-16: "its fine if i genuinely keep my
-  easy's easy"): Monday, Thursday and every warm-up and cool-down run **at or under 140
+  easy's easy"): Monday, Thursday and every warm-up run **at or under 140
   bpm**, no exceptions. Easy-pace creep is this athlete's documented failure mode, and it
   is what the rest day used to absorb. If easy days start drifting, the clear day comes
   back before any other cut is made.
+  **COOL-DOWNS ARE EXEMPT — amended 2026-09-18 (user's call).** An HR cap on a cool-down
+  is unachievable by construction: HR *decays* from the last rep rather than settling
+  into a band. Evidence from the 09-18 session — the cool-down opened at 179 straight off
+  the final float, averaged 164, and never dropped below 141 across 4:53. A 120-140 target
+  would have alerted continuously, which is the 2026-09-12 pace-band-on-an-HR-run error
+  mirrored, and is likely part of why that cool-down was cut to 0.6 km of the prescribed 2.
+  **Cool-downs are prescribed by DISTANCE only and run easy by feel** (user: "i think just
+  prescribe a distance going forward, ill make sure to run it easy"). No HR target. See
+  CLAUDE.md for the Tredict push shape.
   Wednesday (dips only) and Saturday (pull-ups only) are now the lightest days, both
   upper-body. If a genuinely clear day is wanted back, the cheapest move is dips or
   pull-ups onto a day that already has a session.
@@ -486,7 +505,7 @@ unlikely anyway.
 - Tue | Easy | 6km, HR <=140 (expect 20-40s/km slower than home — altitude, not fitness) + **C14 W2 D1 Squat PM**
 - Wed | Easy | 6km, HR <=140 + **C14 W2 D2 Dips PM**
 - Thu | Easy | 8km, HR <=140
-- Fri | Quality | WU 2km easy; 5x(6min @ **HR 166-170, NOT pace**, 60s jog); CD 1.5km easy + **C14 W2 D3 Deadlift PM**
+- Fri | Quality | WU 2km easy; 5x(6min @ **5:06-5:11/km — ALTITUDE-ADJUSTED, RPE governs**, 60s jog); CD 1.5km easy + **C14 W2 D3 Deadlift PM**
 - Sat | Easy | 5km, HR <=140 + **C14 W2 D4 Pull-ups PM**
 - Sun | Easy | 8km, HR <=140
 
@@ -515,10 +534,22 @@ much mileage as possible."
 - **Altitude ~1,570 m** in Kigali (confirmed — based there apart from the trek); the Volcanoes NP trek days run ~2,300-3,000 m.
   Unacclimatised, expect sea-level pace bands to be **10-20 s/km optimistic**, and
   Rwanda's terrain is hilly on top of that, so pace is doubly invalid.
-- **SUB-T RUNS BY HR FOR THE TRIP, NOT PACE.** Target the 4-6 min tier — **166-170 bpm**
-  end-of-rep (83-85% of ~200) — plus the two-more-reps rule. Record the pace achieved for
-  information only and do **not** compare it to the 4:50-4:52 band. Revert to pace bands
-  on 10-09, the first quality session home.
+- **SUB-T RUNS ON ALTITUDE-ADJUSTED PACE, WITH RPE GOVERNING — changed 2026-09-18
+  (user's call: "do a conversion of pace to altitude adjusted pace for rwanda so we
+  sidestep this problem").** Supersedes the earlier "run by HR 166-170" prescription.
+  **Why HR was dropped:** the 09-18 session ran the 4:51 band at **185-187 bpm** sustained,
+  15-19 bpm above the 166-170 tier, and the 09-15 TT's 188 average implies **LTHR ≈ 180-184**
+  — so the 83-85%-of-200 tier sits well below this athlete's actual threshold and would
+  have prescribed an easy run in place of a quality session. The %HRmax tiers are [C]
+  inference (§3) and do not fit him; pace is the anchor he has chosen to trust.
+  **Bands for the trip**, converted off 4:50-4:52 for ~1,570 m:
+  - **W6 (unacclimatised): 5:06-5:11/km** — sea-level band + 15-20 s/km.
+  - **W7 (partially acclimatised): 5:01-5:06/km** — + 10-15 s/km.
+  **These are guides, not gates.** Kigali is hilly, so flat-ground pace may be
+  unreachable at the right effort on the terrain available — in that case run the effort,
+  not the number. **The controls remain RPE and the two-more-reps rule**, verified on
+  review by the §4 within-rep plateau, which needs neither HRmax nor sea level.
+  Revert to the sea-level band on 10-09, the first quality session home.
 - **Easy runs need no adjustment** — they are already HR-capped at 140, so altitude
   self-corrects by slowing the pace. A 7:00/km easy run at 1,570 m is correct execution.
 - **Mileage is rescued by adding days, not lengthening them.** W6 runs six days and still
@@ -548,7 +579,7 @@ much mileage as possible."
 ## Week 7 (of 2026-09-28) — RWANDA, trek week, ~33.5 km running + 3 trek days
 
 - Mon | Easy | 8km, HR <=140
-- Tue | Quality | WU 2km easy; 6x(6min @ **HR 166-170, NOT pace**, 60s jog); CD 1.5km easy + **C14 W3 D1 Squat PM**
+- Tue | Quality | WU 2km easy; 6x(6min @ **5:01-5:06/km — ALTITUDE-ADJUSTED, RPE governs**, 60s jog); CD 1.5km easy + **C14 W3 D1 Squat PM**
 - Wed | Easy | 6km, HR <=140 + **C14 W3 D2 Dips PM**
 - Thu | Easy | 8km, HR <=140 — last run before the treks. **No lift** — nothing heavy going into three trek days
 - Fri | Trek | **GORILLA TREK** (Volcanoes NP, ~2,300-3,000 m) — no running
@@ -558,7 +589,8 @@ much mileage as possible."
 Notes: running is front-loaded into Mon-Thu because Fri-Sun are the treks. ~33.5 km of
 running against W7's planned 43.5 — but the three trek days are hours on steep ground at
 altitude, so the week's *training* is not down 10 km, only its running-specific part.
-- **Tuesday is the week's only quality session, run by HR** (166-170), not pace. By then
+- **Tuesday is the week's only quality session, run on altitude-adjusted pace**
+  (5:01-5:06, RPE governing — changed 2026-09-18). By then
   you have a week at altitude, so it should feel more normal than W6's.
 - **Nothing hard on Thursday.** Going into three consecutive trek days flat is worth more
   than the 2 km an extra session would add.

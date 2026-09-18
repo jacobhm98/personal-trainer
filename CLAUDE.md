@@ -178,6 +178,11 @@ Minimum you must not get wrong without opening it:
   execution*, not failure. Under 5 = too easy; over 10–12 = too hot.
 - **Sub-T lives at 80–87% HRmax**, tiered by rep length. 88–92% is Daniels T-pace at
   LT2 — a different thing. Do not set sub-T ceilings off the 88–92% anchor.
+  **BUT those tiers do not fit this athlete (2026-09-18) — do not prescribe from them.**
+  His LTHR is ≈**180–184** (09-15 TT averaged 188; a 5k sits 4–8 bpm above LTHR), so
+  83–85% of ~200 = 166–170 lands ~15 bpm *below* his threshold. The 09-18 session held
+  the 4:51 band at 185–187 with every rep plateauing. **Sub-T is prescribed on PACE +
+  RPE**, verified by the within-rep plateau — which needs no HRmax and works at altitude.
 - **Pace is derived, never guessed**: T-pace + 3–5 s/km (1–3 min), +10–12 (4–6 min),
   +17–19 (8–12 min).
 - **This needs the HR stream, not lap averages** — lap data hides float recovery. Get it
@@ -219,6 +224,14 @@ Minimum you must not get wrong without opening it:
   Easy run ≈ value 130 padding 10 (120–140). Long run is better as **two steps** —
   first half 132±8 (124–140), second half 145±5 (140–150) — since "start ≤140 and let
   it drift" cannot be expressed as one band.
+  **Cool-downs are NOT HR-governed (amended 2026-09-18, user's call).** HR decays from
+  the last rep instead of settling into a band, so an HR target on a cool-down alerts
+  continuously and cannot be met: the 09-18 cool-down opened at 179, averaged 164 and
+  never fell below 141 in 4:53. Push cool-downs as **distance only** —
+  `durationType: "distance"`, `intensityType: "cooldown"`, **no `targetZoneType`**.
+  Every step still needs *some* target or nothing shows on the watch, so set a
+  deliberately loose informational pace (**value 450, padding 90 = 6:00-9:00/km**) and
+  put "run easy by feel, no HR target" in the step note.
   **Learned the hard way 2026-09-12:** W5's easy 6k and long 14k were pushed with pace
   bands of 5:45–6:15 and the HR cap only in the notes. At 140 bpm he runs ~7:00/km, so
   the watch would have alerted him for being too slow while he was executing correctly.
