@@ -152,6 +152,15 @@ soft; the §4 checks outrank them.
 | 4–6 min  | 83–85% **[C]** |
 | 8–12 min | 80–83% **[C]** |
 
+> **NOT APPLICABLE TO THIS ATHLETE — established 2026-09-18 (see §8.2).** His LTHR is
+> ≈**180–184**, derived from the 09-15 TT average of 188 (§1.2: a 5k sits 4–8 bpm above
+> LTHR). The 4–6 min tier of 166–170 therefore sits ~15 bpm *below* his threshold, and
+> the 09-18 session confirmed it directly: 4:51 held at 185–187 with every rep plateauing
+> internally. **Sub-T is prescribed on pace + RPE** (user's call 2026-09-18), verified by
+> the §4 within-rep plateau. The zone 80–87% is Bakken's **[B]**; this split is mine
+> **[C]**; neither is used to prescribe for him. Revisit only if a lactate test measures
+> LT1/LT2 directly.
+
 Read as **end-of-rep values** — HR lags, especially on short reps.
 
 **Full intensity map:** easy/recovery **≤70%** **[B]**, long run **starts ≤70%, drift
@@ -194,12 +203,24 @@ session.**
 
 ## 5. Expected HR drift
 
-**Bakken: expect 7–10 bpm of spread across a 6×6 session at identical lactate.**
+**Bakken: expect 7–10 bpm of spread across a 6×6 session at identical lactate [B].**
 That is what *correct execution* looks like, not a failure — HR rises while lactate
 holds flat because plasma volume falls with sweating, stroke volume drops, and HR
 rises to maintain cardiac output. Core temperature does the rest.
 
-| Spread across session | Read |
+**His direct description stands at [B] and is DESCRIPTIVE** — it says drift is normal
+and warns against misreading it as failure. The scoring table below converts that into a
+*diagnostic with prescriptions attached*, and the conversion is **[C] — my inference,
+not his** (graded 2026-09-18 on the user's call: "his direct description should still
+carry a [B]").
+
+**Known fragility (2026-09-18).** On a 5×6 the whole-session number flips sign on a
+single judgment call: include rep 1 and the 09-18 session spread **11 bpm** ("too hot");
+exclude it as warm-up and it spread **2–4 bpm** ("too easy"). Rep 1 is depressed by HR
+onset kinetics — it opened at 158 and needed ~3 min to reach steady state. The §4
+within-rep plateau has no such ambiguity; prefer it, and treat this table as secondary.
+
+| Spread across session | Read **[C]** |
 |---|---|
 | **< 5 bpm**   | Probably too easy — propose creeping the pace faster |
 | **7–10 bpm**  | Correctly pitched — leave it alone |
@@ -307,7 +328,7 @@ Weekly sub-T dose in the current block runs **60 → 76 min**.
 
 | Quantity | Value | Status |
 |---|---|---|
-| HRmax | ~200 | **PROVISIONAL — kept 2026-09-15 (user's call).** The 5k TT recorded a peak of only **193**, run outdoors in ~15 °C — cool, so no heat pushing HR up — on wrist optical, which under-reads maximal peaks by 5–15 bpm (§6). That is below the 195 floor observed 2026-08-20 (altitude, recovery jog), so it neither lowers nor pins the max. Next chance: the W10 5k TT, Fri 2026-10-23. |
+| HRmax | ~200 | **PROVISIONAL — kept 2026-09-15 (user's call).** The 5k TT recorded a peak of only **193**, run outdoors in ~15 °C — cool, so no heat pushing HR up — on wrist optical, which under-reads maximal peaks by 5–15 bpm (§6). That is below the 195 floor observed 2026-08-20, so it neither lowers nor pins the max. Next chance: the W10 5k TT, Fri 2026-10-23. **Provenance corrected 2026-09-18:** the 195 came from `Run W1 Thu 4x1k @4:50` — a **threshold interval session** at 1,600 m, avg HR 178, reps at ~4:47/km — NOT the "altitude recovery jog" an earlier version of this row claimed. Verified sustained from lap data: per-rep max climbed 188 → 192 → 194 → **195**, and the 60 s float after rep 4 *averaged* 191, which no single-sample optical spike could produce. It is the most credible near-max reading on file, and it was reached on a **submaximal** session. **A second 195 (2026-09-06, "Run W3 Sun Long 13k", avg HR 179) is DISCARDED** — the sync log records W3's long run as HR-confounded by alcohol, which is why its decoupling went unlogged, and §6 requires discarding such conclusions outright rather than asterisking them. **One credible 195, not two.** |
 | LTHR | — | **NOT MEASURED, and will not be** — 5k TTs only; the 30-min TT is not scheduled. Golden-zone method unavailable. |
 | VDOT | **44.7** | **MEASURED 2026-09-15**, from the grade-adjusted 5k (21:57). Raw clock gives 44.3. See §8.1. |
 | T-pace | **4:40/km** | **MEASURED 2026-09-15**, from VDOT 44.7. Raw clock gives 4:42. See §8.1. |
@@ -315,7 +336,8 @@ Weekly sub-T dose in the current block runs **60 → 76 min**.
 | Easy cap | ≤140 bpm | Provisional on max 200 |
 | Long-run cap | ≤150 bpm | Provisional on max 200 |
 | Sub-T paces | **4:43–4:45 / 4:50–4:52 / 4:57–4:59** | **MEASURED 2026-09-15** — T-pace 4:40 plus the §2 offsets, for 1–3 / 4–6 / 8–12 min reps |
-| Sub-T ceilings | 170–174 / 166–170 / 160–166 | Provisional on max 200 |
+| Sub-T ceilings | ~~170–174 / 166–170 / 160–166~~ | **RETIRED 2026-09-18 — do not prescribe from these.** ~15 bpm below his measured threshold (LTHR ≈ 180–184). Sub-T runs on **pace + RPE**; see §3 and §8.2. |
+| LTHR (estimated) | **180–184** | **DERIVED 2026-09-18** from the 09-15 TT average of 188 minus the 4–8 bpm a 5k sits above LTHR (§1.2). An estimate, not a measurement — the honest fix is a lactate profile. Implies HRmax is likely **205–210**, above the provisional 200, since a normal LTHR of 87–89% of max puts max there. |
 
 **Until 2026-09-15 every running data point in this block was a floor, not a
 measure** — Midnattsloppet was paced blind, the 09-02 tempo was run to a prescription,
@@ -382,6 +404,55 @@ The watch target widens each band to ±3 s/km, because GPS pace noise is larger 
   done two more reps" was right.
 - **HR side unchanged:** easy ≤140, long ≤150 and the §3 tiers stay provisional on ~200.
 - **Every later TT:** same route, grade-adjusted time, so the series compares to itself.
+
+### 8.2 First clean sub-T session — Fri 2026-09-18 [S]
+
+**The first session run on TT-measured paces, and the first with a full HR stream.**
+
+**Prescribed:** WU 2 km; 5×(6 min @ 4:50–4:52, pushed 291±3; 60 s float); CD 2 km.
+**Executed:** 9.51 km, 53:55, avg HR 169. Sleep 7h26 (score 79), HRV 61 (normal,
+baseline 57), RHR 52. WU 2.0 km @ 7:01/km, HR 140. **CD cut to 0.60 km @ 8:10/km** —
+see the cool-down rule change below.
+
+| | Rep 1 | Rep 2 | Rep 3 | Rep 4 | Rep 5 |
+|---|---|---|---|---|---|
+| Pace | 4:48 | 4:50 | 4:52 | 4:52 | 4:54 |
+| Grade-adjusted | 4:48 | 4:49 | 4:51 | 4:50 | 4:53 |
+| Avg HR | 174 | 181 | 184 | 185 | 185 |
+| Max HR | 179 | 187 | 188 | 188 | 189 |
+| Final 90 s | 177.7 | 185.1 | 185.9 | 187.5 | 186.4 |
+| 1st→2nd half | +7.4 | +7.4 | +5.6 | +3.9 | +1.9 |
+| **2nd-half slope** | **+0.01** | **+0.43** | **−0.70** | **+0.39** | **−0.16** |
+
+Floats averaged 174.9 / 178.4 / 182.6 / 183.6 / 183.3.
+
+**Verification (§4).**
+1. **Within-rep plateau — PASS on all five.** Second-half slopes all within ±0.7 bpm/min.
+   Rep 1 is textbook: climbs 158 → 177 then holds 177–178 for three minutes. Nothing was
+   still rising at any rep's end. The shrinking 1st→2nd-half delta is the signature of
+   correct execution.
+2. **Session spread — ambiguous, and that is the finding.** Including rep 1: **11 bpm**
+   ("too hot"). Excluding it as warm-up (user's call; it opened at 158 and needed ~3 min
+   to reach steady state): **2–4 bpm** ("too easy"). Same session, opposite prescriptions.
+   Logged in §5 as a known fragility of that metric on short sessions.
+3. **Two more reps — yes, qualified.** User: "i could have done 2 more reps, end of rep 2
+   would have potentially been a bit difficult." §4's creep trigger requires *easily*.
+
+**Verdict: HOLD 4:51.** Not a creep, despite two of three checks reading "too easy" —
+N=1 on measured paces, the two-more-reps pass was qualified, and the next 2.5 weeks are
+at altitude where a pace change cannot be tested. **First real chance to re-evaluate is
+W8 Friday, 10-09.**
+
+**Consequences.**
+- **LTHR ≈ 180–184** derived here; the §3 %HRmax tiers retired as non-applicable (§8 table).
+- **HRmax likely 205–210**, above the provisional 200 — the only reading under which the
+  TT average, the 195 floor and a normal LTHR fraction all coexist.
+- **Cool-down HR caps abolished** (`plans/running.md`, `CLAUDE.md`): the CD opened at 179
+  off the final float, averaged 164 and never fell below 141 in 4:53. A 120–140 band is
+  unachievable by construction and would have alerted continuously — the 2026-09-12
+  pace-band-on-an-HR-run error, mirrored. Cool-downs are **distance only, run easy by feel**.
+- **Warm-up lesson:** rep 1 lost ~3 min to HR onset kinetics. A warm-up with strides or a
+  progressive final 400 m would make rep 1 usable data rather than a discard.
 
 ---
 
