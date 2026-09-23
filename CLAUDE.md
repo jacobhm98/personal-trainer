@@ -256,6 +256,17 @@ Minimum you must not get wrong without opening it:
   The plan was already applied and **steps cannot be edited after creation**, so the
   only remedy was retitling both to "RUN BY HR, IGNORE THE PACE BAND" and telling him to
   start a plain run. Get the zone type right at push time — there is no fix afterwards.
+- **`targetMode: "padding"` still needs `targetZoneType` (learned 2026-09-23).** The
+  schema only *requires* it for `"range"`, so it is easy to drop — but a padding step
+  without it lands as **`targetType: "OPEN"`**, with the value stored as a hint
+  (`extraValueSpeed`) rather than a target. Verified on the 10-01 3x10: warm-up carried
+  `targetZoneType: "heartrate"` and came through as `HEART_RATE 110-150`, while every
+  pace step came through OPEN. **Read the pushed workout back with `planned-workout`
+  after any push** — the step JSON shows `targetType` per step, and it is the only way to
+  tell a real target from a hint. (This also means the long-standing cool-down recipe —
+  loose pace, no zone type — has always produced an OPEN step. That matches its intent,
+  "run easy by feel", so leave it; but the claim that every step needs *some* target or
+  nothing shows on the watch is unproven.)
 - **Treadmill sessions (learned 2026-09-23).** Indoors the watch cannot measure pace —
   the reading is accelerometer-derived and will alert against a correctly-run session —
   so **the belt is the prescription**. Push treadmill runs as **time-based steps**
