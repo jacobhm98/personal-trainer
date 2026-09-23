@@ -238,6 +238,14 @@ Minimum you must not get wrong without opening it:
   The plan was already applied and **steps cannot be edited after creation**, so the
   only remedy was retitling both to "RUN BY HR, IGNORE THE PACE BAND" and telling him to
   start a plain run. Get the zone type right at push time — there is no fix afterwards.
+- **Treadmill sessions (learned 2026-09-23).** Indoors the watch cannot measure pace —
+  the reading is accelerometer-derived and will alert against a correctly-run session —
+  so **the belt is the prescription**. Push treadmill runs as **time-based steps**
+  (`durationType: "time"`; never `distance`, which ends at the wrong moment on a drifting
+  indoor estimate), with **`subSportType: "treadmill"`** and the **belt speed in kph in
+  the TITLE** — the title is the only reliable warning surface, same lesson as the
+  repurposed-workout rule. Keep a pace target on each step so Tredict can still compute
+  effort, and put "set the machine, ignore watch pace" in the notes.
 - `time` on a plan training = minutes from midnight (default 1020 = 17:00).
 - **Strength**: `sportType: "misc"` + `subSportType: "strength_training"` works as a
   structured Tredict entry (set table in `notes`, ≤2048 chars). Rest days:

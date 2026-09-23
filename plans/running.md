@@ -499,29 +499,32 @@ be recorded as such, exactly like the Friday deadlift confound. Under the hit/mi
 rule it simply holds the TM. C14 W1 is the lightest week of the cycle, so a miss is
 unlikely anyway.
 
-## Week 6 (of 2026-09-21) — RWANDA, arrival week, ~43 km (~48 with the optional Monday run)
+## Week 6 (of 2026-09-21) — RWANDA, arrival week, ~25 km run + an MTB weekend
 
-- Mon | Rest | **FLY STOCKHOLM -> KIGALI.** Travel day. **Optional** easy 5-6km in the evening if the flight lands early enough — take it if it is there, skip it without guilt
-- Tue | Easy | 6km, HR <=140 (expect 20-40s/km slower than home — altitude, not fitness) + **C14 W2 D1 Squat PM**
-- Wed | Easy | 6km, HR <=140 + **C14 W2 D2 Dips PM**
-- Thu | Easy | 8km, HR <=140
-- Fri | Quality | WU 2km easy; 5x(6min @ **5:06-5:11/km — ALTITUDE-ADJUSTED, RPE governs**, 60s jog); CD 1.5km easy + **C14 W2 D3 Deadlift PM**
-- Sat | Easy | 5km, HR <=140 + **C14 W2 D4 Pull-ups PM**
-- Sun | Easy | 8km, HR <=140
+**Rewritten 2026-09-23**, mid-week, once the trip's real shape was known: a found
+gym/coworking (so lifting is on), **all running on a treadmill**, and **mountain biking at
+Lake Kivu Sat 09-26 - Sun 09-27**. Mon-Wed are recorded as executed, not as planned.
+Pushed as Tredict plan `6LiGcCcCA`.
 
-Notes: **first week of the 2026-09-16 restructure** — five runs, Thursday easy added, and
-Sunday converted from the long run to a **second easy run**. (The X session was designed
-and then deferred the same day; see the schema.) W5 keeps the old shape — its Friday 5x6
-is already pushed and its Sunday is a 15 km long run — so the change starts here.
-**~43 km, a shade under W5's 44.9.** W5 took a deliberate one-off bump (the Thursday 5 km
-added on 09-16) and W6 is the outbound travel week, so a flat-to-slightly-down week here
-is right. The ramp resumes at W9. An earlier draft had W6 at 38.6 km, which was an
-artefact of deleting the 15 km long run rather than a decision — the Sunday easy run
-replaces it and Thursday has to make that up, not just sit alongside it. Corrected on the
-user's catch: "why is w6 lower total volume when we've added an easy day? makes no sense."
-**No strides this week** — the first days at 1,570 m are not where you introduce them.
-They start in W9, back at sea level.
+- Mon | Rest | **FLEW STOCKHOLM -> KIGALI.** Travel day — the week's clear day
+- Tue | Easy | gym session (a gym/coworking was found)
+- Wed | Easy | easy run — **done** + **C14 W2 D2 Dips PM**
+- Thu | Quality | TREADMILL. WU 10min easy (HR 110-150); 2min belt ramp; 5x(6min @ **11.5-11.8 kph = 5:06-5:12/km**, 60s float @ ~8 kph); CD 8min easy; ~55min, ~9.5km + **C14 W2 D1 Squat PM**
+- Fri | Easy | TREADMILL. 55min, HR 110-150, effort governs; ~8km
+- Sat | MTB | **MOUNTAIN BIKING, LAKE KIVU** — no run, no lift
+- Sun | MTB | **MOUNTAIN BIKING, LAKE KIVU** — no run, no lift
 
+Notes: the planned ~43 km week did not survive contact — Monday was the outbound flight,
+Tuesday a gym session, Wednesday an easy run, so the week was rebuilt on Wednesday around
+what was left of it.
+- **One sub-T, not two.** Thursday is the only slot that remains, and it is stacked with
+  the squat. This is a calendar constraint, not a design choice — unlike the *original*
+  W6 draft, which carried one session for no recorded reason (user's catch, 2026-09-18).
+- **Easy runs move to a 110-150 HR band**, replacing the <=140 cap. Heat and altitude both
+  raise HR at a given effort, so the error is one-directional: a tight cap would only make
+  easy runs easier than intended. Effort governs, HR backstops.
+- **~25 km running against the planned 43**, with two days of mountain biking carrying the
+  weekend. That is the reduction the user asked for, not a shortfall to be made up.
 ### TRAVEL BLOCK — Rwanda, 2026-09-21 to 2026-10-05 (told 2026-09-16)
 
 Flights **Mon 09-21 out** and **Mon 10-05, departing 20:00, landing Stockholm midday
@@ -545,17 +548,32 @@ much mileage as possible."
   **Bands for the trip**, converted off 4:50-4:52 for ~1,570 m:
   - **W6 (unacclimatised): 5:06-5:11/km** — sea-level band + 15-20 s/km.
   - **W7 (partially acclimatised): 5:01-5:06/km** — + 10-15 s/km.
+  - **W7, 10-min reps: 5:07-5:13/km** — the 8-12 min band (4:57-4:59 = T+17-19),
+    same altitude adjustment. Added 2026-09-23 with the rep-length rotation.
+    **Longer reps run slower** — do not carry the 6-min band onto a 10-min session.
   **These are guides, not gates.** Kigali is hilly, so flat-ground pace may be
   unreachable at the right effort on the terrain available — in that case run the effort,
   not the number. **The controls remain RPE and the two-more-reps rule**, verified on
   review by the §4 within-rep plateau, which needs neither HRmax nor sea level.
   Revert to the sea-level band on 10-09, the first quality session home.
-- **Easy runs need no adjustment** — they are already HR-capped at 140, so altitude
-  self-corrects by slowing the pace. A 7:00/km easy run at 1,570 m is correct execution.
-- **Mileage is rescued by adding days, not lengthening them.** W6 runs six days and still
-  lands ~43 km; the extra runs sit on Wednesday and Saturday, which carry only upper-body
-  lifts, so the legs take no extra hard work. The outbound travel day is that week's clear
-  day; in W8 it is Tuesday.
+- **ALL RUNNING IS ON A TREADMILL (told 2026-09-23).** That changes the prescription unit:
+  the belt sets the pace, so sessions are pushed as **time-based steps with kph in the
+  title**, and the watch's indoor pace estimate is noise — set the machine, ignore the
+  alerts. Two consequences to keep straight: the "Kigali is hilly, so pace is doubly
+  invalid" caveat above **no longer applies** — indoors, pace is a real control for the
+  first time this trip — while the altitude adjustment **still does**, since the air is at
+  1,570 m either way. Treadmill heat remains a listed confounder, so HR-derived
+  conclusions are still discarded outright. Keep the incline constant (0 or 1%) so
+  sessions stay comparable to each other.
+  Belt speeds: **11.5-11.8 kph** (W6, 6-min reps), **11.8-12.0** (W7, 6-min),
+  **11.5-11.7** (W7, 10-min), easy ~8.5 kph adjusted to hold HR 110-150.
+- **Easy runs need no pace adjustment** — they are HR-governed on a **110-150 band**
+  (widened from the <=140 cap on 2026-09-23), so altitude and heat self-correct by
+  slowing the belt. ~8.5 kph at 1,570 m indoors is correct execution, not a bad day.
+- **Mileage was rescued by adding days, not lengthening them — until 2026-09-23, when
+  the two loaded weekends replaced it.** MTB on 09-26/27 and the treks on 10-02/04 are
+  the volume now; running drops to ~25 km in W6 and ~28 km in W7 on the user's own call.
+  The outbound travel day is W6's clear day, Wednesday 09-30 is W7's, and in W8 it is Tuesday.
 - **The three trek days are the week's hard aerobic work, several times over** — 4-8 h
   on steep ground at altitude. Do not run quality around them, and expect the descents to
   produce real DOMS on 10-04/05. W8's Monday flight is the recovery day, and W8 was
@@ -563,41 +581,59 @@ much mileage as possible."
 - **W10's TT (Fri 10-23) stays put** — 2.5 weeks after return, with W8 and W9 to rebuild.
   Two weeks at 1,570 m is not altitude training; expect no boost and grade it at face
   value like every other check.
-- **Lifting continues on schedule** — user 2026-09-16: "i will likely have access to a
-  gym. i can find one." So **C14 W2 runs in W6 and C14 W3 in W7**, and no cycle mapping
-  moves.
-  - **W6 gets all four days** (Tue squat, Wed dips, Fri deadlift, Sat pull-ups, each PM
-    after that day's run). **W7 gets D1 and D2 only** — D3 and D4 land on trek days.
-  - **A skipped session is not a missed top set.** The hit/miss rule needs an attempt; no
-    attempt is no evidence, so **deadlift and pull-up TMs hold** into C15 rather than
-    rising. Squat and dips progress on whatever their W7 top sets say.
+- **Lifting continues on schedule, but C14 W2 now spans W6 and W7** — a gym/coworking was
+  found 2026-09-23, so nothing slides for lack of equipment. The target is the user's own:
+  "i think the goal should be to finish week2 of the block by the time i leave rwanda."
+  - **C14 W2 runs Wed 09-23 -> Tue 09-29**: D2 dips Wed, D1 squat Thu, D3 deadlift Mon,
+    D4 pull-ups Tue. **C14 W3 does not run in Rwanda** — it starts at home Wed 10-07.
+  - **D1/D2 are swapped in W6.** The in-phase rule governs week *numbers*, not day order;
+    all four lifts stay in C14 W2, so the swap costs nothing.
+  - **This rescues deadlift and pull-up progression.** Under the previous plan those two
+    fell on trek days, got no W3 attempt, and their TMs would have held by default into
+    C15 — a hold with no evidence behind it. Now all four lifts get a real W3 top set,
+    and on home equipment rather than found-gym loads.
+  - **Every cycle mapping downstream slides one week.** See `plans/config.md`.
   - **Weights from a found gym are not comparable to the sheet** — different bars,
     plates and calibration. Record what was done, run the prescribed loads if the
     equipment allows, substitute freely if it does not, and **never advance a TM off an
     improvised session**.
 
-## Week 7 (of 2026-09-28) — RWANDA, trek week, ~33.5 km running + 3 trek days
+## Week 7 (of 2026-09-28) — RWANDA, trek week, ~28 km running + 3 trek days
 
-- Mon | Easy | 8km, HR <=140
-- Tue | Quality | WU 2km easy; 6x(6min @ **5:01-5:06/km — ALTITUDE-ADJUSTED, RPE governs**, 60s jog); CD 1.5km easy + **C14 W3 D1 Squat PM**
-- Wed | Easy | 6km, HR <=140 + **C14 W3 D2 Dips PM**
-- Thu | Easy | 8km, HR <=140 — last run before the treks. **No lift** — nothing heavy going into three trek days
+**Rewritten 2026-09-23** — treadmill running, hard days stacked, and C14 **W2** (not W3)
+finishing here. Pushed as Tredict plan `6LiGcCcCA`.
+
+- Mon | Quality | TREADMILL. WU 10min easy (HR 110-150); 2min belt ramp; 6x(6min @ **11.8-12.0 kph = 5:01-5:06/km**, 60s float @ ~8 kph); CD 8min easy; ~62min, ~11km + **C14 W2 D3 Deadlift PM**
+- Tue | Easy | TREADMILL. 55min, HR 110-150, effort governs; ~8km + **C14 W2 D4 Pull-ups PM** — closes C14 W2
+- Wed | Rest | full rest day — the week's clear day
+- Thu | Quality | TREADMILL. WU 10min easy; 2min belt ramp; 3x(10min @ **11.5-11.7 kph = 5:07-5:13/km**, **90s** float @ ~8 kph); CD 8min easy; ~55min, ~9.3km. **No lift**
 - Fri | Trek | **GORILLA TREK** (Volcanoes NP, ~2,300-3,000 m) — no running
 - Sat | Trek | **GORILLA TREK** — no running
 - Sun | Trek | **GORILLA TREK** — no running
 
-Notes: running is front-loaded into Mon-Thu because Fri-Sun are the treks. ~33.5 km of
-running against W7's planned 43.5 — but the three trek days are hours on steep ground at
-altitude, so the week's *training* is not down 10 km, only its running-specific part.
-- **Tuesday is the week's only quality session, run on altitude-adjusted pace**
-  (5:01-5:06, RPE governing — changed 2026-09-18). By then
-  you have a week at altitude, so it should feel more normal than W6's.
-- **Nothing hard on Thursday.** Going into three consecutive trek days flat is worth more
-  than the 2 km an extra session would add.
-- Sunday's easy run goes too: the treks cover that ground, with interest.
-- **Lifting gets D1 and D2 only.** D3 deadlift and D4 pull-ups fall on trek days and are
-  dropped — see the travel-block note for what that does to the TMs.
-
+Notes: running is front-loaded into Mon-Thu because Fri-Sun are the treks. ~28 km of
+running against W7's originally planned 43.5 — but the three trek days are hours on steep
+ground at altitude, so the week's *training* is not down 15 km, only its running-specific
+part. The user asked for exactly this on 2026-09-23: "we can reduce the amount of easy runs
+slightly due to the hiking/mountain biking weekends i got planned."
+- **Two sub-T sessions, one 6-min and one 10-min** — Bakken's rep-length rotation (user,
+  2026-09-23). Monday is the 6-min session, Thursday the 10-min one, and **Thursday runs
+  slower**: the 8-12 min band is T+17-19 against the 4-6 min band's T+10-12. Do not run
+  Thursday at Monday's belt speed. **Float lengths are fixed by rep length** (§7 of
+  `sub-threshold-reference.md`): 60 s after a 6-min rep, **90 s** after a 10-min one.
+- **Hard days are stacked, not spread** (user, 2026-09-23: "we should stack hard leg days
+  together... easy days easy hard days hard"). Monday pairs the sub-T with the deadlift;
+  Tuesday is an easy run plus pull-ups, upper body only, so it costs the legs nothing.
+  **This supersedes the old "nothing hard on Thursday" rule.** That rule was written when
+  W7 also carried a squat day; with C14 W3 moved home, Thursday has room it did not have.
+  Going into the treks slightly tired is an acceptable price for a second quality session
+  — but err easy on the belt, and it converts to an easy 55min without ceremony if he
+  wakes up flat.
+- **Wednesday is the clear day.** One full rest day per week remains an invariant, and it
+  now sits between the two hard days, which is where the 2026-09-12 note wanted it.
+- **Lifting closes C14 W2 on Tuesday.** D3 deadlift Mon, D4 pull-ups Tue — the standard
+  D3->D4 pair. Squat Thu 09-24 -> deadlift Mon 09-28 is 96 h. C14 W3 starts at home
+  Wed 10-07; see the travel-block note.
 ## Week 8 (of 2026-10-05) — down week + re-entry, ~35 km
 
 - Mon | Easy | 5km in Kigali, HR <=140 — day after the last trek, legs sore; **flight leaves 20:00**
