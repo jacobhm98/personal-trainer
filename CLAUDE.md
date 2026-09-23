@@ -158,6 +158,17 @@ not three, while mileage is the priority; **6-8 × 10-15 s hill strides** on the
 Sunday's run every other week keep turnover alive in the meantime. The **dedicated long run is gone** ("we dont need a dedicated long run, im
 not in a marathon block"); Thursday's run carries the decoupling measurement instead, and the full rest day is
 spent to buy it (invariant superseded 2026-09-16).
+**Hard days hard, easy days easy — stacking OUTRANKS protecting a light day
+(user, 2026-09-23).** The concentration principle behind the Tue/Fri doubles is the
+*general* scheduling rule, not a quirk of those two days: pair the hard run with the hard
+lift so the remaining days are genuinely recovered, and keep easy days actually easy.
+His reasoning is the same one behind Norwegian double-threshold days — muscle tone.
+**Where this collides with a rule that keeps some particular day light, stacking wins**
+and the light-day rule is the one that gives (it superseded "nothing hard on Thursday" in
+the Rwanda block). The full rest day is the exception: that invariant still holds, and the
+hard days stack *around* it. Do not spread hard sessions across the week to be protective
+— propose the stacked version and name the cost.
+
 This closes the "nothing above threshold for 13 weeks" hole flagged 2026-09-03.
 Sub-T sessions are deliberately unheroic — do not let them drift to threshold.
 
@@ -185,6 +196,13 @@ Minimum you must not get wrong without opening it:
   RPE**, verified by the within-rep plateau — which needs no HRmax and works at altitude.
 - **Pace is derived, never guessed**: T-pace + 3–5 s/km (1–3 min), +10–12 (4–6 min),
   +17–19 (8–12 min).
+- **Rep length alternates; floats are fixed.** In a two-session week the sessions never
+  use the same rep length — one 6-min and one 10-min, with a 3-min session as the
+  occasional minority. Floats are doctrine, not free parameters: **60 s** after 3- and
+  6-min reps, **90 s** after 10-min reps. Both rules have been in §7 since 2026-09-12 and
+  both were broken in one session on 2026-09-23 (a second 6-min session proposed against
+  an existing one, then a 3×10 built with 60 s floats). **Steps are immutable after
+  creation, so getting this right is a push-time obligation, not a review-time one.**
 - **This needs the HR stream, not lap averages** — lap data hides float recovery. Get it
   from the **COROS FIT file** (`queryActivityFitFileDownloadUrls` → curl → parse with
   **fitdecode**, not fitparse; see `sub-threshold-reference.md` §6). Strava
