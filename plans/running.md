@@ -426,7 +426,7 @@ better banked now than later. Two consequences, both accepted: it **spends W5's 
 so it runs at **HR <=140 and no faster** or it costs more than it adds. Plain run, nothing
 pushed to Tredict.
 **Knock-on:** W6 is planned at ~42 km, now a *step down* from W5. That is fine — W6 and W7
-are the travel weeks and act as the dip, with W8's down week behind them.
+are the travel weeks and act as the dip. W8 is no longer a down week (changed 2026-09-23).
 
 ### W5 Friday changed 8x3 -> 5x6 (2026-09-12, user's catch)
 
@@ -555,7 +555,7 @@ much mileage as possible."
   unreachable at the right effort on the terrain available — in that case run the effort,
   not the number. **The controls remain RPE and the two-more-reps rule**, verified on
   review by the §4 within-rep plateau, which needs neither HRmax nor sea level.
-  Revert to the sea-level band on 10-09, the first quality session home.
+  Revert to the sea-level band on **10-07**, the first quality session home (was 10-09, written when Friday was the first quality day back; corrected 2026-09-23).
 - **ALL RUNNING IS ON A TREADMILL (told 2026-09-23).** That changes the prescription unit:
   the belt sets the pace, so sessions are pushed as **time-based steps with kph in the
   title**, and the watch's indoor pace estimate is noise — set the machine, ignore the
@@ -577,7 +577,8 @@ much mileage as possible."
 - **The three trek days are the week's hard aerobic work, several times over** — 4-8 h
   on steep ground at altitude. Do not run quality around them, and expect the descents to
   produce real DOMS on 10-04/05. W8's Monday flight is the recovery day, and W8 was
-  already a down week, so the re-entry lands where it should.
+  no longer a down week (changed 2026-09-23) — Rwanda's low weeks served that function,
+  so W8 comes back at ~44 km rather than dropping again.
 - **W10's TT (Fri 10-23) stays put** — 2.5 weeks after return, with W8 and W9 to rebuild.
   Two weeks at 1,570 m is not altitude training; expect no boost and grade it at face
   value like every other check.
@@ -653,40 +654,68 @@ slightly due to the hiking/mountain biking weekends i got planned."
 - **Lifting closes C14 W2 on Wednesday.** D3 deadlift Tue, D4 pull-ups Wed — the standard
   D3->D4 pair. Squat Thu 09-24 -> deadlift Tue 09-29 is 5 days. C14 W3 starts at home
   Wed 10-07; see the travel-block note.
-## Week 8 (of 2026-10-05) — down week + re-entry, ~35 km
+## Week 8 (of 2026-10-05) — RE-ENTRY, ~44 km. **NOT a down week** (changed 2026-09-23)
 
-- Mon | Easy | 5km in Kigali, HR <=140 — day after the last trek, legs sore; **flight leaves 20:00**
-- Tue | Rest | **LAND STOCKHOLM ~midday** off an overnight flight — rest. Optional 20 min shakeout in the evening only if you feel human
-- Wed | Easy | 6km, HR <=140 + **C15 W1 D1 Squat PM**
-- Thu | Easy | 6km, HR <=140 + **C15 W1 D2 Dips PM**
-- Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 1.5km easy — **back on pace bands, sea level**
-- Sat | Lift | **C15 W1 D3 Deadlift** (no run)
-- Sun | Easy | 8km, HR <=140 + **C15 W1 D4 Pull-ups PM**
+- Mon | Optional | easy 5km in Kigali, by feel — day after the last trek, legs likely sore; **flight leaves 20:00**
+- Tue | Easy | **LAND STOCKHOLM ~midday** off an overnight flight. Easy 5km in the evening
+- Wed | Quality | WU 2km easy; 6x(6min @ **4:50-4:52/km**, 60s jog); CD 1.5km easy; ~11.5km + **C14 W3 D1 Squat PM** — **FIRST SESSION BACK AT SEA LEVEL**
+- Thu | Easy | 6km, HR 110-150 + **C14 W3 D2 Dips PM**
+- Fri | Easy | 5km, HR 110-150
+- Sat | Quality | WU 2km easy; 3x(10min @ **4:57-4:59/km**, 90s jog); CD 1.5km easy; ~10.3km + **C14 W3 D3 Deadlift PM**
+- Sun | Easy | 6km, HR 110-150 + **C14 W3 D4 Pull-ups PM**
 
-Notes: re-entry week, and the down week was already scheduled here — good luck rather
-than planning. **The 20:00 departure on 10-05 buys back a training day**: Monday is a
-normal easy run in Kigali, and Tuesday takes the travel hit instead (overnight flight,
-landing midday).
-- **Lifting resumes Wednesday, not Tuesday**, because Tuesday is the arrival day. That
-  pushes D3 deadlift to **Saturday** to keep the squat->deadlift gap at 72 h, and D4
-  pull-ups onto Sunday after the easy run. A one-off arrangement for this week only.
+Notes: **rewritten 2026-09-23 on the user's call — "nah lets start back at 40km/week
+straight away", then "an easy on tuesday after i land, then a sub-T on wednesday and we're
+back on track."** W8 was a down week of ~35 km carrying C15 W1; it is now a full re-entry
+week of ~44 km carrying **C14 W3**.
+- **Why this is not reckless despite the +57% step off W7's ~28 km.** Rwanda *was* the
+  down block — three weeks at 25-28 km — so a fourth low week would be one deload too
+  many. And 40+ is not new territory: **W4 executed 39.7 km**, four weeks earlier.
+  Returning to recently-held volume is a different act from climbing past it. The engine
+  comes home intact or better (7 h of MTB plus three trek days), with only the
+  running-specific tissue having idled. **The ramp discipline still binds above ~40**,
+  which is where this block has never been.
+- **~44 km, not exactly 40**, because two quality sessions are ~21 km between them. To
+  hold 40 exactly, trim the easy days to 4-5 km. Monday's optional run adds ~5 on top.
+- **Cross-training does NOT count toward the running ramp** (answered 2026-09-23). The
+  cap exists for *mechanical* tissue adaptation, which is loading-pattern specific: seven
+  hours of MTB has effectively zero impact and buys no running-specific tolerance. Count
+  it in the **recovery** column instead — real fatigue, do not stack hard running on it
+  (this is what moved W7). Conversion heuristics (3:1 or 4:1 bike-time to run-distance)
+  estimate energy cost and are irrelevant to what the ramp protects. **Trekking is the
+  exception**: three days of steep descents is heavy eccentric quad loading, the same
+  family as running damage, so the treks count *against* the re-entry week.
+- **Wednesday runs on RPE, not on the band.** The sea-level paces derive from the 09-15
+  TT — four weeks and a trip earlier, with no post-Rwanda data behind them. First session
+  home, three days off the last descent, one night's sleep after a red-eye: if 4:51 feels
+  like threshold, it is threshold, and the pace comes down. **The Fri 10-23
+  TT re-anchors everything properly.**
+- **Lifting resumes Wednesday**, because Tuesday is the arrival day. That puts D3 deadlift
+  on **Saturday** to keep squat->deadlift at 72 h, and D4 pull-ups on Sunday. Wednesday
+  stacks the sub-T with the squat, which is the standard hard-day pairing.
+- **The 10-07 squat is the TM-deciding top set of C14 W3, on trek legs, six hours after a
+  sub-T.** A miss there is a *hold*, not a verdict — record it as confounded by the treks,
+  the travel and the morning run. Move it to Thursday if Wednesday reads badly.
 - **KNOWN CONSTRAINT BREAK, accepted:** Saturday's deadlift leaves **72 h to W9's Tuesday
   squat**, against the standing **96 h deadlift->squat** rule. The compressed week cannot
-  satisfy both gaps — moving the deadlift to Friday would make squat->deadlift 48 h, which
-  is worse. Accepted because **C15 W1 is the lightest week of the cycle** (65/75/85%), so
-  both sessions are submaximal. If Tuesday's squat feels heavy, move it to Wednesday for
-  that week; do not read a miss there as TM evidence.
-- **Friday is the first session back on pace**: if 4:57-4:59 feels harder than it should,
-  that is the travel block, not lost fitness — take the slow end and let W9 sort it out.
+  satisfy both gaps, and moving the deadlift to Friday would make squat->deadlift 48 h,
+  which is worse. **Re-justified 2026-09-23:** the old excuse was that C15 W1 is the
+  lightest week of its cycle — but W8 now carries C14 **W3**, the heaviest (75/85/95%), so
+  Saturday's deadlift is a *maximal* top set. What still makes this acceptable is the
+  other side of the gap: **W9's Tuesday squat is C15 W1 at 65%**, thoroughly submaximal.
+  The heavy session is the one with recovery in front of it, not behind it.
 
-Notes W6-W8: sub-T dose runs 66 → 66 → 54 min, alternating 6-min and 10-min reps every
-session. **Sunday is an easy run throughout** — the X session is deferred until volume
-holds ~60 km/week (see the schema), so these weeks carry **two quality days, not three**.
-**Hill strides start in W9** and run every other week from there; none during the travel
-block or the re-entry week.
-Down-weeks every ~4th week (W8, W12, W16) — the base block earns its ramp by paying
-recovery on schedule. HARD RULE unchanged: any shin/achilles/knee niggle → repeat the
-previous week's volume instead of progressing.
+Notes W6-W8: sub-T dose runs **36 → 66 → 66 min**, alternating 6-min and 10-min reps every
+session from W7 (Bakken's rotation — a two-session week never uses the same rep length
+twice). W6 carries a single session because the week was rebuilt mid-flight around the
+Kigali arrival and the Lake Kivu MTB weekend. **Sunday is an easy run throughout** — the X
+session is deferred until volume holds ~60 km/week (see the schema), so these weeks carry
+**two quality days, not three**. **Hill strides start in W9** and run every other week from
+there; none during the travel block or the re-entry week.
+Down-weeks every ~4th week — **now W12 and W16 only** (W8 dropped 2026-09-23: Rwanda's
+three weeks at 25-28 km already served that function). The base block earns its ramp by
+paying recovery on schedule. HARD RULE unchanged: any shin/achilles/knee niggle → repeat
+the previous week's volume instead of progressing.
 
 
 ## Week 9 (of 2026-10-12) — ~47 km
