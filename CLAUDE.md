@@ -165,9 +165,17 @@ lift so the remaining days are genuinely recovered, and keep easy days actually 
 His reasoning is the same one behind Norwegian double-threshold days — muscle tone.
 **Where this collides with a rule that keeps some particular day light, stacking wins**
 and the light-day rule is the one that gives (it superseded "nothing hard on Thursday" in
-the Rwanda block). The full rest day is the exception: that invariant still holds, and the
-hard days stack *around* it. Do not spread hard sessions across the week to be protective
-— propose the stacked version and name the cost.
+the Rwanda block). Do not spread hard sessions across the week to be protective — propose
+the stacked version and name the cost.
+
+**The full-rest-day invariant is RETIRED (user 2026-09-23)**, replaced by an **optional
+easy run on what would have been the clear day** — short, genuinely easy, taken or skipped
+by feel. The week is still built with that day in it; it is simply no longer protected by
+rule, which matches RPE-gated progression everywhere else. Keep the run short (a shakeout,
+not a normal easy run), give it **no calendar entry**, and **state the consecutive-day
+streak it creates** when proposing it — removing the structural guarantee is exactly what
+lets such a streak grow unnoticed. See `plans/config.md` (Doubles) for the full rule and
+the superseded version.
 
 This closes the "nothing above threshold for 13 weeks" hole flagged 2026-09-03.
 Sub-T sessions are deliberately unheroic — do not let them drift to threshold.

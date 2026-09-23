@@ -643,9 +643,10 @@ slightly due to the hiking/mountain biking weekends i got planned."
 - **Monday's optional run costs the clear day, and that is stated rather than hidden**
   (user 2026-09-23: "i think we can plan an easy run on monday as well. though you can
   leave it up to feel"). Taking it makes Sat 09-26 -> Sun 10-04 **nine consecutive
-  training days**. It is allowed because the trek block already makes the full-rest-day
-  invariant fictional for this week — no arrangement of Fri-Sun is restful — and because
-  "leave it to feel" is the right instrument for a day like this. **If it is taken, drop
+  training days**. This week is what **retired the full-rest-day invariant** outright —
+  see `plans/config.md`: clear days now carry an optional easy run governed by feel rather
+  than a rule. The trek block made the old invariant fictional here anyway, since no
+  arrangement of Fri-Sun is restful. **If it is taken, drop
   Wednesday's easy run**; Wednesday keeps pull-ups, which are upper body and cost the legs
   nothing, making it the closest thing to a clear day the week can offer. Keep it to
   ~40 min, not 55: it is a shakeout after seven hours of riding, not a training run.
