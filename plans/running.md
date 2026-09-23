@@ -511,8 +511,8 @@ Pushed as Tredict plan `6LiGcCcCA`.
 - Wed | Easy | easy run — **done** + **C14 W2 D2 Dips PM**
 - Thu | Quality | TREADMILL. WU 10min easy (HR 110-150); 2min belt ramp; 5x(6min @ **11.5-11.8 kph = 5:06-5:12/km**, 60s float @ ~8 kph); CD 8min easy; ~55min, ~9.5km + **C14 W2 D1 Squat PM**
 - Fri | Easy | TREADMILL. 55min, HR 110-150, effort governs; ~8km
-- Sat | MTB | **MOUNTAIN BIKING, LAKE KIVU** — no run, no lift
-- Sun | MTB | **MOUNTAIN BIKING, LAKE KIVU** — no run, no lift
+- Sat | MTB | **MOUNTAIN BIKING, LAKE KIVU — ~3 h easy** — no run, no lift
+- Sun | MTB | **MOUNTAIN BIKING, LAKE KIVU — ~4 h easy** — no run, no lift
 
 Notes: the planned ~43 km week did not survive contact — Monday was the outbound flight,
 Tuesday a gym session, Wednesday an easy run, so the week was rebuilt on Wednesday around
@@ -603,9 +603,9 @@ much mileage as possible."
 **Rewritten 2026-09-23** — treadmill running, hard days stacked, and C14 **W2** (not W3)
 finishing here. Pushed as Tredict plan `6LiGcCcCA`.
 
-- Mon | Quality | TREADMILL. WU 10min easy (HR 110-150); 2min belt ramp; 6x(6min @ **11.8-12.0 kph = 5:01-5:06/km**, 60s float @ ~8 kph); CD 8min easy; ~62min, ~11km + **C14 W2 D3 Deadlift PM**
-- Tue | Easy | TREADMILL. 55min, HR 110-150, effort governs; ~8km + **C14 W2 D4 Pull-ups PM** — closes C14 W2
-- Wed | Rest | full rest day — the week's clear day
+- Mon | Optional | **OPTIONAL easy ~40min**, HR 110-150 — left to feel after ~7 h of MTB. **No calendar entry by design** (easy runs are HR-governed and need no structure). This is the week's clear day; see the note below before spending it
+- Tue | Quality | TREADMILL. WU 10min easy (HR 110-150); 2min belt ramp; 6x(6min @ **11.8-12.0 kph = 5:01-5:06/km**, 60s float @ ~8 kph); CD 8min easy; ~62min, ~11km + **C14 W2 D3 Deadlift PM**
+- Wed | Easy | TREADMILL. 55min, HR 110-150, effort governs; ~8km + **C14 W2 D4 Pull-ups PM** — closes C14 W2
 - Thu | Quality | TREADMILL. WU 10min easy; 2min belt ramp; 3x(10min @ **11.5-11.7 kph = 5:07-5:13/km**, **90s** float @ ~8 kph); CD 8min easy; ~55min, ~9.3km. **No lift**
 - Fri | Trek | **GORILLA TREK** (Volcanoes NP, ~2,300-3,000 m) — no running
 - Sat | Trek | **GORILLA TREK** — no running
@@ -619,7 +619,8 @@ slightly due to the hiking/mountain biking weekends i got planned."
 - **Two sub-T sessions, one 6-min and one 10-min** — Bakken's rep-length rotation (user,
   2026-09-23). Monday is the 6-min session, Thursday the 10-min one, and **Thursday runs
   slower**: the 8-12 min band is T+17-19 against the 4-6 min band's T+10-12. Do not run
-  Thursday at Monday's belt speed. **Float lengths are fixed by rep length** (§7 of
+  Thursday at Tuesday's belt speed. The two sit **48 h apart** after the shift, which is
+  standard Norwegian singles spacing (Tue/Thu), not a compromise. **Float lengths are fixed by rep length** (§7 of
   `sub-threshold-reference.md`): 60 s after a 6-min rep, **90 s** after a 10-min one.
 - **Hard days are stacked, not spread** (user, 2026-09-23: "we should stack hard leg days
   together... easy days easy hard days hard"). Monday pairs the sub-T with the deadlift;
@@ -629,10 +630,27 @@ slightly due to the hiking/mountain biking weekends i got planned."
   Going into the treks slightly tired is an acceptable price for a second quality session
   — but err easy on the belt, and it converts to an easy 55min without ceremony if he
   wakes up flat.
-- **Wednesday is the clear day.** One full rest day per week remains an invariant, and it
-  now sits between the two hard days, which is where the 2026-09-12 note wanted it.
-- **Lifting closes C14 W2 on Tuesday.** D3 deadlift Mon, D4 pull-ups Tue — the standard
-  D3->D4 pair. Squat Thu 09-24 -> deadlift Mon 09-28 is 96 h. C14 W3 starts at home
+- **The whole week shifted one day on 2026-09-23**, when the MTB weekend turned out to be
+  **~3 h Saturday + ~4 h Sunday**. Seven hours on the bike is more time on legs than the
+  entire running week, and the old layout put the hardest day of W7 — sub-T plus deadlift —
+  roughly twelve hours after getting off it. Cycling damages far less than running would,
+  so this is not about wrecked legs: it is that a sub-T session run flat is wasted, either
+  run slow for nothing or pushed until it stops being sub-threshold. Monday became the
+  clear day instead, directly after the biggest aerobic block of the trip. Nothing was
+  lost — same three runs, same two lifts, same ~28 km, moved one day right. Executed with
+  `planned-workout-change-date` on four entries, the one operation verified to propagate
+  to COROS.
+- **Monday's optional run costs the clear day, and that is stated rather than hidden**
+  (user 2026-09-23: "i think we can plan an easy run on monday as well. though you can
+  leave it up to feel"). Taking it makes Sat 09-26 -> Sun 10-04 **nine consecutive
+  training days**. It is allowed because the trek block already makes the full-rest-day
+  invariant fictional for this week — no arrangement of Fri-Sun is restful — and because
+  "leave it to feel" is the right instrument for a day like this. **If it is taken, drop
+  Wednesday's easy run**; Wednesday keeps pull-ups, which are upper body and cost the legs
+  nothing, making it the closest thing to a clear day the week can offer. Keep it to
+  ~40 min, not 55: it is a shakeout after seven hours of riding, not a training run.
+- **Lifting closes C14 W2 on Wednesday.** D3 deadlift Tue, D4 pull-ups Wed — the standard
+  D3->D4 pair. Squat Thu 09-24 -> deadlift Tue 09-29 is 5 days. C14 W3 starts at home
   Wed 10-07; see the travel-block note.
 ## Week 8 (of 2026-10-05) — down week + re-entry, ~35 km
 
