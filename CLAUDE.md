@@ -226,6 +226,18 @@ Minimum you must not get wrong without opening it:
   with that Monday as the start date.
 - Prefer `plan-creation` with inline `planTrainings` (Claude has the token budget);
   `add-plan-training` is the one-at-a-time fallback.
+- **STEPS *CAN* BE EDITED — IN THE WEB UI (corrected 2026-09-23).** This file previously
+  said flatly that steps are immutable after creation. That is true only of the **MCP/API**:
+  `activity-update` reaches title and notes, nothing else. **The Tredict web UI edits the
+  steps of an already-applied calendar workout in place** — verified 2026-09-23, when the
+  user changed the 10-01 3x10 floats from 60 s to 90 s: same workout id, `updatedAt` moved,
+  duration 3180 -> 3270 s, no duplicate created. So a wrong session is **fixed in the UI**,
+  not rebuilt. Do not create a replacement plan, and do not fall back to the
+  retitle-as-warning protocol, until the UI edit has been tried. Costly lesson: three plans
+  were built for one week on the false assumption, and the user was sent to delete things
+  three times for a 30-second float. **Still unverified:** whether a UI step edit inside
+  the 7-day relay window propagates to COROS (this one was edited while 10-01 was still
+  outside it). The retitle protocol remains the fallback for anything the UI cannot reach.
 - **Step schema**: `durationType` distance|time|open (meters/seconds); `intensityType`
   warmup|active|recover|rest|cooldown; interval repeats via
   `{repetitions, steps[...]}`. For our fixed pace prescriptions use
