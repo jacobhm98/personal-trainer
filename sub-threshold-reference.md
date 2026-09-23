@@ -305,9 +305,11 @@ precisely what the pace tiering in §2 compensates for: T + 17–19 s/km for the
 against T + 10–12 for the 6s.
 
 **Two consequences:**
-- **The 4×10 belongs on Friday**, which follows Thursday's full rest day and therefore
-  has the freshest legs of the week (Tuesday sits two days off Sunday's X session). The cost
-  lands on that evening's deadlift, which is the accepted trade under running-priority.
+- **The 10-min session belongs the day after the full rest day**, which gives it the
+  freshest legs of the week. In the home week that is Friday (rest Thursday); in the
+  Rwanda W7 layout it is Thursday (rest Wednesday). Generalised 2026-09-23 — the rule is
+  "after the clear day", not "on Friday". The cost lands on that evening's deadlift where
+  one is scheduled, which is the accepted trade under running-priority.
 - **The 10-min sessions are the best diagnostic in the week.** §4's plateau check needs
   reps ≥6 min and works best on the longest ones, since a 10-min rep has time to reach
   and hold a genuine steady state. So the hardest session also carries the most
@@ -321,6 +323,25 @@ adjustment lever**. The float remains negotiable only on the short-rep sessions,
 is where the 09-10 accumulation problem actually occurred.
 
 Weekly sub-T dose in the current block runs **60 → 76 min**.
+
+**On a treadmill, the prescription is BELT SPEED, not pace [S]** (user 2026-09-23, Rwanda
+block). Indoors the watch cannot measure pace — the reading is accelerometer-derived and
+will alert against a correctly-run session — so sessions are pushed as **time-based steps
+with kph in the title**. Conversions at the current bands, with the ~1,570 m adjustment:
+
+| Session | Pace band | Belt |
+|---|---|---|
+| 6-min reps, unacclimatised | 5:06–5:12 | **11.5–11.8 kph** |
+| 6-min reps, acclimatised   | 5:01–5:06 | **11.8–12.0 kph** |
+| 10-min reps, acclimatised  | 5:07–5:13 | **11.5–11.7 kph** |
+| Float                      | ~7:30     | **~8 kph** |
+| Easy                       | by HR     | ~8.5 kph, adjusted to hold 110–150 |
+
+Two things a treadmill changes and one it does not. It **removes terrain** — on hills the
+pace number was only a guide; indoors it is a real control, held by the machine. It
+**adds heat**, already a listed §6 confounder, so HR conclusions stay discarded. It does
+**not** remove altitude: the air is at 1,570 m either way, so the pace adjustment stands.
+Keep the incline fixed (0 or 1%) across sessions or they are not comparable to each other.
 
 ---
 
