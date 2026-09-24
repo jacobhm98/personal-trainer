@@ -337,6 +337,17 @@ with kph in the title**. Conversions at the current bands, with the ~1,570 m adj
 | Float                      | ~7:30     | **~8 kph** |
 | Easy                       | by HR     | ~8.5 kph, adjusted to hold 110–150 |
 
+**TREADMILL SESSIONS CANNOT BE AUDITED FROM WATCH DATA [S]** (learned the hard way
+2026-09-24). Steady-state belt speed comes through *exactly* — that session logged
+305.1 s/km on all four held reps, 11.80 kph to the hundredth. Everything else is noise
+that reads like meaning: a **ramp** logs as flat (a 9.5 -> 11.8 kph build recorded as a
+constant 9.6), and a **pause** is indistinguishable from fatigue (78 m at cadence 78 was
+a water stop, read by me as needing the rest). Three findings were reported off that data
+and all three were wrong. **On treadmill work, ask what happened rather than
+reconstructing it** — the athlete is the instrument, the watch only confirms the belt
+number. Note this does not weaken the §4 plateau check, which is HR-based and fails for a
+different reason indoors (heat drift).
+
 Two things a treadmill changes and one it does not. It **removes terrain** — on hills the
 pace number was only a guide; indoors it is a real control, held by the machine. It
 **adds heat**, already a listed §6 confounder, so HR conclusions stay discarded. It does
