@@ -726,127 +726,128 @@ paying recovery on schedule. HARD RULE unchanged: any shin/achilles/knee niggle 
 the previous week's volume instead of progressing.
 
 
-## Week 9 (of 2026-10-12) — ~47 km
+## STEP LOADING — the progression model from W8 (user's call, 2026-09-24)
 
-- Mon | Easy | 6km @ 5:45-6:15/km
-- Tue | Quality | WU 2km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 2km easy
-- Thu | Easy | 8.5km @ 5:45-6:15/km
-- Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 2km easy
-- Sun | Easy | 10km @ 5:45-6:15/km, then **6x(10-15s hill sprint, full recovery)** at the end
+**Replaces the linear ramp with fixed down weeks.** User: "instead of doing deload weeks,
+i think lets do like a stepwise increase and then maintain a bit with the mileage... then
+we can bump it to 45 and maintain, etc."
 
-Notes: **judge W9 against W6's 43.1 km** (43.1 → 47.2 = +9.5%) — not against W7's trek
-week or W8's re-entry, both of which are travel-distorted rather than planned down weeks.
-**First strides of the block:** 6 × 10-15 s hill sprints on the end of Sunday's easy run,
-walking back for full recovery. About five minutes of work, too short to produce
-meaningful lactate. They repeat every other week (W9, W11, W13, W15) and are, apart from
-the 5k TTs, the only fast running in the block.
+| Weeks | Target | Notes |
+|---|---|---|
+| W8-W9 | **40 km** | two weeks only — already-held ground (W4 executed 39.7) |
+| W10-W12 | **45 km** | W10 carries the 5k TT (Fri 10-23) |
+| W13-W15 | **50 km** | W15 carries the 5k TT (Fri 11-27) |
+| W16-W18 | **55 km** | |
+| W19-W21 | **60 km** | block goal reached ~mid-December |
 
+Why this over a linear ramp, in the order the reasons actually matter:
+1. **It self-heals when weeks break, and his weeks break.** A linear ramp assumes an
+   unbroken chain — miss a rung and the next week is a double step, which is how W5 fell
+   apart and how Rwanda scrambled W6-W7. Under step loading a broken week is just a
+   repeated week: re-run the step, nothing downstream moves. With a founder's calendar
+   this beats a plan that is faster on paper.
+2. **Tissue adapts on a slower clock than the engine.** Tendon, bone and fascia take weeks
+   to months; a linear ramp never lets him *sit* at a volume long enough to consolidate.
+   Week three of a block is the first time the legs run that distance with that distance
+   already in them.
+3. **The niggle rule was already step logic** — "any niggle → repeat the previous week's
+   volume" has been in this file from the start. This makes it the default, not the
+   exception.
 
-## Week 10 (of 2026-10-19) — ~50 km, 5k progress check
+**Cost, stated honestly:** ~60 km/week arrives mid-December rather than end of November.
+With no race until spring/summer 2027 that is free — and it leaves a full spring for
+race-specific work on top of a properly consolidated base.
 
-- Mon | Easy | 7km @ 5:45-6:15/km
-- Tue | Quality | WU 2.5km easy; 10x(3min @ 4:43-4:45/km, 60s jog); CD 2km easy
-- Thu | Easy | 10km @ 5:45-6:15/km
-- Fri | Test | **ALL-OUT 5k TT, OUTDOORS, same route as 09-15** (replaces Friday's 4x10; D3 Deadlift follows in the PM)
-- Sun | Easy | 11km @ 5:45-6:15/km
+**Four rules that make it work rather than stagnate:**
+- **Plateau length tracks familiarity.** Two weeks for ground already held, three for new
+  territory. Hence 40 gets two and everything above gets three.
+- **Promote on feel, not on the calendar.** Step up when a block's LAST week felt *easier*
+  than its first. If it did not, repeat the block. Same RPE gate that replaced percentage
+  caps on 2026-09-07. **The failure mode here is sitting at a level after it has stopped
+  asking anything** — that is what this check exists to catch.
+- **Deloads are triggered, not scheduled.** The fixed W12/W16 down weeks are **removed**.
+  A down week fires when a block's final week feels harder than its first, on any niggle,
+  or after a real disruption. Keep **one genuine deload every ~10-12 weeks** regardless,
+  as a backstop — slow fatigue accumulation is exactly what people fail to notice in
+  themselves.
+- **Growth goes on the easy days, not onto one run.** Per-session load is the injury lever,
+  so six runs growing under a kilometre each beats +5 km on a single day. **Quality
+  sessions stay structurally stable** across a block; the easy days carry the step.
 
-Notes: **second 5k of the cadence** — five weeks after 09-15, per the every-5th-week rule
-in the schema. It replaces Friday's 4×10, the most intensive sub-T session of the week, so
-W10 trades a hard session rather than adding one. **No taper** — it is a check, not a race.
+## Week 9 (of 2026-10-12) — 40 km, second week of the step. **C14 W3 — TM-deciding**
+
+- Mon | Easy | 5km, HR 110-150
+- Tue | Quality | WU 2km easy; 6x(6min @ **4:50-4:52/km**, 60s jog); CD 1.5km easy; ~11.9km. **No lift** (see below)
+- Wed | Lift | **C14 W3 D1 Squat** — no run
+- Thu | Easy | 7km, HR 110-150 + **C14 W3 D2 Dips PM**
+- Fri | Quality | WU 2km easy; 3x(10min @ **4:57-4:59/km**, 90s jog); CD 1.5km easy; ~10.3km. **No lift**
+- Sat | Lift | **C14 W3 D3 Deadlift** — no run
+- Sun | Easy | 6km, HR 110-150, then **6x(10-15s hill sprint, full recovery)** + **C14 W3 D4 Pull-ups PM**
+
+Notes: **40 km, holding W8's level.** Second and last week of the opening step — 40 is
+ground already held (W4 executed 39.7), so it gets two weeks rather than three.
+- **The lifting week is shifted off the runs this week ONLY, to protect four TM
+  decisions.** W9 is C14 W3: its top sets decide whether each of the four TMs rises.
+  W8's deadlift lands Sat 10-10, and the standing rule wants **96 h** deadlift->squat.
+  Putting the squat on **Wed 10-14** gives exactly that; leaving it on Tuesday would give
+  72 h into the heaviest squat of the cycle. **One week without the quality/heavy-lift
+  stacking is a good trade for four clean TM verdicts** — the stacking rule is about
+  concentrating stimulus, not about overriding a week whose whole purpose is measurement.
+- Consequence: D1 Wed, D2 Thu, D3 Sat (Wed->Sat = 72 h), D4 Sun. **Normal stacking resumes
+  in W10**, where the 72 h deadlift->squat recurrence is benign because C15 W1's squat is
+  at 65%.
+- **First strides of the block:** 6 x 10-15 s hill sprints on the end of Sunday's easy run,
+  walking back for full recovery. ~5 min of work, too short to produce meaningful lactate.
+  Every other week from here (W9, W11, W13...) and, apart from the 5k TTs, the only fast
+  running in the block.
+
+## Week 10 (of 2026-10-19) — 45 km, first week of the step, 5k progress check
+
+- Mon | Easy | 6km, HR 110-150
+- Tue | Quality | WU 2km easy; 6x(6min @ **4:50-4:52/km**, 60s jog); CD 1.5km easy + **C15 W1 D1 Squat PM**
+- Wed | Lift | **C15 W1 D2 Dips** — no run
+- Thu | Easy | 10km, HR 110-150 — the week's longest
+- Fri | Test | **ALL-OUT 5k TT, OUTDOORS, same route as 09-15** (replaces Friday's sub-T) + **C15 W1 D3 Deadlift PM**
+- Sat | Lift | **C15 W1 D4 Pull-ups** — no run
+- Sun | Easy | 7km, HR 110-150
+
+Notes: **step up to 45, and normal stacking resumes** (quality AM, heavy lift PM, Tue and
+Fri). Step taken only if W9 felt easier than W8 — if it did not, repeat 40.
+- **Second 5k of the cadence**, five weeks after 09-15. It replaces Friday's sub-T, so the
+  week trades a hard session rather than adding one. **No taper** — it is a check, not a
+  race, and Thursday's 10 km stays as written so results compare to each other rather than
+  to a tapered peak.
 - **Deadlift still follows that evening.** A top set missed after a maximal 5k is
   TT-confounded, same as the 09-15 squat; under the hit/miss rule the TM simply holds.
-- **Thursday's 10 km stays as written.** No pre-TT easing: these are deliberately run on
-  ordinary legs so the results compare to each other rather than to a tapered peak.
-- **Same route** (`stockholm-tt-postlight.gpx`), scored on **grade-adjusted** time
-  (`sub-threshold-reference.md` §8.1).
-- **Lessons from 09-15:** km 1 is the descent — hold the planned split, don't bank time;
-  keep the watch **running** through the 20 s stand-still (on 09-15 it was stopped first
-  and the reading was lost); warm up ~3 km with strides before reaching the start.
-- Returns T-pace and all three sub-T bands for W11 onward. **Friday's session in W11 is
-  built after this**, not before — Tredict cannot edit steps after creation.
+- **Same route** (`stockholm-tt-postlight.gpx`), scored **grade-adjusted**. Returns: 5k →
+  VDOT → T-pace → all three sub-T bands. **This is the first honest read on what Rwanda
+  cost or didn't** — two weeks at 1,570 m is not altitude training, so expect no boost and
+  grade it at face value.
 
-## Week 11 (of 2026-10-26) — lifting 7th Week deload, running builds, ~53.5 km
+## Weeks 11-12 (of 2026-10-26, 2026-11-02) — 45 km, holding the step
 
-- Mon | Easy | 6km @ 5:45-6:15/km
-- Tue | Quality | WU 2.5km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 2km easy
-- Thu | Easy | 9.5km @ 5:45-6:15/km
-- Fri | Quality | WU 2.5km easy; 4x(10min @ 4:57-4:59/km, 90s jog); CD 2km easy
-- Sun | Easy | 12km @ 5:45-6:15/km, then **8x(10-15s hill sprint, full recovery)** at the end
+- Mon | Easy | 6km · Tue | Quality | 6x6min + **D2 Squat** · Wed | **Dips** · Thu | Easy | 10km · Fri | Quality | 3x10min + **Deadlift** · Sat | **Pull-ups** · Sun | Easy | 7km
 
-Notes: lifting runs the **7th Week Protocol deload** (C14 = W5-W7, C15 = W8-W10,
-deload Oct 26 - Nov 1) while **running builds through it** — the same pattern as W4.
-Judge W11 against W10, not against the W8 down week.
-**Decoupled from the running down week 2026-09-15 (user's call: "idk why lifting and
-running need to deload at the same time").** W11 had been both, which left only two
-build weeks after W8's down week and four before W16's. Swapping W11 and W12 evens it
-out: running down weeks now fall on **W8, W12 and W16**, three build weeks before each.
+Both weeks repeat W10's shape with the TT replaced by the Friday 3x10. Lifting runs
+**C15 W2** in W11 and **C15 W3** in W12. Strides on Sunday in W11, not W12.
+**Promotion check at the end of W12:** if it felt easier than W10, step to 50. If not,
+repeat 45 — and note that repeating is the system working, not a setback.
 
+## Weeks 13-21 — the remaining steps
 
-## Week 12 (of 2026-11-02) — down week, ~40 km
+| Weeks | Target | Lifting | Notes |
+|---|---|---|---|
+| W13-W15 | **50 km** | W13 **7th Week deload**, then C16 W1/W2 | 5k TT Fri 11-27 in W15 (C16 W2 — its Friday deadlift is at 80%, not 95%) |
+| W16-W18 | **55 km** | C16 W3, then C17 W1/W2 | |
+| W19-W21 | **60 km** | C17 W3, then 7th Week deload ~W20 | 5k TT ~Fri 2027-01-01 in W20 |
 
-- Mon | Easy | 5.5km @ 5:45-6:15/km
-- Tue | Quality | WU 2km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 1.5km easy
-- Thu | Easy | 5km @ 5:45-6:15/km
-- Fri | Quality | WU 2km easy; 3x(10min @ 4:57-4:59/km, 90s jog); CD 1.5km easy
-- Sun | Easy | 8km @ 5:45-6:15/km
+**Deliberately not written out day by day.** The block endpoint moved twice on 2026-09-23
+and the volume model changed on 09-24; specifying twelve weeks of sessions six months out
+is how that churn happens. Each block gets written when the previous one's promotion check
+passes, which is also when the sub-T bands will have been re-anchored by the intervening
+TT. The shape is fixed — five runs, two quality, strides every other Sunday, growth on the
+easy days — only the numbers wait.
 
-Notes: running down week, swapped in from W11 on 2026-09-15 (see W11). Lifting starts
-C16 here, so this is not a lifting deload.
-**The TT that briefly lived here is gone** — it moved to W10 when the every-5th-week
-cadence was set (2026-09-16). W12 is now an ordinary down week: sub-T dose drops to 48
-min and Sunday is a plain 8 km easy run.
-
-
-## Week 13 (of 2026-11-09) — ~55.5 km
-
-- Mon | Easy | 6km @ 5:45-6:15/km
-- Tue | Quality | WU 2.5km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 2km easy
-- Thu | Easy | 11km @ 5:45-6:15/km
-- Fri | Quality | WU 2.5km easy; 4x(10min @ 4:57-4:59/km, 90s jog); CD 2km easy
-- Sun | Easy | 12.5km @ 5:45-6:15/km, then **8x(10-15s hill sprint, full recovery)** at the end
-
-Notes: judge W13 against W11, not against the W12 down week. Sub-T bands come from the
-W10 TT (Fri 10-23), adjusted by the W11 and W12 session checks, before this week is synced.
-
-## Week 14 (of 2026-11-16) — ~57.5 km
-
-- Mon | Easy | 6.5km @ 5:45-6:15/km
-- Tue | Quality | WU 2.5km easy; 10x(3min @ 4:43-4:45/km, 60s jog); CD 2km easy
-- Thu | Easy | 12.5km @ 5:45-6:15/km
-- Fri | Quality | WU 2.5km easy; 4x(10min @ 4:57-4:59/km, 90s jog); CD 2km easy
-- Sun | Easy | 13km @ 5:45-6:15/km
-
-## Week 15 (of 2026-11-23) — PEAK, ~60 km, 5k progress check
-
-- Mon | Easy | 8km @ 5:45-6:15/km
-- Tue | Quality | WU 3km easy; 6x(6min @ 4:50-4:52/km, 60s jog); CD 2.5km easy
-- Thu | Easy | 14km @ 5:45-6:15/km
-- Fri | Test | **ALL-OUT 5k TT, OUTDOORS, same route as 09-15** (replaces Friday's 4x10; D3 Deadlift follows in the PM)
-- Sun | Easy | 14km @ 5:45-6:15/km, then **8x(10-15s hill sprint, full recovery)** at the end
-
-Notes: **third 5k of the cadence, Fri 2026-11-27** — five weeks after W10's, same slot,
-same route, replacing Friday's 4×10 again. Peak week: **~60 km — the block target**, longest run 14 km on
-Thursday, 41 min of sub-T on Tuesday.
-- **Sunday is an easy 14 km with strides on the end**, not an X session — the X session
-  is deferred until volume holds ~60 km (see the schema).
-- Pace bands here are the 09-15 values — the W10 TT and the session checks will have
-  moved them well before this week is synced.
-
-
-## Week 16 (of 2026-11-30) — down week, ~33 km
-
-- Mon | Easy | 5km @ 5:45-6:15/km
-- Tue | Quality | WU 2km easy; 4x(6min @ 4:50-4:52/km, 60s jog); CD 2km easy
-- Thu | Easy | 6km @ 5:45-6:15/km
-- Fri | Easy | 5km @ 5:45-6:15/km
-- Sun | Easy | 8km @ 5:45-6:15/km
-
-Notes: **the Dec 6 all-out 5k is gone** — dropped 2026-09-16 once TTs moved to a fixed
-5-week schedule and its date turned out to be arbitrary (user's words). This is now a
-plain down week following W15's TT: one sub-T session, easy hills, no test.
-Falls in lifting C17 W2 — no accommodation.
-**The written block ends here**, but nothing ends with it: the cadence continues (next TT
-~Fri 2027-01-01) and W17 onward gets planned when the Barcelona race and date are picked.
 
 ## Open items
 
