@@ -732,13 +732,45 @@ the previous week's volume instead of progressing.
 i think lets do like a stepwise increase and then maintain a bit with the mileage... then
 we can bump it to 45 and maintain, etc."
 
-| Weeks | Target | Notes |
-|---|---|---|
-| W8-W9 | **40 km** | two weeks only — already-held ground (W4 executed 39.7) |
-| W10-W12 | **45 km** | W10 carries the 5k TT (Fri 10-23) |
-| W13-W15 | **50 km** | W15 carries the 5k TT (Fri 11-27) |
-| W16-W18 | **55 km** | |
-| W19-W21 | **60 km** | block goal reached ~mid-December |
+**Steps are aligned to the 5/3/1 cycle (user 2026-09-24):** "it would be nice to line them
+up, so the easiest 5/3/1 week is the same week i add volume." Every step-up therefore lands
+on a lifting **W1** (65/75/85%) rather than a W3 (75/85/95%) — which matters most exactly
+where it should, since the step week is the riskiest running week of each block.
+
+**Plateaus alternate 4 and 3 weeks to make that hold.** Lifting is not on a 3-week cycle
+but a **7-week supercycle** (3 + 3 + 7th Week deload); that extra week inserts a one-week
+offset every six lifting weeks, so fixed 3-week plateaus would drift until step-ups landed
+on 95% weeks. The **4-week plateaus absorb the deload in their final week**.
+
+| Wk | of | Running | Lifting |
+|---|---|---|---|
+| W8 | 10-05 | 40 — re-entry | C14 W2 |
+| W9 | 10-12 | 40 | C14 W3 |
+| **W10** | 10-19 | **45 — step** | **C15 W1** · 5k TT Fri 10-23 |
+| W11 | 10-26 | 45 | C15 W2 |
+| W12 | 11-02 | 45 | C15 W3 |
+| W13 | 11-09 | 45 | *7th Week deload* |
+| **W14** | 11-16 | **50 — step** | **C16 W1** |
+| W15 | 11-23 | 50 | C16 W2 · 5k TT Fri 11-27 |
+| W16 | 11-30 | 50 | C16 W3 |
+| **W17** | 12-07 | **55 — step** | **C17 W1** |
+| W18 | 12-14 | 55 | C17 W2 |
+| W19 | 12-21 | 55 | C17 W3 |
+| W20 | 12-28 | 55 | *7th Week deload* · 5k TT ~Fri 01-01 |
+| **W21** | 01-04 | **60 — step** | **C18 W1** |
+
+**The first step is deliberately unaligned** — W8 is C14 W2, not a W1 — and that is the
+safe one to have out of position, since 40 km is ground already held.
+
+**Bonus the alignment produces: the 4-week plateaus carry a hidden systemic deload.**
+Running holds flat while lifting drops to 40/50/60%, so total leg load falls without
+giving up a kilometre. A better deal than the scheduled running down weeks this model
+deleted.
+
+**Subtlety it creates: judge those promotions on week THREE, not week four.** The
+promotion check asks whether the block's last week felt easier than its first — on a
+4-week plateau the last week is the lifting deload, so of course it felt easier. Comparing
+a light-lifting week against a normal-lifting week would promote on a confound.
 
 Why this over a linear ramp, in the order the reasons actually matter:
 1. **It self-heals when weeks break, and his weeks break.** A linear ramp assumes an
@@ -754,13 +786,16 @@ Why this over a linear ramp, in the order the reasons actually matter:
    volume" has been in this file from the start. This makes it the default, not the
    exception.
 
-**Cost, stated honestly:** ~60 km/week arrives mid-December rather than end of November.
+**Cost, stated honestly:** ~60 km/week arrives the week of **2027-01-04** rather than end
+of November — later still than the mid-December figure quoted before the 5/3/1 alignment,
+which costs two more weeks.
 With no race until spring/summer 2027 that is free — and it leaves a full spring for
 race-specific work on top of a properly consolidated base.
 
 **Four rules that make it work rather than stagnate:**
-- **Plateau length tracks familiarity.** Two weeks for ground already held, three for new
-  territory. Hence 40 gets two and everything above gets three.
+- **Plateau length tracks familiarity AND the lifting cycle.** Two weeks for ground already
+  held (40), then alternating 4 and 3 so every step-up lands on a lifting W1 — see the
+  table above.
 - **Promote on feel, not on the calendar.** Step up when a block's LAST week felt *easier*
   than its first. If it did not, repeat the block. Same RPE gate that replaced percentage
   caps on 2026-09-07. **The failure mode here is sitting at a level after it has stopped
@@ -824,22 +859,23 @@ Fri). Step taken only if W9 felt easier than W8 — if it did not, repeat 40.
   cost or didn't** — two weeks at 1,570 m is not altitude training, so expect no boost and
   grade it at face value.
 
-## Weeks 11-12 (of 2026-10-26, 2026-11-02) — 45 km, holding the step
+## Weeks 11-13 (of 2026-10-26, 11-02, 11-09) — 45 km, holding the step
 
 - Mon | Easy | 6km · Tue | Quality | 6x6min + **D2 Squat** · Wed | **Dips** · Thu | Easy | 10km · Fri | Quality | 3x10min + **Deadlift** · Sat | **Pull-ups** · Sun | Easy | 7km
 
-Both weeks repeat W10's shape with the TT replaced by the Friday 3x10. Lifting runs
-**C15 W2** in W11 and **C15 W3** in W12. Strides on Sunday in W11, not W12.
-**Promotion check at the end of W12:** if it felt easier than W10, step to 50. If not,
-repeat 45 — and note that repeating is the system working, not a setback.
+All three repeat W10's shape with the TT replaced by the Friday 3x10. Lifting runs
+**C15 W2** in W11, **C15 W3** in W12 and the **7th Week deload** in W13. Strides on Sunday
+in W11 and W13.
+**Promotion check runs on W12, not W13** — W13 is the lifting deload, so it will feel
+easier for reasons that have nothing to do with running fitness. If W12 felt easier than
+W10, step to 50 at W14. If not, hold 45 and let W13's light lifting help — repeating is
+the system working, not a setback.
 
 ## Weeks 13-21 — the remaining steps
 
-| Weeks | Target | Lifting | Notes |
-|---|---|---|---|
-| W13-W15 | **50 km** | W13 **7th Week deload**, then C16 W1/W2 | 5k TT Fri 11-27 in W15 (C16 W2 — its Friday deadlift is at 80%, not 95%) |
-| W16-W18 | **55 km** | C16 W3, then C17 W1/W2 | |
-| W19-W21 | **60 km** | C17 W3, then 7th Week deload ~W20 | 5k TT ~Fri 2027-01-01 in W20 |
+See the step-loading table above for the week-by-week volume and lifting mapping. The 5k
+TTs land in **W15** (C16 W2, so its Friday deadlift is at 80%, not 95%) and **W20** (a
+7th Week deload — the lightest lifting week of all, and a good place for a test).
 
 **Deliberately not written out day by day.** The block endpoint moved twice on 2026-09-23
 and the volume model changed on 09-24; specifying twelve weeks of sessions six months out
