@@ -658,16 +658,16 @@ slightly due to the hiking/mountain biking weekends i got planned."
 
 - Mon | Optional | easy 5km in Kigali, by feel — day after the last trek, legs likely sore; **flight leaves 20:00**
 - Tue | Easy | **LAND STOCKHOLM ~midday** off an overnight flight. Easy 5km in the evening
-- Wed | Quality | WU 2km easy; 6x(6min @ **4:50-4:52/km**, 60s jog); CD 1.5km easy; ~11.5km + **C14 W3 D1 Squat PM** — **FIRST SESSION BACK AT SEA LEVEL**
-- Thu | Easy | 6km, HR 110-150 + **C14 W3 D2 Dips PM**
+- Wed | Quality | WU 2km easy; 6x(6min @ **4:50-4:52/km**, 60s jog); CD 1.5km easy; ~11.5km + **C14 W2 D1 Squat PM** (5@114.98 / 5@131.4 / 5@147.83, FSL 3x5@114.98) — **FIRST SESSION BACK AT SEA LEVEL**
+- Thu | Easy | 6km, HR 110-150 + **C14 W2 D2 Dips PM** (5@+2.25 / 5@+14.0 / 5@+25.75, FSL 5x5@+2.25)
 - Fri | Easy | 5km, HR 110-150
-- Sat | Quality | WU 2km easy; 3x(10min @ **4:57-4:59/km**, 90s jog); CD 1.5km easy; ~10.3km + **C14 W3 D3 Deadlift PM**
-- Sun | Easy | 6km, HR 110-150 + **C14 W3 D4 Pull-ups PM**
+- Sat | Quality | WU 2km easy; 3x(10min @ **4:57-4:59/km**, 90s jog); CD 1.5km easy; ~10.3km + **C14 W2 D3 Deadlift PM** (5@134.58 / 5@153.8 / 5@173.03, FSL 3x5@134.58)
+- Sun | Easy | 6km, HR 110-150 + **C14 W2 D4 Pull-ups PM** (5@BW / 5@+4.0 / 5@+14.5, FSL 5x5@BW)
 
 Notes: **rewritten 2026-09-23 on the user's call — "nah lets start back at 40km/week
 straight away", then "an easy on tuesday after i land, then a sub-T on wednesday and we're
 back on track."** W8 was a down week of ~35 km carrying C15 W1; it is now a full re-entry
-week of ~44 km carrying **C14 W3**.
+week of ~44 km carrying a **re-run of C14 W2** (changed again 2026-09-24 — see below).
 - **Why this is not reckless despite the +57% step off W7's ~28 km.** Rwanda *was* the
   down block — three weeks at 25-28 km — so a fourth low week would be one deload too
   many. And 40+ is not new territory: **W4 executed 39.7 km**, four weeks earlier.
@@ -693,9 +693,17 @@ week of ~44 km carrying **C14 W3**.
 - **Lifting resumes Wednesday**, because Tuesday is the arrival day. That puts D3 deadlift
   on **Saturday** to keep squat->deadlift at 72 h, and D4 pull-ups on Sunday. Wednesday
   stacks the sub-T with the squat, which is the standard hard-day pairing.
-- **The 10-07 squat is the TM-deciding top set of C14 W3, on trek legs, six hours after a
-  sub-T.** A miss there is a *hold*, not a verdict — record it as confounded by the treks,
-  the travel and the morning run. Move it to Thursday if Wednesday reads badly.
+- **W8 RE-RUNS C14 W2; it does not carry W3** (user 2026-09-24: "my time here in rwanda will
+  just be a best effort maintenance of form for the gym. ill prolly just re-run w2 when im
+  back in sweden"). Rwanda's lifting counts for nothing — improvised gym, **no dip bars so
+  D2 became a bench session**, unknown bar and plate calibration. W2 exists to set up W3,
+  the TM-deciding week, so a W2 run on unreadable equipment would make W3 meaningless.
+  Weights above are C14 W2, already read from Sheet 17, so no re-read is needed.
+  **C14 W3 moves to running W9** and every later cycle slides with it — see `plans/config.md`.
+  Two things this fixes: dips no longer jumps W1 -> W3 with a ~12 kg top-set step, and the
+  W15 TT moves into C16 W2 so its Friday deadlift is 80% rather than 95%.
+  **A miss on the 10-07 squat is a hold, not a verdict** — confounded by the treks, the
+  travel and the morning run. Move it to Thursday if Wednesday reads badly.
 - **KNOWN CONSTRAINT BREAK, accepted:** Saturday's deadlift leaves **72 h to W9's Tuesday
   squat**, against the standing **96 h deadlift->squat** rule. The compressed week cannot
   satisfy both gaps, and moving the deadlift to Friday would make squat->deadlift 48 h,
