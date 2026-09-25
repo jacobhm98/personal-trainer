@@ -605,7 +605,7 @@ much mileage as possible."
 finishing here. Pushed as Tredict plan `6LiGcCcCA`.
 
 - Mon | Optional | **OPTIONAL easy ~40min**, HR 110-150 — left to feel after ~7 h of MTB. **No calendar entry by design** (easy runs are HR-governed and need no structure). This is the week's clear day; see the note below before spending it
-- Tue | Quality | TREADMILL. WU 10min easy (HR 110-150); 2min belt ramp; 6x(6min @ **11.8-12.0 kph = 5:01-5:06/km**, 60s float @ ~8 kph); CD 8min easy; ~62min, ~11km + **C14 W2 D3 Deadlift PM**
+- Tue | Quality | TREADMILL. WU 10min easy (HR 110-150); 2min belt ramp; 6x(6min @ **12.0 kph = 5:00/km** — top of the W7 band, set 2026-09-25, 60s float @ ~8 kph); CD 8min easy; ~62min, ~11km + **C14 W2 D3 Deadlift PM**
 - Wed | Easy | TREADMILL. 55min, HR 110-150, effort governs; ~8km + **C14 W2 D4 Pull-ups PM** — closes C14 W2
 - Thu | Quality | TREADMILL. WU 10min easy; 2min belt ramp; 3x(10min @ **11.5-11.7 kph = 5:07-5:13/km**, **90s** float @ ~8 kph); CD 8min easy; ~55min, ~9.3km. **No lift**
 - Fri | Trek | **GORILLA TREK** (Volcanoes NP, ~2,300-3,000 m) — no running
@@ -617,15 +617,26 @@ running against W7's originally planned 43.5 — but the three trek days are hou
 ground at altitude, so the week's *training* is not down 15 km, only its running-specific
 part. The user asked for exactly this on 2026-09-23: "we can reduce the amount of easy runs
 slightly due to the hiking/mountain biking weekends i got planned."
+- **TUESDAY RUNS AT 12.0 kph, THE TOP OF THE BAND — set 2026-09-25** after comparing the
+  09-24 Kigali 5x6 against the matched 09-18 Stockholm 5x6 (full record in
+  `sub-threshold-reference.md` §8.3). Kigali came in **7-10 bpm lower at every matched rep**
+  (174/176/178 against 184/185/185) and the two-more-reps answer was yes. Altitude and
+  treadmill heat can only push HR *up*, so they bound the finding rather than explaining it
+  — the W6 adjustment over-corrected. The competing reading is that **Stockholm was the
+  session at fault**, sitting above the 180-184 LTHR estimate; either way Tuesday moves up
+  one notch, not two. **RPE still aborts:** Tuesday follows ~7 h of MTB and stacks with the
+  deadlift, so if two more reps is not obviously available by rep 4, drop to 11.8 kph.
+  **The sea-level bands were deliberately left alone** — the Fri 10-23 TT re-anchors those.
 - **Two sub-T sessions, one 6-min and one 10-min** — Bakken's rep-length rotation (user,
-  2026-09-23). Monday is the 6-min session, Thursday the 10-min one, and **Thursday runs
+  2026-09-23). Tuesday is the 6-min session, Thursday the 10-min one, and **Thursday runs
   slower**: the 8-12 min band is T+17-19 against the 4-6 min band's T+10-12. Do not run
   Thursday at Tuesday's belt speed. The two sit **48 h apart** after the shift, which is
   standard Norwegian singles spacing (Tue/Thu), not a compromise. **Float lengths are fixed by rep length** (§7 of
   `sub-threshold-reference.md`): 60 s after a 6-min rep, **90 s** after a 10-min one.
 - **Hard days are stacked, not spread** (user, 2026-09-23: "we should stack hard leg days
-  together... easy days easy hard days hard"). Monday pairs the sub-T with the deadlift;
-  Tuesday is an easy run plus pull-ups, upper body only, so it costs the legs nothing.
+  together... easy days easy hard days hard"). **Tuesday** pairs the sub-T with the deadlift;
+  **Wednesday** is an easy run plus pull-ups, upper body only, so it costs the legs nothing.
+  (Day names corrected 2026-09-25 — this bullet still described the pre-shift week.)
   **This supersedes the old "nothing hard on Thursday" rule.** That rule was written when
   W7 also carried a squat day; with C14 W3 moved home, Thursday has room it did not have.
   Going into the treks slightly tired is an acceptable price for a second quality session

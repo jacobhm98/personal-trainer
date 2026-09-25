@@ -486,6 +486,57 @@ W8 Friday, 10-09.**
 - **Warm-up lesson:** rep 1 lost ~3 min to HR onset kinetics. A warm-up with strides or a
   progressive final 400 m would make rep 1 usable data rather than a discard.
 
+### 8.3 Matched 5×6 comparison — 09-18 Stockholm vs 09-24 Kigali [S]
+
+Two 5×6 min sub-T sessions six days apart, same rep length, same 60 s floats, same 07:00
+start, same wrist optical. The only planned difference is sea level + outdoor + pace-band
+against **1,570 m + treadmill + fixed belt**.
+
+| | **Fri 09-18, Stockholm, outdoor** | **Thu 09-24, Kigali, treadmill** |
+|---|---|---|
+| Prescription | 4:50–4:52 band | belt 11.80 kph = **5:05/km** |
+| Executed | 4:48 / 4:50 / 4:52 / 4:52 / 4:54 | 5:05 flat (belt-exact, reps 2–5 identical) |
+| Rep HR | 174 · 181 · 184 · **185 · 185** | 158 · 171 · 174 · **176 · 178** |
+| Rep 1→5 spread | +11 | +20 |
+| Rep 2→5 spread | +4 | +7 |
+| Peak | 185 avg / 189 max | 178 avg / 183 max |
+| Session avg | 169 | 163 |
+| Float HR | 175 / 178 / 182 / 184 / 183 | 160 / 170 / 170 / 174 / 177 |
+| Distance / time | 9.51 km / 53:55 | 9.62 km / 55:11 |
+
+**Kigali ran 7–10 bpm lower at every matched rep** (reps 3–5 are the fair comparison:
+184/185/185 against 174/176/178).
+
+**ONE-DIRECTIONAL CONFOUNDERS DO NOT INVALIDATE A READING THAT MOVES THE OTHER WAY.**
+§6 says to discard HR conclusions outright when a confounder is present, and the blanket
+rule is right for the usual case, where the confounder could have produced the observation.
+It does not apply here: **altitude and treadmill heat can only raise HR at a given effort**,
+and the number came in *low*. A confounder that works against the observed direction bounds
+the true effect rather than explaining it away — the same logic already used for the
+110–150 easy band ("the error is one-directional"). Before invoking this, state which way
+each confounder pushes and check that *all* of them oppose the finding; if any could have
+caused it, discard as normal.
+
+Two readings, both live:
+
+1. **The W6 altitude adjustment over-corrected.** +15–20 s/km bought more slack than
+   1,570 m costs. The user's "yeah I could have [done two more reps]" agrees from the RPE
+   side, so both available controls point the same way.
+2. **The Stockholm session was creeping onto threshold** — arguably the stronger reading.
+   Its last three reps sat at **185**, *above* the LTHR estimate of 180–184, with rep 1 at
+   4:48 (2 s/km hot off the line). A 5×6 finishing pinned above LTHR is threshold with
+   floats, not sub-threshold. Kigali's 174–178 sat just under.
+
+**Not scored: the plateau shape.** Stockholm went dead flat over the last three reps
+(184/185/185); Kigali was still climbing (174→176→178). Flat is normally the good sign, but
+a rising tail is exactly what heat alone produces, so §7's treadmill rule applies and
+neither is read.
+
+**Action taken (2026-09-25):** W7's Tuesday 6×6 moved to the **top** of the W7 band,
+12.0 kph = 5:00/km, one notch up from Thursday. **The sea-level bands were NOT touched** —
+one confounded comparison is not grounds to move a measured number, and the Fri 10-23 TT
+re-anchors them properly.
+
 ---
 
 ## 9. Calibration calendar

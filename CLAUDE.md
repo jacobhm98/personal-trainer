@@ -217,6 +217,14 @@ Minimum you must not get wrong without opening it:
   `get_activity_streams` also works when that MCP is connected.
 - **When a confounder is present** (illness, alcohol, treadmill heat, bad sleep),
   discard HR-derived conclusions outright rather than asterisking them.
+  **One exception, and it is narrow (added 2026-09-25):** if *every* confounder present
+  pushes HR the **opposite** way from the observation, it bounds the finding instead of
+  explaining it, and the reading stands. Heat and altitude only raise HR at a given effort,
+  so they cannot manufacture the 7-10 bpm *drop* the 09-24 Kigali 5x6 showed against the
+  matched 09-18 Stockholm one (`sub-threshold-reference.md` §8.3). **Before invoking this,
+  name each confounder and its direction** — if even one could have caused what you are
+  looking at, discard as normal. This is the same one-directional logic behind the 110-150
+  easy band, not a licence to reinstate asterisked conclusions.
 
 ## Naming conventions
 
