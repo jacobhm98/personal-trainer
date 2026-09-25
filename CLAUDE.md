@@ -251,9 +251,22 @@ Minimum you must not get wrong without opening it:
   not rebuilt. Do not create a replacement plan, and do not fall back to the
   retitle-as-warning protocol, until the UI edit has been tried. Costly lesson: three plans
   were built for one week on the false assumption, and the user was sent to delete things
-  three times for a 30-second float. **Still unverified:** whether a UI step edit inside
-  the 7-day relay window propagates to COROS (this one was edited while 10-01 was still
-  outside it). The retitle protocol remains the fallback for anything the UI cannot reach.
+  three times for a 30-second float. The retitle protocol remains the fallback for anything
+  the UI cannot reach.
+  **IN-WINDOW UI EDITS DO PROPAGATE TO COROS — verified 2026-09-25.** This was the open
+  question left by the 09-23 entry. Two proofs on the 09-29 entry, edited while inside the
+  relay window: the **title** changed on COROS from "Run W7 Mon" to "Run W7 Tue" within
+  minutes, and **step durations** carried (10-01 estimates 54:30 = 600+120+3x(600+**90**)+480,
+  the edited floats). **Pace targets are strongly indicated but not proven**: after the
+  edit both quality sessions return `Degradation: Absolute pace values cannot be represented
+  as whole seconds per kilometer` with the work rep *omitted* from the structure and an
+  explicit warning not to read that absence as "no target" — and absolute pace values exist
+  on those steps only because they were just added, since an OPEN step has nothing to
+  degrade. **The COROS read API cannot render a pace target back**, so the step-level state
+  is not directly inspectable; the watch screen is the only definitive check. Note also that
+  the schedule-level **distance estimate goes stale** after an edit (09-29 still read 8.57 km
+  against ~10.95 km implied by a 12.0 kph target) — it is a display field, not the
+  prescription, so do not read it as evidence either way.
 - **Step schema**: `durationType` distance|time|open (meters/seconds); `intensityType`
   warmup|active|recover|rest|cooldown; interval repeats via
   `{repetitions, steps[...]}`. For our fixed pace prescriptions use
