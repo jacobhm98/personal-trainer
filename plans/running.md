@@ -623,21 +623,26 @@ slightly due to the hiking/mountain biking weekends i got planned."
   that a pace target would alert against a correctly-run treadmill session was unfounded —
   see `CLAUDE.md`. Bands to set, padded to cover the prescribed fallback speed so a
   deliberate drop does not trigger an alert:
-  **Tue 6x6 → SET, 4:50-5:10** (midpoint exactly 12.0 kph; user set +/-10 rather than the
-  +/-5 proposed, which is fine **on a belt specifically** — speed is set once and cannot
-  drift, so the band's only job is to display the prescription without alerting. Outdoors
-  a band reaching 4:50 would be refused: it licenses the drift onto threshold this whole
-  file exists to prevent);
-  **Thu 3x10 → midpoint 5:10 (11.6 kph), band 5:05-5:15.** Tighter than Tuesday's +/-10 on
-  purpose: **+/-10 would top out at 5:00 = Tuesday's exact speed**, and
-  longer-reps-run-slower is the entire point of the rotation, so the band must not co-sign
-  that error. Cost: the 11.3 kph fallback (5:19) falls outside, so a deliberate downshift
-  will alert — the cheaper of the two mistakes. **Midpoint is 11.6, NOT the 11.7 top of the
-  band**: Tuesday is already taking the step, and moving both sessions in one week changes
-  two variables at once three days before the treks. A lopsided 5:05-5:20 would be strictly
-  better and was proposed first, but **the Tredict UI appears to take value +/- padding
-  rather than independent low/high** — Tuesday's stored band came back 4:50-5:10 with the
-  midpoint at exactly 5:00. Use 5:05-5:20 if separate low/high fields do turn out to exist.
+  **BOTH SET AND VERIFIED 2026-09-25** (read back via `planned-workout`; stored as
+  `targetType: "SPEED"` in m/s even though entered as pace, which suits a belt — the watch
+  can render kph, the unit on the dial):
+  **Tue 6x6 → 5:00 +/-5 = 4:55-5:05** (11.80-12.20 kph, target **12.0**);
+  **Thu 3x10 → 5:10 +/-5 = 5:05-5:15** (11.43-11.80 kph, target **11.6**).
+  **The two bands came out exactly adjacent** — they share the boundary 11.80 kph and do
+  not overlap, so "the 10-min session runs slower than the 6-min one" is structurally
+  impossible to violate while inside either band. Better than the lopsided band first
+  proposed for Thursday, which was withdrawn on the evidence that **the UI takes
+  value +/- padding, not independent low/high**.
+  **Thursday's midpoint is 11.6, NOT the 11.7 top of its band**: Tuesday is already taking
+  the step, and moving both sessions in one week changes two variables at once three days
+  before the treks.
+  **Fallback coverage, stated precisely because "+/-5 covers the fallback" was too loose a
+  claim:** Tuesday's 11.8 kph fallback is 305.08 s/km against a floor of 305.0, so it sits
+  *on* the edge, not inside — practically irrelevant (the watch read 305.1 for that belt
+  speed on 09-24 and alerts on sustained deviation, not tenths), but it is an edge, not a
+  margin. Thursday's 11.3 kph fallback (5:18.6) is genuinely outside its 5:15 floor and
+  will alert — accepted as the cheaper error, since the alternative band would reach
+  Tuesday's speed.
   **Floats and cool-downs stay OPEN** — they exist to be run by feel and should never
   alert. Warm-ups keep their HR target.
   Tredict stores these as `targetType: "SPEED"` in m/s even when entered as pace, which
