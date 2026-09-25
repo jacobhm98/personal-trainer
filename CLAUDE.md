@@ -295,9 +295,22 @@ Minimum you must not get wrong without opening it:
   loose pace, no zone type — has always produced an OPEN step. That matches its intent,
   "run easy by feel", so leave it; but the claim that every step needs *some* target or
   nothing shows on the watch is unproven.)
-- **Treadmill sessions (learned 2026-09-23).** Indoors the watch cannot measure pace —
-  the reading is accelerometer-derived and will alert against a correctly-run session —
-  so **the belt is the prescription**. Push treadmill runs as **time-based steps**
+- **Treadmill sessions (learned 2026-09-23, corrected 2026-09-25).** The belt is still the
+  prescription, but **the watch measures indoor pace accurately and pace targets DO belong
+  on treadmill steps.** The 09-23 version of this note claimed the accelerometer reading
+  "will alert against a correctly-run session" — that was a *prediction* written before any
+  treadmill data existed, and the first session refuted it: on 09-24 reps 2–5 logged
+  **305.1 s/km against a belt at 305.08** (11.80 kph), and the warm-up logged 400.5 against
+  400.0 for 9 kph. Accurate to hundredths. **So set `targetZoneType: "pace"` on treadmill
+  rep steps** with padding wide enough to cover the prescribed fallback speed (±5 s/km ≈
+  ±0.2 kph). The user asked for this explicitly, twice — 2026-09-23 ("why no target zone?
+  they've had one before when i do it on treadmill") and 2026-09-25 ("id like for it to
+  contain the actual pace bands in the workout, thats more important than the title").
+  **Caveat:** one session, one athlete, ~9–12 kph, no incline. A belt that is out of
+  calibration shifts the *belt*, not the watch, so a mismatch between the two is evidence
+  about the machine — log it rather than assuming the watch drifted. Keep floats and
+  cool-downs OPEN; they should never alert.
+  Push treadmill runs as **time-based steps**
   (`durationType: "time"`; never `distance`, which ends at the wrong moment on a drifting
   indoor estimate), with **`subSportType: "treadmill"`** and the **belt speed in kph in
   the TITLE** — the title is the only reliable warning surface, same lesson as the
