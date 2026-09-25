@@ -617,6 +617,16 @@ running against W7's originally planned 43.5 — but the three trek days are hou
 ground at altitude, so the week's *training* is not down 15 km, only its running-specific
 part. The user asked for exactly this on 2026-09-23: "we can reduce the amount of easy runs
 slightly due to the hiking/mountain biking weekends i got planned."
+- **PACE TARGET ZONES GO ON THE REP STEPS (user, 2026-09-25: "id like for it to contain
+  the actual pace bands in the workout, thats more important than the title").** Justified
+  by 09-24: the watch's indoor pace matched the belt to **0.02 s/km**, so the 09-23 worry
+  that a pace target would alert against a correctly-run treadmill session was unfounded —
+  see `CLAUDE.md`. Bands to set, padded to cover the prescribed fallback speed so a
+  deliberate drop does not trigger an alert:
+  **Tue 6x6 → 5:00/km ±5 = 4:55-5:05** (covers 12.0 down to 11.8 kph);
+  **Thu 3x10 → 5:10/km ±5 = 5:05-5:15** (covers 11.7 down to 11.5 kph).
+  **Floats and cool-downs stay OPEN** — they exist to be run by feel and should never
+  alert. Warm-ups keep their HR target.
 - **TUESDAY RUNS AT 12.0 kph, THE TOP OF THE BAND — set 2026-09-25** after comparing the
   09-24 Kigali 5x6 against the matched 09-18 Stockholm 5x6 (full record in
   `sub-threshold-reference.md` §8.3). Kigali came in **7-10 bpm lower at every matched rep**
