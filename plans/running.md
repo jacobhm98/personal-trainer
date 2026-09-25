@@ -628,10 +628,16 @@ slightly due to the hiking/mountain biking weekends i got planned."
   drift, so the band's only job is to display the prescription without alerting. Outdoors
   a band reaching 4:50 would be refused: it licenses the drift onto threshold this whole
   file exists to prevent);
-  **Thu 3x10 → 5:05-5:20, deliberately LOPSIDED.** Only 5 s above (11.8 kph) because
-  +/-10 would reach 5:00 = **Tuesday's exact speed**, and longer-reps-run-slower is the
-  entire point of the rotation — the band must not co-sign that error. 15 s below so the
-  11.3 kph fallback in the notes sits inside it.
+  **Thu 3x10 → midpoint 5:10 (11.6 kph), band 5:05-5:15.** Tighter than Tuesday's +/-10 on
+  purpose: **+/-10 would top out at 5:00 = Tuesday's exact speed**, and
+  longer-reps-run-slower is the entire point of the rotation, so the band must not co-sign
+  that error. Cost: the 11.3 kph fallback (5:19) falls outside, so a deliberate downshift
+  will alert — the cheaper of the two mistakes. **Midpoint is 11.6, NOT the 11.7 top of the
+  band**: Tuesday is already taking the step, and moving both sessions in one week changes
+  two variables at once three days before the treks. A lopsided 5:05-5:20 would be strictly
+  better and was proposed first, but **the Tredict UI appears to take value +/- padding
+  rather than independent low/high** — Tuesday's stored band came back 4:50-5:10 with the
+  midpoint at exactly 5:00. Use 5:05-5:20 if separate low/high fields do turn out to exist.
   **Floats and cool-downs stay OPEN** — they exist to be run by feel and should never
   alert. Warm-ups keep their HR target.
   Tredict stores these as `targetType: "SPEED"` in m/s even when entered as pace, which
