@@ -623,10 +623,19 @@ slightly due to the hiking/mountain biking weekends i got planned."
   that a pace target would alert against a correctly-run treadmill session was unfounded —
   see `CLAUDE.md`. Bands to set, padded to cover the prescribed fallback speed so a
   deliberate drop does not trigger an alert:
-  **Tue 6x6 → 5:00/km ±5 = 4:55-5:05** (covers 12.0 down to 11.8 kph);
-  **Thu 3x10 → 5:10/km ±5 = 5:05-5:15** (covers 11.7 down to 11.5 kph).
+  **Tue 6x6 → SET, 4:50-5:10** (midpoint exactly 12.0 kph; user set +/-10 rather than the
+  +/-5 proposed, which is fine **on a belt specifically** — speed is set once and cannot
+  drift, so the band's only job is to display the prescription without alerting. Outdoors
+  a band reaching 4:50 would be refused: it licenses the drift onto threshold this whole
+  file exists to prevent);
+  **Thu 3x10 → 5:05-5:20, deliberately LOPSIDED.** Only 5 s above (11.8 kph) because
+  +/-10 would reach 5:00 = **Tuesday's exact speed**, and longer-reps-run-slower is the
+  entire point of the rotation — the band must not co-sign that error. 15 s below so the
+  11.3 kph fallback in the notes sits inside it.
   **Floats and cool-downs stay OPEN** — they exist to be run by feel and should never
   alert. Warm-ups keep their HR target.
+  Tredict stores these as `targetType: "SPEED"` in m/s even when entered as pace, which
+  suits a treadmill: the watch can render kph, the same unit as the belt dial.
 - **TUESDAY RUNS AT 12.0 kph, THE TOP OF THE BAND — set 2026-09-25** after comparing the
   09-24 Kigali 5x6 against the matched 09-18 Stockholm 5x6 (full record in
   `sub-threshold-reference.md` §8.3). Kigali came in **7-10 bpm lower at every matched rep**
