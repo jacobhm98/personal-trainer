@@ -107,19 +107,30 @@ default last 7 days.
      single question when the period has several. Ask **plainly, in the report** — do
      not use a question tool for this, and do not block the rest of the review on it.
    - **Then append to `state/srpe-log.md`**, one row per session:
-     `| date | session | duration (min) | RPE | sRPE (AU) | notes |` where
-     **sRPE = RPE x duration in minutes**. Duration and set count come from
+     `| date | session | region | duration (min) | RPE | sRPE (AU) | notes |` where
+     **sRPE = RPE x duration in minutes** and region is `legs` (D1 Squat, D3 Deadlift)
+     or `upper` (D2 Dips, D4 Pull-ups). Duration and set count come from
      `querySportRecords` (`sportTypeCodes: [402]`). Leave RPE blank rather than guessing
      if he does not answer; **never invent one**, and never back-fill an RPE from HR.
-   - **Once ~6-8 sessions are logged**, report weekly sRPE totals (runs + lifts) as the
-     load picture instead of the watch's number, and say plainly that this is the only
-     validated load measure in the system.
+   - **STRENGTH RPE IS LOCAL, NOT SYSTEMIC — NEVER SUM IT WITH RUNNING.** User's
+     correction 2026-09-29: *"rpe for strength sessions are localized not systemic in the
+     same way as running."* An RPE 8 squat means quads and hips near failure; an RPE 8 run
+     means whole-body cardiorespiratory strain. Adding them measures nothing. Supported
+     mechanistically: fatigue after 10x5 squats is **peripheral/contractile, not CNS**,
+     still depressed at 48 h (Thomas 2018), and lifting cost 2.6% running economy with
+     **no change in exercising HR, ventilation or RPE** (Palmer & Sleivert 2001).
+   - **Report three numbers, never one total:** the **legs** sRPE series, the **upper**
+     series, and weekly running volume. **The `legs` series is the one that matters** —
+     squat days, deadlift days and hard running all draw on it, and that is where
+     concurrent-training interference lives. Report it *against* the running quality days.
    - Ask the same way for **runs** only if he offers; the runs already have the
      two-more-reps question and the plateau check doing this job.
-   - **Do NOT sum RPE answers with other subjective items into a composite score.**
-     Consolidating subjective measures into a total *reduces* sensitivity — one in five
-     studies saw a change only in a subscale, not the total (Saw et al. 2016). Keep the
-     numbers separate.
+   - **Do NOT sum RPE answers with other subjective items into a composite score**, or
+     across modalities. Consolidating subjective measures into a total *reduces*
+     sensitivity — one in five studies saw a change only in a subscale, not the total
+     (Saw et al. 2016). Keep the numbers separate.
+   - **Back-filling was declined 2026-09-29** — the log starts that date. Never ask for a
+     retrospective RPE on anything earlier.
 
 5. Report a concise summary: per-session table, then findings, then suggested
    adjustments. Suggestions are never auto-applied — plan changes go through the
