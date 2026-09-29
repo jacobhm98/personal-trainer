@@ -91,6 +91,11 @@ effect (fewer non-responders), not a performance effect.
 **And every positive trial used chest-strap morning HRV. No RCT has tested wrist-optical nightly
 HRV as a decision input.**
 
+**But the channel is not worthless — the day-to-day READING is.** In a 2-week deliberate overload
+(Nuuttila 2024, n=24), **nocturnal HRV did separate the 8 overreached from the 12 responders
+(p=0.011)**, alongside nocturnal HR and a one-item readiness question. A real multi-week signal is
+detectable; a Tuesday-versus-Wednesday difference is not. See §6.
+
 **HOW TO USE IT:** 7-day rolling mean only, against a 28–60 day baseline, acting only on several
 consecutive days outside the band. Never a nightly value. **Discard frequency-domain outputs
 entirely** (LF, LF:HF, "stress") — least valid things wrist PPG produces.
@@ -195,6 +200,54 @@ Four lifting days contribute ~40–50 AU against a weekly total in the hundreds.
 report him under-loaded and well-recovered in exactly the weeks when heavy lower-body work is
 what is limiting his running.
 
+**[V] Experimental confirmation (added 2026-09-29).**
+- **Kraft, Green & Gast 2014**, *JSCR* 28(7):2042-46 — two sessions **matched for total work
+  volume and work rate**, 3x6 @ ~80% 1RM vs 2x12 @ ~60%. Session RPE **5.7 vs 4.3**, with
+  **no difference in recovery heart rate.** Perception separated them; HR did not.
+- **Falk Neto et al. 2020**, *Front Physiol* 11:919 — same session performed all-out vs at RPE-6.
+  sRPE 91.7 vs 42.6 AU (p=0.002, **ES 1.82**); **Edwards TRIMP 93.1 vs 84.9, p=0.085 — not
+  significant.** An HR-zone model could not distinguish an all-out session from a deliberately
+  easy one. sRPE correlated with 30-min post lactate (rho=0.596); neither TRIMP did.
+- **McLaren et al. 2018 moderator detail** — TRIMP vs external load is r=0.72 in mixed training
+  but changes by **−0.58 for "neuromuscular" work → residual r ≈ 0.14**, with training mode
+  explaining **100%** of between-estimate variance. On strength-type work, HR-derived load has
+  **essentially zero association with the external work done.**
+- **Sweet et al. 2004** — session RPE rose with %1RM *"despite a decrease in the total work
+  performed."* Even sRPE understates heavy work, since it underestimates the mean of per-set
+  ratings.
+
+**Honesty point:** no peer-reviewed study validates Firstbeat EPOC/TE or hrTSS against barbell
+training in either direction, and "neuromuscular" in McLaren is team-sport gym work, not pure
+barbell. The under-reporting conclusion follows from the models' stated scope plus the matched
+experiments above — sound reasoning, not a measured error figure for this exact case.
+
+### 4.2b THE COST THE WATCH CANNOT SEE — and why the AM-run/PM-lift order is right
+
+**Palmer & Sleivert 2001**, *J Sci Med Sport* 4(4):447-459 [V]. n=9 well-trained distance runners
+(VO2max 66.6), 50-min resistance session, treadmill runs at rest or 1, 8, 24 h after:
+- Submaximal VO2 **+2.6 ± 2.3% at 1 h** (p=0.007), **+1.6 ± 2.5% at 8 h** (p=0.032), ns at 24 h
+- *"No significant differences were found in exercising **heart rate**, ventilation, respiratory
+  exchange ratio, ratings of perceived exertion, or running mechanics."*
+
+**A real 2.6% loss of running economy that exercising HR could not see.** If HR does not move when
+economy degrades, **no HR-derived metric can detect concurrent-training interference.** This is the
+exact mechanism operating on the stacked Tue/Fri days.
+
+**It also argues the current order is correct.** Doma, Deakin & Bentley 2017, *Sports Med*
+47(11):2187-2200: carry-over fatigue impairs subsequent endurance sessions "for several hours to
+days," and **endurance-before-strength with ~6 h separation was more favourable than the reverse**
+— which is the order already in the plan (run AM, lift PM, >=6 h apart). Keep it. (The 6 h figure
+is a study-design artefact, not a validated threshold.)
+
+**Neuromuscular time course [V]:** Thomas et al. 2018, *MSSE* 50(12):2526-35 — 10x5 back squat
+@ 80% 1RM; fatigue took **up to 72 h** to resolve, twitch force and voluntary activation still
+depressed at **48 h**, peripheral/contractile rather than CNS. Raeder et al. 2016 — after a 6-day
+intensified strength block, 1RM and CMJ returned to baseline within 3 days but reactive strength
+index (−7.9%) and tensiomyography (−14.7%) had not.
+**Caveat [P]:** "neuromuscular fatigue persists while HRV normalises" is sound inference, not a
+measured effect — neither study measured HRV, and the HRV-after-resistance literature stops at
+the acute window (~30 min post). The 24-72 h head-to-head has never been run.
+
 ### 4.3 Recovery % — what COROS says it excludes
 
 Verbatim from COROS support: *"Currently, other factors such as **Sleep, HRV, Daily Stress, or
@@ -203,6 +256,28 @@ so it's important to listen to your body."*
 
 It is a decay curve on an HR-only load number. **"83%, moderate training recommended" means
 "you have not run much lately."** Nothing more.
+
+**[V] Systematic evaluation of the whole category.** Doherty et al. 2025, *Translational Exercise
+Biomedicine* 2:128-144 — **14 composite scores across 10 manufacturers** (Garmin Body Battery and
+Training Readiness, Oura Readiness, WHOOP Recovery/Strain, Polar Nightly Recharge, Fitbit Daily
+Readiness, Samsung Energy Score). Inputs: HRV in 86%, RHR 79%, activity 71%, sleep 71%. Conclusion:
+**no manufacturer discloses its algorithm, and most scores lack empirical validation or
+peer-reviewed evidence of accuracy or clinical relevance.** (One author has Oura/HRV4Training ties
+and still reaches a negative conclusion.)
+
+**[V] And a direct negative test.** Nuuttila et al. 2025, *Sensors* 25(2):533 — n=24, deliberate
+overload block. **Perceived strain and muscle soreness rose significantly (p<0.001) while every
+nightly recovery metric — including the proprietary composite (HR + HRV + breathing rate) —
+remained unchanged.** The score missed an overload that a subjective question caught.
+
+**On the vendor's own flagship evidence:** Grosicki et al. 2026, *IJSPP* 21(2):180-191 — 389 pro
+golfers, +10 pp WHOOP Recovery → −0.238 strokes. **All six authors are affiliated "Performance
+Science, WHOOP Inc.",** and the within-athlete models compare **season averages, not day-to-day**,
+so it never tests the actual use case.
+
+PubMed record counts, independently confirmed: **zero** for "Body Battery," **zero** for Firstbeat
+recovery time/training status, **zero** for Polar Nightly Recharge, **zero of any kind on COROS
+Recovery.** Garmin's cited basis for Body Battery is an unpublished 2012 Firstbeat white paper.
 
 ### 4.4 Load Ratio is a discredited metric
 
@@ -223,18 +298,69 @@ an exponential. **COROS corrects for neither — the model has no temperature or
 A second, independent mechanism at altitude: **HRmax itself falls with hypoxia** while the profile
 value stays fixed, so B is computed against a maximum unreachable that day. This compounds.
 
-**[V] Heat:** cardiovascular drift is amplified by heat and accompanied by a genuine *fall* in
-VO2max. Subtle point worth keeping — in the heat, HR is **not** lying about relative cardiovascular
-strain; it is lying about mechanical work and about the adaptive stimulus.
+### 5.1 Heat — the error is measured, and it is large
 
-**[V] Altitude is not a fixed offset.** In *acclimatised* mountain guides, HR and lactate at a
-fixed 100 W were "unchanged or even slightly reduced" at 2,000 m. The penalty is largest in the
-first days and shrinks with exposure. **Do NOT introduce a blanket "subtract X bpm for altitude"
-correction — the literature does not support a constant.**
+**Bröde & Kampmann 2019**, *Ind Health* 57(5):615-620 — **373 climatic-chamber experiments** [V].
+Metabolic rate from measured O2 was accurate to 5%; **metabolic rate estimated from heart rate
+overestimated it by 43%.** Mechanism: rising core temperature raises HR by **~30 bpm per °C**.
+Correcting for the thermal component restored 10-15% accuracy. Parallel field study (41 forest
+workers, thermal ΔHR 0-38 bpm): raw HR overestimated work by **30% on average, range 1-64%**, with
+**74% of prediction-error variance** explained by the thermal HR component alone.
 
-**[V] And moderate altitude may do less to RHR than assumed:** elite skiers and biathletes over
-**17–21 days at 1,800 m showed no systematic change in resting HR** (p=0.114, within-subject CV
-7.2%). The 10–20 bpm figures in circulation are for 2,500 m+ and acute exposure.
+**Every HR-derived load metric inherits this in full — none contains a temperature term.**
+The 2026-09-24 treadmill session logged **32 °C**.
+
+Magnitudes (Périard, Eijsvogels & Daanen 2021, *Physiol Rev*): 40 km TT at 35 vs 20 °C, HR **+8
+bpm**; 30-min TT at 32 vs 23 °C, **+4 bpm with 6.5% lower power**; 15-min self-paced at 40 vs
+20 °C, **+10 bpm with 17% less work done**. Heat acclimation reverses it and shows how much was
+thermal: exercising HR **−10 bpm by day 8**, **−14 bpm** on a 5-day protocol.
+
+Subtle point worth keeping — in the heat, HR is **not** lying about relative cardiovascular strain;
+it is lying about mechanical work and about the adaptive stimulus.
+
+### 5.2 Altitude at 1,550 m — where the signal actually lives
+
+**[V] The signal is in EXERCISING HR at a fixed workload, and it decays inside a week.**
+Garvican et al. 2014, *IJSPP* 9(3):397-404 — n=20 elite athletes at **1,600 m, essentially Kigali**,
+standardised 5-min run at 11 km/h daily for 10 days: mean HR **+5.4% on day 1** (ES 1.01 ± 0.35),
+probably still elevated days 2-3, **back to baseline by day 5.** At easy pace that is roughly
+**+8 bpm at identical pace, decaying over 4-5 days.**
+
+**Observed in this athlete and consistent with it:** 9.0 kph treadmill runs on **day 3** (09-23,
+last 3 km HR 150/149/151) and **day 5** (09-25, 145/147/146). ~4 bpm lower at identical belt speed,
+on Garvican's exact timeline.
+
+**[V] Resting HR and HRV have a published NULL at this elevation.** Karlsson, Laaksonen & McGawley
+2022, *Front Sports Act Living* 4:852108 — n=32 elite endurance athletes, **17-21 days at 1,800 m**:
+resting SpO2, **resting HR** and urine specific gravity **did not change systematically** (p>0.05;
+within-subject CV for resting HR **7.2 ± 5.1%**). They declined to measure HRV because "HRV
+responses are highly variable."
+**So "HRV drops for days at altitude" is well supported above ~2,300 m and poorly supported at
+Kigali's elevation. Do not read a recovery score for an altitude effect here** — that channel has
+a demonstrated null and ~7% day-to-day CV.
+
+**[V] Why the HR→VO2 calibration breaks anyway.** HRmax declines detectably from **600-700 m** at
+~**1.7 bpm per 1,000 m** (Mourot 2018, pooled 86 studies, 322 groups), more in higher-VO2max
+individuals — so at 1,550 m expect HRmax ~2.5-3 bpm below sea level and every %HRmax zone computed
+against a ceiling that moved. VO2max falls **6.3% per 1,000 m** (Wehrlin & Hallén 2006), so at
+1,550 m it is **~8-9% lower.**
+
+**Stated precisely:** because VO2max is ~8-9% lower, a given pace at 1,550 m genuinely **is** a
+higher %VO2max — the elevated HR is **right about relative cardiovascular strain and wrong about
+mechanical work**. What breaks is the inverse mapping: hypoxia left-shifts the HR/ventilation/
+lactate curves against work rate, so any EPOC or hrTSS model converting HR→VO2 on a sea-level
+VO2max assigns more aerobic work than was performed. **[P]** — no study validates a Firstbeat-style
+model at altitude. The heat case (43%) is the measured one.
+
+**Altitude is not a fixed offset.** In *acclimatised* mountain guides, HR and lactate at a fixed
+100 W were "unchanged or even slightly reduced" at 2,000 m. **Do NOT introduce a blanket
+"subtract X bpm for altitude" correction — the literature does not support a constant.** The
+existing rule (discard HR-derived conclusions under a confounder unless every confounder pushes
+the opposite way) is exactly right and should not be replaced by a bpm offset.
+
+**Vendor note:** Garmin/Firstbeat document Heat Acclimation (>22 °C, ~4 days to full) and Altitude
+Acclimation (>800 m, weighted by *sleeping* altitude). **COROS has neither.** Garmin's has no
+published validation — a claim, not a finding.
 
 ---
 
@@ -248,19 +374,50 @@ Ranked by evidence behind them, best first:
    readiness test with a real criterion, and it self-calibrates.
 3. **Session-RPE (RPE x minutes), logged for every session including lifts.** 36 validation
    studies across sports, sexes, ages and levels. The only measure here that prices a heavy squat
-   day correctly.
-4. **A single-item fatigue question.** Construct validity r ≈ .63–.66, reliability kappa ≈ .77–.78.
-5. **7-day rolling resting HR.** The one genuinely physiological channel on the watch — and the
+   day correctly, and the only one that separated matched-volume heavy from light work (§4.2).
+4. **7-day rolling resting HR.** The one genuinely physiological channel on the watch — and the
    Recovery score ignores it.
+5. **A single-item readiness/fatigue question — least-bad and free, NOT validated.**
+   See the correction below.
+
+**[V] The strongest direct support for this list.** Nuuttila et al. 2024, *Eur J Sport Sci*
+24(7):857-869 — 24 recreational runners through a 2-week overload; 8 overreached vs 12 responders.
+Nocturnal HR (p=0.002), nocturnal HRV (p=0.011), **the single item "readiness to train" (p=0.009)**
+and leg soreness (p=0.04) all separated the groups. **Nocturnal HR, "readiness to train" and an
+HR-running-power index each reached ≥85% positive AND negative predictive value.**
+Note what this implies about HRV: **over a two-week overload with a real signal, nocturnal HRV
+worked.** The failure documented in §2 is *day-to-day* reading, not the channel itself.
+
+**CORRECTION (2026-09-29) — single-item measures are not validated as a class.** Jeffries et al.
+2020, *IJSPP* 15(9):1203-1215, a COSMIN review screening 9,446 records: **46.1% of athlete-reported
+measures used in sport science are single items, and apart from two reliability studies no validity
+studies exist for them at all.** Verbatim: *"The single-item AROMs most frequently used in sport
+science have not been validated... all conclusions based on these AROMs are questionable."*
+So frame a one-item check as **cheap, responsive and least-bad** — not as validated. Saw et al.'s
+support is for *published* instruments (POMS, RESTQ-Sport, DALDA), since inclusion required
+published validity; it does not transfer to ad-hoc wellness sliders.
 
 **Saw, Main & Gastin 2016** (56 studies, concurrent subjective and objective measures), verbatim:
 *"Subjective and objective measures of athlete well-being generally did not correlate. Subjective
 measures reflected acute and chronic training loads with superior sensitivity and consistency than
 objective measures."* The objective measures reviewed **included resting and exercise heart rate**.
+Precise head-to-head: sensitivity/consistency/timing differed in **46% of studies, 85% of those
+favouring subjective** (22 of 54).
+
+**And a warning against building composites — including any of ours.** Saw et al., verbatim:
+*"Consolidation of subjective measures into a total score typically resulted in **reduced
+sensitivity**, with **one in five** studies reporting both subscale and total scores noting a
+change in only the subscale score(s)."* Keep the individual questions separate; do not sum them
+into a single readiness number.
 
 **Documented behavioural risk:** users of readiness scores report "more of an emotional response
 rather than a rational one" and adjust behaviour specifically to *improve the score*. Optimising
 the metric instead of the training is a real failure mode, not a hypothetical one.
+
+**⚠️ Research hygiene:** searches on this topic surface AI-generated content-farm pages citing
+studies **that do not exist** (e.g. a "2024 *Front Physiol* study, WHOOP 5.0 Recovery r=0.58 with
+morning cortisol" — WHOOP 5.0 launched in 2025). Every citation in this file came from PubMed,
+Europe PMC or Crossref primary records. Verify before adding anything here.
 
 ---
 
@@ -275,6 +432,24 @@ the metric instead of the training is a real failure mode, not a hypothetical on
 - Nazari et al. 2024, *Sensors* 24(20):6532 — per-stage ICCs
 - Latshang / Stadelmann 2013, *SLEEP* / *PLOS ONE* — sleep at 1,630 m
 - Saw, Main & Gastin 2016, *BJSM* 50(5):281-91 — subjective vs objective, PMID 26423706
+- Doherty et al. 2025, *Transl Exerc Biomed* 2:128-144 — 14 composite scores, 10 manufacturers
+- Nuuttila et al. 2025, *Sensors* 25(2):533 — recovery metrics flat through a deliberate overload
+- Nuuttila et al. 2024, *Eur J Sport Sci* 24(7):857-869 — overreaching markers, >=85% PPV/NPV
+- Jeffries et al. 2020, *IJSPP* 15(9):1203-1215 — COSMIN review, single-item measures unvalidated
+- Palmer & Sleivert 2001, *J Sci Med Sport* 4(4):447-459 — running economy after lifting
+- Doma, Deakin & Bentley 2017, *Sports Med* 47(11):2187-2200 — concurrent-training carry-over
+- Thomas et al. 2018, *MSSE* 50(12):2526-35 — neuromuscular fatigue to 72 h after 10x5 squats
+- Raeder et al. 2016, *JSCR* 30(12):3412-27 — intensified strength block, recovery markers
+- Kraft, Green & Gast 2014, *JSCR* 28(7):2042-46 — matched-volume heavy vs light, sRPE vs HR
+- Falk Neto et al. 2020, *Front Physiol* 11:919 — all-out vs RPE-6, TRIMP cannot separate
+- Sweet et al. 2004, *JSCR* 18(4):796-802 — sRPE rises with %1RM despite less total work
+- Bröde & Kampmann 2019, *Ind Health* 57(5):615-620 — HR overestimates metabolic rate by 43% in heat
+- Périard, Eijsvogels & Daanen 2021, *Physiol Rev* 101(4):1873-1979 — heat, performance, HR
+- Garvican et al. 2014, *IJSPP* 9(3):397-404 — exercising HR at 1,600 m, days 1-10
+- Karlsson, Laaksonen & McGawley 2022, *Front Sports Act Living* 4:852108 — resting HR null at 1,800 m
+- Mourot 2018, *Front Physiol* 9:972 — HRmax decline with altitude, 86 studies
+- Wehrlin & Hallén 2006, *Eur J Appl Physiol* 96(4):404-412 — VO2max 6.3% per 1,000 m
+- Rothschild et al. 2024, *Eur J Appl Physiol* 124(11):3279-90 — ML readiness, individual RMSE 5.5-23.6
 - Impellizzeri et al. 2020, *IJSPP* 15(6):907-913 — ACWR critique, PMID 32502973
 - Borresen & Lambert 2009, *Sports Med* 39(9):779-95 — training load review, PMID 19691366
 - McLaren et al. 2018, *Sports Med* 48(3):641-658 — sRPE vs TRIMP meta-analysis, PMID 29288436
