@@ -128,7 +128,20 @@ Reads/analysis: official COROS MCP (EU) + Strava MCP + Tredict MCP
 `running-training-brief.md` is the coaching reference (history, race data, pace
 zones, caveats — read it before changing the plan). **`sub-threshold-reference.md`**
 is the sub-T knowledge bank (calibration protocols, pace/HR tiers, drift numbers,
-confounders) — read it before touching any sub-threshold session. `plans/running.md` is the
+confounders) — read it before touching any sub-threshold session.
+**`wearable-metrics-reference.md`** is the validity bank for every watch-derived
+number — read it before citing any recovery, sleep, HRV or load figure in a review.
+Minimum you must not get wrong: **no COROS wrist sensor has ever been validated for
+HR, HRV or sleep [X]**; nightly **HRV error is 4-6x the smallest worthwhile change**
+(7-day rolling mean only, never a single night); **sleep stage minutes are not a
+measurement** (deep-sleep ICC 0.13-0.36 vs PSG — never cite them); **Recovery %
+excludes sleep, HRV, stress and muscular fatigue by COROS's own written statement**,
+so it means "you have not run much lately"; **Load Ratio is an ACWR**, a metric with
+"no evidence supporting [its] use" (Impellizzeri 2020); and the HR-only load model
+prices a heavy squat session at **~8% of a sub-T run** against sRPE's ~80%. The one
+metric that earns a conclusion is the **7-day rolling resting HR** (noise floor
+±3.2 bpm; act on a sustained ≥3-4 bpm shift). A hard session **should** suppress HRV
+and raise overnight HR for 24-48 h — that is the intended response, not a flag. `plans/running.md` is the
 executable weekly schedule the sync skill parses; its schema is defined at the top
 of that file. Key paces: easy runs are **HR-governed** (≤140; Thursday's
 longest run starts ≤140 and drifts toward ~150). **T-pace 4:40/km** (5k TT 2026-09-15); **sub-T 4:43–4:45
