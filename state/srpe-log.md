@@ -24,6 +24,10 @@ watch's weekly load is a running-only ledger. Evidence and citations in
 
 | Date | Session | Duration (min) | RPE | sRPE (AU) | Notes |
 |---|---|---|---|---|---|
-| 2026-09-23 | 531 C14 W2 D2 Dips (bench substituted — no dip bars) | 34.3 | | | 14 sets, avg HR 97. Found gym, Kigali |
-| 2026-09-24 | 531 C14 W2 D1 Squat 5/5/5 @ 115/131.4/147.8 + FSL 3x5 | 38.3 | | | 13 sets, avg HR 101 (max 140). Stacked after the AM 5x6 sub-T. **COROS scored this ~10 AU against the run's ~133** |
-| 2026-09-29 | 531 C14 W2 D3 Deadlift 5/5/5 @ 134.6/153.8/173.0 + FSL 3x5 | | | | Stacked after the AM 6x6 @ 12.0 kph |
+| 2026-09-23 | 531 C14 W2 D2 Dips (bench substituted — no dip bars) | 34.3 | — | — | 14 sets, avg HR 97. Found gym, Kigali. **CLOSED, no RPE — do not re-ask** |
+| 2026-09-24 | 531 C14 W2 D1 Squat 5/5/5 @ 115/131.4/147.8 + FSL 3x5 | 38.3 | — | — | 13 sets, avg HR 101 (max 140). Stacked after the AM 5x6 sub-T. **COROS scored this ~10 AU against the run's ~133.** **CLOSED, no RPE — do not re-ask** |
+| 2026-09-29 | 531 C14 W2 D3 Deadlift 5/5/5 @ 134.6/153.8/173.0 + FSL 3x5 | | | | Stacked after the AM 6x6 @ 12.0 kph. **First live row** |
+
+**Back-filling was declined 2026-09-29** ("its chill man, ill do it going forwards"), so the
+two rows above stay blank permanently. **The log starts from 2026-09-29.** Do not ask for a
+retrospective RPE on anything older than that date.
