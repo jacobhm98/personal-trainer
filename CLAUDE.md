@@ -141,7 +141,13 @@ so it means "you have not run much lately"; **Load Ratio is an ACWR**, a metric 
 prices a heavy squat session at **~8% of a sub-T run** against sRPE's ~80%. The one
 metric that earns a conclusion is the **7-day rolling resting HR** (noise floor
 ±3.2 bpm; act on a sustained ≥3-4 bpm shift). A hard session **should** suppress HRV
-and raise overnight HR for 24-48 h — that is the intended response, not a flag. `plans/running.md` is the
+and raise overnight HR for 24-48 h — that is the intended response, not a flag.
+Two more that bear directly on the plan: **lifting costs ~2.6% running economy at 1 h
+and ~1.6% at 8 h with NO change in exercising HR** (Palmer & Sleivert 2001), which is
+why run-AM/lift-PM is the right order and why no watch metric can see the interference;
+and at 1,550 m the altitude signal lives in **exercising HR at a fixed workload**
+(+5.4% day 1, gone by day 5 at 1,600 m), **not** in resting HR or HRV, which have a
+published null at this elevation. In heat, HR-estimated work overstates by **43%**. `plans/running.md` is the
 executable weekly schedule the sync skill parses; its schema is defined at the top
 of that file. Key paces: easy runs are **HR-governed** (≤140; Thursday's
 longest run starts ≤140 and drifts toward ~150). **T-pace 4:40/km** (5k TT 2026-09-15); **sub-T 4:43–4:45
