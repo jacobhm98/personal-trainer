@@ -50,11 +50,16 @@ against the running quality days**, not a grand total.
 - Once ~6-8 strength sessions are logged, report the **legs series** and the **upper series**
   separately, alongside weekly running volume — three numbers, not one.
 
+**First calibration point (2026-09-29).** RPE 6 x 27.2 min = **163 AU legs** for a session COROS would
+price in the low tens: avg HR 82, and overnight resting HR flat at 59 across a day that also carried a
+6x6 sub-T. The 8%-vs-80% gap documented in `wearable-metrics-reference.md` §4.2 is now visible in this
+log's own numbers, not just in the literature.
+
 | Date | Session | Region | Duration (min) | RPE | sRPE (AU) | Notes |
 |---|---|---|---|---|---|---|
 | 2026-09-23 | 531 C14 W2 D2 Dips (bench substituted — no dip bars) | upper | 34.3 | — | — | 14 sets, avg HR 97. Found gym, Kigali. **CLOSED, no RPE — do not re-ask** |
 | 2026-09-24 | 531 C14 W2 D1 Squat 5/5/5 @ 115/131.4/147.8 + FSL 3x5 | **legs** | 38.3 | — | — | 13 sets, avg HR 101 (max 140). Stacked after the AM 5x6 sub-T. **COROS scored this ~10 AU against the run's ~133.** **CLOSED, no RPE — do not re-ask** |
-| 2026-09-29 | 531 C14 W2 D3 Deadlift 5/5/5 @ 134.6/153.8/173.0 + FSL 3x5 | **legs** | | | | Stacked after the AM 6x6 @ 12.0 kph. **First live row** |
+| 2026-09-29 | 531 C14 W2 D3 — **SLDL substituted, no straps**: 5x7-10 @ 70 kg + curls, lateral raises | **legs** | 27.2 | **6** | **163** | 11 sets, avg HR **82** — lowest of the three logged sessions, and overnight RHR did not move (59 -> 59). **Systemically negligible, locally a 6** — exactly the gap this ledger exists to fill. Planned was 5/5/5 @ 134.6/153.8/173.0 + FSL 3x5; no top set attempted, so no TM evidence and no cost (C14 W2 re-runs in running W8). Stacked after the AM 6x6 @ 12.0 kph where he cut rep 6 on leg fatigue. 19:04-19:31 CAT. **User's words:** *"about a 6, i defo feel it in my hammies but i think because im used to dl's its not that bad."* Reported ~14-16 h post-session, i.e. before the 24-48 h DOMS peak. **FIRST LOGGED RPE.** Note the contrast this row establishes: RPE 6 x 27.2 min = **163 AU on the legs axis** from a session every systemic channel (avg HR 82, flat overnight RHR) read as negligible |
 
 **Back-filling was declined 2026-09-29** ("its chill man, ill do it going forwards"), so the
 two rows above stay blank permanently. **The log starts from 2026-09-29.** Do not ask for a
