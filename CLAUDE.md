@@ -210,8 +210,14 @@ Minimum you must not get wrong without opening it:
 
 - **Verify every sub-T session on three checks**: within-rep plateau (≥6 min reps
   only — shorter reps give a false pass), session-wide HR spread against the expected
-  drift band, and the two-more-reps question. All passing easily → creep the pace
+  drift band, and the **reserve question**. All passing easily → creep the pace
   faster; any failing → slow 5 s/km.
+- **The reserve question SCALES with rep length — it is not "two more reps" flat.** He
+  finishes with ~**a third of the session's work** left: **two more reps on a 6×6, three
+  on a 10×3, ONE more on a 3×10.** Two more 10-min reps is **+67%** of a 3×10 — a
+  different question, and it was asked wrongly on 2026-10-01. **It is my inference,
+  tagged [C] in `sub-threshold-reference.md` §4.3 — NOT Bakken**, which it predates by
+  nine days. Do not attribute it.
 - **Expected spread is 7–10 bpm for a 6×6** (5–8 for a 3×10). That is *correct
   execution*, not failure. Under 5 = too easy; over 10–12 = too hot.
 - **Sub-T lives at 80–87% HRmax**, tiered by rep length. 88–92% is Daniels T-pace at
@@ -328,19 +334,30 @@ Minimum you must not get wrong without opening it:
   "run easy by feel", so leave it; but the claim that every step needs *some* target or
   nothing shows on the watch is unproven.)
 - **Treadmill sessions (learned 2026-09-23, corrected 2026-09-25).** The belt is still the
-  prescription, but **the watch measures indoor pace accurately and pace targets DO belong
-  on treadmill steps.** The 09-23 version of this note claimed the accelerometer reading
-  "will alert against a correctly-run session" — that was a *prediction* written before any
-  treadmill data existed, and the first session refuted it: on 09-24 reps 2–5 logged
-  **305.1 s/km against a belt at 305.08** (11.80 kph), and the warm-up logged 400.5 against
-  400.0 for 9 kph. Accurate to hundredths. **So set `targetZoneType: "pace"` on treadmill
-  rep steps** with padding wide enough to cover the prescribed fallback speed (±5 s/km ≈
+  prescription, and **pace targets DO belong on treadmill rep steps — but not because the
+  watch measures indoor pace.** Corrected again 2026-10-01, by the user: *"pace logs exactly
+  when i specify it in the watch, i only take care to do this for the live intervals or when
+  im doing steady state runs."* **He enters the belt speed on the watch for rep and
+  steady-state segments, and does not bother for floats.** So the 09-24 match — reps 2–5 at
+  **305.1 s/km against a belt at 305.08** — is **his own typed-in number read back, not an
+  independent measurement.** The "accurate to hundredths" claim was circular and is
+  withdrawn; so is the 09-25 reading of his floats as "~9.9 kph against a prescribed 8",
+  which was just an unentered accelerometer estimate (same artifact on 10-01: floats logged
+  382–424 s/km). **What survives is stronger for rep steps and now mandatory for the rest:**
+  an entered segment logs the prescription faithfully, so a pace target has something real
+  to check against — while **floats and cool-downs MUST stay OPEN**, because he does not
+  enter those and an estimate would alert against a correctly-run session. **So set
+  `targetZoneType: "pace"` on treadmill rep steps** with padding wide enough to cover the prescribed fallback speed (±5 s/km ≈
   ±0.2 kph). The user asked for this explicitly, twice — 2026-09-23 ("why no target zone?
   they've had one before when i do it on treadmill") and 2026-09-25 ("id like for it to
   contain the actual pace bands in the workout, thats more important than the title").
-  **Caveat:** one session, one athlete, ~9–12 kph, no incline. A belt that is out of
-  calibration shifts the *belt*, not the watch, so a mismatch between the two is evidence
-  about the machine — log it rather than assuming the watch drifted. Keep floats and
+  **Caveat — and it is the important one.** Because the logged pace on an entered segment
+  is his own input, **watch pace can never corroborate the belt**: the two agree by
+  construction, and a miscalibrated belt would log its wrong speed just as cleanly. There
+  is no mismatch to detect, so **treadmill execution cannot be audited from pace at all** —
+  only cadence, HR and duration are independently measured. Judge these sessions on those,
+  and on what he tells you (same conclusion `sub-threshold-reference.md` §7 reached from the
+  09-24 ramp/pause errors: ask rather than reconstruct). Keep floats and
   cool-downs OPEN; they should never alert.
   Push treadmill runs as **time-based steps**
   (`durationType: "time"`; never `distance`, which ends at the wrong moment on a drifting

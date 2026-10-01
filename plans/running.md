@@ -63,9 +63,9 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   Run the **same route** every time and score on **grade-adjusted** time.
 - **SIGNAL SPLIT (user 2026-09-12): easy + long runs run off HR; sub-T runs off pace.**
   Sub-T HR tiers become a **post-hoc review check, not something he watches mid-rep**.
-  On a sub-T session: pace steers, **RPE aborts** (the two-more-reps question is the
-  in-session safety valve — a fixed pace on a bad day will cook him), HR diagnoses at
-  review. Sub-T wants flat consistent terrain, since a pace target cannot see a hill.
+  On a sub-T session: pace steers, **RPE aborts** (the reserve question is the
+  in-session safety valve — a fixed pace on a bad day will cook him; ~a third of the work
+  left, so **ONE** more rep on a 3×10, not two), HR diagnoses at review. Sub-T wants flat consistent terrain, since a pace target cannot see a hill.
 - **EASY RUNS ARE HR-CAPPED, NOT PACE-CAPPED** (user's call 2026-09-12, from Bakken:
   easy running capped at **70% HRmax**). Pace bands below are now descriptive, not
   prescriptive — the cap governs, and being under it is always fine.
@@ -176,7 +176,8 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   settled band — 3min ≈ 6 s/km faster, 8–10min ≈ 5 s/km slower — instead of running
   three independent experiments on noisy data.
   Controls, in order: **session drift within `sub-threshold-reference.md` §5** (7–10 bpm for a 6×6); the pace band; the **HR ceiling**; finish
-  every session able to do two more reps. If any says too hot, slow the rep. **HR CEILINGS — REPLACED 2026-09-12** (user supplied from Bakken; the old flat ~180
+  every session with ~a third of its work still in reserve (two more reps on a 6×6, ONE
+  more on a 3×10 — `sub-threshold-reference.md` §4.3 **[C]**). If any says too hot, slow the rep. **HR CEILINGS — REPLACED 2026-09-12** (user supplied from Bakken; the old flat ~180
   and the ≤90/88/86% tiers are retired). Bakken: the **threshold zone for a well-trained
   amateur is 80–87% HRmax**. The old tiers were set off Daniels' T-pace anchor (88–92%),
   which is **LT2** — the top of threshold, not sub-threshold. Sub-T belongs in 80–87%.
@@ -553,7 +554,8 @@ much mileage as possible."
     **Longer reps run slower** — do not carry the 6-min band onto a 10-min session.
   **These are guides, not gates.** Kigali is hilly, so flat-ground pace may be
   unreachable at the right effort on the terrain available — in that case run the effort,
-  not the number. **The controls remain RPE and the two-more-reps rule**, verified on
+  not the number. **The controls remain RPE and the reserve rule** (§4.3 — a third of the
+  work left; ONE more rep on a 3×10), verified on
   review by the §4 within-rep plateau, which needs neither HRmax nor sea level.
   Revert to the sea-level band on **10-07**, the first quality session home (was 10-09, written when Friday was the first quality day back; corrected 2026-09-23).
 - **ALL RUNNING IS ON A TREADMILL (told 2026-09-23).** That changes the prescription unit:

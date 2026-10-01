@@ -78,9 +78,11 @@ and easy runs roughly off hr and the sub-T work off pace goals"):
 
 Three-way division of labour on a sub-T session:
 - **Pace steers**, in real time.
-- **RPE aborts** — the two-more-reps question is the in-session safety valve. Running a
-  fixed pace on a bad day will otherwise cook him. If reps 4–5 say there aren't two more
-  left, end the session regardless of the watch.
+- **RPE aborts** **[C]** — the reserve question (§4.3) is the in-session safety valve.
+  Running a fixed pace on a bad day will otherwise cook him. **The abort point is ~two
+  thirds through the session's work, not "reps 4–5"** — that phrasing presupposed a 5–6
+  rep session and is meaningless on a 3×10, where the decision lands *during rep 2*. If
+  the reserve is not there by then, end the session regardless of the watch.
 - **HR diagnoses afterwards** — plateau shape (§4) and drift spread (§5), read at review.
   The §3 tiers are therefore a **post-hoc check, not a ceiling he watches while running**.
 
@@ -194,7 +196,17 @@ lap averages alone actively mislead (see §6).
    on the day, so this needs no pinned HRmax and should be preferred to a % ceiling.
    It should plateau **early and comfortably**, not barely by the end.
 2. **Session spread** — see §5.
-3. **Two more reps** — he must finish able to do two more. Ask; his RPE is reliable.
+3. **Reserve at the end** **[C]** — he must finish with roughly **a third of the
+   session's work still available**. **The fraction is the rule; the rep count is only
+   its instantiation**, and it must be scaled to rep length before asking:
+   **6×6 → two more reps. 10×3 → three more. 3×10 → ONE more.**
+   **PROVENANCE: this is mine, not Bakken's.** I wrote it into `plans/running.md` on
+   **2026-09-03**, nine days before the user relayed the Bakken material (2026-09-11/12),
+   then copied it into this file untagged on 09-12 — the same day the tagging convention
+   was added to stop exactly this. The user caught it on **2026-10-01**: *"i dont think
+   this rule comes from Bakken... at least i dont remember reading it."* He is right.
+   **Never cite Bakken for it.** The reserve idea is defensible and he has used it
+   willingly, so it stays — but as my inference, at [C] weight.
 
 **All three passing easily → creep the pace faster. Any failing → slow 5 s/km next
 session.**
