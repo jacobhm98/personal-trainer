@@ -49,7 +49,10 @@ default last 7 days.
      cardiac drift means spread is expected even at
      constant lactate — Bakken's figure for a 6x6 is **7-10 bpm**, so score it as
      <5 = too easy (creep faster), 7-10 = correct, >10-12 = too hot (slow 5 s/km);
-     scale down to 5-8 for a ~33 min 3x10; (3) **two-more-reps** — ask him. All
+     scale down to 5-8 for a ~33 min 3x10; (3) **reserve** — ask him, SCALED to rep
+     length: ~a third of the session's work left, i.e. two more reps on a 6x6 but
+     **ONE more on a 3x10** (two more 10-min reps is +67% of the session — asked
+     wrongly on 2026-10-01). It is **[C]**, my inference, **not Bakken**. All
      passing easily → propose creeping the pace faster; any failing → propose 5 s/km
      slower next session. Full rule and rationale in CLAUDE.md (Running).
    - **Ramp rate**: actual weekly km. Progression is **RPE-gated, not
@@ -124,7 +127,7 @@ default last 7 days.
      squat days, deadlift days and hard running all draw on it, and that is where
      concurrent-training interference lives. Report it *against* the running quality days.
    - Ask the same way for **runs** only if he offers; the runs already have the
-     two-more-reps question and the plateau check doing this job.
+     reserve question and the plateau check doing this job.
    - **Do NOT sum RPE answers with other subjective items into a composite score**, or
      across modalities. Consolidating subjective measures into a total *reduces*
      sensitivity — one in five studies saw a change only in a subscale, not the total
