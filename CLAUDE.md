@@ -122,6 +122,14 @@ Reads/analysis: official COROS MCP (EU) + Strava MCP + Tredict MCP
   Lateral raises folded into D1/D3; Lunges is now unused (its 80 kg reference is still in
   the assistance weight list at the top of the tab). **Abs is 2x/week (D2, D4), not
   daily** — user doesn't want it every session, and not on back-to-back lifting days.
+- **Assistance is 3 sets per movement** (user, 2026-10-05 — asked because **nothing in the
+  repo or the sheet recorded it**; the sheet carries assistance *weights* only). Reps are
+  **not prescribed** — he takes assistance sets to near-failure, which is why they are valid
+  E1RM input. Write them as `3x@weight`, never with an invented rep count. Expected set
+  counts per session, useful as a cross-check against `querySportRecords`' set counter:
+  **D1 12, D2 14, D3 12, D4 14** (3 main + FSL + 2 x 3 assistance, where FSL is 3x5 on
+  squat/deadlift and 5x5 on dips/pull-ups). Corroborated: COROS logged **14 sets** for the
+  09-23 D2 session and 13 for the 09-24 D1 squat (one over, likely a counted warm-up).
 
 ## Running
 
