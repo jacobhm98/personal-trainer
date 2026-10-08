@@ -69,9 +69,21 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
 - **EASY RUNS ARE HR-CAPPED, NOT PACE-CAPPED** (user's call 2026-09-12, from Bakken:
   easy running capped at **70% HRmax**). Pace bands below are now descriptive, not
   prescriptive — the cap governs, and being under it is always fine.
-  - **Easy / recovery runs: ≤70% HRmax.** Provisional max **~200**, kept after the
-    09-15 TT peaked at only 193 (next check: the W10 TT) → **cap 140 bpm**.
-  - **Thursday's longest run: start ≤70% (140), drift allowed toward ~150.** Corrected 2026-09-12 —
+  - **Easy / recovery runs: ≤70% HRmax.** Provisional max **~207** — raised from ~200 on
+    **2026-10-08 (user's call)** because two independent routes converge on 205–211
+    (`plans/config.md`) → **cap 145 bpm**. The cap is a *fraction of max*, so it moves
+    whenever the max assumption does; next check is the **W10 TT (Fri 2026-10-23)**.
+  - **THE DRIFT ALLOWANCE IS GATED ON DURATION, NOT ON THE DAY (fixed 2026-10-08).**
+    Under ~75 min: one band, **≤145**, full stop. Past ~75 min: open **≤145** and let it
+    drift toward **~155** (75%, **[C]**). The previous wording — "Thursday's longest run
+    starts ≤140, drift toward ~150" — was a text substitution made by `395fb71`
+    (2026-09-16), the commit that *dropped* the dedicated 12–18 km long run: "long"
+    became "Thursday's longest" and was never re-derived against Thursday's actual
+    duration. **It failed on 2026-10-08** against a 7 km / 52 min Thursday — 20 bpm of
+    drift in 52 minutes is not cardiac drift, it is running too hard. User caught it:
+    *"why is this run allowed to go hotter with hr? i thought this was a mistake left
+    over from the kigali 150 ceiling."*
+  - **Long-run drift rationale (unchanged, only rescaled):** Corrected 2026-09-12 —
     Bakken specifies ≤70% for easy/recovery and nothing separate for long runs; the
     earlier "≤75% cap" here was **my inference wrongly attributed to him**. The drift
     reasoning stands (a fixed 70% ceiling over 90+ min means slowing progressively to
@@ -205,8 +217,9 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   the start, out of the zone by ~rep 4, which is where the two-more-reps test would also
   have failed. The 09-02 tempo averaged 181 (90.5%), exactly where a *Daniels threshold*
   session should sit. Both bands land correctly on real data.
-  Full intensity map: easy ≤70% (140), long starts ≤70% and drifts to ~150, sub-T 80–87% (160–174) —
-  nothing lives between 150 and 160.
+  Full intensity map **at max ~207 (rescaled 2026-10-08; the 200-based figures it replaced
+  are in brackets)**: easy ≤70% = **145** [140], runs past ~75 min open ≤70% and drift to
+  **~155** [150], sub-T 80–87% = **166–180** [160–174] — nothing lives between **155 and 166**.
 
   **30-MINUTE TT — the direct LTHR test (added 2026-09-12, Bakken protocol via user).**
   Run 30 min at the fastest sustainable steady-state pace; **the average HR of the final
@@ -276,8 +289,9 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   **SUPERSEDED — the full rest day is gone.** "One full rest day per week, no run, no
   lift" was an invariant from 2026-09-12; putting the fifth run on Thursday spends it.
   **This rests on one condition** (user 2026-09-16: "its fine if i genuinely keep my
-  easy's easy"): Monday, Thursday and every warm-up run **at or under 140
-  bpm**, no exceptions. Easy-pace creep is this athlete's documented failure mode, and it
+  easy's easy"): Monday, Thursday and every warm-up run **at or under 145
+  bpm** (140 when he said it; the number moved with the HRmax rescale on 2026-10-08, the
+  condition did not), no exceptions. Easy-pace creep is this athlete's documented failure mode, and it
   is what the rest day used to absorb. If easy days start drifting, the clear day comes
   back before any other cut is made.
   **COOL-DOWNS ARE EXEMPT — amended 2026-09-18 (user's call).** An HR cap on a cool-down
@@ -521,7 +535,11 @@ what was left of it.
 - **One sub-T, not two.** Thursday is the only slot that remains, and it is stacked with
   the squat. This is a calendar constraint, not a design choice — unlike the *original*
   W6 draft, which carried one session for no recorded reason (user's catch, 2026-09-18).
-- **Easy runs move to a 110-150 HR band**, replacing the <=140 cap. Heat and altitude both
+- **Easy runs move to a 110-150 HR band**, replacing the <=140 cap. **[SUPERSEDED
+  2026-10-08 — THIS IS THE LINE THAT CAUSED THE BUG. It was a Rwanda-only measure and it
+  was never reverted when he flew home, so the 150 ceiling survived into W8's sea-level
+  easy runs while the sea-level *pace* bands were consciously restored. Easy runs are back
+  on a single cap, now ≤145. Do not read this bullet as live doctrine.]** Heat and altitude both
   raise HR at a given effort, so the error is one-directional: a tight cap would only make
   easy runs easier than intended. Effort governs, HR backstops.
 - **~25 km running against the planned 43**, with two days of mountain biking carrying the
@@ -570,6 +588,7 @@ much mileage as possible."
   Belt speeds: **11.5-11.8 kph** (W6, 6-min reps), **11.8-12.0** (W7, 6-min),
   **11.5-11.7** (W7, 10-min), easy ~8.5 kph adjusted to hold HR 110-150.
 - **Easy runs need no pace adjustment** — they are HR-governed on a **110-150 band**
+  **[Rwanda-only; SUPERSEDED 2026-10-08 — single cap ≤145 at max ~207. See the schema.]**
   (widened from the <=140 cap on 2026-09-23), so altitude and heat self-correct by
   slowing the belt. ~8.5 kph at 1,570 m indoors is correct execution, not a bad day.
 - **Mileage was rescued by adding days, not lengthening them — until 2026-09-23, when
@@ -703,9 +722,9 @@ slightly due to the hiking/mountain biking weekends i got planned."
 - Tue | Easy | **LAND STOCKHOLM ~midday** off an overnight flight. Easy 5km in the evening
 - Wed | Quality | WU 2km easy; 6x(6min @ **4:50-4:52/km**, 60s jog); CD 1.5km easy; ~11.5km + **C14 W2 D1 Squat PM** (5@114.98 / 5@131.4 / 5@147.83, FSL 3x5@114.98) — **FIRST SESSION BACK AT SEA LEVEL**
 - Thu | Easy | 6km, HR 110-150 + **C14 W2 D2 Dips PM** (5@+2.25 / 5@+14.0 / 5@+25.75, FSL 5x5@+2.25)
-- Fri | Easy | 5km, HR 110-150
+- Fri | Easy | 5km, HR 125-145
 - Sat | Quality | WU 2km easy; 3x(10min @ **4:57-4:59/km**, 90s jog); CD 1.5km easy; ~10.3km + **C14 W2 D3 Deadlift PM** (5@134.58 / 5@153.8 / 5@173.03, FSL 3x5@134.58)
-- Sun | Easy | 6km, HR 110-150 + **C14 W2 D4 Pull-ups PM** (5@BW / 5@+4.0 / 5@+14.5, FSL 5x5@BW)
+- Sun | Easy | 6km, HR 125-145 + **C14 W2 D4 Pull-ups PM** (5@BW / 5@+4.0 / 5@+14.5, FSL 5x5@BW)
 
 Notes: **rewritten 2026-09-23 on the user's call — "nah lets start back at 40km/week
 straight away", then "an easy on tuesday after i land, then a sub-T on wednesday and we're
@@ -854,13 +873,13 @@ race-specific work on top of a properly consolidated base.
 
 ## Week 9 (of 2026-10-12) — 40 km, second week of the step. **C14 W3 — TM-deciding**
 
-- Mon | Easy | 5km, HR 110-150
+- Mon | Easy | 5km, HR 125-145
 - Tue | Quality | WU 2km easy; 6x(6min @ **4:50-4:52/km**, 60s jog); CD 1.5km easy; ~11.9km. **No lift** (see below)
 - Wed | Lift | **C14 W3 D1 Squat** — no run
-- Thu | Easy | 7km, HR 110-150 + **C14 W3 D2 Dips PM**
+- Thu | Easy | 7km, HR 125-145 + **C14 W3 D2 Dips PM**
 - Fri | Quality | WU 2km easy; 3x(10min @ **4:57-4:59/km**, 90s jog); CD 1.5km easy; ~10.3km. **No lift**
 - Sat | Lift | **C14 W3 D3 Deadlift** — no run
-- Sun | Easy | 6km, HR 110-150, then **6x(10-15s hill sprint, full recovery)** + **C14 W3 D4 Pull-ups PM**
+- Sun | Easy | 6km, HR 125-145, then **6x(10-15s hill sprint, full recovery)** + **C14 W3 D4 Pull-ups PM**
 
 Notes: **40 km, holding W8's level.** Second and last week of the opening step — 40 is
 ground already held (W4 executed 39.7), so it gets two weeks rather than three.
@@ -881,13 +900,13 @@ ground already held (W4 executed 39.7), so it gets two weeks rather than three.
 
 ## Week 10 (of 2026-10-19) — 45 km, first week of the step, 5k progress check
 
-- Mon | Easy | 6km, HR 110-150
+- Mon | Easy | 6km, HR 125-145
 - Tue | Quality | WU 2km easy; 6x(6min @ **4:50-4:52/km**, 60s jog); CD 1.5km easy + **C15 W1 D1 Squat PM**
 - Wed | Lift | **C15 W1 D2 Dips** — no run
-- Thu | Easy | 10km, HR 110-150 — the week's longest
+- Thu | Easy | 10km, HR 125-145 — the week's longest
 - Fri | Test | **ALL-OUT 5k TT, OUTDOORS, same route as 09-15** (replaces Friday's sub-T) + **C15 W1 D3 Deadlift PM**
 - Sat | Lift | **C15 W1 D4 Pull-ups** — no run
-- Sun | Easy | 7km, HR 110-150
+- Sun | Easy | 7km, HR 125-145
 
 Notes: **step up to 45, and normal stacking resumes** (quality AM, heavy lift PM, Tue and
 Fri). Step taken only if W9 felt easier than W8 — if it did not, repeat 40.
