@@ -157,8 +157,7 @@ and at 1,550 m the altitude signal lives in **exercising HR at a fixed workload*
 (+5.4% day 1, gone by day 5 at 1,600 m), **not** in resting HR or HRV, which have a
 published null at this elevation. In heat, HR-estimated work overstates by **43%**. `plans/running.md` is the
 executable weekly schedule the sync skill parses; its schema is defined at the top
-of that file. Key paces: easy runs are **HR-governed** (≤140; Thursday's
-longest run starts ≤140 and drifts toward ~150). **T-pace 4:40/km** (5k TT 2026-09-15); **sub-T 4:43–4:45
+of that file. Key paces: easy runs are **HR-governed at 70% of max [B]** — with max **~207** that is **≤145** (raised from ≤140 on **2026-10-08** with the HRmax assumption; the cap is a fraction of max, so it rescales with it). **THE DRIFT ALLOWANCE IS GATED ON DURATION, NOT ON WHICH DAY IT IS:** under ~75 min, one band, **≤145**; past ~75 min, open **≤145** and let it drift to **~155** (75%, **[C]** — that ceiling is mine, not Bakken's, see `sub-threshold-reference.md` §2). The old "Thursday's longest run starts ≤140 and drifts toward ~150" was a **text substitution made by `395fb71` (2026-09-16)**, the commit that *dropped* the dedicated 12–18 km long run — "long" became "Thursday's longest" and was never re-derived. It failed inspection on 2026-10-08 against a 7 km / 52 min Thursday: 20 bpm of drift in 52 minutes is not cardiac drift, it is running too hard. **T-pace 4:40/km** (5k TT 2026-09-15); **sub-T 4:43–4:45
 (1–3 min reps) / 4:50–4:52 (4–6 min) / 4:57–4:59 (8–12 min)** — current values live in
 `sub-threshold-reference.md` §8, and the next re-anchor is the **W10 5k TT, Fri
 2026-10-23**. VO2max work is retired. Sub-T must feel comfortably hard — do not let
@@ -232,7 +231,7 @@ Minimum you must not get wrong without opening it:
   LT2 — a different thing. Do not set sub-T ceilings off the 88–92% anchor.
   **BUT those tiers do not fit this athlete (2026-09-18) — do not prescribe from them.**
   His LTHR is ≈**180–184** (09-15 TT averaged 188; a 5k sits 4–8 bpm above LTHR), so
-  83–85% of ~200 = 166–170 lands ~15 bpm *below* his threshold. The 09-18 session held
+  83–85% of ~207 = **172–176**, still ~8 bpm *below* his threshold — the 2026-10-08 rescale from max 200 (where 83–85% = 166–170, ~15 bpm below) **narrows the gap without closing it**, so the rule stands. The 09-18 session held
   the 4:51 band at 185–187 with every rep plateauing. **Sub-T is prescribed on PACE +
   RPE**, verified by the within-rep plateau — which needs no HRmax and works at altitude.
 - **Pace is derived, never guessed**: T-pace + 3–5 s/km (1–3 min), +10–12 (4–6 min),
@@ -257,7 +256,7 @@ Minimum you must not get wrong without opening it:
   matched 09-18 Stockholm one (`sub-threshold-reference.md` §8.3). **Before invoking this,
   name each confounder and its direction** — if even one could have caused what you are
   looking at, discard as normal. This is the same one-directional logic behind the 110-150
-  easy band, not a licence to reinstate asterisked conclusions.
+  easy band (**that band is RETIRED — see Running; it was a Kigali heat/altitude measure left unreverted until 2026-10-08**), not a licence to reinstate asterisked conclusions.
 
 ## Naming conventions
 
@@ -313,9 +312,7 @@ Minimum you must not get wrong without opening it:
   "heartrate"` with `targets.heartrate {value, padding}`, NOT a pace target.** Also set
   a `targets.pace` value alongside it so Tredict can still compute distance/duration;
   the schema supports both, and the zone type decides which one the watch enforces.
-  Easy run ≈ value 130 padding 10 (120–140). Long run is better as **two steps** —
-  first half 132±8 (124–140), second half 145±5 (140–150) — since "start ≤140 and let
-  it drift" cannot be expressed as one band.
+  Easy run ≈ value **135** padding 10 (**125–145**) — rescaled 2026-10-08 with max 200 → 207 (was 130±10 = 120–140). **Only a run past ~75 min** gets the two-step treatment — first half **137±8 (129–145)**, second half **150±5 (145–155)** — since "open ≤145 and let it drift" cannot be expressed as one band. A shorter easy run takes the single band; the duration gate is the rule, not the day of the week.
   **Cool-downs are NOT HR-governed (amended 2026-09-18, user's call).** HR decays from
   the last rep instead of settling into a band, so an HR target on a cool-down alerts
   continuously and cannot be met: the 09-18 cool-down opened at 179, averaged 164 and
