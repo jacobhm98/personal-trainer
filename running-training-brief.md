@@ -236,6 +236,24 @@ progressing.
 |---|---|---|---|
 | 2026-08-30 | 13.03 km | 5:59/km | **1.8%** |
 | 2026-09-13 | 14.01 km | 6:32/km | **−2.3%** |
+| 2026-10-08 | 7.11 km | 7:21/km | **−1.7%** |
+
+**2026-10-08 is logged with a method note, because the raw convention broke on it.** The run
+contained **56 s standing still inside km 7** (FIT speed <0.5 m/s; the timer never paused — one
+`start`, one `stop_all`), and the four defensible ways of computing the same run spread **8
+percentage points**: km-granular [3,4] vs [6,7] on elapsed time **+6.40%**, equal halves on
+elapsed **+2.63%**, km-granular on moving time **+1.20%**, equal halves on moving time
+**−1.65%**. That spread is wider than the whole interpretive range of the metric, so the
+choice is not cosmetic. The logged figure is **equal halves of the post-2 km remainder
+(2.00–4.56 km vs 4.56–7.11 km), stopped samples removed from time and HR** — equal halves
+because that is what the 7 km distance was chosen for (sync-log 2026-10-05), and stops removed
+because a traffic light is not cardiac drift. First half 7:52/km @ 139.9, second 7:32/km @
+141.4.
+**And it is not durability evidence either way.** 7.11 km / 52 min against 13–14 km / 78–91 min
+in the two rows above: aerobic durability fails past ~75–90 min, so a 52-minute run cannot fail
+this test. The row keeps the series continuous; it does not extend it. **If this slot is to
+stay the measurement, Thursday needs to pass ~75 min** (~10 km at current easy pace) as weekly
+volume grows.
 
 ### Lifting day sequencing
 
