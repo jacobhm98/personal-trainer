@@ -63,6 +63,10 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   Run the **same route** every time and score on **grade-adjusted** time.
 - **SIGNAL SPLIT (user 2026-09-12): easy + long runs run off HR; sub-T runs off pace.**
   Sub-T HR tiers become a **post-hoc review check, not something he watches mid-rep**.
+  **And the pace itself moves ONLY at a TT (user 2026-10-09)** — *"i think the hr checks
+  should just be a vibe check."* The review reports the three checks and changes nothing;
+  the bands wait for the next scheduled 5k. This is the 09-12 split enforced rather than
+  altered — "HR diagnoses" had drifted into "HR prescribes".
   On a sub-T session: pace steers, **RPE aborts** (the reserve question is the
   in-session safety valve — a fixed pace on a bad day will cook him; ~a third of the work
   left, so **ONE** more rep on a 3×10, not two), HR diagnoses at review. Sub-T wants flat consistent terrain, since a pace target cannot see a hill.
