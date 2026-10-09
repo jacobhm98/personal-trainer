@@ -170,7 +170,7 @@ rule; see the plan schema), Fri run AM before the deadlift PM, Sun long.
 VO2max retired. **No fall 10k (TT scrapped 2026-09-03): base block to 55 km/wk** (ceiling raised 2026-09-16 with the five-run week; peak ~58),
 long run → 18k (capped 2026-09-15, then dropped entirely 2026-09-16 — see below), down-weeks ~every 4th week. **Endpoint retired 2026-09-16** — instead a **5k TT every
 5th week** as a routine progress check and sub-T re-anchor (09-15 → Fri 2026-10-23 →
-Fri 2026-11-27 → ~Fri 2027-01-01), each replacing that week's Friday 4×10. The Dec 6 5k
+Fri 2026-11-27 → ~Fri 2027-01-01), each replacing that week's Friday 3×10. The Dec 6 5k
 is dropped: an arbitrary date once a schedule exists. No taper, graded at face value. HR-led calibration
 (post-pin %-of-max ceilings; pace bands re-anchored ~every 3 weeks). **No race
 until spring/summer 2027** (retargeted 2026-09-16) — autumn/winter is base building proper,

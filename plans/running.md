@@ -21,7 +21,7 @@ ceiling at the time; raised 2026-09-16 with the five-run week, then again when t
 curiosity, re-anchor the pace bands, refine the HRmax pin, and stamp the fitness-
 index running input (Riegel 5k→10k). **Superseded 2026-09-16:** the block has no endpoint
 at all. 5k TTs run **every 5th week** as routine checks (09-15 → Fri 10-23 → Fri 11-27),
-each replacing that week's Friday 4×10, and the Dec 6 5k is dropped. Calibration between now and then is HR-led:
+each replacing that week's Friday 3×10, and the Dec 6 5k is dropped. Calibration between now and then is HR-led:
 after the W4 Wed pin, the %-of-max ceilings are fixed and pace floats up with
 fitness; bands re-anchored from session data every ~3 weeks. **Race condition is now targeted for spring/summer 2027** (user 2026-09-16: "we're not
 really on a timeline... im happy to write off autumn/winter as base building proper"), so
@@ -49,7 +49,10 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   against 31–35% when an 18 km long run was still in the plan.
 - **5k TT CADENCE — set 2026-09-16 (user's call).** A 5k TT runs **every ~5th week** as a
   routine progress check and sub-T re-anchor, **not** as a goal. It **replaces the week's
-  most intensive sub-T session — the Friday 4×10** — so the week loses a hard session
+  most intensive sub-T session — the Friday 3×10** (corrected from "4×10" on 2026-10-09:
+  every written week schedules a **3×10**, so the TT displaces ~33 min of sub-T, not
+  ~44.5 — which makes an all-out 5k a closer swap than the old wording implied) — so the
+  week loses a hard session
   rather than gaining one. No taper, no sharpening, graded at face value; if a TT lands
   on a bad day, that is data too and the next one is five weeks out.
   Schedule — **strictly every 5 weeks, W5/W10/W15** (user 2026-09-16: "dec 6th is a
@@ -109,8 +112,11 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
 - **Sub-threshold bands — MEASURED 2026-09-15** from the 5k TT (21:57 grade-adjusted →
   VDOT 44.7 → T-pace 4:40): **1–3 min reps 4:43–4:45, 4–6 min 4:50–4:52, 8–12 min
   4:57–4:59.** Record and method in `sub-threshold-reference.md` §8.1. **Next re-anchor:
-  the W10 5k TT, Fri 2026-10-23.** Between tests the session checks move the bands (all
-  passing easily → creep faster; any failing → slow 5 s/km). These replace the
+  the W10 5k TT, Fri 2026-10-23.** **Between tests the bands DO NOT MOVE** (user
+  2026-10-09) — the review reports the three checks as a vibe check and changes nothing.
+  The previous wording here ("the session checks move the bands: all passing easily →
+  creep faster; any failing → slow 5 s/km") was retired that date and was missed in the
+  first pass of that edit. These replace the
   placeholders set 2026-09-03: 4:48–4:55 / 4:55–5:00 / 5:00–5:05.
   **PACE DERIVATION — Bakken's two rules (recorded 2026-09-12, user supplied from the
   book). These govern.**
