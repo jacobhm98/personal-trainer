@@ -215,10 +215,31 @@ If that file and this one ever disagree, **that file wins** — correct this one
 
 Minimum you must not get wrong without opening it:
 
-- **Verify every sub-T session on three checks**: within-rep plateau (≥6 min reps
-  only — shorter reps give a false pass), session-wide HR spread against the expected
-  drift band, and the **reserve question**. All passing easily → creep the pace
-  faster; any failing → slow 5 s/km.
+- **SUB-T PACE MOVES ONLY AT A TT (user's call 2026-10-09).** *"why dont we just keep the
+  sub-T paces and then readjust based on the regularly scheduled TT's. i think the hr checks
+  should just be a vibe check."* The bands are **derived from a measured 5k** (T-pace + the
+  §2 rep-length offsets) and are **re-anchored only by the next TT** — every 5th week, same
+  route, grade-adjusted. **Do not hand-move a band off a review.** This reverts an accretion,
+  not the architecture: the 2026-09-12 signal split already said "HR *diagnoses* at review",
+  and the retired verdict rule ("all three passing easily → creep faster; any failing → slow
+  5 s/km") had quietly turned a diagnosis into a prescription.
+- **The three checks are still RUN and REPORTED — as a vibe check, with no pace consequence.**
+  (1) within-rep plateau (≥6 min reps only — shorter reps give a false pass), (2) session-wide
+  HR spread against the expected drift band, (3) the **reserve question**. Report all three
+  every time. **Only the reserve check still carries a decision**, and it is an *abort*
+  decision inside the session, never a pace edit afterwards. If an HR check comes back
+  grossly off — no plateau anywhere, spread far outside the band, reps sitting at the LTHR
+  estimate — **say so and ask him**; look for illness, heat or sleep. Do not move the band.
+- **Why this is the right call.** The HR machinery produced "unscoreable" far more often than
+  a decision: spread was unscored on 10-01 and unattributable on 10-07 (both heat), treadmill
+  execution cannot be audited from pace at all, and every HR anchor it leans on is flagged in
+  the files as **not a measurement** — LTHR 180–184 is derived, HRmax ~207 is an assumption.
+  Pace rests on a measured TT. Prescribing off the measured quantity and merely *checking*
+  with the unmeasured ones is the correct ordering. It also closes the error class that
+  produced two Bakken misattributions, the circular treadmill finding and the withdrawn
+  "4:50–52 runs hot" argument — all of them attempts to extract a pace decision from HR.
+- **The cost, named: the TTs are now load-bearing.** With no between-TT correction, a
+  mis-executed TT propagates for five weeks. Protect TT day and run the same route.
 - **The reserve question SCALES with rep length — it is not "two more reps" flat.** He
   finishes with ~**a third of the session's work** left: **two more reps on a 6×6, three
   on a 10×3, ONE more on a 3×10.** Two more 10-min reps is **+67%** of a 3×10 — a

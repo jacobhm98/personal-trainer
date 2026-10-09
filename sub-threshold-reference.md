@@ -208,8 +208,23 @@ lap averages alone actively mislead (see §6).
    **Never cite Bakken for it.** The reserve idea is defensible and he has used it
    willingly, so it stays — but as my inference, at [C] weight.
 
-**All three passing easily → creep the pace faster. Any failing → slow 5 s/km next
-session.**
+**RETIRED 2026-10-09 (user's call).** This rule read: *"All three passing easily → creep
+the pace faster. Any failing → slow 5 s/km next session."* It is gone. **Sub-T pace is
+re-anchored only by the scheduled 5k TTs** (every 5th week — §8 cadence), and the three
+checks above are a **vibe check with no pace consequence**. User: *"why dont we just keep
+the sub-T paces and then readjust based on the regularly scheduled TT's. i think the hr
+checks should just be a vibe check."*
+
+Keep running and reporting all three. **Only the reserve question still decides anything**,
+and what it decides is whether to *abort mid-session* (§3) — never the next session's pace.
+A grossly abnormal HR reading is worth saying out loud and asking him about; it is not
+worth 5 s/km.
+
+**This reverts an accretion, not the architecture.** The signal split of 2026-09-12 already
+said HR **diagnoses** at review; the retired rule had turned the diagnosis into a
+prescription. And it leaned on quantities this file itself flags as estimates — LTHR
+180–184 is derived (§8), HRmax ~207 is an assumption — to adjust a band derived from a
+*measured* 5k.
 
 ---
 
@@ -232,11 +247,16 @@ exclude it as warm-up and it spread **2–4 bpm** ("too easy"). Rep 1 is depress
 onset kinetics — it opened at 158 and needed ~3 min to reach steady state. The §4
 within-rep plateau has no such ambiguity; prefer it, and treat this table as secondary.
 
-| Spread across session | Read **[C]** |
+| Spread across session | Read **[C]** — **DESCRIPTIVE ONLY from 2026-10-09** |
 |---|---|
-| **< 5 bpm**   | Probably too easy — propose creeping the pace faster |
-| **7–10 bpm**  | Correctly pitched — leave it alone |
-| **> 10–12 bpm** | Lactate is rising — slow 5 s/km next session |
+| **< 5 bpm**   | Probably too easy — report it; the pace waits for the TT |
+| **7–10 bpm**  | Correctly pitched |
+| **> 10–12 bpm** | Lactate may be rising — report it, and ask about heat/sleep/illness |
+
+**The prescriptions that used to sit in the right-hand column are retired** (user
+2026-10-09). This table now describes; it does not instruct. Given the known fragility
+immediately above — a 5×6 flipping from "too hot" to "too easy" on whether rep 1 counts —
+that is the honest status for it.
 
 **Scale by session duration [C].** 7–10 is quoted for a 6×6 **[B]**, which with 60 s
 floats runs ~41 min. Scaling that to the other staples — my figures, not his:

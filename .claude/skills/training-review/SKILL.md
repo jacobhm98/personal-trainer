@@ -48,13 +48,22 @@ default last 7 days.
      still level off *within themselves*? Judge that, not the raw rise from rep 2:
      cardiac drift means spread is expected even at
      constant lactate — Bakken's figure for a 6x6 is **7-10 bpm**, so score it as
-     <5 = too easy (creep faster), 7-10 = correct, >10-12 = too hot (slow 5 s/km);
-     scale down to 5-8 for a ~33 min 3x10; (3) **reserve** — ask him, SCALED to rep
+     <5 = too easy, 7-10 = correct, >10-12 = too hot; scale down to 5-8 for a ~33 min
+     3x10. **Report the score; it carries NO pace consequence (user 2026-10-09);** (3) **reserve** — ask him, SCALED to rep
      length: ~a third of the session's work left, i.e. two more reps on a 6x6 but
      **ONE more on a 3x10** (two more 10-min reps is +67% of the session — asked
-     wrongly on 2026-10-01). It is **[C]**, my inference, **not Bakken**. All
-     passing easily → propose creeping the pace faster; any failing → propose 5 s/km
-     slower next session. Full rule and rationale in CLAUDE.md (Running).
+     wrongly on 2026-10-01). It is **[C]**, my inference, **not Bakken**, and it
+     is the **only one of the three that still decides anything** — an *abort* inside the
+     session, never a pace edit after it.
+   - **DO NOT PROPOSE A SUB-T PACE CHANGE FROM A REVIEW (user's call 2026-10-09:** *"why
+     dont we just keep the sub-T paces and then readjust based on the regularly scheduled
+     TT's. i think the hr checks should just be a vibe check."*). The bands are derived
+     from a measured 5k and move **only at the scheduled TTs** (every 5th week). The old
+     "all three passing easily -> creep faster; any failing -> slow 5 s/km" rule is
+     **retired**. The three checks are a **vibe check**: report them, and if one is
+     grossly off (no plateau anywhere, spread far outside the band, reps at the LTHR
+     estimate) **say so and ask him** about heat, sleep or illness rather than moving a
+     number. Full rationale in CLAUDE.md (Running).
    - **Ramp rate**: actual weekly km. Progression is **RPE-gated, not
      percentage-capped** (user's call 2026-09-07) — build off what he actually ran and
      do not re-propose a ~10%/week ceiling. The constraints that still bind are the
