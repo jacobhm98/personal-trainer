@@ -881,32 +881,79 @@ race-specific work on top of a properly consolidated base.
   so six runs growing under a kilometre each beats +5 km on a single day. **Quality
   sessions stay structurally stable** across a block; the easy days carry the step.
 
-## Week 9 (of 2026-10-12) — 40 km, second week of the step. **C14 W3 — TM-deciding**
+## Week 9 (of 2026-10-12) — 42 km. **C14 W2 CATCH-UP, not W3** (rewritten 2026-10-12)
 
-- Mon | Easy | 5km, HR 125-145
-- Tue | Quality | WU 2km easy; 6x(6min @ **4:50-4:52/km**, 60s jog); CD 1.5km easy; ~11.9km. **No lift** (see below)
-- Wed | Lift | **C14 W3 D1 Squat** — no run
-- Thu | Easy | 7km, HR 125-145 + **C14 W3 D2 Dips PM**
-- Fri | Quality | WU 2km easy; 3x(10min @ **4:57-4:59/km**, 90s jog); CD 1.5km easy; ~10.3km. **No lift**
-- Sat | Lift | **C14 W3 D3 Deadlift** — no run
-- Sun | Easy | 6km, HR 125-145, then **6x(10-15s hill sprint, full recovery)** + **C14 W3 D4 Pull-ups PM**
+- Mon 10-12 | — | **nothing.** Lost to study; no calendar entry
+- Tue 10-13 | Lift | **C14 W2 D3 Deadlift** — no run
+- Wed 10-14 | Easy | **8km**, HR 125-145 — the week's longest easy run, carries the decoupling measurement
+- Thu 10-15 | Quality | WU 2km easy; 3x(10min @ **4:55-5:01/km**, 90s float); CD 1.5km easy; ~10.2km + **C14 W2 D4 Pull-ups PM**
+- Fri 10-16 | Easy | **5km**, HR 125-145 — short on purpose
+- Sat 10-17 | Quality | WU 2km easy; 6x(6min @ **4:48-4:54/km**, 60s float); CD 1.5km easy; ~11.8km. **No lift**
+- Sun 10-18 | Easy | **7km**, HR 125-145, then **6x(10-15s hill strides, full walk back)**
 
-Notes: **40 km, holding W8's level.** Second and last week of the opening step — 40 is
-ground already held (W4 executed 39.7), so it gets two weeks rather than three.
-- **The lifting week is shifted off the runs this week ONLY, to protect four TM
-  decisions.** W9 is C14 W3: its top sets decide whether each of the four TMs rises.
-  W8's deadlift lands Sat 10-10, and the standing rule wants **96 h** deadlift->squat.
-  Putting the squat on **Wed 10-14** gives exactly that; leaving it on Tuesday would give
-  72 h into the heaviest squat of the cycle. **One week without the quality/heavy-lift
-  stacking is a good trade for four clean TM verdicts** — the stacking rule is about
-  concentrating stimulus, not about overriding a week whose whole purpose is measurement.
-- Consequence: D1 Wed, D2 Thu, D3 Sat (Wed->Sat = 72 h), D4 Sun. **Normal stacking resumes
-  in W10**, where the 72 h deadlift->squat recurrence is benign because C15 W1's squat is
-  at 65%.
-- **First strides of the block:** 6 x 10-15 s hill sprints on the end of Sunday's easy run,
-  walking back for full recovery. ~5 min of work, too short to produce meaningful lactate.
+Pushed as Tredict plan **`JFWZxaZb8`**, 7 entries (5 runs + 2 strength), applied with
+Mon 10-12 as day 1. **~42.0 km over five runs.**
+
+Notes: **this week was rebuilt three times on the user's instructions and the version above
+is the one that was pushed.** W9 was planned as 40 km carrying **C14 W3, the TM-deciding
+week**. It is now a **C14 W2 catch-up** at 42 km, because W8 broke: its deadlift was
+declined on Sat 10-10 (*"im not doing deadlifts today maybe tomorrow"*), Sunday was lost
+entirely (*"i ended up having to study yesterday, no run or lift"*), and Monday too. So C14
+W2 finished 2 of 4 — squat 10-07, dips 10-08 — and **W8 closed at 37.98 km against 42.08
+planned**.
+- **W2 is recoverable and I was wrong to say otherwise.** I told him the deadlift and
+  pull-ups were lost because squat and dips had already run W2; he corrected it: *"we can
+  do deadlifts and pullups today then begin w3 on tuesday."* The in-phase rule constrains
+  **which week number each lift is on**, not the date a session lands — finishing W2 for
+  all four before any starts W3 is perfectly in phase. See CLAUDE.md, where the scope is
+  now written down.
+- **His structural lever, which I had missed:** swapping **D1 Squat and D2 Dips** is nearly
+  free, because dips are `upper` and take nothing from the legs — so it is the cheapest way
+  to buy deadlift->squat gap in a compressed week. Keep it in mind; it did not end up being
+  needed once W3 moved out of this week entirely.
+- **42 km, not 44.** 44 was proposed first and he pulled it back after the step was named:
+  44 is **+16%** on W8's executed 37.98 compressed into six days, where 42 is **+10.6%**
+  and still a **new executed high for the block** (previous best W4, 39.72). Stated as
+  information, not as a cap — the ~10%/week ceiling was retired 2026-09-07.
+- **Gym days are Tue and Thu — his constraint, and the week is built around it**, not
+  around the stacking doctrine. *"i dont think i have the time for a double day on
+  tuesday... lets do the deadlifts tomorrow and gym on thursday. then the rest of the week
+  you can maneuver how you see fit to squeeze in the run volume."* Tuesday is therefore
+  lift-only and **Thursday is the week's single double** — the cheap kind, run AM and an
+  `upper` lift PM.
+- **No run the morning after the deadlift.** A Tuesday-evening deadlift puts Wednesday
+  ~12 h later, which is the lift-before-run order `running-training-brief.md` §5 calls an
+  injury vector during a ramp. Wednesday is an easy 8 km instead and the first quality
+  session sits **36 h** clear.
+- **Quality is Thu + Sat, only 48 h apart** — the tightest spacing of the block, against
+  72 h in W8. **His call, and the trade is deliberate:** *"lets do the other quality run on
+  saturday and an easy on sunday to better set us up for the monday morning back to normal
+  routine."* It is payable because sub-T is unheroic by design and Friday between them is
+  only 5 km. **Friday is the day that has to stay honest.**
+- **The 3x10 goes first, the 6x6 second.** Thursday still carries deadlift fatigue, so it
+  gets the *slower* band (4:58 vs 4:51). Rep lengths still alternate, which is the rule
+  that binds.
+- **Decoupling moves to Wednesday** — the longest easy run and the only one with neither a
+  lift nor strides on it. It sits 36 h after a 90% deadlift, inside the DOMS window, which
+  slows pace at a given HR and **inflates** the figure. Another continuity entry, not
+  durability evidence. Clearing the ~75 min the metric needs wants ~11 km, which the
+  ~1 km/week long-run guide will not allow for another two or three weeks.
+- **Strides survived his reshuffle.** W9 was the week they start, and they only work on an
+  easy Sunday — the previous shape had Sunday as a quality day and would have lost them.
   Every other week from here (W9, W11, W13...) and, apart from the 5k TTs, the only fast
   running in the block.
+- **Six consecutive training days**, Tue 10-12 -> Sun 10-18. The mildest available version:
+  the Tuesday is lift-only and two of the runs are short easy days.
+- **Gaps all hold:** deadlift Tue 10-13 -> first quality Thu 10-15 = 36 h; deadlift ->
+  W10's squat = **168 h**, far beyond the standing 96 h rule.
+- **OPEN ITEM FOR W10: C14 W3 now lands in the TT week.** W10 carries the **5k TT on Fri
+  10-23** and was built to carry C15 W1 (65%). C14 W3 is the **heaviest** week (75/85/95%),
+  and the files deliberately placed the *W15* TT inside C16 W2 so its Friday deadlift would
+  sit at 80% rather than 95% — W10 has no such protection. With sub-T pace now moving
+  **only** at TTs (2026-10-09), the TT is the session to protect. Sequence W3's days around
+  it when W10 is planned; do not move the TT, which is on a strict 5-week cadence.
+- **Also for W10: Sunday's 6x6 leaves only 48 h to W10's first quality session.** Open W10
+  with a genuinely easy Monday, or push its first quality to Wednesday.
 
 ## Week 10 (of 2026-10-19) — 45 km, first week of the step, 5k progress check
 
