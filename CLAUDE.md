@@ -80,6 +80,21 @@ Reads/analysis: official COROS MCP (EU) + Strava MCP + Tredict MCP
   advance W1 → W2 → W3 together, and a single lift is never re-run out of phase with
   the others (see the in-phase rule he stated 2026-08-29). Only the TM progression is
   independent.
+  **SCOPE OF THE IN-PHASE RULE — clarified 2026-10-12 after I read it too broadly.** It
+  constrains the **week number each lift is on**, not the calendar date a session lands.
+  **A late session is fine.** On 2026-10-12 I told him C14 W2's deadlift and pull-ups were
+  "unrecoverable" because squat and dips had already done W2 — wrong. He corrected it:
+  *"we can do deadlifts and pullups today then begin w3 on tuesday with squat and dips
+  switched around to increase gap between deadlifts and squat."* Finishing W2 for **all
+  four** lifts before **any** of them starts W3 is perfectly in phase; every lift still
+  runs W1 → W2 → W3 in order. What the rule actually forbids is one lift being *at* W2
+  while the others are *at* W3. **So a broken week is caught up by compressing the missing
+  sessions, not by writing them off** — check whether catch-up is possible before ever
+  calling a session lost.
+  **And the DAY ORDER inside a week is free to reshuffle.** D1→D2→D3→D4 is his design
+  preference, not a constraint: **swapping D1 Squat and D2 Dips is nearly free, because
+  dips are `upper` and draw nothing from the legs**, which makes it the cheapest lever for
+  buying deadlift→squat gap in a compressed week. He proposed it; I had not considered it.
 
   A missed top set is therefore a *hold* on one lift, not a stall, not a reset signal,
   and not a program-wide event. The rule self-calibrates each TM to ~92% of that lift's
