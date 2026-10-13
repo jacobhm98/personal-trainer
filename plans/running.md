@@ -881,7 +881,7 @@ race-specific work on top of a properly consolidated base.
   so six runs growing under a kilometre each beats +5 km on a single day. **Quality
   sessions stay structurally stable** across a block; the easy days carry the step.
 
-## Week 9 (of 2026-10-12) — 42.9 km, **a block high**. C14 W2 catch-up **+ the 5k TT pulled forward from W10** (rewritten 2026-10-13)
+## Week 9 (of 2026-10-12) — ~43.0 km, **a block high**. C14 W2 catch-up **+ the 5k TT pulled forward from W10** (rewritten 2026-10-13)
 
 - Mon 10-12 | — | **nothing.** Lost to study; no calendar entry
 - Tue 10-13 | Lift | **C14 W2 D3 Deadlift — DONE.** RPE 8, top set 5 @ 173.03 hit. No run
@@ -889,10 +889,12 @@ race-specific work on top of a properly consolidated base.
 - Thu 10-15 | Easy | **8km**, HR 125-145 — the week's longest easy run, carries the decoupling measurement + **C14 W2 D4 Pull-ups PM**
 - Fri 10-16 | Quality | WU 14min; 3x(10min @ **4:55-5:01/km**, 90s float); CD 10min; ~10.0km. No lift
 - Sat 10-17 | Easy | **5km**, HR 125-145 — shakeout, cuttable
-- Sun 10-18 | Test | **ALL-OUT 5k TT, OUTDOORS, same route** — open session, no targets; ~8.3km with his own WU/CD
+- Sun 10-18 | Test | **ALL-OUT 5k TT, OUTDOORS, same route** — WU 2km, open TT step, CD 1.5km; ~8.5km
 
-Pushed as Tredict plan **`sHw2gD5Yj`**, 6 entries (5 runs + 1 strength), applied with
-**Wed 2026-10-14 as day 1 — NOT Monday.** **~42.9 km over five runs.**
+Pushed as Tredict plan **`uLQvRH4cB`**, 6 entries (5 runs + 1 strength), applied with
+**Wed 2026-10-14 as day 1 — NOT Monday.** **~43.0 km over five runs.**
+**`sHw2gD5Yj` and `JFWZxaZb8` are dead builds of the same week** — neither was ever applied;
+both need binning by hand, since the MCP has no plan-delete tool.
 
 Notes: **the 5k TT moved from Fri 10-23 to Sun 10-18 — his call, and it is a good one.**
 *"i also think we can potentially do the 5k TT on sunday since it's turned out to be a
@@ -921,15 +923,23 @@ item rather than sequencing around it.**
   right after tomorrows quality."* Right: back-to-back sub-T days ~22 h apart would have been a
   new pattern, against 48 h as the block's previous tightest. **So the TT gets 48 h and Friday
   is the session that gives if anything has to** — run at the slow end of the band.
-- **The TT is an open session, no pacing plan — his request.** *"can you just add the TT as an
-  open session and ill run it in the same route, i dont think i need help pacing actually."*
-  Single open step, which is also exactly how 09-15 was pushed ("calendar marker only, no
-  targets, by design"). The notes carry only the two measurement instructions: **lap at 5.00 km**
-  (the route climbs 14 m after) and **stand still 25 s before stopping the watch** — the 09-15
-  stand-still happened but the watch was stopped first, so the HRmax read was lost, and HRmax
-  ~207 is still an assumption.
-- **42.9 km is a block high by 3.1 km** (previous best W4, 39.72) and **+12.8%** on W8's executed
-  37.98. Five runs in five consecutive days, three of them quality, ending in a maximal test.
+- **The TT step is open, no pacing plan — his request.** *"can you just add the TT as an open
+  session and ill run it in the same route, i dont think i need help pacing actually."* Which is
+  also exactly how 09-15 was pushed ("calendar marker only, no targets, by design"). The notes
+  carry only the two measurement instructions: **lap at 5.00 km** (the route climbs 14 m after)
+  and **stand still 25 s before moving on** — the 09-15 stand-still happened but the watch was
+  stopped first, so the HRmax read was lost, and HRmax ~207 is still an assumption.
+- **WU 2 km and CD 1.5 km were added around it on his follow-up** (*"still add the warmup and
+  cooldown to the 5k tt"*), matching 09-15's 1.81 and 1.23 km. **Neither carries a target, and
+  that is deliberate:** a TT warm-up wants strides in it, which an HR ceiling would alert
+  against, and §CLAUDE.md's 2026-09-18 amendment already bars HR targets on cool-downs because
+  HR decays from the effort instead of settling into a band. **This forced the third build of
+  the week** — `activity-update` reaches title and notes only, so steps are immutable via the
+  MCP, and the plan was unapplied so there was no calendar entry for the UI to edit either.
+  Rebuilding was free *because* nothing had been applied; after an apply this would have been
+  UI surgery.
+- **~43.0 km is a block high by 3.3 km** (previous best W4, 39.72) and **+13.3%** on W8's
+  executed 37.98. Five runs in five consecutive days, three of them quality, ending in a maximal test.
   Stated as information: the ~10%/week ceiling was retired 2026-09-07 and progression is
   RPE-gated. **Saturday's 5 km is the slack** — cutting it costs the block high, nothing else.
 - **No strides this week.** W9 was a strides week, but they only work on an easy Sunday and
