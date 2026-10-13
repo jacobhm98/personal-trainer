@@ -370,7 +370,10 @@ Minimum you must not get wrong without opening it:
   `targetZoneType: "heartrate"` and came through as `HEART_RATE 110-150`, while every
   pace step came through OPEN. **Read the pushed workout back with `planned-workout`
   after any push** — the step JSON shows `targetType` per step, and it is the only way to
-  tell a real target from a hint. (This also means the long-standing cool-down recipe —
+  tell a real target from a hint. **A pace target reads back as `targetType: "SPEED"` with
+  `targetValueLow/High` in METRES PER SECOND, not as `"PACE"` in sec/km** (verified
+  2026-10-13): 4:48–4:54/km came back as 3.4014–3.4722 m/s. Invert with 1000/value before
+  judging it, and do not read `SPEED` as the wrong zone type. (This also means the long-standing cool-down recipe —
   loose pace, no zone type — has always produced an OPEN step. That matches its intent,
   "run easy by feel", so leave it; but the claim that every step needs *some* target or
   nothing shows on the watch is unproven.)
