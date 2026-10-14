@@ -30,6 +30,13 @@ default last 7 days.
    - **Do NOT report `queryRecoveryStatus`, `queryTrainingLoadAssessment` output, or
      Training Effect / Training Focus as findings.** Pull them only if the user asks
      what the watch says; then say what they are worth (step 3, Recovery).
+   - **`querySportRecords` LISTS EVERY OPTIONAL FILTER AS `required` — PASS `null`, NEVER
+     `0`.** A `0` is honoured as a real constraint: `maxDistanceKm: 0` means "distance <= 0 km"
+     and returns **"No sport records found"** for a day that has activities. This produced a
+     false "nothing was recorded" adherence finding on **2026-10-14**, for both a strength
+     session and a completed 6x6, and the user had to correct it. Applies to
+     `maxDistanceKm`, `maxDurationMinutes`, `maxAveragePace` and `locationKeyword`. **If a
+     query returns nothing, re-run it with nulls before reporting a missed session.**
    - Strength sessions: `querySportRecords` with `sportTypeCodes: [402]` returns
      duration, set count and avg HR — needed for step 4.
    - Strava MCP only for what COROS lacks (e.g. segment/stream comparisons).
