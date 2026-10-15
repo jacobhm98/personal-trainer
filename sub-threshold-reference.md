@@ -431,6 +431,45 @@ HRV 61 ms (normal; baseline 56), 8h15 sleep. He reported slightly heavy legs bef
   4:06 → 4:39, power 346 → 304 W, stride 1.44 → 1.22 m. Graded at face value — nothing
   added back for the pacing, the legs or the stop.
 
+**ROUTE PROFILE — measured from the 09-15 FIT file, 2026-10-15.** The `.gpx` is not in
+the repo (it lives on his device); the FIT of the run itself is strictly better, since it
+carries altitude, HR and power along the route as actually run. Elevation per 500 m block,
+over the measured 0–5000 m:
+
+| Block | Net | | Block | Net |
+|---|---|---|---|---|
+| 0–500 | **−3 m** | | 2500–3000 | +1 m |
+| 500–1000 | **−4 m** | | 3000–3500 | **+3 m** |
+| 1000–1500 | 0 m | | 3500–4000 | −1 m |
+| 1500–2000 | +1 m | | 4000–4500 | −3 m |
+| 2000–2500 | −3 m | | **4500–5000** | **+5 m** |
+
+Per km, net: **−7 / +1 / −2 / +2 / +2 m**; gross +36 / −41 over the 5 km, i.e. **net −4 m**.
+(That is the measured 5.00 km only. The +31 / −32 m above is COROS's figure for the whole
+activity including warm-up and cool-down — the two are not in conflict.)
+
+**Two corrections to the impression left by the older notes.**
+
+1. **The last 500 m is the steepest section on the course (+5 m) and was also the slowest
+   block (145.7 s).** The note pushed to every TT entry — *"lap at 5.00 km exactly, the
+   route climbs 14 m after that"* — is true but reads as though the climbing starts after
+   the line. It does not. **The finish is uphill**, so a too-fast start gets punished
+   exactly where there is no flat left to recover on.
+2. **km 1 is where the course gives back, not a neutral opening.** It drops 7 m, the
+   largest move on the route, and it is why 4:01 felt sustainable.
+
+**The fade is visible in power per km, not just in pace:** 352 / 327 / 329 / 310 / **304 W**
+against a ~324 W average, while HR flat-lined at 191 from km 4. That is a budget overspent
+in the first four minutes, not a late-race collapse — and **power is the better pacing
+instrument on this route**, because it prices the grade automatically where pace does not.
+
+**Implication for pacing this route.** The terrain deltas are ≤5 s/km, so **uniform clock
+pace is the right instruction** and the terrain-weighted version is never more than 5 s
+different cumulatively. Holding a flat anchor through km 1 also builds the conservatism in
+by construction, rather than relying on restraint on a descent — which is the documented
+failure mode here. Anchor = target ÷ 5 (21:20 → **4:16/km**). **The 500 m checkpoint is the
+highest-value number on the run**: 09-15 went through in **1:55**.
+
 **HR.** Average 188, ~190 over the final 15 min. **Peak 193**, reached in km 3 rather
 than at the finish; 190–191 across the line and 188 when the watch was stopped. The
 planned 20 s stand-still happened but **is not in the file** — the watch was stopped
