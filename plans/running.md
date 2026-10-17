@@ -952,6 +952,23 @@ of 188 would be **94% of max as a 5k average**. Both implausible. Against 207 th
 December revisit is untouched.** What nicotine *does* undercut is only the secondary inference
 *"I touched 197 without trying, so max must be well above it"* — that gap is no longer estimable.
 
+**SAT 10-17 EASY 5K WAS RECORDED AS TWO FILES, AND IT IS NOT A DOUBLE COUNT.** `oa8U8kS8ydviyjDVGBsHaT`
+(10:08) then `jjBEPLANAQ6UNCNdMuWLEZ` (10:16). **I told him to delete the stray one; there is no stray
+one** — user, 2026-10-17: *"no it wasnt a double count, i was getting frustrated at the clock beeping
+because of hr, so i ended the activity early and did a regular run for the last 4k."* So ~1 km on the
+structured workout, ~4 km as a plain run. **Both files are real, together they are the one 5 km
+session, and NEITHER should be deleted.**
+**THE FINDING IS THE BEEPING, AND IT IS A REPEAT.** The easy band is 125-145 (value 135, padding 10).
+With HR pharmacologically elevated this week, he sat against the 145 ceiling and the watch alerted
+continuously — **so an HR target drove him off a correctly-executed easy run.** This is the third
+instance of the same class: W5's easy 6k and long 14k were pushed with *pace* bands that would have
+alerted him for running correctly at 140 (2026-09-12), and the 09-18 cool-down carried an HR target
+that could not be met because HR decays from the last rep rather than settling (2026-09-18, fixed by
+dropping the zone type on cool-downs). **A target that cannot be met does not discipline the session,
+it gets the session abandoned.** Worth considering whether the easy band needs wider padding or no
+HR target at all on short shakeouts — not actioned, and NOT a reason to touch the <=145 cap itself,
+which is parked until ~2026-12-15 by his own call.
+
 **ONE CARRY-FORWARD FOR THE TT:** his reference frame for perceived effort was set on nicotine, and
 nicotine blunts RPE. A clean session will feel harder at equal fitness. **Do not let him bail down
 from the belt speed on RPE calibrated against the 10-14 and 10-16 sessions** — judge form and HR
