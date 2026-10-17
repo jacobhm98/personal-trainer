@@ -888,6 +888,32 @@ race-specific work on top of a properly consolidated base.
 - Wed 10-14 | Quality | WU 14min; 6x(6min @ **4:48-4:54/km**, 60s float); CD 10min; ~11.6km. No lift
 - Thu 10-15 | Easy | **8km**, HR 125-145 — the week's longest easy run, carries the decoupling measurement + **C14 W2 D4 Pull-ups PM**
 - Fri 10-16 | Quality | WU 14min; 3x(10min @ **4:55-5:01/km**, 90s float); CD 10min; ~10.0km. No lift
+  **EXECUTED 2026-10-16, and the reserve check FAILED. Reviewed 2026-10-17.** 10.29 km / 58:34,
+  belt segments at exactly **3.36 m/s = 4:57.6/km** against the prescribed 4:58 +/-3 — pace dead
+  centre (and it confirms only that he entered 12.1; treadmill pace cannot corroborate the belt).
+  **Rep HR means 176.6 -> 185.7 -> 191.9**, max **197**, session spread **+15.3 bpm** against an
+  expected 5-8 for a 3x10. **13.2 min at or above 190 bpm, 4.2 min at or above 195.** A 44 s walk
+  logged immediately after rep 3.
+  **THE SPREAD IS DISCARDED, NOT ASTERISKED — four confounders, all pushing HR the same direction
+  as the observation:** **no pre-run fuel** (user 2026-10-17: *"i didnt fuel before the run"* — low
+  muscle glycogen raises HR and RPE at fixed workload, and threshold work is where it bites because
+  lactate steady-state is substrate-dependent), **disrupted sleep two nights prior**, indoor thermal
+  load with no confirmed airflow, and a third consecutive running day. Attribution is impossible.
+  **I briefly wrote that "the prescription itself may now be wrong" and WITHDREW it** — it cannot be
+  sustained against a session in this state.
+  **THE BAND IS NOT INDICTED, and that is the user's own read** (2026-10-17: *"in general i think the
+  bands are ok though, just given that i recover properly"*). The clean datapoint behind it is the
+  **10-07 6x6, rep mean 175.0 = 84.5% of 207**, dead centre of the tier. 10-14 (humidity) and 10-16
+  (four confounders) are both discarded; **two confounded sessions do not overturn one clean one.**
+  What the conditional does carry: the bands have little headroom for a session that is neither
+  rested nor fuelled.
+  **RESERVE: FAILED** — user 2026-10-17: *"i dont think one more rep was there tbh, at least not a
+  quality rep."* This is the one check that still decides anything, and it is a **non-HR** signal, so
+  unlike the spread it survives the confounder discard. It confirms the session was genuinely
+  overcooked **for the state he was in** — not that the band is wrong. Doctrine says the decision
+  point is during rep 2 and the session should have ended there; rep 3 was run anyway, 48 h before a
+  TT that sets five weeks of bands. **Second time running that the session designated "the one that
+  gives if anything has to" gave nothing.**
 - Sat 10-17 | Easy | **5km**, HR 125-145 — shakeout, cuttable
 - Sun 10-18 | Test | **ALL-OUT 5k TT, OUTDOORS, same route** — WU 2km, open TT step, CD 1.5km; ~8.5km
 
