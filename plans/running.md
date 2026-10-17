@@ -894,8 +894,8 @@ race-specific work on top of a properly consolidated base.
   **Rep HR means 176.6 -> 185.7 -> 191.9**, max **197**, session spread **+15.3 bpm** against an
   expected 5-8 for a 3x10. **13.2 min at or above 190 bpm, 4.2 min at or above 195.** A 44 s walk
   logged immediately after rep 3.
-  **THE SPREAD IS DISCARDED, NOT ASTERISKED — four confounders, all pushing HR the same direction
-  as the observation:** **no pre-run fuel** (user 2026-10-17: *"i didnt fuel before the run"* — low
+  **THE SPREAD IS DISCARDED, NOT ASTERISKED — FIVE confounders, all pushing HR the same direction
+  as the observation:** **NICOTINE** (see the W9 window note below), **no pre-run fuel** (user 2026-10-17: *"i didnt fuel before the run"* — low
   muscle glycogen raises HR and RPE at fixed workload, and threshold work is where it bites because
   lactate steady-state is substrate-dependent), **disrupted sleep two nights prior**, indoor thermal
   load with no confirmed airflow, and a third consecutive running day. Attribution is impossible.
@@ -914,6 +914,48 @@ race-specific work on top of a properly consolidated base.
   point is during rep 2 and the session should have ended there; rep 3 was run anyway, 48 h before a
   TT that sets five weeks of bands. **Second time running that the session designated "the one that
   gives if anything has to" gave nothing.**
+
+**NICOTINE WINDOW: 2026-10-14 to 2026-10-17, POUCHES, DOSED BEFORE SESSIONS *AND* EVENINGS.**
+Disclosed by the user 2026-10-17 (*"i just realized i started taking nicotine pouches on wednesday
+for the first time in a long while"*; first use in a long while, bought to mark passing his driving
+test, **quit 2026-10-17**). Nicotine is a **sympathomimetic** — catecholamine release, HR up roughly
+**10-15 bpm at rest** for a meaningful dose, submaximal exercising HR elevated, peripheral and
+coronary vasoconstriction. Dose per pouch varies widely and was not recorded.
+
+**THIS CONTAMINATES THREE SESSIONS AND TWO METRIC SERIES. Annotate, do not re-derive:**
+- **10-14 6x6** — the 18.6 bpm spread was already discarded for humidity + the 352 AU deadlift at
+  24 h. Nicotine is a **third** same-direction confounder and **it started that day**. It also
+  explains the one observation nothing else did: *"my hr came up super quick when i was warming
+  up."* Humidity raises HR **progressively** as thermal load builds; it does not produce fast
+  warm-up kinetics. Nicotine does. The *"full of energy"* and *"speed was almost too low"* reports
+  from the same session are stimulant effects too.
+- **10-15 easy 8k** — 7:57/km at HR 141 against 10-08's first half of 7:52 @ 139.9. If nicotine
+  inflated submaximal HR, the <=145 cap bit at a lower true effort. **A third candidate for "why is
+  my easy pace sad," alongside steady-vs-negative-split compliance and 48 h post-deadlift fatigue.**
+  All three push the same way, so attribution is impossible. Cheap test: one easy run, no pouch, and
+  compare pace at 141.
+- **10-16 3x10** — fifth confounder, as above. The discard was already correct; now overdetermined.
+- **Overnight RHR and HRV, 10-14 onward** — pharmacologically elevated. The 7-day rolling RHR is the
+  one metric `wearable-metrics-reference.md` says earns a conclusion, and it will drift up for
+  reasons unrelated to load. **Do not read it as accumulated fatigue.**
+
+**WHAT SURVIVES, AND IT IS THE USER'S POINT (2026-10-17):** *"it doesnt raise max hr thought right?
+so hitting 197 still supports a higher max."* **He is right, and I had been sloppy** — I wrote that
+nicotine "can raise the peak number you observe," which is wrong in a way that matters. **HRmax is a
+ceiling; nicotine does not lift it**, it only lets you reach a higher *fraction* of it at a given
+workload. So **any validly-observed HR is a floor, and 197 is a floor** — conservatively, since
+wrist optical **under-reads** peaks (the stated reason HRmax was held at ~200 after 09-15 peaked at
+"only" 193). **HRmax = 200 is now close to ruled out:** it would make Friday's rep-3 mean of 191.9
+**96.0% of max sustained for ten minutes** on a completed sub-T session, and the 09-15 TT's average
+of 188 would be **94% of max as a 5k average**. Both implausible. Against 207 they are 92.7% and
+90.8% — textbook. **207 stands as the working assumption and the easy cap does not move; the
+December revisit is untouched.** What nicotine *does* undercut is only the secondary inference
+*"I touched 197 without trying, so max must be well above it"* — that gap is no longer estimable.
+
+**ONE CARRY-FORWARD FOR THE TT:** his reference frame for perceived effort was set on nicotine, and
+nicotine blunts RPE. A clean session will feel harder at equal fitness. **Do not let him bail down
+from the belt speed on RPE calibrated against the 10-14 and 10-16 sessions** — judge form and HR
+runaway instead.
 - Sat 10-17 | Easy | **5km**, HR 125-145 — shakeout, cuttable
 - Sun 10-18 | Test | **ALL-OUT 5k TT, OUTDOORS, same route** — WU 2km, open TT step, CD 1.5km; ~8.5km
 
