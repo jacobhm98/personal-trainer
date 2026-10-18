@@ -1003,13 +1003,40 @@ it is load-bearing for both the cancellation argument and comparability to TT3 o
   high was five. Stated as information, not a veto — Saturday's 5 km was the designated slack and it
   was already spent.
 
-**CONSEQUENCE FOR W10, AND IT IS A REAL ONE: Tuesday's C14 W3 D1 squat at 95% now sits ~24 h off a
-maximal 5k.** This is the same collision he moved the TT to *avoid* — it has transferred from
-Friday's deadlift to Tuesday's squat, in the TM-deciding week. **Fix with the documented cheap lever:
-swap D1 and D2 so dips run Tuesday** (`upper`, draws nothing from the legs) **and squat lands Wed or
-later.** Also note the step to 45 km is conditional on W9 having felt easier than W8 — three quality
-sessions, a failed reserve check and "wasn't feeling 100%" is not that signal; **repeating 40 is the
-system working.** Neither is actioned here.
+**THE TT TAKES THE 6x6's SLOT AND STACKS WITH MONDAY'S SQUAT — user 2026-10-18:** *"no, lets do the
+TT in place of the 6x6's so stacked with the monday squat sesh."* So **Mon 10-19 = 5k TT + C14 W3 D1
+Squat**, Tuesday's 6x6 is gone rather than displaced, and W10 keeps **two quality days, not three**.
+
+**I HAD PROPOSED THE OPPOSITE AND IT WAS THE WRONG SHAPE.** I recommended swapping D1/D2 to push the
+squat off the TT — i.e. spreading the two hard sessions apart to protect a day. CLAUDE.md says in
+terms: *"Do not spread hard sessions across the week to be protective — propose the stacked version
+and name the cost,"* and *"stacking OUTRANKS protecting a light day"* (his rule, 2026-09-23, from
+muscle tone). **The collision I flagged is not a problem to engineer around; it is the intended
+design.** Concentrating the load leaves Tue/Wed genuinely recovered, which spreading does not.
+It also fixes the thing I *should* have led with: a TT **replaces** a quality session rather than
+being added to one, which is the doctrine he declined for W9 (*"noo, add the TT not replace the
+3x10"*) and is applying here.
+
+**THE PRICE, NAMED: the squat's W3 top set becomes unreadable.** C14 W3 is the TM-deciding week — all
+four lifts run 75/85/95% and the 95% result decides each TM's +2.5 kg. A squat top set attempted
+hours after a maximal 5k is **TT-confounded**, so a miss tells us nothing about the TM and, under the
+hit/miss rule, **the squat TM simply holds for the cycle.** That is the cost: one potential +2.5 kg
+squat progression, with no reset risk and no spill onto the other three lifts, which keep their own
+results. **Precedent exists** — the 09-15 TT was followed by a squat PM on the same reasoning.
+**Never propose a TM reset off it.**
+
+**ORDER IS NOT FREE: TT FIRST, SQUAT AFTER.** Lifting costs ~2.6% running economy at 1 h and ~1.6% at
+8 h with **no change in exercising HR** (Palmer & Sleivert 2001) — so a squat-first day would quietly
+tax the test and no watch metric would show it. Running is the standing tiebreak and this TT anchors
+five weeks of sub-T bands, so it gets the fresh legs and the squat eats the interference. If both
+happen in one gym visit, the sequence still holds; the gap matters far less than the order.
+
+**VOLUME FALLS OUT AT ~41.5 km, NOT 45** (TT ~8.5 + Tue easy 6 + Thu 10 + Fri 10 + Sun 7), because the
+TT's 8.5 km replaces the 6x6's 11.6. That is close to a **repeat of 40** rather than the written step
+to 45 — which is also the right answer on its own terms, since the step is conditional on W9 having
+felt easier than W8 and three quality sessions, a failed reserve check and "wasn't feeling 100%" is
+not that signal. **Repeating 40 is the system working, not a setback.** Grow Thursday/Sunday only if
+the TT and Monday's squat both come back clean.
 
 **TODAY'S 7 KM SHOULD BE RUN AS A PLAIN RUN WITH NO HR TARGET.** The only calendar entry for 10-18 is
 the TT (`dVW8s3zqPNMZkXwVvLVV2A`), which must not be started, and the 10-17 beeping finding above is
@@ -1091,28 +1118,50 @@ item rather than sequencing around it.**
 - **ALSO FOR W10: its written section is stale.** It still says C15 W1 at 65% and carries the
   Fri 10-23 TT. W10 now runs **C14 W3 at 75/85/95%** with **no TT**. Rewrite before pushing.
 
-## Week 10 (of 2026-10-19) — 45 km, first week of the step, 5k progress check
+## Week 10 (of 2026-10-19) — ~41.5 km, **repeat 40 rather than step to 45**. C14 W3 (75/85/95%, the TM-deciding cycle) **opening with the 5k TT** (rewritten 2026-10-18)
 
-- Mon | Easy | 6km, HR 125-145
-- Tue | Quality | WU 2km easy; 6x(6min @ **4:50-4:52/km**, 60s jog); CD 1.5km easy + **C15 W1 D1 Squat PM**
-- Wed | Lift | **C15 W1 D2 Dips** — no run
-- Thu | Easy | 10km, HR 125-145 — the week's longest
-- Fri | Test | **ALL-OUT 5k TT, OUTDOORS, same route as 09-15** (replaces Friday's sub-T) + **C15 W1 D3 Deadlift PM**
-- Sat | Lift | **C15 W1 D4 Pull-ups** — no run
-- Sun | Easy | 7km, HR 125-145
+- Mon 10-19 | **Test + Lift** | **ALL-OUT 5k TT, TREADMILL** — WU 2km, open TT step, CD 1.5km; ~8.5km
+  **+ C14 W3 D1 Squat (95% top set), TT FIRST** — the week's first quality day, stacked
+- Tue 10-20 | Easy | 6km, HR 125-145
+- Wed 10-21 | Lift | **C14 W3 D2 Dips** — no run
+- Thu 10-22 | Easy | 10km, HR 125-145 — the week's longest, carries the decoupling measurement
+- Fri 10-23 | Quality | WU 2km; 3x(10min @ **4:55-5:01/km**, 90s float); CD 1.5km + **C14 W3 D3 Deadlift PM**
+- Sat 10-24 | Lift | **C14 W3 D4 Pull-ups** — no run
+- Sun 10-25 | Easy | 7km, HR 125-145
 
-Notes: **step up to 45, and normal stacking resumes** (quality AM, heavy lift PM, Tue and
-Fri). Step taken only if W9 felt easier than W8 — if it did not, repeat 40.
-- **Second 5k of the cadence**, five weeks after 09-15. It replaces Friday's sub-T, so the
-  week trades a hard session rather than adding one. **No taper** — it is a check, not a
-  race, and Thursday's 10 km stays as written so results compare to each other rather than
-  to a tapered peak.
-- **Deadlift still follows that evening.** A top set missed after a maximal 5k is
-  TT-confounded, same as the 09-15 squat; under the hit/miss rule the TM simply holds.
-- **Same route** (`stockholm-tt-postlight.gpx`), scored **grade-adjusted**. Returns: 5k →
-  VDOT → T-pace → all three sub-T bands. **This is the first honest read on what Rwanda
-  cost or didn't** — two weeks at 1,570 m is not altitude training, so expect no boost and
-  grade it at face value.
+Notes: **this section was stale and is a full rewrite.** It previously read "45 km, C15 W1 at 65%,
+5k TT outdoors Fri 10-23" — all four of those are wrong now. The TT moved to Mon 10-19 (deferred
+from Sun 10-18, see W9), the lifting is **C14 W3 at 75/85/95%** because W9's catch-up closed W2
+across all four lifts, and the volume repeats 40.
+- **MONDAY IS THE QUALITY DAY AND IT CARRIES BOTH SESSIONS — his call** (*"lets do the TT in place
+  of the 6x6's so stacked with the monday squat sesh"*). **Tuesday's 6x6 is deleted, not moved**, so
+  the week runs the budgeted **two quality days** (Mon TT, Fri 3x10) with the test *replacing* a
+  session rather than adding one. Rationale and the cost I had got backwards are in W9's deferral
+  block; the short version is that **stacking outranks protecting a light day**, and spreading the
+  two apart would have left Tue/Wed only half-recovered instead of fully.
+- **TT first, squat second, and the order is load-bearing.** Lifting costs ~2.6% running economy at
+  1 h with no change in exercising HR (Palmer & Sleivert 2001) — squat-first would tax the test
+  invisibly. **The squat's 95% top set is therefore TT-confounded: a miss holds the squat TM and
+  says nothing about it.** That is the accepted price of the stack. Precedent: the 09-15 TT was
+  followed by a squat PM. Never propose a TM reset off it, and the other three lifts are unaffected.
+- **Second 5k of the cadence** — 09-15 → 10-19 is **34 days** against a nominal 35, so the deferral
+  landed the test *on* cadence rather than off it. **No taper** — it is a check, not a race, and
+  Thursday's 10 km stays as written so tests compare to each other rather than to a tapered peak.
+- **TREADMILL, NOT THE 09-15 ROUTE — do not compute a fitness delta against 09-15.** The
+  treadmill/outdoor offset for this venue pair is unmeasured. Record which machine. Full reasoning
+  in W9's venue-change note. Returns are still **5k → VDOT → T-pace → all three sub-T bands**, and
+  they are valid for *treadmill* prescription because belt error cancels common-mode across the TT
+  and the sessions that share the machine.
+- **This is the first honest read on what Rwanda cost or didn't** — two weeks at 1,570 m is not
+  altitude training, so expect no boost and grade it at face value.
+- **The ~41.5 km is arithmetic, not a cut:** the TT's 8.5 km replaces the 6x6's 11.6. The written
+  step to 45 is conditional on W9 having felt easier than W8, and it did not — three quality
+  sessions, a failed reserve check and "wasn't feeling 100%" on the Sunday. Repeating 40 is the
+  system working. Grow Thursday and Sunday toward 45 only if Monday comes back clean.
+- **Strides stay out.** They want an easy Sunday and W11 is the next strides week anyway.
+- **Not yet pushed to Tredict.** Needs a plan build before Monday, or Monday runs off the W9 TT
+  entry (`dVW8s3zqPNMZkXwVvLVV2A`, still dated Sun 10-18 — in-window, so
+  `planned-workout-change-date` would move it rather than needing a rebuild).
 
 ## Weeks 11-13 (of 2026-10-26, 11-02, 11-09) — 45 km, holding the step
 
