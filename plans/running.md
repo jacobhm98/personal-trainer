@@ -1038,6 +1038,29 @@ felt easier than W8 and three quality sessions, a failed reserve check and "wasn
 not that signal. **Repeating 40 is the system working, not a setback.** Grow Thursday/Sunday only if
 the TT and Monday's squat both come back clean.
 
+**EXECUTED 2026-10-18: 7.17 km / 46:58 / 6:33/km, avg HR 149, max 164 — THIS WAS NOT AN EASY RUN.**
+Per km: **6:53 @ 141 / 6:34 @ 147 / 6:39 @ 145 / 6:28 @ 150 / 6:47 @ 148 / 6:27 @ 156 / 6:19 @ 154**,
+then a closing **169 m at 5:08/km @ 161**. **Five of seven kilometres sat above the 145 ceiling** and
+the shape is a progression run with a kick, not a flat easy run. Elevation +25 / −28, so terrain
+does not explain it. Volume target met and then some — **W9 closes at 42.16 km**, a block high.
+**The cost is tomorrow's TT**, which this was supposed to protect; it is the same role Saturday's
+5 km was given and the second time in three days that a protective easy slot ran hot.
+
+**IT ALSO MEANS THE NICOTINE TEST WAS NOT RUN.** The designated test, written into the W9 window note
+above, was *"one easy run, no pouch, and compare pace at 141."* He ran at **149**, so pace and HR both
+moved and the comparison the test was built on is unavailable. **See the review of 2026-10-18 for the
+full read; the short version is that the hypothesis is supported but not settled, and it can no longer
+be settled** — he has quit, so there is no nicotine condition left to compare against. What survives
+is one retrospective triple, outdoor-only and same route: **10-08 clean 7:21/km @ 139**, **10-15 on
+nicotine 7:57/km @ 141**, **10-18 clean 6:33/km @ 149**. The two clean runs agree once HR-normalised;
+the nicotine run is 36 s/km slower than the slowest of six clean easy runs at 139–144 bpm. But that
+spread is itself **41 s/km**, so 10-15 is barely one scatter-width out, and its own confounders
+(48 h post-deadlift, the 8:26/km first half, 19 °C) all push the same direction. **Discard stands.**
+**Resting HR gives a null:** the 7-day rolling mean went **56.6 → 54.2 bpm** across the nicotine
+window — *down* 2.4, inside the ±3.2 noise floor and the opposite direction from the hypothesis.
+Weak instrument, though: COROS RHR is a nightly minimum and an evening pouch is largely cleared by
+then, so the null constrains resting HR only and says nothing about exercising HR.
+
 **TODAY'S 7 KM SHOULD BE RUN AS A PLAIN RUN WITH NO HR TARGET.** The only calendar entry for 10-18 is
 the TT (`dVW8s3zqPNMZkXwVvLVV2A`), which must not be started, and the 10-17 beeping finding above is
 the direct precedent: a 125-145 band alerts through the whole first kilometre as HR climbs from rest,

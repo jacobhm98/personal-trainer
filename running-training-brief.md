@@ -237,6 +237,7 @@ progressing.
 | 2026-08-30 | 13.03 km | 5:59/km | **1.8%** |
 | 2026-09-13 | 14.01 km | 6:32/km | **−2.3%** |
 | 2026-10-08 | 7.11 km | 7:21/km | **−1.7%** |
+| 2026-10-15 | 8.01 km | 7:57/km | **−5.2%** |
 
 **2026-10-08 is logged with a method note, because the raw convention broke on it.** The run
 contained **56 s standing still inside km 7** (FIT speed <0.5 m/s; the timer never paused — one
@@ -249,6 +250,29 @@ choice is not cosmetic. The logged figure is **equal halves of the post-2 km rem
 because that is what the 7 km distance was chosen for (sync-log 2026-10-05), and stops removed
 because a traffic light is not cardiac drift. First half 7:52/km @ 139.9, second 7:32/km @
 141.4.
+**THE FORMULA ABOVE IS WRITTEN INVERTED — the logged series is `HR / speed`, not `speed / HR`
+(diagnosed 2026-10-18).** This had produced two standing complaints: that the sign contradicted the
+read table, and that 10-08's **−1.65%** could not be reproduced. Both have one cause. Under the text
+as written (`speed/HR`, `(2nd−1st)/1st`) the 10-08 halves give **+3.32%**, which the read table would
+score as creeping decoupling on a run that in fact got *more* efficient in its second half. Under
+`HR/speed` the same halves give **−3.21%**, the right sign and the right magnitude class, and the
+read table works. The residual gap to the logged −1.65% is the moving-time variant: the quoted
+halves (7:52 / 7:32) are the **elapsed-time** ones, while the logged figure came from the
+stops-removed series, so the note quotes one variant and logs another. **Fix the text to `HR/speed`
+rather than negating four rows** — the data is fine, the prose is not. Not applied here; this file
+section is the review's only sanctioned write and a formula change is a doctrine edit.
+
+**2026-10-15 is logged in that actual convention (`HR/speed`) and it is not a durability reading.**
+Primitives, so the row survives any later convention change: first half **8:26.7/km @ 140.7 bpm**,
+second half **7:56.4/km @ 141.8 bpm**, equal halves of the post-2 km remainder (the first 2 km ran
+7:16/km and were dropped). The −5.2% is almost entirely a **pacing artifact** — a 30 s/km negative
+split, which the session note explicitly warned would corrupt the measurement — not evidence of
+aerobic durability. **Two 104 s walking patches survived the <0.5 m/s filter** (he was walking at
+~1.19 m/s, well above it), one in each half, so they roughly cancel in the ratio while inflating
+both halves' pace. **The filter is too loose and should be raised toward ~1.6 m/s**, which is the
+second amendment this convention now needs. At 8.01 km / 64 min the run is also still short of the
+~75 min durability fails at, so this row keeps the series continuous and extends nothing.
+
 **And it is not durability evidence either way.** 7.11 km / 52 min against 13–14 km / 78–91 min
 in the two rows above: aerobic durability fails past ~75–90 min, so a 52-minute run cannot fail
 this test. The row keeps the series continuous; it does not extend it. **If this slot is to
