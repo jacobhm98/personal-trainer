@@ -976,6 +976,46 @@ runaway instead.
 - Sat 10-17 | Easy | **5km**, HR 125-145 — shakeout, cuttable
 - Sun 10-18 | Test | **ALL-OUT 5k TT, OUTDOORS, same route** — WU 2km, open TT step, CD 1.5km; ~8.5km
 
+**THE TT WAS DEFERRED TO MON 2026-10-19, AND SUNDAY BECAME AN EASY 7 KM — his call, 2026-10-18.**
+*"ok yo its late on sunday the gym is closed i wasnt feeling 100% lets move the TT til tomorrow and
+do a 7k easy today to hit the mileage target."* The binding reason is **venue, not feel**: the TT had
+already moved to a treadmill, so a closed gym removes the option outright. Feel is the secondary
+input and it points the same way.
+
+**VENUE CHANGE — THE LINE ABOVE IS NOW WRONG AND THIS IS THE CORRECTION.** The TT runs on a
+**TREADMILL**, not the 09-15 outdoor route (user 2026-10-17: winter is coming, more of the block will
+be indoors, and a belt removes pacing skill, which should not be prescribing training paces).
+**DO NOT COMPARE THE RESULT STRAIGHT TO 09-15.** The treadmill/outdoor offset is a **venue-pair
+property** — airflow, air resistance, terrain, belt calibration — and it has never been measured for
+this pair, so the 09-15 -> TT2 delta is **not** a fitness delta. What *is* valid: **belt calibration
+error is common-mode and cancels** when the TT and the sub-T sessions share a machine, so a
+treadmill-derived T-pace is sound for treadmill prescription. This supersedes the repo's older "belt
+error swamps the signal" note, which holds only for *absolute* measurement. **RECORD WHICH MACHINE** —
+it is load-bearing for both the cancellation argument and comparability to TT3 on 11-27.
+
+**WHAT THE DEFERRAL COSTS AND DOES NOT COST:**
+- **Volume: W9 lands ~41.9 km, not 43.0** (Wed 11.6 + Thu 8.0 + Fri 10.29 + Sat 5.02 + Sun 7.0).
+  Still a **block high** (+2.2 km on W4's 39.72) and still clears the step table's 40 km outright.
+  The block high survives; only the 43.0 figure does not.
+- **Cadence: 10-19 is 34 days off 09-15 against a nominal 35 — dead on**, and better than Sunday's
+  33 or the abandoned 10-23's 38. TT2 -> TT3 becomes 39 days. Leave 11-27 alone.
+- **Six consecutive running days, ending on the maximal test.** That is a block first; the previous
+  high was five. Stated as information, not a veto — Saturday's 5 km was the designated slack and it
+  was already spent.
+
+**CONSEQUENCE FOR W10, AND IT IS A REAL ONE: Tuesday's C14 W3 D1 squat at 95% now sits ~24 h off a
+maximal 5k.** This is the same collision he moved the TT to *avoid* — it has transferred from
+Friday's deadlift to Tuesday's squat, in the TM-deciding week. **Fix with the documented cheap lever:
+swap D1 and D2 so dips run Tuesday** (`upper`, draws nothing from the legs) **and squat lands Wed or
+later.** Also note the step to 45 km is conditional on W9 having felt easier than W8 — three quality
+sessions, a failed reserve check and "wasn't feeling 100%" is not that signal; **repeating 40 is the
+system working.** Neither is actioned here.
+
+**TODAY'S 7 KM SHOULD BE RUN AS A PLAIN RUN WITH NO HR TARGET.** The only calendar entry for 10-18 is
+the TT (`dVW8s3zqPNMZkXwVvLVV2A`), which must not be started, and the 10-17 beeping finding above is
+the direct precedent: a 125-145 band alerts through the whole first kilometre as HR climbs from rest,
+and that is what ended Saturday's structured file early. No entry, no target, by feel.
+
 Pushed as Tredict plan **`uLQvRH4cB`**, 6 entries (5 runs + 1 strength), applied with
 **Wed 2026-10-14 as day 1 — NOT Monday.** **~43.0 km over five runs.**
 **`sHw2gD5Yj` and `JFWZxaZb8` are dead builds of the same week** — neither was ever applied;
