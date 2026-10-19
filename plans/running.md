@@ -1201,13 +1201,43 @@ across all four lifts, and the volume repeats 40.
   entry (`dVW8s3zqPNMZkXwVvLVV2A`, still dated Sun 10-18 — in-window, so
   `planned-workout-change-date` would move it rather than needing a rebuild).
 
-## Weeks 11-13 (of 2026-10-26, 11-02, 11-09) — 45 km, holding the step
+## Weeks 11-13 (of 2026-10-26, 11-02, 11-09) — 45 km, the step
 
-- Mon | Easy | 6km · Tue | Quality | 6x6min + **D2 Squat** · Wed | **Dips** · Thu | Easy | 10km · Fri | Quality | 3x10min + **Deadlift** · Sat | **Pull-ups** · Sun | Easy | 7km
+- **W11** | Mon Easy 6k · **Tue QUALITY = 8x3min @ 4:32-4:34, 60s float** + **D1 Squat** · Wed **Dips** · Thu Easy 11k · Fri Quality 3x10min @ 4:46-4:48 + **Deadlift** · Sat **Pull-ups** · Sun Easy 8k + strides
+- **W12/W13** | Mon Easy 6k · Tue Quality 6x6min @ 4:39-4:41 + **D1 Squat** · Wed **Dips** · Thu Easy 10k · Fri Quality 3x10min + **Deadlift** · Sat **Pull-ups** · Sun Easy 7k
 
-All three repeat W10's shape with the TT replaced by the Friday 3x10. Lifting runs
-**C15 W2** in W11, **C15 W3** in W12 and the **7th Week deload** in W13. Strides on Sunday
-in W11 and W13.
+**THE 8x3 LANDS IN W11 — user 2026-10-19:** *"when are we doing the 8x3min sub-T sessions?
+didnt i specify i wanted them to be mixed in sometimes?"* **He was right and the miss was
+structural, not a one-week slip.** §7 and the note at ~line 152 schedule the 8-10x3 for **W5,
+W10 and W14**; W5's became a 5x6 on 09-12, and **W10's was never written into the week at all** —
+the W10 section as drafted carried a 6x6 and the TT, so by the time the TT displaced the 6x6
+there was nothing short left to displace. **Three planned appearances across the block had
+become one.** W10 is applied and is not being reopened (his call); W11 carries it.
+
+- **It replaces TUESDAY's 6x6, not Friday's 3x10** — §7's alternation rule means the week's two
+  sessions never share a rep length, so pairing 3-min with 10-min is the only legal placement
+  once it goes in. Tuesday also follows only an easy Monday, where Friday follows the week's
+  longest run, and the fastest session of the three wants the freshest legs.
+- **Band 4:32-4:34** (T-pace 4:29 + the §2 1-3 min offset of 3-5 s/km), watch target **4:33 ±3**,
+  **belt 13.2 kph** = 4:32.7/km, inside the band. Float **60 s**, specified not free (§7).
+- **THIS SESSION LOSES THE PLATEAU CHECK.** §6: on reps under 6 min the within-rep plateau gives
+  a **false pass** — a 3-min rep settles at baseline + the rep's demand, so when the baseline
+  creeps the plateau creeps with it. Report it as not applicable rather than as a pass. The
+  **reserve question** still works and is the one that decides anything: a third of the work on
+  an 8x3 is **three more reps**.
+- **There is no expected-spread figure for an 8x3** — the §4.2 table covers 3x10, 6x6 and 4x10
+  only. Do not borrow the 3x10's 5-8. Report the raw spread and say the reference is missing.
+- **If it ratchets but the reps still plateau internally, lengthen the float before slowing the
+  pace** (§4.2) — recovery length is a lever on short-rep sessions specifically, and the 60 s
+  float is the one specified value that short reps are allowed to move.
+- **Volume: the 8x3 is ~9.5 km against the 6x6's ~11.6**, so W11 would land ~42.5 km on the
+  written days. **The 2.5 km goes on the easy days, not onto a quality run** (config: growth goes
+  on easy days) — hence **Thu 11k and Sun 8k** above, for ~44.5. W12/W13 revert to 10k/7k.
+- **LIFTING MAPPING CORRECTED HERE TOO:** this section said C15 **W2** in W11. After W9's catch-up
+  slid C14 W3 into W10, **W11 is C15 W1** (65/75/85%), W12 is C15 W2, W13 is C15 W3, and the
+  **7th Week deload moves to W14** — which is also where the block's next 8-10x3 is scheduled, so
+  that one lands in the lightest lifting week of the cycle. It also said "D2 Squat"; squat is
+  **D1**. Strides on Sunday in W11 and W13, unchanged.
 **Promotion check runs on W12, not W13** — W13 is the lifting deload, so it will feel
 easier for reasons that have nothing to do with running fitness. If W12 felt easier than
 W10, step to 50 at W14. If not, hold 45 and let W13's light lifting help — repeating is
