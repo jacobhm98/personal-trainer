@@ -1203,7 +1203,7 @@ across all four lifts, and the volume repeats 40.
 
 ## Weeks 11-13 (of 2026-10-26, 11-02, 11-09) — 45 km, the step
 
-- **W11** | Mon Easy 6k · **Tue QUALITY = 8x3min @ 4:32-4:34, 60s float** + **D1 Squat** · Wed **Dips** · Thu Easy 11k · Fri Quality 3x10min @ 4:46-4:48 + **Deadlift** · Sat **Pull-ups** · Sun Easy 8k + strides
+- **W11** | Mon Easy 6k · **Tue QUALITY = 10x3min @ 4:32-4:34, 60s float** + **D1 Squat** · Wed **Dips** · Thu Easy 10k · Fri Quality 3x10min @ 4:46-4:48 + **Deadlift** · Sat **Pull-ups** · Sun Easy 7k + strides
 - **W12/W13** | Mon Easy 6k · Tue Quality 6x6min @ 4:39-4:41 + **D1 Squat** · Wed **Dips** · Thu Easy 10k · Fri Quality 3x10min + **Deadlift** · Sat **Pull-ups** · Sun Easy 7k
 
 **THE 8x3 LANDS IN W11 — user 2026-10-19:** *"when are we doing the 8x3min sub-T sessions?
@@ -1230,9 +1230,25 @@ become one.** W10 is applied and is not being reopened (his call); W11 carries i
 - **If it ratchets but the reps still plateau internally, lengthen the float before slowing the
   pace** (§4.2) — recovery length is a lever on short-rep sessions specifically, and the 60 s
   float is the one specified value that short reps are allowed to move.
-- **Volume: the 8x3 is ~9.5 km against the 6x6's ~11.6**, so W11 would land ~42.5 km on the
-  written days. **The 2.5 km goes on the easy days, not onto a quality run** (config: growth goes
-  on easy days) — hence **Thu 11k and Sun 8k** above, for ~44.5. W12/W13 revert to 10k/7k.
+- **TEN REPS, NOT EIGHT — settled 2026-10-19** (user: *"maybe we should be doing 10x3's? or
+  9x3's"*). I had written 8 as the cautious end of §7's 8–10 range; **10 is the right call and
+  three arguments converge on it.**
+  1. **§7's own mechanism says a rep-count-light 3-min session under-delivers.** *"A 3-min rep
+     gives much of itself up to HR onset kinetics, while a 10-min rep sits at target intensity for
+     8+ minutes."* The §2 pace tiering compensates per rep, but not for the share of each short
+     rep spent arriving at intensity. So matching work minutes is the floor, not the target.
+  2. **It is a near-exact swap for the 6x6 it replaces.** 10x3 = **30 min work / 64:00 / ~11.0 km**
+     against the 6x6's 36 min / 66:00 / ~11.4 km (the 10-14 session ran 66:00 / 11.67 km). 8x3
+     would have been 24 min / 56:00 / ~9.5 km — a 33% cut in work for no stated reason. 10x3 also
+     matches the week's other session, the 3x10, at 30 min exactly.
+  3. **The 3-min session is the SAFEST one to be ambitious on, because the abort granularity is
+     fine.** Each decision point commits **4 minutes** (rep + float) against ten on a 3x10. The
+     reserve question's answer is *three more reps* on a 10x3 — the figure §4.3 already states —
+     so the decision point is around rep 6–7, and being wrong costs four minutes rather than ten.
+     This is the same asymmetry that made the 10-16 3x10's failed reserve check expensive.
+  **Volume consequence: none.** At ~11.0 km W11 lands ~44 km on the originally written easy days,
+  so **Thursday stays 10k and Sunday 7k** — the earlier plan to grow them to 11k/8k was only
+  needed to cover the 8x3's shortfall and is withdrawn.
 - **LIFTING MAPPING CORRECTED HERE TOO:** this section said C15 **W2** in W11. After W9's catch-up
   slid C14 W3 into W10, **W11 is C15 W1** (65/75/85%), W12 is C15 W2, W13 is C15 W3, and the
   **7th Week deload moves to W14** — which is also where the block's next 8-10x3 is scheduled, so
