@@ -394,12 +394,13 @@ Keep the incline fixed (0 or 1%) across sessions or they are not comparable to e
 |---|---|---|
 | HRmax | **~207** | **PROVISIONAL — raised from ~200 on 2026-10-08 (user's call).** Two independent routes converge: the LTHR row below implies **205–210**, and inverting Bakken's 83–85% tier on the 10-07 6×6 rep mean of 175.0 gives **206–211**. An assumption, not a measurement; the Fri 2026-10-23 TT is the pin. Kept at ~200 before that (user's call 2026-09-15): The 5k TT recorded a peak of only **193**, run outdoors in ~15 °C — cool, so no heat pushing HR up — on wrist optical, which under-reads maximal peaks by 5–15 bpm (§6). That is below the 195 floor observed 2026-08-20, so it neither lowers nor pins the max. Next chance: the W10 5k TT, Fri 2026-10-23. **Provenance corrected 2026-09-18:** the 195 came from `Run W1 Thu 4x1k @4:50` — a **threshold interval session** at 1,600 m, avg HR 178, reps at ~4:47/km — NOT the "altitude recovery jog" an earlier version of this row claimed. Verified sustained from lap data: per-rep max climbed 188 → 192 → 194 → **195**, and the 60 s float after rep 4 *averaged* 191, which no single-sample optical spike could produce. It is the most credible near-max reading on file, and it was reached on a **submaximal** session. **A second 195 (2026-09-06, "Run W3 Sun Long 13k", avg HR 179) is DISCARDED** — the sync log records W3's long run as HR-confounded by alcohol, which is why its decoupling went unlogged, and §6 requires discarding such conclusions outright rather than asterisking them. **One credible 195, not two.** |
 | LTHR | — | **NOT MEASURED, and will not be** — 5k TTs only; the 30-min TT is not scheduled. Golden-zone method unavailable. |
-| VDOT | **44.7** | **MEASURED 2026-09-15**, from the grade-adjusted 5k (21:57). Raw clock gives 44.3. See §8.1. |
-| T-pace | **4:40/km** | **MEASURED 2026-09-15**, from VDOT 44.7. Raw clock gives 4:42. See §8.1. |
-| 10k shape | **45:46** | **DERIVED 2026-09-15** — Riegel from the grade-adjusted 5k (raw clock: 46:07). Replaces the unmeasured 47:00 (his August estimate); lands between that and Strava's 44:00. |
+| VDOT | **44.7 outdoor** · **46.8 treadmill** | **TWO ANCHORS, TWO PURPOSES — do not merge them (2026-10-19).** 44.7 is MEASURED 2026-09-15 on the outdoor route (grade-adjusted 21:57; raw clock 44.3) and remains **the fitness figure**. 46.8 is MEASURED 2026-10-19 on a treadmill (21:04.6, belt 14.2→14.4 kph) and is **a belt anchor only** — it is inflated by the absent air resistance (~2–4% at this pace) and by unknown belt calibration, neither of which Daniels' tables are built for. See §8.2. |
+| T-pace | **4:40/km outdoor** · **4:29/km treadmill** | From the two VDOT anchors above. **Prescribe the treadmill value on a belt and the outdoor value outdoors** — they are not alternatives, they describe different venues. See §8.2. |
+| 10k shape | **45:46** | **DERIVED 2026-09-15** — Riegel from the grade-adjusted 5k (raw clock: 46:07). Replaces the unmeasured 47:00 (his August estimate); lands between that and Strava's 44:00. **NOT updated by the 10-19 treadmill TT**, whose Riegel 10k of 43:57 is a belt figure and is not a road prediction — see §8.2. |
 | Easy cap | **≤145 bpm** | **70% of max [B]**, rescaled 2026-10-08 with max 200 → 207. Was ≤140. Applies to every easy/recovery run under ~75 min. |
 | Long/longest run | **opens ≤145, drift to ~155** | **Only past ~75 min.** The opening is 70% **[B]**; the ~155 drift target is 75% and **MINE [C]** — §2 records that the "≤75% long-run cap" was invented and wrongly attributed to Bakken, and Daniels' E pace (65–79% HRmax **[D]**) is what actually supports drifting above 70%. Rescaled 2026-10-08 (was 140 / 150). |
-| Sub-T paces | **4:43–4:45 / 4:50–4:52 / 4:57–4:59** | **MEASURED 2026-09-15** — T-pace 4:40 plus the §2 offsets, for 1–3 / 4–6 / 8–12 min reps |
+| Sub-T paces — **TREADMILL, live** | **4:32–4:34 / 4:39–4:41 / 4:46–4:48** | **RE-ANCHORED 2026-10-19** at TT2 — treadmill T-pace 4:29 plus the §2 offsets, for 1–3 / 4–6 / 8–12 min reps. Belt: **13.2 / 12.9 / 12.5 kph**. Valid because the TT and the sessions share the machine, so belt error is common-mode and cancels. **Record which machine.** |
+| Sub-T paces — **OUTDOOR, standby** | **4:43–4:45 / 4:50–4:52 / 4:57–4:59** | **MEASURED 2026-09-15** — outdoor T-pace 4:40 plus the §2 offsets. **Use these if a sub-T session is ever run outdoors**; the treadmill band is ~11 s/km faster and would be too hot off the belt. |
 | Sub-T ceilings | ~~170–174 / 166–170 / 160–166~~ | **RETIRED 2026-09-18 — do not prescribe from these.** ~15 bpm below his measured threshold (LTHR ≈ 180–184). Sub-T runs on **pace + RPE**; see §3 and §8.2. |
 | LTHR (estimated) | **180–184** | **DERIVED 2026-09-18** from the 09-15 TT average of 188 minus the 4–8 bpm a 5k sits above LTHR (§1.2). An estimate, not a measurement — the honest fix is a lactate profile. Implies HRmax is likely **205–210**, above the provisional 200, since a normal LTHR of 87–89% of max puts max there. |
 
@@ -508,6 +509,62 @@ The watch target widens each band to ±3 s/km, because GPS pace noise is larger 
 - **HR side unchanged:** easy ≤140, long ≤150 and the §3 tiers stay provisional on ~200.
   **[SUPERSEDED 2026-10-08 — max rescaled to ~207 on the user's call: easy ≤145, long opens ≤145 and drifts to ~155, sub-T tier 80–87% = 166–180. The §3 tiers are still not prescribed from.]**
 - **Every later TT:** same route, grade-adjusted time, so the series compares to itself.
+
+### 8.2 5k TT record — Mon 2026-10-19, TREADMILL [S]
+
+**Result: 5 km in 21:04.6**, belt **14.2 kph held for 4 km then 14.4 for the last** — his plan,
+stated beforehand (*"what if i go out at 14.2 and hold that the whole way through"*) and executed
+with a kick. Session 8.00 km / 43:44: WU 2 km (7:10, 7:03), the 5 km, CD ~1 km.
+
+| km | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| Time | 4:13.8 | 4:13.8 | 4:13.5 | 4:13.5 | **4:10.0** |
+| Belt (implied) | 14.18 | 14.19 | 14.20 | 14.20 | **14.40** |
+| Avg HR | 152 | 186 | 189 | 191 | **194** |
+| Max HR | 185 | 189 | 192 | 193 | **196** |
+| Cadence | 169 | 173 | 174 | 171 | **176** |
+
+**THE PACING IS THE STORY, AND IT IS THE OPPOSITE OF 09-15.** Five splits inside 3.8 s of each
+other, then a deliberate negative last kilometre. 09-15 went 4:06 grade-adjusted on km 1 and
+4:39 on km 5 with power 352 → 304 W — a blow-up. **Daniels' tables assume a well-paced race, so
+TT2 is the better-formed input of the two**, and a real part of the 52 s improvement is the
+pacing fix rather than five weeks of engine. **The belt removed the error that cost 09-15 its
+time**, which was his whole reason for moving the test indoors (2026-10-17: *"it takes pacing
+out of the equation which is a skill thing, and not something that should necessarily prescribe
+my training paces"*).
+
+**DERIVATION (Daniels–Gilbert, method [D] as in §8.1).** 21:04.6 → **VDOT 46.8** → **T-pace
+4:29/km** → bands **4:32–4:34 / 4:39–4:41 / 4:46–4:48**, belt **13.2 / 12.9 / 12.5 kph**. The
+implementation was checked twice before use: it reproduces 09-15's published 44.7 / 4:40 / 45:46
+exactly, and the documented VDOT 50 → T 4:15/km.
+
+**WHAT THIS NUMBER IS, AND WHAT IT IS NOT.** It is a **belt anchor**: valid for prescribing
+treadmill sub-T because the TT and the sessions share the machine, so calibration error is
+common-mode and cancels. It is **not a fitness measurement** and must not replace VDOT 44.7.
+Four things push the time down and only one of them is fitness:
+- **No air resistance** — worth ~2–4% of metabolic cost at 4:13/km, and Daniels is calibrated on
+  outdoor racing.
+- **Belt calibration unknown** — the only confounder here whose *sign* is unknown.
+- **The pacing fix**, above.
+- **Actual fitness**, over 34 days of which two weeks were Rwanda at 25–28 km.
+
+Three of the four push the same direction as the observation, so **attribution is impossible and
+no fitness gain is claimed** — the §6 confounder-direction rule, applied as written. **This also
+corrects a mismatch that had been live for weeks:** bands derived from the 09-15 *outdoor* TT
+were driving belt speeds on 10-01, 10-07, 10-10, 10-14 and 10-16, every one of them indoors.
+TT2 makes anchor and session share a venue for the first time.
+
+**HRmax: NOTHING MOVES. Peak 196, which is BELOW the 197 floor set 2026-10-16**, so the floor
+stands at 197 and the ~207 assumption is untouched. The easy cap stays ≤145 and the
+~2026-12-15 revisit is unaffected. **The stand-still protocol ran and returned a null** — the
+cool-down lap peaked 194, under the running peak, so there was no post-finish overshoot to
+catch this time. **What the session does add is support for 207 over 200:** the last kilometre
+averaged **194 for 4:10**, which is 97.0% of 200 — not sustainable — against **93.7% of 207**,
+which is exactly what a 5k finish looks like. km 3–5 averaged 191.3 = **92.4% of 207**. Same
+conclusion the 10-16 session reached by a different route.
+
+**Cardiac response was fast and clean** — 144 at the end of the warm-up to a 185 peak inside
+km 1, fully loaded by km 2. First quality session with no nicotine on board since 10-13.
 
 ### 8.2 First clean sub-T session — Fri 2026-09-18 [S]
 

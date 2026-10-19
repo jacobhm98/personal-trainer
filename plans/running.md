@@ -1145,6 +1145,21 @@ item rather than sequencing around it.**
 
 - Mon 10-19 | **Test + Lift** | **ALL-OUT 5k TT, TREADMILL** — WU 2km, open TT step, CD 1.5km; ~8.5km
   **+ C14 W3 D1 Squat (95% top set), TT FIRST** — the week's first quality day, stacked
+  **EXECUTED 2026-10-19: 5 km in 21:04.6, belt 14.2 kph for 4 km then 14.4.** Session 8.00 km /
+  43:44, avg HR 162. Splits **4:13.8 / 4:13.8 / 4:13.5 / 4:13.5 / 4:10.0**, HR means
+  **152 / 186 / 189 / 191 / 194**, peak **196**. Five splits inside 3.8 s then a deliberate kick —
+  the belt did exactly the job he moved the test indoors for, and it is the inverse of 09-15's
+  4:06 → 4:39 blow-up. **Full record and derivation in `sub-threshold-reference.md` §8.2.**
+  **BANDS RE-ANCHORED: VDOT 46.8 → T-pace 4:29 → 4:32-4:34 / 4:39-4:41 / 4:46-4:48, belt
+  13.2 / 12.9 / 12.5 kph.** ~11 s/km faster across the board. **These are BELT speeds and are
+  valid only on a belt** — the outdoor bands (4:43-4:45 / 4:50-4:52 / 4:57-4:59) stay on standby
+  for any outdoor sub-T. **No fitness claim is made from this**: three of the four things that
+  shortened the time (no air resistance, the pacing fix, 34 days of training) push the same
+  direction, so attribution is impossible under the §6 rule. **HRmax unchanged** — peak 196 is
+  below the 197 floor from 10-16, so ~207 and the ≤145 cap are untouched, and the stand-still
+  returned no post-finish overshoot.
+  **Squat was still to come at the time of review** (TT finished 14:05); its RPE is outstanding.
+
 - Tue 10-20 | Easy | 6km, HR 125-145
 - Wed 10-21 | Lift | **C14 W3 D2 Dips** — no run
 - Thu 10-22 | Easy | 10km, HR 125-145 — the week's longest, carries the decoupling measurement
