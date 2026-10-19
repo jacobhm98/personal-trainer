@@ -399,8 +399,7 @@ Keep the incline fixed (0 or 1%) across sessions or they are not comparable to e
 | 10k shape | **45:46** | **DERIVED 2026-09-15** — Riegel from the grade-adjusted 5k (raw clock: 46:07). Replaces the unmeasured 47:00 (his August estimate); lands between that and Strava's 44:00. **NOT updated by the 10-19 treadmill TT**, whose Riegel 10k of 43:57 is a belt figure and is not a road prediction — see §8.2. |
 | Easy cap | **≤145 bpm** | **70% of max [B]**, rescaled 2026-10-08 with max 200 → 207. Was ≤140. Applies to every easy/recovery run under ~75 min. |
 | Long/longest run | **opens ≤145, drift to ~155** | **Only past ~75 min.** The opening is 70% **[B]**; the ~155 drift target is 75% and **MINE [C]** — §2 records that the "≤75% long-run cap" was invented and wrongly attributed to Bakken, and Daniels' E pace (65–79% HRmax **[D]**) is what actually supports drifting above 70%. Rescaled 2026-10-08 (was 140 / 150). |
-| Sub-T paces — **TREADMILL, live** | **4:32–4:34 / 4:39–4:41 / 4:46–4:48** | **RE-ANCHORED 2026-10-19** at TT2 — treadmill T-pace 4:29 plus the §2 offsets, for 1–3 / 4–6 / 8–12 min reps. Belt: **13.2 / 12.9 / 12.5 kph**. Valid because the TT and the sessions share the machine, so belt error is common-mode and cancels. **Record which machine.** |
-| Sub-T paces — **OUTDOOR, standby** | **4:43–4:45 / 4:50–4:52 / 4:57–4:59** | **MEASURED 2026-09-15** — outdoor T-pace 4:40 plus the §2 offsets. **Use these if a sub-T session is ever run outdoors**; the treadmill band is ~11 s/km faster and would be too hot off the belt. |
+| Sub-T paces | **4:32–4:34 / 4:39–4:41 / 4:46–4:48** | **RE-ANCHORED 2026-10-19** at TT2 — T-pace 4:29 plus the §2 offsets, for 1–3 / 4–6 / 8–12 min reps. Belt equivalents **13.2 / 12.9 / 12.5 kph**. **THESE APPLY AT BOTH VENUES — user's call 2026-10-19:** *"no, these are the new sub-T paces period. the sub-threshold adjustment means we can use them for outdoor sessions as well."* The 09-15 bands (4:43–4:45 / 4:50–4:52 / 4:57–4:59) are **superseded, not held in reserve.** |
 | Sub-T ceilings | ~~170–174 / 166–170 / 160–166~~ | **RETIRED 2026-09-18 — do not prescribe from these.** ~15 bpm below his measured threshold (LTHR ≈ 180–184). Sub-T runs on **pace + RPE**; see §3 and §8.2. |
 | LTHR (estimated) | **180–184** | **DERIVED 2026-09-18** from the 09-15 TT average of 188 minus the 4–8 bpm a 5k sits above LTHR (§1.2). An estimate, not a measurement — the honest fix is a lactate profile. Implies HRmax is likely **205–210**, above the provisional 200, since a normal LTHR of 87–89% of max puts max there. |
 
@@ -538,9 +537,22 @@ my training paces"*).
 implementation was checked twice before use: it reproduces 09-15's published 44.7 / 4:40 / 45:46
 exactly, and the documented VDOT 50 → T 4:15/km.
 
-**WHAT THIS NUMBER IS, AND WHAT IT IS NOT.** It is a **belt anchor**: valid for prescribing
-treadmill sub-T because the TT and the sessions share the machine, so calibration error is
-common-mode and cancels. It is **not a fitness measurement** and must not replace VDOT 44.7.
+**ONE BAND SET, BOTH VENUES — user's call 2026-10-19, and I had proposed the opposite.** I
+recommended carrying the treadmill bands for belt sessions and keeping the 09-15 outdoor bands on
+standby. He overruled it: *"no, these are the new sub-T paces period. the sub-threshold adjustment
+means we can use them for outdoor sessions as well."* **His argument holds.** The §2 offsets are
+deliberate headroom — the 8–12 min band is T+17–19 s/km, so even if a treadmill flatters by the
+full ~2–4% (~8 s/km at this pace), an outdoor rep at 4:46–4:48 still sits at roughly T+9–11, which
+is *another tier's* sub-T offset and not threshold. On top of that the two instruments that police
+this — the **within-rep plateau** and the **reserve question** — are venue-independent and need no
+HRmax, and the reserve check is the only one that still decides anything. Carrying two band sets
+would have put a "which set applies today" decision at the gym door on a prescription that is
+immutable once pushed, to guard a case that has not occurred in five sessions. **Residual, as a
+diagnostic and NOT a competing prescription:** if the plateau check fails specifically on an
+*outdoor* sub-T session, reach for venue as the first explanation before suspecting the band.
+
+**WHAT THIS NUMBER IS, AND WHAT IT IS NOT.** It is a **pace anchor**, and a sound one. It is
+**not a fitness measurement** and must not replace VDOT 44.7.
 Four things push the time down and only one of them is fitness:
 - **No air resistance** — worth ~2–4% of metabolic cost at 4:13/km, and Daniels is calibrated on
   outdoor racing.

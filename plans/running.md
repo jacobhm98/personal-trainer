@@ -1151,9 +1151,9 @@ item rather than sequencing around it.**
   the belt did exactly the job he moved the test indoors for, and it is the inverse of 09-15's
   4:06 → 4:39 blow-up. **Full record and derivation in `sub-threshold-reference.md` §8.2.**
   **BANDS RE-ANCHORED: VDOT 46.8 → T-pace 4:29 → 4:32-4:34 / 4:39-4:41 / 4:46-4:48, belt
-  13.2 / 12.9 / 12.5 kph.** ~11 s/km faster across the board. **These are BELT speeds and are
-  valid only on a belt** — the outdoor bands (4:43-4:45 / 4:50-4:52 / 4:57-4:59) stay on standby
-  for any outdoor sub-T. **No fitness claim is made from this**: three of the four things that
+  13.2 / 12.9 / 12.5 kph.** ~11 s/km faster across the board. **These apply at BOTH venues** — his call
+  (*"these are the new sub-T paces period"*); the 09-15 bands are superseded, not held in reserve.
+  Reasoning in §8.2. **No fitness claim is made from this**: three of the four things that
   shortened the time (no air resistance, the pacing fix, 34 days of training) push the same
   direction, so attribution is impossible under the §6 rule. **HRmax unchanged** — peak 196 is
   below the 197 floor from 10-16, so ~207 and the ≤145 cap are untouched, and the stand-still
