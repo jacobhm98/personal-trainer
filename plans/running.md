@@ -1183,12 +1183,30 @@ item rather than sequencing around it.**
   price of the stack, and it is larger than the "one forgone +2.5 kg" I named beforehand, because
   the *measurement* is gone rather than just the increment.
 
-  **NARROW PROPOSAL, OFFERED ONCE — protect the W3 top set specifically, not light days generally.**
-  Stacking stays the rule; this is about which session it applies to. W1 and W2 top sets carry **no
-  decision** — only W3's result moves a TM — so stacking costs nothing in W1/W2 and costs the entire
-  informational yield of the cycle in W3. The fix is already documented as nearly free: **swap D1
-  and D2 in a W3 week** so dips (`upper`, drawing nothing from the legs) take the quality day and
-  the squat lands clean. **That is exactly what 09-01 did.** Not actioned; his call.
+  **I PROPOSED SWAPPING D1/D2 IN W3 WEEKS TO PROTECT THE TOP SET. DECLINED — DO NOT RE-PITCH.**
+  User 2026-10-20: *"no but its chill, i think the goal going forwards is to progress with stacked
+  sessions, naturally that will take some adjustment period for my body to get used to."*
+  **This is a doctrine statement and it is a better position than mine.** I had been treating the
+  stack as a cost to be managed — hence "TT-confounded", "the measurement is void". **But under his
+  model the stacked session IS the training target, so a stacked top set is a valid measurement of
+  stacked capacity, not a corrupted measurement of fresh capacity.** My framing created a system
+  that could never read: if every W3 is stacked and every stacked W3 is discardable, the TM can
+  never be tested at all. His resolves it — **the TM self-calibrates against stacked performance,
+  which is the right target if that is how every future session will be run.** So the entry above
+  should be read as *stacked capacity at 156.04 is currently 3 reps*, not as a void result.
+  **Consequence for how to read future misses: a miss on a stacked day is a REAL miss.** Stop
+  discounting top sets for the morning's run. The per-lift hit/miss rule absorbs it either way and
+  still never justifies a TM reset.
+  **ONE FAILURE MODE TO WATCH, recorded rather than proposed.** "Adjustment period" is a hypothesis
+  with a timescale, and the hit/miss rule holds the TM on a miss — so a squat that stays stacked and
+  keeps missing just sits at 164.25 indefinitely while looking like the system working. **Two more
+  attempts under the stacked regime are the test: C15 W3 (running W13, ~2026-11-09) and C16 W3
+  (~late December).** If 156.04 is still missing after those, "adaptation" has stopped being the
+  explanation and the TM itself is the question. Nothing to decide now.
+  **The direction he has chosen is also the safe one**, which supports the call: per
+  `running-training-brief.md`, running on squat-fatigued legs is an injury vector, while squatting
+  on run-fatigued legs *"costs kilos on the bar and nothing else."* He is spending bar performance,
+  not tissue risk.
 
   **ONE CAVEAT AGAINST READING THIS TOO KINDLY: 09-01 was ALSO a miss**, on a clean day — that is
   why the TM was holding at 164.25 going in. So 156.04 has now failed twice, once without any
