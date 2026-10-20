@@ -1158,7 +1158,44 @@ item rather than sequencing around it.**
   direction, so attribution is impossible under the §6 rule. **HRmax unchanged** — peak 196 is
   below the 197 floor from 10-16, so ~207 and the ≤145 cap are untouched, and the stand-still
   returned no post-finish overshoot.
-  **Squat was still to come at the time of review** (TT finished 14:05); its RPE is outstanding.
+  **SQUAT TOP SET MISSED — 3 reps @ 156.04, reported 2026-10-20.** Session 18:35-19:23, **48:26,
+  14 sets** (expected 12 for a D1; 10-07 and 09-24 both logged 13, so two over — likely counted
+  warm-ups), avg HR 92. **Under the hit/miss rule the squat TM simply HOLDS at 164.25 and C15 W3
+  re-runs the same 156.04. No reset, and no effect on the other three lifts** — they keep their own
+  results. This was priced in before the session: the W10 note above already said a 95% top set
+  attempted hours after a maximal 5k is TT-confounded and that a miss would say nothing about the TM.
+
+  **HIS OBSERVATION IS CORRECT AND I VERIFIED IT: this is the first W3 squat top set ever run on a
+  double day** (user 2026-10-20: *"i think this is the first time im actually running the squat top
+  sets of the 3 week block on same day as a different workout"*). The only prior attempt at 156.04
+  was **Mon 2026-09-01**, and `querySportRecords` for 08-30..09-02 shows **no run at all that day** —
+  only the strength session. The sync-log entry says why in its own words: *"Swapped D1<->D2 so legs
+  get a day after the long run."* **The squat was deliberately protected that cycle, and that
+  protection is what went missing.** So "worse than last cycle" compares a clean attempt against a
+  confounded one; it is not a fitness regression.
+  **Second quantified factor: the gap was 4.5 h** (TT 13:17-14:05, squat 18:35-19:23).
+  `running-training-brief.md` puts the threshold at **"six-plus hours between the two removes most
+  interference"**, so this sat under it. And the same section states the direction plainly:
+  *"Squatting on run-fatigued legs costs kilos on the bar and nothing else."*
+
+  **WHAT IT COSTS: C14's squat W3 yields no TM information at all, so the cycle's squat decision is
+  void and the next clean read is C15 W3 = running W13 (week of 2026-11-09).** That is the real
+  price of the stack, and it is larger than the "one forgone +2.5 kg" I named beforehand, because
+  the *measurement* is gone rather than just the increment.
+
+  **NARROW PROPOSAL, OFFERED ONCE — protect the W3 top set specifically, not light days generally.**
+  Stacking stays the rule; this is about which session it applies to. W1 and W2 top sets carry **no
+  decision** — only W3's result moves a TM — so stacking costs nothing in W1/W2 and costs the entire
+  informational yield of the cycle in W3. The fix is already documented as nearly free: **swap D1
+  and D2 in a W3 week** so dips (`upper`, drawing nothing from the legs) take the quality day and
+  the squat lands clean. **That is exactly what 09-01 did.** Not actioned; his call.
+
+  **ONE CAVEAT AGAINST READING THIS TOO KINDLY: 09-01 was ALSO a miss**, on a clean day — that is
+  why the TM was holding at 164.25 going in. So 156.04 has now failed twice, once without any
+  confounder. Do not conclude a regression from yesterday, but do not conclude the TM is fine
+  either; **one more clean attempt is what settles it.**
+
+  **RPE outstanding.**
 
 - Tue 10-20 | Easy | 6km, HR 125-145
 - Wed 10-21 | Lift | **C14 W3 D2 Dips** — no run
