@@ -1220,7 +1220,25 @@ item rather than sequencing around it.**
 - Thu 10-22 | Easy | 10km, HR 125-145 — the week's longest, carries the decoupling measurement
 - Fri 10-23 | Quality | WU 2km; 3x(10min @ **4:55-5:01/km**, 90s float); CD 1.5km + **C14 W3 D3 Deadlift PM**
 - Sat 10-24 | Lift | **C14 W3 D4 Pull-ups** — no run
-- Sun 10-25 | Easy | 7km, HR 125-145
+- Sun 10-25 | Easy | **~9.2km** (raised from 7km), HR 125-145
+  **THURSDAY CAME IN SHORT AND SUNDAY MAKES IT UP — his call, 2026-10-22:** *"i just ran out of time
+  on the thursday run, ill increase length of the sunday run to make up."* Thursday ran **7.76 km
+  indoors against 10 km outdoors planned**, so 7km + 2.24 = **~9.2 km** restores the week to ~40.8.
+  Reason was time, not fatigue or feel.
+  - **This makes Sunday the week's LONGEST run (9.2 vs Thursday's 7.76), which moves the decoupling
+    slot.** The brief defines the slot as Thursday *because* Thursday is the week's longest; when it
+    is not, the longest run is the honest artifact. **Thursday's row is already logged for W10 and
+    stays** — do not log two rows for one week. But **if Sunday is run OUTDOORS it is the better
+    artifact of the two**: longer, and outdoors puts it back on the same axis as the 08-30 / 09-13 /
+    10-08 / 10-15 rows, where Thursday's treadmill row is not. Worth preferring next time the choice
+    comes up.
+  - **It still will not clear the ~75 min gate.** ~9.2 km at ~7:20/km is ~68 min; ~10.3 km is what
+    75 min needs at current easy pace. The gate has now been missed two weeks running.
+  - **The pushed Tredict step ends at 7.00 km** (`b8Jsbt1sPKrFr4sFdYmLTN`, distance-based with the
+    HR band). The last ~2.2 km will run untargeted after the step completes — fine for an easy run,
+    and not worth an in-window edit, but do not read the structured file ending early as a short run.
+  - **Small cost, named not vetoed:** Sunday sits 2 days after the Friday double and W11 steps to
+    45 km, so this shifts a little fatigue toward the step week. Minor against recovering the volume.
 
 Notes: **this section was stale and is a full rewrite.** It previously read "45 km, C15 W1 at 65%,
 5k TT outdoors Fri 10-23" — all four of those are wrong now. The TT moved to Mon 10-19 (deferred
