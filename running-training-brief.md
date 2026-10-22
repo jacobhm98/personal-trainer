@@ -272,7 +272,7 @@ aerobic durability. **Two 104 s walking patches survived the <0.5 m/s filter** (
 ~1.19 m/s, well above it), one in each half, so they roughly cancel in the ratio while inflating
 both halves' pace. **The filter is too loose and should be raised toward ~1.6 m/s**, which is the
 second amendment this convention now needs. At 8.01 km / 64 min the run is also still short of the
-~75 min durability fails at, so this row keeps the series continuous and extends nothing.
+~75 min durability fails at (a soft figure of mine, **[C]** — see the 10-22 note below), so this row keeps the series continuous and extends nothing.
 
 **2026-10-22 IS THE FIRST ROW IN THIS TABLE WHERE PACE WAS ACTUALLY CONSTANT, and that makes it
 the first honest drift measurement — but it is NOT comparable to the four rows above it.** Run on a
@@ -297,10 +297,27 @@ discard rather than asterisk. Ask whether a fan was running before reading anyth
 at 8.35 kph, the tail of the ramp-down, so it is faster by construction and the +3.6% is inflated
 relative to a pure constant-belt comparison. The constant-belt stretch above is the better artifact.
 
-**The ~75 min gate was MISSED: 57:04 against the ~10 km / ~75 min this slot was finally supposed to
-reach.** The run came in **7.76 km, not 10**, and indoors against a session note that said to run it
-outdoors. So the first durability-grade decoupling in the block still has not happened — the
-measurement improved in quality and lost the duration that was its whole point this week.
+**THE ~75 MIN FIGURE IS MINE AND UNTAGGED, AND THE USER IS RIGHT TO DISMISS IT [C].**
+2026-10-22: *"ye its fine 75 minutes is arbitrary."* **It is.** It appears in five places across
+these files and in CLAUDE.md with **no source tag anywhere** — while the 70% easy cap beside it is
+marked **[B]** and the ~155 drift target is explicitly marked mine. So a round number of mine has
+been reading as sourced. It descends loosely from the "past ~75–90 min" fuelling caveat above, and
+there is no sharp threshold there: glycogen-related HR drift is continuous and depends on fuelling,
+intensity and training state. **Tagged [C] here; treat it as a soft indication, never a gate, and
+do not report a run as having "missed" it.**
+
+**WHAT SURVIVES THE OBJECTION, because it is not about the number 75:** a short run cannot *fail* a
+durability test, so a pass at these durations carries no information either way. **Four of the five
+rows in this table sit at 52–64 min.** The series is not measuring durability; at best it is
+measuring pacing discipline, which 10-15 demonstrated when a negative split produced −5.2%.
+
+**THE SHARPER QUESTION, which is his own position taken one step further — OFFERED, NOT PROPOSED.**
+The dedicated long run was dropped deliberately (2026-09-16: *"we dont need a dedicated long run,
+im not in a marathon block"*), so **by design no run in this block will be long enough for
+decoupling to bite.** That leaves two honest options rather than a gate to keep missing: retire the
+slot as overhead, or **redefine what it measures** — 10-22 showed that a constant-belt treadmill run
+yields a clean HR-drift-at-fixed-workload number with no pacing term, which is readable at 55 min in
+a way the outdoor version is not. The second is the more interesting of the two. Nothing changed.
 
 **And it is not durability evidence either way.** 7.11 km / 52 min against 13–14 km / 78–91 min
 in the two rows above: aerobic durability fails past ~75–90 min, so a 52-minute run cannot fail
