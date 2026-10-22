@@ -238,6 +238,7 @@ progressing.
 | 2026-09-13 | 14.01 km | 6:32/km | **−2.3%** |
 | 2026-10-08 | 7.11 km | 7:21/km | **−1.7%** |
 | 2026-10-15 | 8.01 km | 7:57/km | **−5.2%** |
+| 2026-10-22 | 7.76 km | 7:21/km | **+3.6%** · *treadmill, constant belt* |
 
 **2026-10-08 is logged with a method note, because the raw convention broke on it.** The run
 contained **56 s standing still inside km 7** (FIT speed <0.5 m/s; the timer never paused — one
@@ -272,6 +273,34 @@ aerobic durability. **Two 104 s walking patches survived the <0.5 m/s filter** (
 both halves' pace. **The filter is too loose and should be raised toward ~1.6 m/s**, which is the
 second amendment this convention now needs. At 8.01 km / 64 min the run is also still short of the
 ~75 min durability fails at, so this row keeps the series continuous and extends nothing.
+
+**2026-10-22 IS THE FIRST ROW IN THIS TABLE WHERE PACE WAS ACTUALLY CONSTANT, and that makes it
+the first honest drift measurement — but it is NOT comparable to the four rows above it.** Run on a
+treadmill. Halves: **7:22.9/km @ 141.4 bpm** then **7:30.1/km @ 144.2 bpm**, equal halves of the
+post-2 km remainder (2.00–4.88 km vs 4.88–7.76 km), logged in the series' actual `HR/speed`
+convention. **Why it is a different measurement:** outdoors, Pa:HR mixes pacing variation with
+cardiac drift, and the 10-15 row showed pacing can dominate completely (−5.2% was almost entirely a
+negative split). On a belt at fixed speed there is no pacing term at all, so the number is drift and
+nothing else. **It is therefore cleaner and also not on the same axis as the earlier rows — do not
+read the series as a trend across this boundary.**
+
+**THE SHARPER NUMBER IS NOT THE PERCENTAGE.** Per-km belt speed came down **8.47 → 8.44 → 8.35 →
+8.03 → 8.00 → 8.00 → 8.00 → 8.00 kph**: he actively slowed the belt through km 1–4 to hold the HR
+cap as km 3 touched 144 avg / 149 max, then held **8.00 kph dead constant for the last 3.76 km**.
+Across that genuinely fixed-workload stretch HR ran **139 → 140 → 146 → 148**, i.e. **+9 bpm over
+~28 min**. That is the measurement the slot exists for, and it is high — easy-intensity drift in a
+trained runner is more typically 2–5 bpm over 30 min.
+**AND IT IS DISCARDED AS A FITNESS READ.** Indoor with **no confirmed airflow**; thermal load raises
+HR progressively at fixed workload, which is the same direction as the observation, so §6 says
+discard rather than asterisk. Ask whether a fan was running before reading anything into it.
+**Note also the convention's halves are slightly contaminated here** — the first half contains km 3
+at 8.35 kph, the tail of the ramp-down, so it is faster by construction and the +3.6% is inflated
+relative to a pure constant-belt comparison. The constant-belt stretch above is the better artifact.
+
+**The ~75 min gate was MISSED: 57:04 against the ~10 km / ~75 min this slot was finally supposed to
+reach.** The run came in **7.76 km, not 10**, and indoors against a session note that said to run it
+outdoors. So the first durability-grade decoupling in the block still has not happened — the
+measurement improved in quality and lost the duration that was its whole point this week.
 
 **And it is not durability evidence either way.** 7.11 km / 52 min against 13–14 km / 78–91 min
 in the two rows above: aerobic durability fails past ~75–90 min, so a 52-minute run cannot fail
