@@ -1249,8 +1249,15 @@ item rather than sequencing around it.**
   as the observation, so §6 says do not name a cause. **No pace consequence either way — bands move
   only at a TT.**
 
-  **(3) RESERVE — outstanding, must be asked.** One more rep on a 3x10. This is the check that failed
-  on 10-16.
+  **(3) RESERVE — PASS, answered 2026-10-23: one more 10-min rep was there** (user: *"yea i think one
+  more lift was there"*). **This is the check that FAILED on 10-16** — three days before the re-anchor,
+  at a pace 9.6 s/km SLOWER. **Reserve restored while the pace went UP is the strongest single line in
+  the session**, and it is the only one of the three checks that carries any decision (an abort inside
+  the session, never a pace edit after it).
+  **It conflicts mildly with the +10.8 spread** — spread says "too hot", reserve says there was room —
+  and that conflict is precisely why neither moves a number. **The band does not move until the Fri
+  2026-11-27 TT** (user 2026-10-09). If 12.5 kph keeps leaving a rep in hand through W11-W14, that is
+  evidence for the TT to settle, not an argument to creep faster.
 
   **THE HEADLINE IS THE COMPARISON WITH 10-16, AND IT RETROSPECTIVELY VINDICATES THAT DISCARD.**
 
@@ -1272,8 +1279,39 @@ item rather than sequencing around it.**
   not fit this athlete" because at T-pace 4:40 they implied paces far below his threshold. At T-pace
   4:29 the 8-12 min band lands in the tier. **This is an observation about two independent anchors
   agreeing, not a licence to prescribe from %HRmax** — sub-T is still prescribed on pace + RPE.
-- Sat 10-24 | Lift | **C14 W3 D4 Pull-ups** — no run
-- Sun 10-25 | Easy | **~9.2km** (raised from 7km), HR 125-145
+
+  **THE PM DEADLIFT DID NOT HAPPEN AND IS RE-SITED TO SAT 10-24 — his call 2026-10-23:** *"i also
+  think i wont have time to do deadlifts today, i was travelling and will need to work a bit more. but
+  i can potentially do them tomorrow and a double on sunday."* **Reason is travel and work, not fatigue
+  and not the morning's run.** Second time this week a session lost its tail to time (Thursday's run
+  came in short, Friday's cool-down was skipped) — the pattern the schedule-volatility note predicts,
+  where the PM lift is the slot that gives.
+- Sat 10-24 | Lift | **C14 W3 D3 DEADLIFT** (5/5/5, top set **182.64**) — no run. *Was D4 Pull-ups;
+  re-sited 2026-10-23 when Friday's PM was lost to travel.*
+
+  **HIS ORDER IS THE RIGHT ONE AND I AM NOT COUNTER-PROPOSING. Why it beats the reverse** (deadlift
+  into Sunday's double, pull-ups Saturday): deadlift on Saturday leaves **3 days to the next squat**
+  (C15 W1, ~Tue 10-27), where putting it in the Sunday double cuts that to 2 — against the standing
+  "never squat and deadlift on consecutive days" and against his own 2026-10-12 instinct to *increase*
+  the deadlift→squat gap. It also keeps **D3 before D4** so no day-order reshuffle is needed, and it
+  puts the cheap lift in the double: **pull-ups are `upper` and draw nothing from the legs**, the same
+  property that makes a D1/D2 swap nearly free.
+  **IN PHASE — all four lifts finish C14 W3 before any starts C15 W1.** Per the 2026-10-12 scope
+  clarification a *late* session is fine; what the rule forbids is one lift sitting *at* W3 while the
+  others are *at* W1. Deadlift Sat + pull-ups Sun closes the cycle cleanly before Monday, so there is
+  nothing to write off and no catch-up to compress.
+  **ONE ASYMMETRY, RECORDED NOT PITCHED: the move de-stacks the deadlift and stacks the pull-ups.**
+  Friday is structurally a double day, so D3's top set was *meant* to be a stacked measurement; on
+  Saturday it runs fresh. **C14 W3 therefore now reads: squat stacked (MISSED), dips fresh (HIT),
+  deadlift fresh (pending), pull-ups after an easy run (pending)** — only one of the four tests stacked
+  capacity, and it is the one that failed. If 182.64 hits fresh and the deadlift TM goes 192.25 →
+  194.75, next cycle's W3 deadlift lands back on a Friday double at a TM set under better conditions.
+  That is a real asymmetry in the TM ledger; it belongs in the C15 W3 read, **not** in a change to this
+  week, and it is not a reason to discount a fresh hit.
+- Sun 10-25 | **Easy + Lift (DOUBLE)** | **~9.2km** (raised from 7km), HR 125-145
+  **+ C14 W3 D4 Pull-ups PM** (5/5/5, top set **+19.75**) — *moved from Sat 10-24; his call
+  2026-10-23, "a double on sunday".* **Run AM, lift PM** — Palmer & Sleivert 2001 (lifting costs ~2.6%
+  running economy at 1 h with no change in exercising HR), the same ordering argument as Tue/Fri.
   **THURSDAY CAME IN SHORT AND SUNDAY MAKES IT UP — his call, 2026-10-22:** *"i just ran out of time
   on the thursday run, ill increase length of the sunday run to make up."* Thursday ran **7.76 km
   indoors against 10 km outdoors planned**, so 7km + 2.24 = **~9.2 km** restores the week to ~40.8.
