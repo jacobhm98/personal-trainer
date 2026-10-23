@@ -1219,6 +1219,59 @@ item rather than sequencing around it.**
 - Wed 10-21 | Lift | **C14 W3 D2 Dips** — no run
 - Thu 10-22 | Easy | 10km, HR 125-145 — the week's longest, carries the decoupling measurement
 - Fri 10-23 | Quality | WU 2km; 3x(10min @ **4:55-5:01/km**, 90s float); CD 1.5km + **C14 W3 D3 Deadlift PM**
+  **EXECUTED 2026-10-23 AND IT IS THE CLEANEST SUB-T SESSION IN THE BLOCK.** 9.10 km / 48:33, avg HR
+  158. Structured steps read back exactly: WU **840 s**, then **3 x 600 s at 288.00 s/km** — belt 12.5
+  kph to the hundredth, dead on the 4:48.0 prescription and the slow edge of the 4:46-4:48 band as
+  intended — with **three 90 s floats**. **Only deviation: the 10-min cool-down was skipped** (2913 s
+  executed against 3510 s pushed; the 597 s gap is the CD). Second session this week to lose its tail
+  to time.
+  **Rep HR means 164.2 / 171.5 / 175.0, maxima 173 / 179 / 181, spread +10.8 bpm.**
+
+  **(1) WITHIN-REP PLATEAU — PASS, and it is the best plateau evidence on file.** From the FIT stream
+  (2917 records), per-minute means:
+  - Rep 1: 148 157 161 164 164 167 167 170 172 171 — 2nd-half slope **+1.22 bpm/min**, still climbing
+  - Rep 2: 152 165 171 173 174 174 175 176 177 178 — slope **+0.87**, flattening
+  - Rep 3: 157 168 173 176 179 179 179 180 181 179 — slope **+0.38**, i.e. **flat from minute 5**
+
+  The slope sequence **+1.22 → +0.87 → +0.38** is exactly the right shape: rep 1 is dominated by HR
+  onset kinetics off a 130-bpm warm-up, and by rep 3 he is fully loaded so the rep is pure steady
+  state. Doctrine asks whether the *final* reps level off within themselves — rep 3's minutes 5-10
+  reading 179/179/179/180/181/179 is a textbook flat line. **And the one-directional rule strengthens
+  it rather than weakening it: indoor thermal load can only push HR UP, so it cannot manufacture a
+  plateau.** A flat HR at fixed belt speed under thermal load is a genuine plateau and if anything
+  understates how settled he was.
+
+  **(2) SPREAD +10.8 bpm against an expected 5-8 for a 3x10 — nominally "too hot", and I am not
+  attributing it.** Two reasons to read it down rather than act on it. First, **rep 1's mean is an
+  onset artifact**: minute 1 was 148 coming off a 130 warm-up, which drags the baseline the spread is
+  measured from. Comparing plateau values instead gives ~171 / ~177 / ~180 = **+9**, and the
+  **rep2→rep3 step is only +3.5**. Second, indoor with no confirmed airflow pushes the same direction
+  as the observation, so §6 says do not name a cause. **No pace consequence either way — bands move
+  only at a TT.**
+
+  **(3) RESERVE — outstanding, must be asked.** One more rep on a 3x10. This is the check that failed
+  on 10-16.
+
+  **THE HEADLINE IS THE COMPARISON WITH 10-16, AND IT RETROSPECTIVELY VINDICATES THAT DISCARD.**
+
+  | | 10-16 (belt 12.1 = 4:57.6) | 10-23 (belt 12.5 = 4:48.0) |
+  |---|---|---|
+  | Rep 1 / 2 / 3 HR | 176.6 / 185.7 / 191.9 | **164.2 / 171.5 / 175.0** |
+  | Max | 197 | **181** |
+  | Spread | +15.3 | **+10.8** |
+  | Time ≥190 bpm | 13.2 min | **0** |
+
+  **9.6 s/km FASTER and every rep 12-17 bpm LOWER.** Time at or above 190 went from 13.2 min to zero;
+  the work block spent 138 s above 180 in total. The five same-direction confounders discarded on
+  10-16 (nicotine, no fuel, disrupted sleep, thermal load, third consecutive running day) were
+  evidently worth ~15 bpm, and the decision not to indict the band was correct.
+
+  **ALSO WORTH RECORDING, NO ACTION: the pace anchor and Bakken's HR tier have converged for the
+  first time.** Reps ran **79.3% / 82.8% / 84.6%** of HRmax 207, session mean of reps **82.2%**,
+  against the 8-12 min tier of **80-83%**. The files have said since 2026-09-18 that those tiers "do
+  not fit this athlete" because at T-pace 4:40 they implied paces far below his threshold. At T-pace
+  4:29 the 8-12 min band lands in the tier. **This is an observation about two independent anchors
+  agreeing, not a licence to prescribe from %HRmax** — sub-T is still prescribed on pace + RPE.
 - Sat 10-24 | Lift | **C14 W3 D4 Pull-ups** — no run
 - Sun 10-25 | Easy | **~9.2km** (raised from 7km), HR 125-145
   **THURSDAY CAME IN SHORT AND SUNDAY MAKES IT UP — his call, 2026-10-22:** *"i just ran out of time
