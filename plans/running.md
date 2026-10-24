@@ -1286,8 +1286,32 @@ item rather than sequencing around it.**
   and not the morning's run.** Second time this week a session lost its tail to time (Thursday's run
   came in short, Friday's cool-down was skipped) — the pattern the schedule-volatility note predicts,
   where the PM lift is the slot that gives.
-- Sat 10-24 | Lift | **C14 W3 D3 DEADLIFT** (5/5/5, top set **182.64**) — no run. *Was D4 Pull-ups;
-  re-sited 2026-10-23 when Friday's PM was lost to travel.*
+- Sat 10-24 | Lift | **C14 W3 D3 DEADLIFT + D4 PULL-UPS, COMBINED** — no run. *D3 was re-sited here
+  2026-10-23 when Friday's PM was lost to travel; D4 was then pulled forward from Sunday on the day.*
+  **EXECUTED 2026-10-24, one session, 15:17-16:10, 52:53, 16 sets, avg HR 93.**
+  **DEADLIFT TOP SET MISSED — 4 reps @ 182.64, RPE 10, so the TM HOLDS at 192.25.**
+  **PULL-UPS TOP SET HIT — 5 @ +19.75, RPE 9, so the TM goes 105 -> 107.5.**
+  **C14 W3 IS COMPLETE ACROSS ALL FOUR LIFTS**, two days before C15 W1 — in phase, nothing written off.
+  16 sets against 26 expected for a combined D3+D4; **asked, not reconstructed** (two readings fit the
+  counter's usual +1/+2 bias). Full record in `state/srpe-log.md`.
+
+  **THE CYCLE CLOSES AS A CLEAN 2x2 THAT REPEATS C13 EXACTLY — both `upper` lifts HIT, both `legs` lifts
+  MISSED, eight top sets with zero crossover.** And **today removes the stacking explanation**: the
+  deadlift ran with no same-day run at all and ~20 h clear of Friday's 3x10, as did the 09-01 squat.
+  **SO THE WATCH ITEM RECORDED ABOVE IS FRAMED TOO NARROWLY** — "two more attempts under the stacked
+  regime" cannot be the test, because the stall predates the stacked regime and shows up on clean days.
+
+  **HE ANSWERED IT THE SAME DAY AND HIS ANSWER IS BETTER THAN MINE. DO NOT RE-RAISE IT.** User
+  2026-10-24: *"yea i mean im plateuing but its fine, im losing weight and im increasing running. we
+  don't need to do anything about it right now."* **The cut is back on** — which voids the clause in
+  `plans/config.md` and the review skill that said a squat stall "no longer has that excuse" because the
+  cut was abandoned 2026-09-16. **A deficit plus rising volume predicts exactly this ledger**: the lifts
+  running taxes hold, the lifts it does not keep progressing. My "the TM itself is the question" framing
+  assumed a stationary environment and the environment is not stationary. **Maintaining lower-body
+  strength through a deficit while adding kilometres is the system working, not a stall.** Nothing to
+  decide. **Parameter consequence that DOES need action: his current weight is unknown and the sheet's
+  dip/pull-up grids are formulas keyed off B10 = 80** — get the number before reading C15's dip or
+  pull-up weights off the sheet.
 
   **HIS ORDER IS THE RIGHT ONE AND I AM NOT COUNTER-PROPOSING. Why it beats the reverse** (deadlift
   into Sunday's double, pull-ups Saturday): deadlift on Saturday leaves **3 days to the next squat**
@@ -1308,10 +1332,10 @@ item rather than sequencing around it.**
   194.75, next cycle's W3 deadlift lands back on a Friday double at a TM set under better conditions.
   That is a real asymmetry in the TM ledger; it belongs in the C15 W3 read, **not** in a change to this
   week, and it is not a reason to discount a fresh hit.
-- Sun 10-25 | **Easy + Lift (DOUBLE)** | **~9.2km** (raised from 7km), HR 125-145
-  **+ C14 W3 D4 Pull-ups PM** (5/5/5, top set **+19.75**) — *moved from Sat 10-24; his call
-  2026-10-23, "a double on sunday".* **Run AM, lift PM** — Palmer & Sleivert 2001 (lifting costs ~2.6%
-  running economy at 1 h with no change in exercising HR), the same ordering argument as Tue/Fri.
+- Sun 10-25 | Easy | **~9.2km** (raised from 7km), HR 125-145 — **no lift. The double is off**: the
+  pull-ups went on Saturday with the deadlift, so Sunday reverts to a plain easy run and closes W10 at
+  **~40.1 km**. Better outcome than the double — the run is unconfounded, and if it goes outdoors it is
+  the honest decoupling artifact (W10's row is already logged from Thursday; do not log a second).
   **THURSDAY CAME IN SHORT AND SUNDAY MAKES IT UP — his call, 2026-10-22:** *"i just ran out of time
   on the thursday run, ill increase length of the sunday run to make up."* Thursday ran **7.76 km
   indoors against 10 km outdoors planned**, so 7km + 2.24 = **~9.2 km** restores the week to ~40.8.
