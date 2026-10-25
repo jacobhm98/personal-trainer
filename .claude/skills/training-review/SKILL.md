@@ -124,9 +124,18 @@ default last 7 days.
        naming a cause. At 1,550 m the altitude signal lives in **exercising HR at a
        fixed workload** (+5.4% day 1, gone by day 5), **not** in resting HR or HRV,
        which have a published null at this elevation.
-     - **No caloric deficit from 2026-09-16** (cut abandoned, weight held ~80 kg), so a
-       squat stall no longer has that excuse — treat a missed top set as real evidence
-       about the TM or about running load.
+     - **THE CUT IS BACK ON from 2026-10-24** (*"im losing weight and im increasing
+       running"*), which **VOIDS** the clause that stood here: ~~"No caloric deficit from
+       2026-09-16 (cut abandoned, weight held ~80 kg), so a squat stall no longer has that
+       excuse — treat a missed top set as real evidence about the TM or about running
+       load."~~ A deficit plus rising volume is now a live explanation for a lower-body
+       stall, and he has already used it. **The squat/deadlift plateau is EXPLAINED AND
+       CLOSED — do not re-raise it as a problem** (`state/srpe-log.md` 2026-10-24: both
+       `legs` lifts missed and both `upper` lifts hit in C13 *and* C14, eight top sets with
+       zero crossover). Report a change in the pattern, never the pattern itself as a
+       finding needing a decision. His current weight is unknown; the sheet's dip/pull-up
+       grids are formulas keyed off bodyweight in B10 = 80, so **ask before reading those
+       weights off the sheet**.
 4. **ASK FOR AN RPE ON EVERY LIFTING SESSION IN THE PERIOD, THEN LOG IT.**
    User's instruction, 2026-09-29: *"in the /training-review make sure to ask me for an
    RPE on lifting sessions, that's how i'll log it."*
