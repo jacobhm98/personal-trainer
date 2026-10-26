@@ -7,7 +7,8 @@ Daniels supplies the T-pace anchor only.
 
 **PROVENANCE — read this first.** Claims are tagged so inference is never mistaken for
 doctrine: **[B]** = stated by Bakken, **[D]** = Daniels, **[S]** = this athlete's own
-session data, **[C]** = *my inference*, defensible but not sourced. Anything untagged is
+session data, **[C]** = *my inference*, defensible but not sourced, **[L]** = external
+literature or documented practice outside this project, cited inline (tag added 2026-10-26). Anything untagged is
 mechanism or background, not a prescription. This convention was added 2026-09-12 after
 I attributed a long-run HR cap to Bakken that I had invented myself — if you catch
 another, tag it or cut it.
@@ -322,11 +323,54 @@ pairs with a 10-min day.
 
 **Recovery lengths are specified, not free parameters [B]** (user 2026-09-12):
 
-| Rep length | Float |
-|---|---|
-| 3 min  | 60 s |
-| 6 min  | **60 s** |
-| 10 min | **90 s** |
+| Rep length | Float | Work:rest | Provenance |
+|---|---|---|---|
+| 3 min  | 60 s | **3 : 1** | **[L]** — NOT Bakken; see below |
+| 6 min  | **60 s** | 6 : 1 | **[B]** |
+| 10 min | **90 s** | 6.7 : 1 | **[B]** |
+
+**THE 3-MIN ROW IS NOT [B] AND NEVER WAS — researched 2026-10-26 on his question**
+(*"is it really 60s float for the 3 min intervals?"*). What he relayed on 2026-09-12 was
+**two** values, which is why §5 below says *"on 6- and 10-min sessions the floats are
+specified (60 s / 90 s) [B]"* and *"the float remains negotiable only on the short-rep
+sessions."* `CLAUDE.md` had hardened the 3-min entry into a third sourced rule; corrected
+there 2026-10-26. **The research outcome is that 60 s survives on its own evidence [L],
+so the number does not change — only its justification:**
+
+- **Documented Norwegian-method practice puts 3-min reps at 45–90 s, with 60 s dominant.**
+  The canonical community session set is **10×3 min / 60 s, 5×6 min / 90 s, 3×10 min / 120 s**;
+  one logged programme runs *"10×3 min and 5×6 min, all off of 60 seconds standing"*; another
+  prescribes **60–90 s** across 3-, 6- and 10-min reps alike; a published plan uses **45 s** on
+  8×3 and 10×3. Nothing in practice goes beyond 90 s for a 3-min rep.
+- **The evidence brackets 60 s from below.** A study of 48 trained swimmers and track athletes
+  ran **6–10 bouts of 1–3 min with 60–180 s PASSIVE recovery** and found blood lactate held a
+  **steady state across the whole session**, sustainable for ~20–60 min of session time at
+  stable performance. 60 s is the short end of a range over which steady state still held, on
+  reps of exactly this length. (It did not test recovery duration as a variable, so it bounds
+  rather than optimises.)
+- **Our float is a jog, theirs is often a stand, and that favours us.** Active recovery clears
+  lactate *faster* than passive, so 60 s of jogging is more recovery than the 60 s standing the
+  community sessions use.
+- **Intermittent MLSS work goes tighter still: a 5 : 1 work:rest ratio is what defines the
+  intermittent steady state in running, and short rest pauses RAISE the speed at which steady
+  state occurs** (time to exhaustion ~24% longer intermittent than continuous at the same
+  level). **At 3 : 1 the 3-min float is more generous than that**, which is the mechanism behind
+  prescribing sub-T as intervals at all.
+- **SO THE CONCERN INVERTS. By outside standards the 3-min float is the LOOSE one and the
+  10-min float is the tight one** — 90 s against the 120 s of the only source that scales
+  explicitly, and 6.7 : 1 against the 5 : 1 of the intermittent-MLSS literature. The 10-min
+  session being hardest, which §7 already argues from this arithmetic, is corroborated. **Not
+  changing it: it is [B].**
+
+**BAKKEN'S OWN MENU CORROBORATES THE §2 PACE TIERING, which is the more useful finding [L].**
+His staples are **5×6 min at 2.5 mmol and 5×2000 m at 2.5 mmol** (marathon pace) against
+**10×1000 m at 3.5 mmol and 25×400 m at 3.5 mmol** (10k pace) — i.e. **the short-rep sessions
+are deliberately run at a HIGHER lactate than the long-rep ones.** That is exactly what
+T+3–5 s/km for 1–3 min against T+17–19 for 8–12 min encodes. He publishes no recovery
+durations at all, which is itself the answer to where a sourced 3-min float could have come
+from. **And note the translation rule: 10×1000 m is ~2:35–2:50 per rep for an elite, so
+10×3 min is the duration-matched equivalent for a slower runner — tier by MINUTES, not
+metres**, which §2 and §7 already do.
 
 **The 10-min intervals are the toughest session [B]** (user 2026-09-12). Mechanism:
 they have the **tightest relative recovery** (600 s work : 90 s float = 6.7:1, against
