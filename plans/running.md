@@ -1502,18 +1502,34 @@ duplicated again into coros. i already paid for the tredict yearly plan"*). **Tr
 on a single apply timestamp (08:42:53.524 → .626, a ~100 ms spread = one write), with no duplicates
 anywhere from 10-19 out to 12-31. **COROS holds 17** under one plan: every session doubled **except
 Wed D2 Dips**, in two contiguous `idInPlan` runs — **108-116** (a complete 9) then **117-124** (8).
-W10 relayed once and cleanly as 101-107, so the relay is **not** duplicating systemically; two id runs
-mean two source events. **Conclusion: the week was applied twice.** Tredict replaced its own first copy
-set; COROS kept both batches, which is hard rule 5's additive relay seen from a new angle.
-**The second apply was my fault** — `planned-workout-list` came back empty three times, I reported the
-apply had not landed, and batch 108-116 proves it had. **Diagnose an empty calendar against COROS, not
-Tredict**, and verify pushes there too: the 10-26 read-back passed on all 9 Tredict steps and never
-looked at COROS. **No API fix exists:** the COROS plan library is **empty** (statusList `[0,1,2]`), so
+W10 relayed once and cleanly as 101-107, so this is not happening on every pass.
+**~~Conclusion: the week was applied twice.~~ STRUCK THE SAME DAY — THE RELAY DID IT, AND THE REPO
+ALREADY SAID SO.** User: *"i think i only applied it once, i only see the singular entries in tredict
+calendar. that leaves the tredict -> coros relay as broken."* Right on both counts. **(1)** My story
+needed Tredict to *replace* its own copies on a re-apply, which contradicts the 2026-08-30 finding that
+a re-apply **adds** a set (16 entries then) — it was inconsistent with the very rule it cited.
+**(2) The sync log's 2026-09-23 row already recorded the relay duplicating three entries by itself**
+(09-23 dips, 09-24 squat, 09-24 run), *"from a SINGLE application — all 9 Tredict entries share one
+updatedAt timestamp, so this was not a double-apply ... I wrongly suggested he had applied twice; he had
+not."* **Same misattribution a month later with the same evidence in hand** — my own log row says "a
+~100 ms spread, i.e. a single apply" two sentences before concluding it was applied twice — and without
+the grep that `verify-claims-about-own-records` exists to force. **(3) The id ordering confirms one
+source list sent twice:** batch A ran [dips, Mon, Sun, Tue, pull-ups, DL, Thu, Fri, squat] — not date
+order — and batch B is that same sequence with its **first** item dropped. That is a pass re-sending the
+window off by one, not a human clicking twice. **So verify a push on COROS, not Tredict:** the 10-26
+read-back passed on all 9 Tredict steps and never looked at the calendar that matters, and a clean
+Tredict calendar is the *expected* state in this failure, not a refutation of it. **No API fix exists:** the COROS plan library is **empty** (statusList `[0,1,2]`), so
 the relay's plan is not an MCP-editable execution record, and the official COROS MCP ships **no delete
 tool**. Cleanup is **8 manual deletions in the COROS app**, and **a 9th (Wed dips) may still arrive** at
 a later resync, since 117-124 is one short of the nine Tredict holds. Cost of leaving them: doubled TL
 estimates (already junk — HRmax unset) and calendar clutter. **The two copies of each run are
 identical, so starting either one is correct** — the training is unaffected.
+**HIS CALL: LEAVE THEM.** *"but maybe its fine, as long as at least one session is in coros calendar itll
+show up in my watch."* Correct, and it is the cheap answer: the watch shows the right session whichever
+copy he opens, and reviews read *executed* activities rather than planned entries, so no analysis is
+touched. **Do not push cleanup.** The live test of whether the relay re-sends on *every* pass: ids
+**>=125** appearing in the window. At 17 entries / max id 124 on two reads ~20 min apart, no third pass
+had fired yet.
 
 ## Weeks 11-13 (of 2026-10-26, 11-02, 11-09) — 45 km, the step
 

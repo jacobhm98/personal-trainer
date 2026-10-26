@@ -31,25 +31,36 @@ Claude Code-driven training pipeline: strength plan (Google Sheet) and running p
    rather than moving the first (learned 2026-08-30: produced 16 entries, all 8 stale
    ones stranded on COROS). Fix a wrong start date with `planned-workout-change-date`
    on each entry instead, while it is still inside the 7-day window.
-   **AND THE SAME PLAN APPLIED TWICE TO THE SAME START DATE LEAVES TREDICT CLEAN WHILE
-   DOUBLING COROS** (found 2026-10-26 on W11, when the user asked why it was duplicated
-   again). Tredict replaced its own first copy set — **9 entries, one apply timestamp, no
-   duplicates anywhere from 10-19 out to 12-31** — while COROS kept **both** relay batches
-   under one plan: **17 entries**, `idInPlan` **108-116** then **117-124**, one pair per
-   session. W10 relayed once and cleanly (101-107), so this is **not** the relay duplicating
-   systemically; two contiguous id runs mean two source events. Consequences:
-   **(a) A TREDICT READ-BACK CANNOT VERIFY COROS.** End every push verification with
-   `queryTrainingSchedule` on the official COROS MCP over the pushed window and check the
-   count. The 10-26 verification read all 9 Tredict steps, passed, and never looked at COROS.
-   **(b) NEVER REPORT THAT AN APPLY "DIDN'T LAND" OFF A TREDICT READ ALONE** — that call is
-   what caused this. `planned-workout-list` returned empty three times; the apply HAD landed
-   (COROS batch 108-116 proves it), so the user applied a second time. Check COROS before
-   calling a calendar empty.
-   **(c) THERE IS NO API CLEANUP PATH.** The COROS plan library is **empty** (checked
-   statusList `[0,1,2]`), so the relay's plan is not an MCP-editable execution record and
-   `updateTrainingPlan` is out; the official COROS MCP ships **no delete tool** of any kind.
-   Duplicates are removed by hand in the COROS app, and nothing done in Tredict will clear
-   them.
+   **THE RELAY DUPLICATES ENTRIES ON COROS BY ITSELF, FROM A SINGLE APPLY — TWICE NOW, AND
+   A CLEAN TREDICT CALENDAR IS NOT EVIDENCE AGAINST IT.**
+   - **2026-09-23:** three entries duplicated (09-23 dips, 09-24 squat, 09-24 run) from one
+     application; all 9 Tredict entries shared one `updatedAt`. Logged verbatim: *"I wrongly
+     suggested he had applied twice; he had not."*
+   - **2026-10-26 (W11):** **eight** duplicated. Tredict held exactly 9 on a single apply
+     timestamp (08:42:53.524 -> .626) with no strays from 10-19 to 12-31; COROS held **17**
+     under one plan, `idInPlan` **108-116** then **117-124**. The two batches are the **same
+     payload in the same non-date order**: A was [dips, Mon, Sun, Tue, pull-ups, DL, Thu, Fri,
+     squat] and B is that list with its **first** item dropped. One source list, sent twice,
+     the second pass off by one. **User: "i think i only applied it once, i only see the
+     singular entries in tredict calendar. that leaves the tredict -> coros relay as broken."**
+   - **NEVER DIAGNOSE THIS AS A DOUBLE APPLY.** I did it on 09-23 and again on 10-26 — the
+     second time against a repo row that already said so, and against my own log sentence
+     ("a ~100 ms spread, i.e. a single apply") written two sentences earlier.
+     `grep -n duplicat state/sync-log.md` takes seconds, and the
+     `verify-claims-about-own-records` memory exists for exactly this. A one-off double apply
+     IS real and documented (2026-08-30, 16 entries), but **it shows up IN TREDICT**. If
+     Tredict holds one copy per session, the relay did it — do not blame the user's click.
+   - **SO VERIFY A PUSH ON COROS, NOT TREDICT:** end every push with `queryTrainingSchedule`
+     over the pushed window and check the count. The 10-26 verification read all 9 Tredict
+     steps back, passed, and never looked at the calendar that matters; **he found the
+     duplication both times, not me.**
+   - **HIS CALL, 2026-10-26: LEAVE THEM — cleanup is not a priority.** *"as long as at least
+     one session is in coros calendar itll show up in my watch."* The copies are identical, so
+     whichever he opens is the right session, and reviews read *executed* activities, not
+     planned entries. Cost is doubled TL estimates (already junk — HRmax unset) and clutter.
+     **Do not push cleanup.** If he ever asks for it: manual deletion in the COROS app only —
+     the plan library is **empty** (checked statusList `[0,1,2]`), so the relay's plan is not
+     an MCP-editable execution record, and the official COROS MCP ships **no delete tool**.
 
 ## Architecture
 
