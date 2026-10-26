@@ -1497,6 +1497,24 @@ off-axis treadmill entry. (d) The **Fri 11-27 TT** gets comparables that are act
 **Verification is structurally impossible until he applies it** (`planned-workout` reads only
 applied calendar entries) — **read every `targetType` back after the apply.**
 
+**COROS DUPLICATED THE WHOLE WEEK — found 2026-10-26, when he asked** (*"yo why is it fucking
+duplicated again into coros. i already paid for the tredict yearly plan"*). **Tredict holds exactly 9**,
+on a single apply timestamp (08:42:53.524 → .626, a ~100 ms spread = one write), with no duplicates
+anywhere from 10-19 out to 12-31. **COROS holds 17** under one plan: every session doubled **except
+Wed D2 Dips**, in two contiguous `idInPlan` runs — **108-116** (a complete 9) then **117-124** (8).
+W10 relayed once and cleanly as 101-107, so the relay is **not** duplicating systemically; two id runs
+mean two source events. **Conclusion: the week was applied twice.** Tredict replaced its own first copy
+set; COROS kept both batches, which is hard rule 5's additive relay seen from a new angle.
+**The second apply was my fault** — `planned-workout-list` came back empty three times, I reported the
+apply had not landed, and batch 108-116 proves it had. **Diagnose an empty calendar against COROS, not
+Tredict**, and verify pushes there too: the 10-26 read-back passed on all 9 Tredict steps and never
+looked at COROS. **No API fix exists:** the COROS plan library is **empty** (statusList `[0,1,2]`), so
+the relay's plan is not an MCP-editable execution record, and the official COROS MCP ships **no delete
+tool**. Cleanup is **8 manual deletions in the COROS app**, and **a 9th (Wed dips) may still arrive** at
+a later resync, since 117-124 is one short of the nine Tredict holds. Cost of leaving them: doubled TL
+estimates (already junk — HRmax unset) and calendar clutter. **The two copies of each run are
+identical, so starting either one is correct** — the training is unaffected.
+
 ## Weeks 11-13 (of 2026-10-26, 11-02, 11-09) — 45 km, the step
 
 - **W11** | **45 km.** Mon Easy 5.5k · **Tue QUALITY = 10x3min @ 4:32-4:34, 60s float** + **C15 W1 D1 Squat** · Wed **Dips** · Thu Easy 7k · Fri **Quality = 6x6min @ 4:39-4:41, 60s float** + **Deadlift** · Sat **Pull-ups** · **Sun Easy LONG 8.8k, no strides** (retired 2026-10-26)
@@ -1586,5 +1604,7 @@ easy days — only the numbers wait.
   sub-44 "Barcelona" gate** — **retargeted 2026-09-16 to the spring/summer 2027 window**;
   pick the race and date when the base block is done. No timeline pressure before then. Strides dropped from
   all easy runs per user (2026-08-23). Current race shape: **45:46 10k-equivalent (4:35/km)**, from the 09-15 5k TT; re-measured at W12.
-- **Tredict trial ends ~2026-10-17** — before the W10/W11 syncs, and W12 carries the second 5k TT.
-  Decide before then: pay the $49/yr or swap the push layer to Intervals.icu.
+- **Tredict is PAID — resolved 2026-10-26** (*"i already paid for the tredict yearly plan"*). $49 per
+  12 months. The Intervals.icu swap is off the table and the push layer stays as it is. **This had
+  nothing to do with the COROS duplication** — both relay batches went through a working, paid
+  integration; the duplication came from a double apply, not from billing or a lapsed trial.

@@ -31,6 +31,25 @@ Claude Code-driven training pipeline: strength plan (Google Sheet) and running p
    rather than moving the first (learned 2026-08-30: produced 16 entries, all 8 stale
    ones stranded on COROS). Fix a wrong start date with `planned-workout-change-date`
    on each entry instead, while it is still inside the 7-day window.
+   **AND THE SAME PLAN APPLIED TWICE TO THE SAME START DATE LEAVES TREDICT CLEAN WHILE
+   DOUBLING COROS** (found 2026-10-26 on W11, when the user asked why it was duplicated
+   again). Tredict replaced its own first copy set — **9 entries, one apply timestamp, no
+   duplicates anywhere from 10-19 out to 12-31** — while COROS kept **both** relay batches
+   under one plan: **17 entries**, `idInPlan` **108-116** then **117-124**, one pair per
+   session. W10 relayed once and cleanly (101-107), so this is **not** the relay duplicating
+   systemically; two contiguous id runs mean two source events. Consequences:
+   **(a) A TREDICT READ-BACK CANNOT VERIFY COROS.** End every push verification with
+   `queryTrainingSchedule` on the official COROS MCP over the pushed window and check the
+   count. The 10-26 verification read all 9 Tredict steps, passed, and never looked at COROS.
+   **(b) NEVER REPORT THAT AN APPLY "DIDN'T LAND" OFF A TREDICT READ ALONE** — that call is
+   what caused this. `planned-workout-list` returned empty three times; the apply HAD landed
+   (COROS batch 108-116 proves it), so the user applied a second time. Check COROS before
+   calling a calendar empty.
+   **(c) THERE IS NO API CLEANUP PATH.** The COROS plan library is **empty** (checked
+   statusList `[0,1,2]`), so the relay's plan is not an MCP-editable execution record and
+   `updateTrainingPlan` is out; the official COROS MCP ships **no delete tool** of any kind.
+   Duplicates are removed by hand in the COROS app, and nothing done in Tredict will clear
+   them.
 
 ## Architecture
 
