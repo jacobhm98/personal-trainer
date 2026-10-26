@@ -1471,9 +1471,29 @@ covering 12.8-13.0), belt speed in the **title** as the warning surface; **float
 deliberately OPEN** (padding, loose pace hint, no zone type) so they never alert on a correctly run
 session; easy runs `heartrate` **135±10 = 125-145** with a pace value alongside purely so Tredict can
 compute distance; warm-ups **125±20 = 105-145**, floor wide so it cannot alert while HR climbs.
-**`subSportType: "treadmill"` deliberately NOT set** — he is travelling and the venue is uncertain,
-the bands apply at both venues (his call 10-19), and **time-based steps are correct either way**
-while a wrong subSportType would not be. Runs at 09:00, lifts at 19:00.
+**`subSportType: "treadmill"` deliberately NOT set** — and that call was vindicated within the hour:
+**he confirmed 2026-10-26 that the whole week goes OUTDOORS** (*"ill probably be doing all these
+outside"*) **and mostly FLAT** (*"ill be running mostly flat"*). The bands apply at both venues (his
+call 10-19) and **time-based steps are correct either way**, so the prescription needed no change.
+Runs at 09:00, lifts at 19:00.
+**PADDING STAYS TIGHT at ±3 s/km because the ground is flat.** That window was sized for a belt,
+where it is generous; on rolling terrain it would alert on every gradient and invite chasing pace
+uphill, which is the documented failure mode. On the flat it does real work instead.
+**STILL TO FIX AFTER HE APPLIES, via `activity-update` (title + notes only — no rebuild, no
+duplicate):** the two quality titles say *"(belt 13.2 kph)"* / *"(belt 12.9 kph)"* and the step
+notes lead with the treadmill instruction. Cosmetic, but the title is the designated warning
+surface and it currently warns about the wrong venue.
+
+**THIS IS THE FIRST AUDITABLE WEEK SINCE THE BLOCK WENT INDOORS, and that is the real consequence
+of his answer.** Four of W10's five runs were on a belt. (a) **Belt pace is his own typed-in number**
+— the watch reads back what he entered, so the two agree by construction and a miscalibrated belt
+logs its wrong speed just as cleanly; per the 2026-10-01 rule, treadmill execution cannot be audited
+from pace at all. **Outdoors GPS measures it independently**, so the 10x3 and 6x6 can be checked
+against their bands rather than taken on trust. (b) **The thermal confounder disappears**, so the
+three sub-T checks become *interpretable* rather than bounded-at-best — W10's +10.8 bpm spread was
+unattributable partly because indoor heat pushes the same direction as the observation. (c) **Sunday
+yields a genuine decoupling row** on the 08-30 / 09-13 / 10-08 / 10-15 road axis instead of a third
+off-axis treadmill entry. (d) The **Fri 11-27 TT** gets comparables that are actually comparable.
 **Verification is structurally impossible until he applies it** (`planned-workout` reads only
 applied calendar entries) — **read every `targetType` back after the apply.**
 
