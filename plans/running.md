@@ -1527,14 +1527,23 @@ identical, so starting either one is correct** — the training is unaffected.
 **TRAVEL — BARCELONA UNTIL SUN 11-01, THEN SF (user 2026-10-26).** Monday's run was Barcelona, flat
 seafront, **15:03 CET, low 20s °C**, 6.60 km against 5.5 planned. Hike legs: *"definitely not 100% clear,
 but that's what the easy run is for"* — his call, no action, and consistent with easy-days-easy.
-**Sunday is a travel day, BCN → SF.** Plan unchanged: **8.8 km Sunday morning before the flight** is the
-primary. If the flight kills it, his own options were *"double on saturday or thursday"* — **take
-SATURDAY.** D4 Pull-ups is upper-only and draws nothing from the legs, so the only cost is ~24 h of
-residual leg fatigue from Friday's 6×6 + deadlift. A **Thursday** double would be 7.0 + 8.8 = **15.8 km
-the day before the week's second quality session** — that breaks easy-days-easy by volume and puts both
-the 6×6 and the deadlift top set at risk, and Friday is what the week is built around. **Losing Sunday
-outright costs the step:** 6.60 + 11.43 + 7.00 + 12.04 = **37.07 km against the 45 he asked for**, so the
-make-up run is not optional if the target still stands.
+**SUNDAY IS OUT — THE LONG RUN MOVES TO WED 10-28. His call, 2026-10-26:** *"actually yeah there's no way
+i make the run on sunday, my flight leaves at 0955AM. i think ill target wednesday."* A 09:55 departure
+means leaving for the airport around 07:00, so 8.8 km plus a shower does not fit in front of it — the
+constraint is real and it decides the question. **W11 as it will now run:** Mon easy **6.60** (done) /
+Tue 10×3 **11.43** + D1 Squat PM / **Wed easy long 8.8 AM + D2 Dips PM** / Thu easy **7.00** / Fri 6×6
+**12.04** + D3 Deadlift PM / Sat D4 Pull-ups / Sun travel BCN → SF, no run. **Total 45.87 km — the 45
+target is met.** I ranked Wednesday third (Sun AM > Sat > Wed > Thu) and he took it with a real reason;
+the ranking stands as a record but the decision is **settled — do not re-pitch Saturday.** The named cost
+stays on the books: 8.8 + 7.0 = **15.8 km in the two days before Friday's 6×6**, whose pace band has no
+give, with the deadlift top set on the same day. **Four consequences to hold:** (1) **the decoupling row
+moves to Wednesday** — at 8.8 km it is the week's longest easy run against Thursday's 7.0, and the slot
+follows the longest easy run wherever it lands; (2) at ~66 min it stays **under the ~75 min gate, so
+single band 125-145 with no drift allowance**, exactly as the pushed 11-01 entry already reads; (3) **two
+confounders, both pushing the same direction** — 24 h after the Tue sub-T + squat stack, plus low-20s
+Barcelona heat — so a clean Pa:HR stands by one-directional bounding while a poor one is unattributable;
+(4) **a 5-day running streak, Mon → Fri.** If anything niggles, **Thursday's 7.0 km is the release
+valve** — no lift, no measurement attached, and dropping it still leaves 38.87 km.
 **HEAT at low 20s — a MILD confounder, named rather than waived.** Direction is known: heat raises HR at
 a given pace and widens drift. Anchors (Périard, Eijsvogels & Daanen 2021, via
 `wearable-metrics-reference.md`): a 30-min TT at **32 vs 23 °C** cost **+4 bpm and 6.5% power**, and
@@ -1542,9 +1551,12 @@ Garmin/Firstbeat only start counting heat acclimation above **22 °C** — so lo
 Stockholm road rows sits at the edge, nowhere near the Kigali class. **For Sunday's decoupling row this
 is one-directional bounding:** heat can only push Pa:HR *up*, so a clean number stands on its own while a
 poor one is unattributable. Same logic, doubled, if the run lands on Saturday after the Friday double.
-**NO TREDICT WRITE to move the Sunday entry.** It is HR-governed with a single band and nothing to follow
-on the watch, so a date move buys nothing — and the relay duplicated 8 entries onto COROS today, so every
-extra write is another chance to strand copies. He runs it and reports it.
+**NO TREDICT WRITE to move the 11-01 entry onto 10-28 unless he asks.** A within-window date change is the
+one operation proven to propagate cleanly (08-22/23, and the 09-30 pull-ups move: same id, `updatedAt`
+moved, no duplicate) — but **both of those had ONE copy on COROS and this entry has two**, so what happens
+to a relayed pair when the single Tredict parent moves is unknown, and 10-28 happens to hold the one entry
+the relay did *not* duplicate. The run is HR-governed with a single band and nothing to follow, so the
+calendar entry buys nothing: leave the 11-01 pair to sit unrun, he runs Wednesday by feel and reports it.
 **W12 (of 11-02) CARRIES A 9-HOUR WESTWARD SHIFT** — BCN CET (UTC+1) → SF PST (UTC-8), and US clocks fall
 back on Nov 1 itself. **Recovery numbers are uninterpretable for several days afterwards:** travel is a
 named confounder, so do not read RHR or HRV against the trend until ~11-05.
