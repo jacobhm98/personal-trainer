@@ -192,8 +192,14 @@ until spring/summer 2027** (retargeted 2026-09-16) — autumn/winter is base bui
 block goal ~60 km/wk.
 **Week restructured 2026-09-16 (user's call, from Bakken — two sub-T days plus an X
 session for ambitious recreational runners).** Five runs, in force from W6: **Mon** easy
-recovery, **Tue** sub-T + D1 Squat, **Wed** D2 Dips (no run), **Thu** easy — the week's
-longest run, no lift — **Fri** sub-T + D3 Deadlift, **Sat** D4 Pull-ups, **Sun easy run** (8-14 km). The
+recovery, **Tue** sub-T + D1 Squat, **Wed** D2 Dips (no run), **Thu** easy, no lift
+— ~~the week's longest run~~ **NO LENGTH CLAIM: "the week's longest run" was STRUCK 2026-10-26**
+as a *second* `395fb71` text substitution (the HR half of the same clause was struck 2026-10-08;
+see Key paces above). In his 09-16 design **Sunday was the X session**, so Thursday was trivially
+the longest *easy* run; once the X session was deferred and Sunday became an 8-14 km easy run,
+that stopped being true and was never re-derived. **Sunday's 8-14 km is the only sourced number
+in the pair**, and the decoupling slot follows **the week's longest easy run wherever it lands**,
+not a named day — **Fri** sub-T + D3 Deadlift, **Sat** D4 Pull-ups, **Sun easy run** (8-14 km). The
 **X session is deferred** (2026-09-16) until volume holds ~60 km/wk — two quality days,
 not three, while mileage is the priority. **THE HILL STRIDES THAT STOOD IN FOR IT ARE ALSO
 RETIRED (user 2026-10-26:** *"remove the strides and just go with a regular prescribed long
