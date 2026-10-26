@@ -274,8 +274,18 @@ Minimum you must not get wrong without opening it:
   +17–19 (8–12 min).
 - **Rep length alternates; floats are fixed.** In a two-session week the sessions never
   use the same rep length — one 6-min and one 10-min, with a 3-min session as the
-  occasional minority. Floats are doctrine, not free parameters: **60 s** after 3- and
-  6-min reps, **90 s** after 10-min reps. Both rules have been in §7 since 2026-09-12 and
+  occasional minority. Floats are doctrine, not free parameters — **but only on the
+  long reps: 60 s** after 6-min reps and **90 s** after 10-min reps, both **[B]**.
+  **THE 3-MIN FLOAT IS NOT DOCTRINE AND IS NOT SOURCED** (corrected 2026-10-26, on his
+  question *"is it really 60s float for the 3 min intervals?"*). `sub-threshold-reference.md`
+  says the opposite twice — *"on 6- and 10-min sessions the floats are specified (60 s /
+  90 s) [B]"*, naming **two** values, and *"the float remains negotiable only on the
+  short-rep sessions"* — and §5 makes the 3-min float the **primary adjustment lever**:
+  *"on 3-min sessions, lengthen the float before slowing the pace."* This file had hardened
+  a table entry into a third sourced rule. **60 s stays the default** — at **3:1** it is
+  already the loosest relative recovery of the three staples, against 6:1 for a 6-min rep
+  and 6.7:1 for a 10-min — but it is a choice to defend per session, not a constraint, and
+  on a short-rep session it is the **only** lever, since pace moves only at a TT. Both rules have been in §7 since 2026-09-12 and
   both were broken in one session on 2026-09-23 (a second 6-min session proposed against
   an existing one, then a 3×10 built with 60 s floats). **Steps are immutable after
   creation, so getting this right is a push-time obligation, not a review-time one.**
