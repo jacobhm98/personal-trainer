@@ -265,11 +265,20 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   write off autumn/winter as base building proper").
   - **Until volume holds ~60 km/week, Sunday is an easy run** of 8–14 km — the week's
     second long-ish run alongside Thursday. Two quality days (Tue, Fri), not three.
-  - **Hill strides stay, as the cheap hedge:** **6–8 × 10–15 s hill sprints, full
-    recovery**, tacked onto the end of Sunday's easy run **every other week** (W9, W11,
-    W13, W15). ~5 min of work, too short to produce meaningful lactate, and they hold on
-    to turnover, leg stiffness and economy — the qualities that quietly rot over months of
-    nothing faster than 5:30/km and do not come back quickly.
+  - **HILL STRIDES ARE RETIRED — user's call 2026-10-26:** *"can we also remove the strides
+    and just go with a regular prescribed long run. we arent at the mileage target yet where
+    we can start adding in more intensity."* **They are deferred to the SAME gate as the X
+    session** — volume holding ~60 km/week — which is the consistent position, because the
+    strides only ever existed as the stand-in for that deferred session. His reasoning applies
+    to the stopgap exactly as it applies to the thing it stood in for, and I had kept the
+    stopgap while accepting the gate on the session. **Nothing is lost in practice: both
+    scheduled instances were overwritten anyway** — W9's Sunday absorbed the deferred 5k TT
+    and W10's became a 5 h hike — so the doctrine had never once executed.
+    **Superseded:** *"Hill strides stay, as the cheap hedge: 6–8 × 10–15 s hill sprints, full
+    recovery, tacked onto the end of Sunday's easy run every other week (W9, W11, W13, W15).
+    ~5 min of work, too short to produce meaningful lactate, and they hold on to turnover, leg
+    stiffness and economy — the qualities that quietly rot over months of nothing faster than
+    5:30/km and do not come back quickly."*
   - **Trigger to reinstate the X session: three consecutive weeks at ~60 km with sessions
     feeling routine** — a condition, not a date. At that point Sunday converts to
     **45/15s: 2–3 × (10 × 45 s @ ~3k effort, 15 s float), 3 min jog between blocks**, and
@@ -277,9 +286,17 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
     the spring/summer 2027 race build, not this block.
   - **Hills, when they return as full sessions:** 8–12 × 200 m uphill hard, jog down, run
     on effort rather than pace.
-  - **Known consequence, accepted:** apart from the strides and a 5k TT every 5 weeks,
-    this block has nothing above threshold. That is the deliberate cost of buying mileage,
-    and the strides are what keep the door open.
+  - **KNOWN CONSEQUENCE, AND IT GOT LARGER ON 2026-10-26: with the strides retired, the ONLY
+    thing above threshold in this entire block is the 5k TT every 5 weeks.** Stated once, as
+    information, not as an argument — he has chosen it twice now and the choice is coherent:
+    mileage is the priority, and the 09-03 hole this was all meant to close is now reopened
+    **deliberately and with a dated exit** (~60 km/week) rather than by oversight, which is the
+    material difference. Turnover, leg stiffness and economy are the qualities that go
+    unmaintained in the meantime; the 5k TTs are the instrument that would show it, and the
+    11-27 TT is the next read. **Do not re-pitch the strides.**
+    **Superseded:** *"apart from the strides and a 5k TT every 5 weeks, this block has nothing
+    above threshold. That is the deliberate cost of buying mileage, and the strides are what
+    keep the door open."*
   - **The dedicated long run stays gone** (user 2026-09-16: "we dont need a dedicated long
     run, im not in a marathon block"). **Thursday** is the week's longest run and carries
     the **decoupling measurement**; Sunday is now a close second.
@@ -1391,7 +1408,7 @@ across all four lifts, and the volume repeats 40.
 
 ## Weeks 11-13 (of 2026-10-26, 11-02, 11-09) — 45 km, the step
 
-- **W11** | Mon Easy 6k · **Tue QUALITY = 10x3min @ 4:32-4:34, 60s float** + **D1 Squat** · Wed **Dips** · Thu Easy 10k · Fri Quality 3x10min @ 4:46-4:48 + **Deadlift** · Sat **Pull-ups** · Sun Easy 7k + strides
+- **W11** | **45 km.** Mon Easy 5.5k · **Tue QUALITY = 10x3min @ 4:32-4:34, 60s float** + **C15 W1 D1 Squat** · Wed **Dips** · Thu Easy 7k · Fri **Quality = 6x6min @ 4:39-4:41, 60s float** + **Deadlift** · Sat **Pull-ups** · **Sun Easy LONG 8.8k, no strides** (retired 2026-10-26)
 - **W12/W13** | Mon Easy 6k · Tue Quality 6x6min @ 4:39-4:41 + **D1 Squat** · Wed **Dips** · Thu Easy 10k · Fri Quality 3x10min + **Deadlift** · Sat **Pull-ups** · Sun Easy 7k
 
 **THE 8x3 LANDS IN W11 — user 2026-10-19:** *"when are we doing the 8x3min sub-T sessions?
@@ -1441,7 +1458,7 @@ become one.** W10 is applied and is not being reopened (his call); W11 carries i
   slid C14 W3 into W10, **W11 is C15 W1** (65/75/85%), W12 is C15 W2, W13 is C15 W3, and the
   **7th Week deload moves to W14** — which is also where the block's next 8-10x3 is scheduled, so
   that one lands in the lightest lifting week of the cycle. It also said "D2 Squat"; squat is
-  **D1**. Strides on Sunday in W11 and W13, unchanged.
+  **D1**. ~~Strides on Sunday in W11 and W13~~ — **strides retired 2026-10-26.**
 **Promotion check runs on W12, not W13** — W13 is the lifting deload, so it will feel
 easier for reasons that have nothing to do with running fitness. If W12 felt easier than
 W10, step to 50 at W14. If not, hold 45 and let W13's light lifting help — repeating is
@@ -1457,7 +1474,7 @@ TTs land in **W15** (C16 W2, so its Friday deadlift is at 80%, not 95%) and **W2
 and the volume model changed on 09-24; specifying twelve weeks of sessions six months out
 is how that churn happens. Each block gets written when the previous one's promotion check
 passes, which is also when the sub-T bands will have been re-anchored by the intervening
-TT. The shape is fixed — five runs, two quality, strides every other Sunday, growth on the
+TT. The shape is fixed — five runs, two quality, **no strides (retired 2026-10-26)**, growth on the
 easy days — only the numbers wait.
 
 

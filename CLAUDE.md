@@ -195,8 +195,13 @@ session for ambitious recreational runners).** Five runs, in force from W6: **Mo
 recovery, **Tue** sub-T + D1 Squat, **Wed** D2 Dips (no run), **Thu** easy — the week's
 longest run, no lift — **Fri** sub-T + D3 Deadlift, **Sat** D4 Pull-ups, **Sun easy run** (8-14 km). The
 **X session is deferred** (2026-09-16) until volume holds ~60 km/wk — two quality days,
-not three, while mileage is the priority; **6-8 × 10-15 s hill strides** on the end of
-Sunday's run every other week keep turnover alive in the meantime. The **dedicated long run is gone** ("we dont need a dedicated long run, im
+not three, while mileage is the priority. **THE HILL STRIDES THAT STOOD IN FOR IT ARE ALSO
+RETIRED (user 2026-10-26:** *"remove the strides and just go with a regular prescribed long
+run. we arent at the mileage target yet where we can start adding in more intensity"***) and
+are deferred to the SAME ~60 km/week gate.** So **the only thing above threshold in this block
+is the 5k TT every 5 weeks** — a deliberate, dated deferral, not an oversight. **Do not
+re-pitch the strides.** Superseded: *"6-8 × 10-15 s hill strides on the end of Sunday's run
+every other week keep turnover alive in the meantime."* The **dedicated long run is gone** ("we dont need a dedicated long run, im
 not in a marathon block"); Thursday's run carries the decoupling measurement instead, and the full rest day is
 spent to buy it (invariant superseded 2026-09-16).
 **Hard days hard, easy days easy — stacking OUTRANKS protecting a light day
