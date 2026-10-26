@@ -1524,6 +1524,31 @@ tool**. Cleanup is **8 manual deletions in the COROS app**, and **a 9th (Wed dip
 a later resync, since 117-124 is one short of the nine Tredict holds. Cost of leaving them: doubled TL
 estimates (already junk — HRmax unset) and calendar clutter. **The two copies of each run are
 identical, so starting either one is correct** — the training is unaffected.
+**TRAVEL — BARCELONA UNTIL SUN 11-01, THEN SF (user 2026-10-26).** Monday's run was Barcelona, flat
+seafront, **15:03 CET, low 20s °C**, 6.60 km against 5.5 planned. Hike legs: *"definitely not 100% clear,
+but that's what the easy run is for"* — his call, no action, and consistent with easy-days-easy.
+**Sunday is a travel day, BCN → SF.** Plan unchanged: **8.8 km Sunday morning before the flight** is the
+primary. If the flight kills it, his own options were *"double on saturday or thursday"* — **take
+SATURDAY.** D4 Pull-ups is upper-only and draws nothing from the legs, so the only cost is ~24 h of
+residual leg fatigue from Friday's 6×6 + deadlift. A **Thursday** double would be 7.0 + 8.8 = **15.8 km
+the day before the week's second quality session** — that breaks easy-days-easy by volume and puts both
+the 6×6 and the deadlift top set at risk, and Friday is what the week is built around. **Losing Sunday
+outright costs the step:** 6.60 + 11.43 + 7.00 + 12.04 = **37.07 km against the 45 he asked for**, so the
+make-up run is not optional if the target still stands.
+**HEAT at low 20s — a MILD confounder, named rather than waived.** Direction is known: heat raises HR at
+a given pace and widens drift. Anchors (Périard, Eijsvogels & Daanen 2021, via
+`wearable-metrics-reference.md`): a 30-min TT at **32 vs 23 °C** cost **+4 bpm and 6.5% power**, and
+Garmin/Firstbeat only start counting heat acclimation above **22 °C** — so low 20s against the ~15 °C
+Stockholm road rows sits at the edge, nowhere near the Kigali class. **For Sunday's decoupling row this
+is one-directional bounding:** heat can only push Pa:HR *up*, so a clean number stands on its own while a
+poor one is unattributable. Same logic, doubled, if the run lands on Saturday after the Friday double.
+**NO TREDICT WRITE to move the Sunday entry.** It is HR-governed with a single band and nothing to follow
+on the watch, so a date move buys nothing — and the relay duplicated 8 entries onto COROS today, so every
+extra write is another chance to strand copies. He runs it and reports it.
+**W12 (of 11-02) CARRIES A 9-HOUR WESTWARD SHIFT** — BCN CET (UTC+1) → SF PST (UTC-8), and US clocks fall
+back on Nov 1 itself. **Recovery numbers are uninterpretable for several days afterwards:** travel is a
+named confounder, so do not read RHR or HRV against the trend until ~11-05.
+
 **HIS CALL: LEAVE THEM.** *"but maybe its fine, as long as at least one session is in coros calendar itll
 show up in my watch."* Correct, and it is the cheap answer: the watch shows the right session whichever
 copy he opens, and reviews read *executed* activities rather than planned entries, so no analysis is
