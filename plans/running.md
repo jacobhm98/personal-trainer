@@ -298,12 +298,25 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
     above threshold. That is the deliberate cost of buying mileage, and the strides are what
     keep the door open."*
   - **The dedicated long run stays gone** (user 2026-09-16: "we dont need a dedicated long
-    run, im not in a marathon block"). **Thursday** is the week's longest run and carries
-    the **decoupling measurement**; Sunday is now a close second.
+    run, im not in a marathon block").
+    **"THURSDAY IS THE WEEK'S LONGEST RUN" IS STRUCK — it was a text substitution, not a
+    prescription (user 2026-10-26: *"no i dont care about that constraint, it's what you
+    set"*).** This is the **second** clause from `395fb71` to fail the same way: that commit
+    dropped the dedicated 12-18 km long run and rewrote the surrounding text mechanically, so
+    "long" became "Thursday's longest" without re-derivation. The HR half of it was already
+    caught and struck on 2026-10-08; **the length half survived until now and I then presented
+    it back to him as a doctrinal constraint.**
+    **Why it was never true after 09-16:** in his design Sunday was the **X session**, so
+    Thursday was trivially the longest *easy* run. The moment the X session was deferred and
+    Sunday became an **8-14 km easy run**, Thursday stopped being the longest by construction —
+    and nobody re-derived it. **The only sourced number in this pair is Sunday's 8-14 km.**
+    **So: Thursday is an easy run with no length claim attached, and the decoupling slot
+    follows the week's longest easy run wherever it lands** — which is what the slot's own
+    definition already says. At 45 km with two ~12 km quality days that is **Sunday**.
 - Day roles — **restructured 2026-09-16 (user's design), in force from W6.** Supersedes
   the 2026-09-12 four-run week, which this otherwise keeps intact:
   **Mon easy recovery** (no lift, follows Sunday's X); **Tue sub-T AM + D1 Squat PM**;
-  **Wed D2 Dips** (no run); **Thu easy — the week's longest run** (no lift); **Fri sub-T
+  **Wed D2 Dips** (no run); **Thu easy** (no lift — *no length claim; see above*); **Fri sub-T
   AM + D3 Deadlift PM**; **Sat D4 Pull-ups** (no run); **Sun X session**.
   **Five runs, four lifts.** Hard days are **Tue, Fri and Sun**, with Monday's recovery
   run and Thursday's easy run between them.
