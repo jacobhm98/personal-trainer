@@ -1419,6 +1419,64 @@ across all four lifts, and the volume repeats 40.
   entry (`dVW8s3zqPNMZkXwVvLVV2A`, still dated Sun 10-18 — in-window, so
   `planned-workout-change-date` would move it rather than needing a rebuild).
 
+## Week 11 (of 2026-10-26) — **45.0 km, THE STEP.** C15 W1 (65/75/85%) — **PUSHED 2026-10-26, plan `t7o8gYVRN`, 9 entries**
+
+- Mon 10-26 | Easy | **5.5 km**, HR 125-145 — recovery, the day after Sunday's 5 h hike
+- Tue 10-27 | Quality + Lift | WU 2km; **10x(3min @ 4:32-4:34, 60s float)**; CD 1.5km; **~11.6 km**,
+  belt **13.2 kph** + **C15 W1 D1 Squat PM** (5/5/5 @ 106.76 / 123.19 / 139.61, FSL 3x5@106.76)
+  **This is the 8-10x3 he asked for on 10-19** — the short-rep tier's first appearance in the block.
+- Wed 10-28 | Lift | **C15 W1 D2 Dips** (5/5/5 @ BW / +10.0 / +22.0, FSL 5x5@BW) — no run
+- Thu 10-29 | Easy | **7.0 km**, HR 125-145 — no lift. **No length claim attached to this day any
+  more**; see the struck `395fb71` substitution above.
+- Fri 10-30 | Quality + Lift | WU 2km; **6x(6min @ 4:39-4:41, 60s float)**; CD 1.5km; **~12.1 km**,
+  belt **12.9 kph** + **C15 W1 D3 Deadlift PM** (5/5/5 @ 124.96 / 144.19 / 163.41, FSL 3x5@124.96)
+- Sat 10-31 | Lift | **C15 W1 D4 Pull-ups** (5/5/5 @ BW / +0.63 / +11.38, FSL 5x5@BW) — no run
+- Sun 11-01 | Easy | **8.8 km**, HR 125-145 — **the week's longest easy run, carries the decoupling.**
+  **Run outdoors if possible:** it goes back on the same axis as the 08-30 / 09-13 / 10-08 / 10-15
+  road rows, where W10's two treadmill rows do not sit. ~64 min, so **one band, no drift allowance**.
+
+**Why 45 and not a repeat of 40 — his call 2026-10-25, and he corrected me to get there.** W10's
+*running* came in at **30.88 km** and I used that number to argue the step was not earned, having
+in the same breath called the Sunday hike the week's largest aerobic dose and its largest leg load.
+**Those two positions are incompatible and he said so:** *"i also think its unfair to say that the
+15km hike completely doesnt count. with that mileage we would have been at 45km week. so lets aim
+for that next week."* He is right: 30.88 running + 14.38 hiking = **45.26**, the hike was 5:07:34
+of moving time against 3:12:36 for the week's four runs, and 1,036 m of climbing is a larger dose
+than the 9.2 km easy run it replaced by every measure except running-specific impact. **W10 was not
+a down week.** Against **W9's executed 42.16 km** — the last undisrupted week — 45 is **+6.7%**.
+And the step lands on a lifting **W1**, which is where the step-loading doctrine puts step-ups.
+
+**Rep lengths alternate, which is why Friday is a 6x6 and not another 3x10:** the two sessions in a
+week never share a rep length, and the 3-min tier is the occasional minority, so it pairs with the
+6. Weekly sub-T work time is **66 min** (30 + 36), inside the block's 60-76 min range.
+
+**THE 3-MIN FLOAT WAS CHALLENGED AND RESEARCHED, 2026-10-26** (*"is it really 60s float for the 3
+min intervals?"*). **It is not Bakken — it was my extrapolation, and `CLAUDE.md` had hardened it
+into a third sourced rule.** Corrected there and in `sub-threshold-reference.md` §7, which now
+carries the evidence under a new **[L]** tag: documented Norwegian-method practice puts 3-min reps
+at **45-90 s with 60 s dominant**; a 48-athlete study held blood lactate at **steady state on 1-3
+min bouts with 60-180 s PASSIVE recovery**; the intermittent-MLSS literature defines the steady
+state at **5:1**, tighter than our **3:1**; and our float is a jog where the community's is often a
+stand, which favours us since active recovery clears lactate faster. **60 s stands, on evidence
+rather than assertion — and the concern inverts: by outside standards the 10-min float (90 s,
+6.7:1) is the tight one, not the 3-min.** Not changing that one; it is genuinely [B].
+
+**NO STRIDES, and nothing above threshold at all** — retired 2026-10-26 to the same ~60 km/week gate
+as the X session. Consequence stated once in the Norwegian-realignment block above; **do not
+re-pitch.**
+
+**Push construction:** rep steps `durationType: time` + `targetMode: padding` + `targetZoneType:
+"pace"` (10x3 at **273±3** = 4:30-4:36 covering belt 13.0-13.3; 6x6 at **279±3** = 4:36-4:42
+covering 12.8-13.0), belt speed in the **title** as the warning surface; **floats and cool-downs
+deliberately OPEN** (padding, loose pace hint, no zone type) so they never alert on a correctly run
+session; easy runs `heartrate` **135±10 = 125-145** with a pace value alongside purely so Tredict can
+compute distance; warm-ups **125±20 = 105-145**, floor wide so it cannot alert while HR climbs.
+**`subSportType: "treadmill"` deliberately NOT set** — he is travelling and the venue is uncertain,
+the bands apply at both venues (his call 10-19), and **time-based steps are correct either way**
+while a wrong subSportType would not be. Runs at 09:00, lifts at 19:00.
+**Verification is structurally impossible until he applies it** (`planned-workout` reads only
+applied calendar entries) — **read every `targetType` back after the apply.**
+
 ## Weeks 11-13 (of 2026-10-26, 11-02, 11-09) — 45 km, the step
 
 - **W11** | **45 km.** Mon Easy 5.5k · **Tue QUALITY = 10x3min @ 4:32-4:34, 60s float** + **C15 W1 D1 Squat** · Wed **Dips** · Thu Easy 7k · Fri **Quality = 6x6min @ 4:39-4:41, 60s float** + **Deadlift** · Sat **Pull-ups** · **Sun Easy LONG 8.8k, no strides** (retired 2026-10-26)
