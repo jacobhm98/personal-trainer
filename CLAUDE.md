@@ -323,10 +323,19 @@ Minimum you must not get wrong without opening it:
   90 s) [B]"*, naming **two** values, and *"the float remains negotiable only on the
   short-rep sessions"* — and §5 makes the 3-min float the **primary adjustment lever**:
   *"on 3-min sessions, lengthen the float before slowing the pace."* This file had hardened
-  a table entry into a third sourced rule. **60 s stays the default** — at **3:1** it is
-  already the loosest relative recovery of the three staples, against 6:1 for a 6-min rep
-  and 6.7:1 for a 10-min — but it is a choice to defend per session, not a constraint, and
-  on a short-rep session it is the **only** lever, since pace moves only at a TT. Both rules have been in §7 since 2026-09-12 and
+  a table entry into a third sourced rule. **AND THE NUMBER IS NOW 45 s — his call
+  2026-10-27** (*"45seconds is a more suitable rest for this interval length, 1min is what we
+  do for 6min reps, which is literally double the length. lets note this down and do it going
+  forwards"*). **Push 3-min sessions with 45 s floats (work:rest 4 : 1).** His argument is
+  proportionality and it holds: at 60 s a 3-min rep took **3:1** while a 6-min rep takes 6:1
+  and a 10-min 6.7:1, so the shortest rep was getting twice the relative recovery of the
+  staple — and even at 4:1 it stays the most generous of the three. It is also **descriptive,
+  not an escalation**: the 10×3 pushed with 60 s floats was *executed* at 31.5/44.6/44.4/46.7/
+  43.7/44.4/45.7/44.7 s (mean 44.9 s for floats 2–8), so the prescription now matches what he
+  runs. 45 s sits inside documented practice (45–90 s, one published plan at 45 s) and the §7
+  research had already concluded the 3-min float was the loose one of the three. It remains a
+  choice to defend per session, not a constraint, and on a short-rep session it is the **only**
+  lever, since pace moves only at a TT — with the lever now running **upward from 45 s**. Both rules have been in §7 since 2026-09-12 and
   both were broken in one session on 2026-09-23 (a second 6-min session proposed against
   an existing one, then a 3×10 built with 60 s floats). **Steps are immutable after
   creation, so getting this right is a push-time obligation, not a review-time one.**

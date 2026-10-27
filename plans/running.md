@@ -1568,6 +1568,63 @@ touched. **Do not push cleanup.** The live test of whether the relay re-sends on
 **>=125** appearing in the window. At 17 entries / max id 124 on two reads ~20 min apart, no third pass
 had fired yet.
 
+
+### Tue 2026-10-27 EXECUTED — 10×3 min, **CUT AT 9 REPS**, and the float moves to 45 s
+
+**10.86 km / 1:01:21 / avg HR 173 / max 199 / 1,050 kcal**, Barcelona, flat (17 m gain / 20 m loss),
+cadence 169. Planned 11.43 km with 10 reps at 4:32–4:34 and 60 s floats.
+
+| Rep | Pace | vs band 4:32–4:34 | HR |
+|---|---|---|---|
+| 1 | **4:23** | **−9 s/km** | 170 |
+| 2 | 4:32 | in band | 180 |
+| 3 | **4:25** | **−7 s/km** | 186 |
+| 4 | 4:33 | in band | 189 |
+| 5 | 4:35 | −1 s outside, inside the ±3 padding | 191 |
+| 6 | **4:28** | **−4 s/km** | 191 |
+| 7 | 4:32 | in band | 194 |
+| 8 | 4:32 | in band | 193 |
+| 9 | 4:33 | in band | 194 |
+
+Warm-up 2.0 km / 14:26 / HR 141. Cool-down 1.5 km / 10:22 + 0.41 km, HR 170. Rep distance totalled
+**5.996 km** against ~6.66 planned.
+
+**HIS OWN READ IS CONFIRMED BY THE DATA:** *"i also defo went out a little bit too hard."* Rep 1 at
+**4:23 is 9–11 s/km under the band**, and reps 1/3/6 are the only three outside it — all on the fast
+side. Rep mean **4:30.3**, i.e. ~2 s/km faster than the band's fast edge across the whole session. The
+±3 s padding (270–276) should have alerted on all three.
+
+**THE THREE CHECKS.** (1) **Within-rep plateau: NOT SCOREABLE** — 3-min reps give a false pass (§7),
+so no FIT pull was made and none is owed. (2) **Session spread: 14 bpm rep 2 → rep 9** (180 → 194), or
+**8 bpm from rep 3**. There is **no documented anchor for a 10×3** — the table has 5–8 for a 3×10 and
+7–10 for a 6×6, and a figure for this shape has NOT been invented; a row saying so was added to §7.
+What is legible without an anchor: **HR reached a steady state and held it** — reps 5–9 ran
+191/191/194/193/194, flat across the last three — but it held at **191–194, above the derived LTHR
+estimate of 180–184**, with max 199. (3) **Reserve: FAILED, hard, and he acted on it.** Three more reps
+were nowhere near there; he stopped at 9. **That is the abort mechanism working exactly as designed** —
+an in-session decision, which is the one thing the reserve check is for.
+
+**HIS EXPLANATION STANDS AT FACE VALUE:** *"this was first time in a while running outside and also
+doing the 3min reps."* Both are true — the last outdoor quality session was 09-18, and the 3-min tier is
+the deliberate minority in the rotation. **NO PACE CHANGE IS PROPOSED OR IMPLIED.** The band is one week
+old, derived from the measured 10-19 TT (21:04.6 → T-pace 4:29), and moves only at the **Fri 11-27** TT.
+Nothing here argues it was wrong, because he **ran faster than it**, not at it.
+
+**FLOAT → 45 s, going forwards (his instruction).** Recorded in `sub-threshold-reference.md` §7
+("45 s, HIS CALL") and `CLAUDE.md`; the table row is now **45 s / 4 : 1 / [S]**. The decisive detail is
+that the session was pushed with 60 s floats and **executed at 31.5 / 44.6 / 44.4 / 46.7 / 43.7 / 44.4 /
+45.7 / 44.7 s** — mean **44.9 s** for floats 2–8, with only the float after rep 9 running the full 60.
+So the change makes the prescription match what he already runs; it is not an escalation on top of a
+session he cut short. **Next 3-min session is pushed at 45 s.** Friday's 6×6 keeps its 60 s **[B]**.
+
+**Week to date: 6.60 + 10.86 = 17.46 km.** With Wed 8.8 + Thu 7.0 + Fri 12.04 the week lands at
+**45.30 km**, so the 45 target survives the cut rep.
+
+**RHR 7-day rolling 54.2 bpm** (10-21..10-27: 55/54/53/54/54/–/55), flat, 10-26 missing. Nothing to act
+on, and a hard session plus a PM lift *should* move tonight's overnight numbers — that is the intended
+response, not a flag.
+
+**D1 Squat is PM and not yet recorded** — no strength activity on 10-27 as of this review. RPE owed.
 ## Weeks 11-13 (of 2026-10-26, 11-02, 11-09) — 45 km, the step
 
 - **W11** | **45 km.** Mon Easy 5.5k · **Tue QUALITY = 10x3min @ 4:32-4:34, 60s float** + **C15 W1 D1 Squat** · Wed **Dips** · Thu Easy 7k · Fri **Quality = 6x6min @ 4:39-4:41, 60s float** + **Deadlift** · Sat **Pull-ups** · **Sun Easy LONG 8.8k, no strides** (retired 2026-10-26)

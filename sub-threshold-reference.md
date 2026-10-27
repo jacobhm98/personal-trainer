@@ -264,6 +264,7 @@ floats runs ~41 min. Scaling that to the other staples — my figures, not his:
 
 | Session | Duration with floats | Expected spread |
 |---|---|---|
+| 10×3 | ~39 min | **NO ANCHOR — do not invent one** |
 | 3×10 | ~33 min | **5–8** **[C]** |
 | 6×6  | ~41 min | **7–10** **[B]** |
 | 4×10 | ~44.5 min | **7–10** **[C]** |
@@ -276,6 +277,11 @@ figure.
 rather than reps in the severe domain. On **3-min sessions**, lengthen the float before
 slowing the pace — it preserves more of the stimulus. On **6- and 10-min sessions the
 floats are specified (60 s / 90 s) [B]**, so pace is the only lever there.
+**The 3-min baseline is 45 s from 2026-10-27, so this lever now runs upward from 45, not
+from 60.** That is still the correct response to a ratchet with internal plateaus — but
+note that the 10×3 on 2026-10-27 ratcheted 180 → 194 bpm *at* de-facto 45 s floats, and
+the likelier cause there was pace overshoot in reps 1/3/6, not the float. Check the rep
+paces before reaching for the float.
 
 ---
 
@@ -325,7 +331,7 @@ pairs with a 10-min day.
 
 | Rep length | Float | Work:rest | Provenance |
 |---|---|---|---|
-| 3 min  | 60 s | **3 : 1** | **[L]** — NOT Bakken; see below |
+| 3 min  | **45 s** | **4 : 1** | **[S]** — his call 2026-10-27; see below |
 | 6 min  | **60 s** | 6 : 1 | **[B]** |
 | 10 min | **90 s** | 6.7 : 1 | **[B]** |
 
@@ -334,8 +340,10 @@ pairs with a 10-min day.
 **two** values, which is why §5 below says *"on 6- and 10-min sessions the floats are
 specified (60 s / 90 s) [B]"* and *"the float remains negotiable only on the short-rep
 sessions."* `CLAUDE.md` had hardened the 3-min entry into a third sourced rule; corrected
-there 2026-10-26. **The research outcome is that 60 s survives on its own evidence [L],
-so the number does not change — only its justification:**
+there 2026-10-26. **The 2026-10-26 research outcome was that 60 s survived on its own
+evidence [L], changing only its justification — and then the number itself moved on
+2026-10-27. See "45 s, HIS CALL" at the end of this section. The evidence below is the
+basis on which 45 s is inside documented practice rather than an invention:**
 
 - **Documented Norwegian-method practice puts 3-min reps at 45–90 s, with 60 s dominant.**
   The canonical community session set is **10×3 min / 60 s, 5×6 min / 90 s, 3×10 min / 120 s**;
@@ -430,6 +438,37 @@ pace number was only a guide; indoors it is a real control, held by the machine.
 **not** remove altitude: the air is at 1,570 m either way, so the pace adjustment stands.
 Keep the incline fixed (0 or 1%) across sessions or they are not comparable to each other.
 
+
+### 45 s, HIS CALL — 2026-10-27
+
+**The 3-min float is 45 s from 2026-10-27 (work:rest 4 : 1), tagged [S].** His instruction
+after the W11 10×3: *"i also think 45seconds is a more suitable rest for this interval
+length, 1min is what we do for 6min reps, which is literally double the length. lets note
+this down and do it going forwards."*
+
+**His argument is the proportionality one and it is correct.** At 60 s a 3-min rep gets
+**3 : 1** while a 6-min rep gets **6 : 1** — the shorter rep was being handed twice the
+relative recovery of the longer one. 45 s makes it 4 : 1, which moves it toward the 6 : 1
+and 6.7 : 1 of the two [B] staples without passing them: **even at 45 s the 3-min float
+remains the most generous of the three in relative terms.**
+
+**It converges with the evidence block above rather than contradicting it.** That research
+concluded in its own words that *"by outside standards the 3-min float is the LOOSE one"*,
+and documented practice spans **45–90 s** with one published plan already at **45 s**. He
+reached the same conclusion independently, from proportionality rather than from sources.
+
+**And it is descriptive, not an escalation — he had already executed it.** The 2026-10-27
+session was pushed with 60 s floats and the recorded float durations were **31.5, 44.6,
+44.4, 46.7, 43.7, 44.4, 45.7, 44.7 s** (mean of floats 2–8 = **44.9 s**; only the float
+after rep 9 ran the full 60). So this prescription matches what he ran, which is why it does
+not make the next 3-min session harder than the one he just cut short — the pace overshoot
+did that, not the 15 s.
+
+**Open counter-consideration, recorded not acted on:** §5's documented response to a
+ratcheting session is a *longer* float, and that session ratcheted 180 → 194 bpm. It did so
+at 45 s, with the overshoot concentrated in reps 1/3/6 and HR flattening at 191–194 once the
+pace settled — so the pace is the better explanation. If a 3-min session ratchets again from
+*in-band* reps, the float is the lever and it goes up, not down.
 ---
 
 ## 8. Current state (update as tests land)
