@@ -53,7 +53,11 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   every written week schedules a **3×10**, so the TT displaces ~33 min of sub-T, not
   ~44.5 — which makes an all-out 5k a closer swap than the old wording implied) — so the
   week loses a hard session
-  rather than gaining one. No taper, no sharpening, graded at face value; if a TT lands
+  rather than gaining one.
+  **AMENDED 2026-10-28: the TT replaces whatever the Friday ROTATION holds that week, and the
+  rotation does not advance.** From W12 Tuesday's 6×6 is a fixed weekly anchor and Friday cycles
+  3×10 → 3×10 → 10×3 at 2:1, so a TT never costs the anchor and never permanently displaces a
+  rotation position — it pauses it. `sub-threshold-reference.md` §7. No taper, no sharpening, graded at face value; if a TT lands
   on a bad day, that is data too and the next one is five weeks out.
   Schedule — **strictly every 5 weeks, W5/W10/W15** (user 2026-09-16: "dec 6th is a
   completely arbitrary date, lets stick to a schedule instead"):
@@ -154,6 +158,10 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   W14** (W5's became the 5×6 on 09-12). Bakken also prescribes *alternating* rep
   length, so the two weekly sessions never use the same one: a 6-min day pairs with a
   10-min day.
+  **BOTH HALVES OF THAT LAST CLAIM ARE SUPERSEDED 2026-10-28 (his call).** The 6×6 is now the
+  **weekly anchor** and Friday rotates **3×10 : 10×3 at 2:1**, so the 10×3 is no longer a
+  *minority* format and alternation is no longer the generator — it still holds, but only as a
+  consequence. See `sub-threshold-reference.md` §7 and the W12 structure block below.
   **RESOLVED 2026-09-15 by the 5k TT: T-pace 4:40 — his read was right, and every
   placeholder band was conservative. Kept below for history.**
   **UNVALIDATED IN EITHER DIRECTION — do not assume too fast** (revised 2026-09-11
@@ -1448,7 +1456,8 @@ And the step lands on a lifting **W1**, which is where the step-loading doctrine
 
 **Rep lengths alternate, which is why Friday is a 6x6 and not another 3x10:** the two sessions in a
 week never share a rep length, and the 3-min tier is the occasional minority, so it pairs with the
-6. Weekly sub-T work time is **66 min** (30 + 36), inside the block's 60-76 min range.
+6. (**That generator was demoted 2026-10-28** — from W12 the 6×6 is the fixed weekly anchor and
+Friday rotates 3×10 : 10×3 at 2:1. Kept as the record of how W11 was built; W11 is not retro-fitted.) Weekly sub-T work time is **66 min** (30 + 36), inside the block's 60-76 min range.
 
 **THE 3-MIN FLOAT WAS CHALLENGED AND RESEARCHED, 2026-10-26** (*"is it really 60s float for the 3
 min intervals?"*). **It is not Bakken — it was my extrapolation, and `CLAUDE.md` had hardened it
@@ -1627,8 +1636,49 @@ response, not a flag.
 **D1 Squat is PM and not yet recorded** — no strength activity on 10-27 as of this review. RPE owed.
 ## Weeks 11-13 (of 2026-10-26, 11-02, 11-09) — 45 km, the step
 
-- **W11** | **45 km.** Mon Easy 5.5k · **Tue QUALITY = 10x3min @ 4:32-4:34, 60s float** + **C15 W1 D1 Squat** · Wed **Dips** · Thu Easy 7k · Fri **Quality = 6x6min @ 4:39-4:41, 60s float** + **Deadlift** · Sat **Pull-ups** · **Sun Easy LONG 8.8k, no strides** (retired 2026-10-26)
-- **W12/W13** | Mon Easy 6k · Tue Quality 6x6min @ 4:39-4:41 + **D1 Squat** · Wed **Dips** · Thu Easy 10k · Fri Quality 3x10min + **Deadlift** · Sat **Pull-ups** · Sun Easy 7k
+- **W11** | **45 km.** Mon Easy 5.5k · **Tue QUALITY = 10x3min @ 4:32-4:34, 60s float** (as pushed; **45 s from the next 3-min session** — his call 10-27, and he ran these at 44.9 s anyway) + **C15 W1 D1 Squat** · Wed **Dips** · Thu Easy 7k · Fri **Quality = 6x6min @ 4:39-4:41, 60s float** + **Deadlift** · Sat **Pull-ups** · **Sun Easy LONG 8.8k, no strides** (retired 2026-10-26)
+- **W12/W13** | Mon Easy 6k · **Tue QUALITY = 6x6min @ 4:39-4:41, 60s float — THE WEEKLY ANCHOR** + **D1 Squat** · Wed **Dips** · Thu Easy 10k · **Fri QUALITY = the rotation, 3x10min in both** (90s float) + **Deadlift** · Sat **Pull-ups** · Sun Easy 7k
+- **W14** | same shape; **Friday is the rotation's third position — 10x3min @ the then-current band, 45s float** — which lands it in the 7th Week lifting deload, the lightest week of the cycle.
+
+### QUALITY STRUCTURE CHANGED 2026-10-28 — the 6×6 is the weekly ANCHOR, Friday rotates 3×10 : 10×3 at 2:1
+
+**His call, verbatim:** *"fix the plan so that the 6x6's is the session kept constant week to
+week and the 3x10's and 10x3's are what alternate? i think we should do 3x10mins : 10x3mins at
+a ratio of 2:1 weekly. its fine this isnt the case this week."*
+
+- **Tuesday = 6×6 @ 4:39–4:41, 60 s floats, every week.** Friday = the rotation.
+- **Rotation, anchored at W12:** W12 3×10 · W13 3×10 · **W14 10×3** · **W15 TT** · W16 3×10 ·
+  W17 3×10 · **W18 10×3** · W19 3×10 · **W20 TT** · W21 3×10 · **W22 10×3**.
+- **A TT week does not advance the rotation** — it takes that Friday and the rotation resumes
+  where it was. The TTs are 5 weeks apart against a 3-week rotation, so without the pause the
+  collision wanders through all three positions and would quietly thin the 10×3 below 2:1.
+  As it happens **both scheduled TTs land on a 3×10 position, so the rule costs nothing through
+  W22** — it first bites at the W25 TT. **[C]**
+- **W11 stays exactly as it ran** (Tue 10×3 executed and cut at 9, Fri 6×6 pushed) — explicitly
+  waived by him, and both entries are already on the calendar in duplicate. **NO TREDICT WRITE.**
+- **Volume and work-minute effect: none.** A 3×10 and a 10×3 are **both 30 min of work**; the
+  10×3 is ~11.0 km against the 3×10's ~10.8, so a rotation week moves the weekly total by
+  <0.5 km. The 6×6 is 36 min. **Weekly sub-T work time stays 66 min in every week of the
+  rotation**, inside the block's 60–76 min range. Easy days, step loading and the lifting
+  mapping are all untouched — nothing downstream of this needs re-planning.
+- **What actually changes, stated plainly:** **one 3×10 in every three becomes a 10×3.** That is
+  the whole delta. The 6×6 was already written on Tuesday in every forward week, so this
+  codifies the anchor rather than creating it, and the day assignment did not have to move.
+- **Two things get better.** (1) The anchor becomes a real **control session** — same
+  prescription weekly with pace frozen between TTs, so HR spread, float execution and the
+  reserve answer turn into a time series instead of a one-off verdict, which is what the three
+  checks are actually good for now that they carry no pace consequence. (2) The 10×3 goes from
+  *three appearances across the whole block* to a predictable slot, which is the only way a
+  **10×3 spread reference** ever gets built from his own data — §4.2 has none and must not
+  invent one.
+- **One cost, named:** the 3×10 — the longest reps, the most threshold-specific session — drops
+  from weekly to two weeks in three. The *dose* is unchanged at 30 min either way; what thins is
+  exposure to the **10-minute rep itself**, where the reserve question is at its most expensive
+  (a failed reserve check on a 3×10 commits ten minutes a rep against the 10×3's four — the
+  asymmetry recorded for the 10-16 session). Not a reason to revisit it, but it is the trade.
+- **Push-time obligations.** Floats by rep length, and steps are immutable after creation:
+  **10×3 → 45 s [S]** (his call 10-27), **3×10 → 90 s [B]**, **6×6 → 60 s [B]**. Get it right at
+  push time; there is no fix afterwards except a UI edit.
 
 **THE 8x3 LANDS IN W11 — user 2026-10-19:** *"when are we doing the 8x3min sub-T sessions?
 didnt i specify i wanted them to be mixed in sometimes?"* **He was right and the miss was
@@ -1640,7 +1690,9 @@ become one.** W10 is applied and is not being reopened (his call); W11 carries i
 
 - **It replaces TUESDAY's 6x6, not Friday's 3x10** — §7's alternation rule means the week's two
   sessions never share a rep length, so pairing 3-min with 10-min is the only legal placement
-  once it goes in. Tuesday also follows only an easy Monday, where Friday follows the week's
+  once it goes in. (**The rule cited here was demoted to a consequence on 2026-10-28** and is no
+  longer an argument for placement — from W12 the anchor is Tuesday's 6×6 and the 10×3 belongs to
+  the Friday rotation. This stays as W11's reasoning.) Tuesday also follows only an easy Monday, where Friday follows the week's
   longest run, and the fastest session of the three wants the freshest legs.
 - **Band 4:32-4:34** (T-pace 4:29 + the §2 1-3 min offset of 3-5 s/km), watch target **4:33 ±3**,
   **belt 13.2 kph** = 4:32.7/km, inside the band. Float **60 s**, specified not free (§7).
@@ -1688,6 +1740,11 @@ the system working, not a setback.
 See the step-loading table above for the week-by-week volume and lifting mapping. The 5k
 TTs land in **W15** (C16 W2, so its Friday deadlift is at 80%, not 95%) and **W20** (a
 7th Week deload — the lightest lifting week of all, and a good place for a test).
+
+**The QUALITY structure IS specified this far out, because from 2026-10-28 it is a cycle
+rather than a set of numbers.** Tuesday 6×6 every week; Friday 3×10 · 3×10 · 10×3 repeating,
+with a TT week taking a Friday without advancing the rotation: **W16 3×10 · W17 3×10 ·
+W18 10×3 · W19 3×10 · W20 TT · W21 3×10 · W22 10×3.** Only the **paces** wait for the W15 TT.
 
 **Deliberately not written out day by day.** The block endpoint moved twice on 2026-09-23
 and the volume model changed on 09-24; specifying twelve weeks of sessions six months out

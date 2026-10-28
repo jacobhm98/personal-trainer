@@ -313,9 +313,23 @@ Minimum you must not get wrong without opening it:
   RPE**, verified by the within-rep plateau — which needs no HRmax and works at altitude.
 - **Pace is derived, never guessed**: T-pace + 3–5 s/km (1–3 min), +10–12 (4–6 min),
   +17–19 (8–12 min).
-- **Rep length alternates; floats are fixed.** In a two-session week the sessions never
-  use the same rep length — one 6-min and one 10-min, with a 3-min session as the
-  occasional minority. Floats are doctrine, not free parameters — **but only on the
+- **THE WEEK IS A FIXED 6×6 PLUS A 2:1 ROTATION (his call 2026-10-28); floats are fixed.**
+  **Tuesday is always the 6×6**; **Friday rotates 3×10 → 3×10 → 10×3**, repeating, anchored at
+  **W12 (of 11-02)**: W12 3×10 · W13 3×10 · W14 **10×3** · **W15 TT** · W16 3×10 · W17 3×10 ·
+  W18 **10×3** · W19 3×10 · **W20 TT** · W21 3×10 · W22 **10×3**. **A TT week does not consume
+  a rotation slot** — it takes that Friday and the rotation resumes at the same position, so
+  the 2:1 ratio holds over the sessions actually run. Tuesday holds the anchor precisely
+  because the TT already displaces Friday, so the constant survives every TT. **W11 is the
+  exception and is NOT retro-fitted** (*"its fine this isnt the case this week"*). Superseded
+  generator: ~~"in a two-session week the sessions never use the same rep length — one 6-min
+  and one 10-min, with a 3-min session as the occasional minority"~~ — **but it is not
+  violated, only demoted**: 6+10 and 6+3 both still avoid repeating a rep length inside a week,
+  so alternation is now a consequence rather than the rule that builds the week. **The 10×3 is
+  no longer the "minority"** — every third rotation week, which makes the missing 10×3 spread
+  anchor a recurring gap (§4.2: do not invent one) and puts the 45 s float on a regular test
+  cadence. The one thing traded away is 10-minute-rep exposure, from weekly to two weeks in
+  three; work minutes are unchanged, since a 3×10 and a 10×3 are **both 30 min of work**. Full
+  layout and reasoning: `sub-threshold-reference.md` §7. Floats are doctrine, not free parameters — **but only on the
   long reps: 60 s** after 6-min reps and **90 s** after 10-min reps, both **[B]**.
   **THE 3-MIN FLOAT IS NOT DOCTRINE AND IS NOT SOURCED** (corrected 2026-10-26, on his
   question *"is it really 60s float for the 3 min intervals?"*). `sub-threshold-reference.md`
