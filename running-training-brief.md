@@ -239,6 +239,7 @@ progressing.
 | 2026-10-08 | 7.11 km | 7:21/km | **−1.7%** |
 | 2026-10-15 | 8.01 km | 7:57/km | **−5.2%** |
 | 2026-10-22 | 7.76 km | 7:21/km | **+3.6%** · *treadmill, constant belt* |
+| 2026-10-29 | 7.00 km | 7:33/km | **+6.9%** · *easy portion only — a 945 m hard finish excluded* |
 
 **2026-10-08 is logged with a method note, because the raw convention broke on it.** The run
 contained **56 s standing still inside km 7** (FIT speed <0.5 m/s; the timer never paused — one
@@ -296,6 +297,37 @@ discard rather than asterisk. Ask whether a fan was running before reading anyth
 **Note also the convention's halves are slightly contaminated here** — the first half contains km 3
 at 8.35 kph, the tail of the ramp-down, so it is faster by construction and the +3.6% is inflated
 relative to a pure constant-belt comparison. The constant-belt stretch above is the better artifact.
+
+**2026-10-29 CONTAINS TWO DIFFERENT RUNS AND THE ROW COVERS ONLY THE FIRST.** He pressed lap at
+exactly **7.00 km** and then ran **945 m at 5:04/km, HR 169 avg / 182 max** — cadence **168** against
+159–162 for the easy portion, stride length **117 cm** against 80–84, avg power **273** against ~185. **Cause, from him 2026-10-29: boredom.** Unplanned, not a session element and not a pattern — do not plan around it, and do not read it as a request for intensity.
+The logged row is the **7.00 km easy portion** (7:32.8/km @ 141 bpm, Barcelona seafront, 8 m gain /
+18 m descent, so no grade term): halves **7:23.4/km @ 140.5 bpm** then **7:43.9/km @ 143.5 bpm**,
+equal halves of the post-2 km remainder with the odd middle km dropped (km 3–4 vs km 6–7), in the
+series' actual `HR/speed` convention.
+
+**INCLUDING THE FINISH FLIPS THE SIGN, WHICH IS WHY IT IS EXCLUDED.** Computed naively across the
+whole 7.95 km (km 3–5 vs km 6–8) the same run gives **−2.68%** — the surge is far faster than it is
+costly in HR, so it *improves* the ratio and the run would read as "aerobically adapted" when the
+easy running inside it drifted. This is the same failure class as the 10-08 stopped samples and the
+10-15 negative split: one non-steady segment dominates the statistic. **Third convention amendment
+this slot now needs: the measured window must end where the easy running ends.**
+
+**+6.9% IS THE HIGHEST IN THE SERIES, AND IT IS NOT ATTRIBUTABLE.** Against the two outdoor rows at
+comparable distance — 10-08 (7.11 km, −1.7%) and 10-15 (8.01 km, −5.2%, itself a pacing artifact) —
+this is a large move in the unfavourable direction. **Two confounders are present and BOTH push the
+same way as the observation**, so per the §6 rule attribution is impossible and no cause is named:
+(1) **Barcelona, low 20s °C** against the ~15 °C Stockholm road rows — heat raises HR at a given pace
+and widens drift; (2) **fourth consecutive training day** (Mon easy, Tue 10×3 quality, Wed combined
+lift, Thu this run). Report the number, do not read durability from it.
+
+**THE MECHANISM IS WORTH NAMING SEPARATELY, BECAUSE AN HR CAP CHANGES WHAT THIS METRIC MEASURES.**
+Lap HR ran **137 → 142 → 140 → 141 → 142 → 144 → 143** with per-km maxima touching **145–150**, i.e.
+bumping the 145 ceiling repeatedly from km 2 onward, while pace fell **7:10.8 → 7:40.6/km** and
+cadence decayed 164 → 159. Under a cap he does not run a fixed pace and let HR drift; **he slows to
+hold the cap**, so Pa:HR stops being "HR cost of a fixed workload" and becomes "how much pace the cap
+cost him over the hour." That is still a durability signal, but it is a different quantity from the
+constant-belt 10-22 measurement, and the two should not be read as the same axis.
 
 **THE ~75 MIN FIGURE IS MINE AND UNTAGGED, AND THE USER IS RIGHT TO DISMISS IT [C].**
 2026-10-22: *"ye its fine 75 minutes is arbitrary."* **It is.** It appears in five places across
