@@ -1,7 +1,25 @@
 # personal-trainer
 
-Claude Code-driven training pipeline: strength plan (Google Sheet) and running plan
-(`plans/running.md`) are synced to the COROS training calendar via Tredict.
+Claude Code-driven training pipeline: the running plan (`plans/running.md`) is written
+**directly to the COROS training calendar** by the official COROS MCP. The strength plan
+(Google Sheet) is **no longer pushed to any calendar at all**.
+
+> **ARCHITECTURE CHANGED 2026-11-08 — TREDICT IS OUT OF THE WRITE PATH, AND STRENGTH IS OFF
+> THE WATCH.** His call, after the COROS MCP was found to have gained direct calendar writes:
+> *"ok, its fine i think lets just drop the strength from the watch. ill still record them
+> manually."* Two separate decisions in one sentence, both deliberate:
+> 1. **Running is pushed straight to COROS** with `createScheduledWorkout`. No Tredict, no
+>    relay, no manual apply step, no rolling 7-day window — and therefore **no duplication
+>    class and no vanishing entries.** Both of those failure modes were properties of the
+>    relay, and the relay is gone.
+> 2. **Strength is not pushed anywhere.** The COROS MCP cannot author strength (see below),
+>    and the Tredict relay only ever delivered a content-free shell. The calendar entry was
+>    doing nothing the sheet and the week block do not already do. He records a plain
+>    Strength activity himself, exactly as the old protocol already told him to.
+>
+> **Hard rule 5 and the Tredict MCP notes are kept below as LEGACY.** They are not dead
+> letters — they document real incidents, they still govern anything already on the calendar
+> from the old path, and they are what to re-read if the write path ever moves back.
 
 ## Hard rules
 
@@ -19,13 +37,31 @@ Claude Code-driven training pipeline: strength plan (Google Sheet) and running p
    session, sets×reps@kg or paces) and waits for explicit user confirmation before
    creating anything in Tredict.
 4. **Log every push** by appending to `state/sync-log.md`.
-5. **Deletes don't propagate to COROS, and neither does moving a workout out of the
+5. **LEGACY FROM 2026-11-08 — THIS RULE GOVERNS THE TREDICT RELAY, WHICH IS NO LONGER THE
+   WRITE PATH.** Read it for entries pushed before 2026-11-08, and before ever restoring the
+   relay. For new pushes, the COROS MCP notes below govern. **The one line that still applies
+   to everything, old path and new: THERE IS NO DELETE TOOL ANYWHERE. COROS app only.**
+   **Deletes don't propagate to COROS, and neither does moving a workout out of the
    relay window.** Deleting a planned workout in Tredict leaves it on the COROS
    calendar (COROS API limitation; manual removal in the COROS app only). Verified
    2026-08-30: rescheduling 8 entries from the coming week to 2027-01-04 did **not**
    clear them from COROS either — the relay is effectively *additive* over its rolling
    7 days. It pushes what Tredict currently has and never removes what it already sent.
    A within-window date change does propagate (used successfully 2026-08-22/23).
+   **BUT "ADDITIVE" DOES NOT MEAN "RE-SENDS" — IT SENDS EACH ITEM ONCE (2026-11-06).** The
+   relay tracks what it has already delivered. The W12 Friday v2 sat in Tredict on 11-06,
+   inside the window, through **six-plus ~3 h resync cycles**, and COROS stayed empty.
+   **So a missing COROS entry will NEVER appear by waiting** — that was my assumption and it
+   is wrong. Re-check, then fix it actively.
+   **AND A DELIVERED COROS ENTRY CAN VANISH ON ITS OWN — FIRST CASE 2026-11-06.** v2 relayed
+   within 2 minutes of the apply and I verified it on the calendar at 11-05 19:52Z. By
+   11-06 14:55Z the day held **nothing**. He deleted exactly once and it was **v1**
+   (*"well i deleted v1, but not v2"*). Mechanism unknown — a queued app-side delete that
+   caught the day rather than the entry, or a relay reconciliation pass. **Do not assert a
+   cause without new evidence.** What this does NOT overturn: a Tredict delete still does not
+   propagate. What it DOES overturn: "COROS keeps what the relay sent" is falsified, so
+   **a verified push is no longer permanently verified — re-check on the morning of a
+   session that matters.**
    Always prefer *editing* an existing Tredict workout over delete-and-recreate.
    **Never re-apply a plan to fix a wrong start date** — re-applying ADDS a second copy
    rather than moving the first (learned 2026-08-30: produced 16 entries, all 8 stale
@@ -61,22 +97,59 @@ Claude Code-driven training pipeline: strength plan (Google Sheet) and running p
      **Do not push cleanup.** If he ever asks for it: manual deletion in the COROS app only —
      the plan library is **empty** (checked statusList `[0,1,2]`), so the relay's plan is not
      an MCP-editable execution record, and the official COROS MCP ships **no delete tool**.
+   - **THE COROS MCP WRITES DIRECTLY TO THE CALENDAR — USE IT WHEN THE RELAY FAILS
+     (2026-11-06).** `createScheduledWorkout` puts **one standalone workout** on a date with
+     full step structure: sections, interval groups, and per-section absolute targets
+     (`intensityType` 1 = HR bpm, 2 = pace **s/km**, 4 = power W; omit all intensity fields to
+     leave a step with no target, which is how floats and cool-downs stay silent). Date must be
+     today..+90 d. Siblings: `updateScheduledWorkout` (full-course replacement, by date +
+     idInPlan), `createSingleWorkout` (library, no date), `scheduleWorkout`. **This bypasses
+     Tredict, the relay and the entire duplication class** and is the remedy when a session
+     must be on the watch today. Used successfully for the W12 Friday 3x10 — 8 sections,
+     per-rep pace targets, read back byte-exact.
+     Costs to name before using it: it lands as a **standalone**, outside the relayed plan, and
+     **there is still no delete tool**, so moving or removing it is COROS-app-only. Prefer the
+     normal Tredict path when there is time for a relay cycle; this is the rescue path.
+   - **`queryTrainingPlanDetails` IS NOT A WITNESS FOR WHAT IS ON THE CALENDAR.** On 2026-11-06
+     it reported 11-02, 11-03, 11-04 and 11-06 all as `Rest day` while `queryTrainingSchedule`
+     showed real workouts on the first three. The record it returns is flagged *"not a valid
+     execution copy"*. **Decide presence/absence with `queryTrainingSchedule`.**
 
 ## Architecture
 
 ```
-Google Sheet (strength) + plans/running.md
-        → skills (/sync-week; /sync-strength + /sync-running for one-offs)
-        → Tredict MCP (create/schedule workouts)
-        → official COROS Training API (rolling 7 days, resync ~3h; runs AND strength relay)
+plans/running.md
+        → /sync-week
+        → official COROS MCP: createScheduledWorkout, ONE call per session
         → COROS calendar → app → watch
-Reads/analysis: official COROS MCP (EU) + Strava MCP + Tredict MCP
+          [no relay · no apply step · no 7-day window · writable today..+90 d]
+
+Google Sheet (strength)
+        → the week block in plans/running.md  (reference only — pushed NOWHERE)
+        → he records a plain Strength activity on the watch himself
+
+Reads/analysis: official COROS MCP (EU) + Strava MCP + Tredict MCP (READS ONLY now)
 ```
+
+**LEGACY, until ~2026-11-15:** entries relayed by Tredict before 2026-11-08 are still on the
+calendar and still cannot be deleted over the API. Hard rule 5 governs those. Anything pushed
+from 2026-11-09 onward is a COROS standalone and obeys the COROS MCP notes instead.
 
 - Structured **running** workouts reach the watch with pace targets. Targets (pace/HR)
   must be explicitly set on each workout section in Tredict, or they won't show on
   the watch.
-- **Strength DOES relay to the COROS calendar** (verified 2026-08-18, contradicting
+- **STRENGTH IS OFF THE WATCH FROM 2026-11-08 — DO NOT PUSH IT ANYWHERE.** His call. The
+  COROS MCP **cannot author strength**: `sportType` accepts 1 running / 2 cycling / 5 trail
+  running (4 = rest, plans only), and every create tool carries a `strengthBodypart` field
+  documented *"Strength training is not supported; must stay null."* The one path that exists
+  is `scheduleWorkout`, which can place a strength workout that **already exists in the COROS
+  workout library** — and the library is empty, so authoring it would be an app job. Declined:
+  the relayed entry was never more than a shell, so nothing is lost. **The lifting week still
+  gets WRITTEN into the plans/running.md week block** as days + session names so the week is
+  legible; it simply is not pushed. Weights stay in the Google Sheet. He records a plain
+  Strength activity after the session, which is what the protocol below already required.
+  **Historical, and the reason the entry was worth so little:**
+- **Strength DID relay to the COROS calendar** (verified 2026-08-18, contradicting
   Tredict's older run/bike/swim-only docs): misc/strength_training entries pushed
   from Tredict appear on the COROS training schedule with full notes. They open on
   the watch as *followable* sessions, but only as a shell (~4 generic sections, no
@@ -373,7 +446,122 @@ Minimum you must not get wrong without opening it:
 - Runs: `Run W3 Wed 5x1k @4:50`
 - Strength: `531 C13 W2 D1 Squat` — full set×rep@kg table in the workout description.
 
-## Tredict MCP notes (learned 2026-08-17)
+## COROS MCP notes — THE WRITE PATH from 2026-11-08
+
+**Tool surface, as verified 2026-11-06 and 2026-11-08.** Everything here was read off the live
+schemas or exercised; where something is contract-only and untested, it says so.
+
+- **`createScheduledWorkout`** — puts ONE workout on ONE date, **today .. +90 days**. Saves to
+  that date only; **nothing enters the workout library**. Returns `idInPlan`, which is the
+  handle for any later read or edit. **VERIFIED END TO END 2026-11-06** — 8 sections with
+  per-rep pace targets, read back byte-exact. This is the tool we use.
+- **`updateScheduledWorkout`** — edits one standalone scheduled workout by `date` + `idInPlan`.
+  **FULL REPLACEMENT, not a patch:** always `queryScheduledWorkoutDetails` first and modify the
+  course JSON it returns. **VERIFIED WORKING 2026-11-08** — a one-string description fix on the
+  11-10 entry came back with the **same `idInPlan`, all sections intact and no second entry
+  created.** Full replacement behaves as documented.
+  - **THE `editable` GATE IS REAL AND IT IS VERIFIED (2026-11-08):** the 11-06 entry reads back
+    `Editable via MCP: no`, reasons *"already completed"* and *"in the past"*. **Updates reach
+    future, un-started workouts only. Nothing retroactive.**
+  - **It CANNOT move a workout to another date.** App only.
+- **Library layer** — `createSingleWorkout`, `queryWorkoutLibrary`, `queryWorkoutDetails`,
+  `updateWorkoutDetails`, `scheduleWorkout`. Reusable templates, any sport. **His library is
+  EMPTY (verified 2026-11-08) and we do not use it.** Know one thing about it: a scheduled copy
+  is **independent** of its template, so editing the template changes nothing already on a date.
+  `scheduleWorkout` is the ONLY route by which a strength workout could reach the calendar, and
+  it needs the workout authored in the COROS app first.
+- **Plan layer** — `createTrainingPlan` / `updateTrainingPlan`. 4–16 natural weeks, start within
+  **today .. +14 days**, day-granular incremental edits, completed days protected and reported.
+  **NOT USED, deliberately:** one week of standalone workouts is simpler, and a plan object is
+  one more undeletable thing. Reconsider only if we ever want months on the calendar at once.
+
+**THERE IS STILL NO DELETE TOOL. ANYWHERE.** Not scheduled workouts, not library workouts, not
+plans. COROS app only. Combined with "cannot move a date", **the cost of a wrong push is
+unchanged from the Tredict era — get it right at push time.**
+
+**Course schema — the parts we actually use.**
+
+- `sportType` **1 = running** · 2 cycling · 5 trail running · 4 rest (training plans only).
+- `sectionType` **1 warm-up · 2 training · 3 recovery · 4 cool-down.** Inside an interval
+  group's `sets`, only 2 and 3 are allowed.
+- `targetType` **1 distance (m) · 2 time (s)** · 3 climb (m, trail only) · 4 free mode.
+  **Running allows 1/2/4 only.** Integer meters / integer seconds.
+- `intensityType` **1 = HR bpm · 2 = pace s/km · 4 = power W**, set **per section**, never on
+  the course. Pace is **total seconds per kilometre** — 4:47/km = 287.
+- Exactly ONE intensity format per section: `sectionIntensity` (zone 1–6),
+  `intensityPercentStart/End` (% of COROS thresholds), or `intensityValueStart/End` (absolute).
+  **WE USE ABSOLUTE AND ONLY ABSOLUTE** — his COROS thresholds are derived from an HRmax that is
+  still unset, so zones and percentages would be built on the junk documented in
+  `wearable-metrics-reference.md`. Bounds: HR 30–240, pace 120–1499 s/km, power 10–2000 W.
+- **TO LEAVE A STEP WITH NO TARGET, OMIT `intensityType` AND EVERY INTENSITY FIELD TOGETHER.**
+  Never send 0 — a 0 is "provided and invalid". This is how **floats and cool-downs stay
+  silent**, which the 2026-09-18 cool-down amendment requires.
+- Interval groups: `{"intervalGroup": true, "repeats": 1-20, "sets": [...]}`. **No nesting.**
+  The container omits `intensityType`, `targetType`, `targetValue` and all intensity fields —
+  those go on the member sections.
+
+**MOVING OFF TREDICT COST US NOTHING IN PRACTICE.** There are no per-step notes in the COROS
+schema — `Section` has no note field, and the only text anywhere is course-level `courseName`
+and `courseDescription`. Tredict did carry a ≤255-char note on every step, **and he never read
+them** (*"i literally never used the notes"*, 2026-11-08). So this is a difference, not a
+regression, and **it must not be written up as a limitation again.**
+
+**WHAT ACTUALLY REACHES HIM MID-SESSION IS THE TARGET AND THE NAME — THAT IS THE WHOLE LIST.**
+`courseDescription` is read in the app beforehand if at all; treat it as the record of *why* the
+session is shaped the way it is, not as a delivery mechanism for an in-session cue. **If a cue
+has to land while he is running, it goes in the workout NAME** — the same conclusion the
+repurposed-workout rule and the treadmill belt-speed rule reached independently.
+**BUT A PACE CUE IS NOT SUCH A CUE — HIS CALL 2026-11-15:** *"you dont need to add pacing cues
+into the workout names lol."* **The name carries WARNINGS, not targets.** The pace band is
+already delivered by the step structure and shows on the watch screen, so repeating it in the
+name is pure duplication; a `@5:01-5:08` in a title tells him nothing the workout itself is not
+already telling him. **What still belongs there is anything the structure CANNOT express** — a
+repurposed or moved session, a treadmill belt speed, "RUN BY HR, IGNORE THE PACE BAND", a venue
+warning. Those are the cases the rule was written for, and they stand. **Keep names short and
+descriptive — `Run W13 Sun 3x10 sub-T` — and do not re-pitch pace-in-the-title.**
+**THE GENERAL LESSON, WHICH IS THE EXPENSIVE PART: I RECORDED A CAPABILITY AS LOAD-BEARING
+WITHOUT CHECKING WHETHER IT WAS USED.** A feature that exists is not a feature that matters.
+Ask before building a rule around one — see the `dont-record-predictions-as-constraints` memory,
+of which this is the mirror image.
+
+**THE SCHEDULE-LEVEL DISTANCE ESTIMATE UNDERSTATES ANY SESSION WITH UNTARGETED FLOATS — DO NOT
+READ IT AS THE SESSION DISTANCE (2026-11-08).** COROS computes it from the targeted sections
+only, because a step with no pace target yields no derivable distance. The 11-10 6x6 displays
+**11.21 km** (= 2000 + 6x1286 + 1500) against a real **~12.3**; the 11-13 3x10 displays
+**10.10** against **~11.0**. The floats are real running and simply are not counted. **Never
+"fix" this by putting a target on a float** — silent floats are required by the 2026-09-18
+amendment and the estimate is a display field, not the prescription. The same artifact afflicted
+relayed Tredict entries, where it was logged as a staleness bug; it is neither stale nor a bug.
+
+**PACE TARGETS READ BACK, SO A PUSH IS VERIFIABLE END TO END.**
+`queryScheduledWorkoutDetails` returns `intensityType: 2` with absolute `intensityValueStart/End`
+in s/km, no `Degradation:` line, nothing demoted to OPEN. **This is the thing a relayed Tredict
+entry could never do** — see the scope correction in the legacy notes below. **Verify every push
+this way**, and still count the day with `queryTrainingSchedule`.
+
+**GRADE-ADJUSTED EFFORT PACE EXISTS AND WE CANNOT USE IT YET — BUT IT IS THE RIGHT ANSWER TO
+ROLLING-TERRAIN SUB-T.** `intensityType: 3` is COROS Effort Pace: grade-adjusted to the slope
+underfoot, which is exactly what the 2026-11-03 session needed (32 s/km of grade-adjusted spread
+from a single flat pace target) and what the 11-06 out-and-back solved by hand-splitting a rep.
+**Two blockers, both real:** it is **trail running only** (`sportType: 5`), and it accepts
+**only zones or percent ranges of his COROS lactate threshold pace — never an absolute**, which
+puts it back on the unset-threshold problem. **Revisit the moment the COROS profile has a real
+HRmax and threshold pace.** Until then, hand-split reps by gradient.
+
+**Dates resolve in his COROS profile timezone** (UTC if it cannot be determined, and the result
+says so). The 11-06 push landed on the correct date, so it is working — but **re-check after any
+travel**, since this replaces the old Tredict-profile-timezone trap rather than removing it.
+
+**Arg traps that still apply:** dates are **`yyyyMMdd`**, never ISO. On the read tools every
+optional filter is listed `required` — **pass `null`, never `0`.** Both are documented at length
+in the training-review skill and both have cost real time.
+
+## Tredict MCP notes — LEGACY from 2026-11-08 (learned 2026-08-17)
+
+**This is no longer the write path.** Kept because it governs every entry pushed before
+2026-11-08, because the Tredict MCP is still used for reads, and because it is what to re-read
+before ever restoring the relay. **Do not build a new push on anything in this section.**
+
 
 - **Scheduling model**: there is no "create workout on calendar date" tool. The flow
   is `plan-creation` (a reusable plan in "My Own Training Plans", workouts keyed by
@@ -404,8 +592,14 @@ Minimum you must not get wrong without opening it:
   as whole seconds per kilometer` with the work rep *omitted* from the structure and an
   explicit warning not to read that absence as "no target" — and absolute pace values exist
   on those steps only because they were just added, since an OPEN step has nothing to
-  degrade. **The COROS read API cannot render a pace target back**, so the step-level state
-  is not directly inspectable; the watch screen is the only definitive check. Note also that
+  degrade. **The COROS read API cannot render a pace target back on a RELAYED PLAN workout**,
+  so the step-level state of anything pushed through Tredict is not directly inspectable; the
+  watch screen is the only definitive check for those. **Scope corrected 2026-11-06 — this is
+  a property of relayed plan entries, NOT of the COROS API.** An MCP-created *standalone*
+  workout reads back fully: `queryScheduledWorkoutDetails` returned `intensityType: 2` with
+  absolute `intensityValueStart/End` in s/km on every rep, no `Degradation:` line, nothing
+  demoted. So a push made with `createScheduledWorkout` can be verified end to end — the only
+  path that currently can be. Note also that
   the schedule-level **distance estimate goes stale** after an edit (09-29 still read 8.57 km
   against ~10.95 km implied by a 12.0 kph target) — it is a display field, not the
   prescription, so do not read it as evidence either way.

@@ -6,7 +6,7 @@ argument-hint: "[period, default: last 7 days]"
 
 Compare what was planned against what actually happened. **Read-only except for two
 named logs**: the decoupling table in `running-training-brief.md` §5 and
-`state/srpe-log.md` (step 4). It never edits plans, the sheet, or Tredict.
+`state/srpe-log.md` (step 4). It never edits plans, the sheet, or the COROS calendar.
 
 **Read `wearable-metrics-reference.md` before citing ANY watch-derived recovery,
 sleep, HRV or load number.** Most of them are not measurements — see step 3.
@@ -20,7 +20,9 @@ default last 7 days.
    and the strength week from the sync-log (weights are in the logged names/refs —
    don't re-read the sheet unless detail is missing).
 2. Pull execution data — **COROS MCP first** (the watch's own data is the source of
-   truth; do not rely on Tredict for review data, it is the push channel only):
+   truth; never review from planned entries of any kind, only executed activities.
+   **Tredict stopped being the push channel on 2026-11-08** — runs are written straight to
+   COROS now — but the rule it motivated is unchanged and still binding):
    - Official COROS MCP: `querySportRecords`/`getActivityDetail` +
      `queryActivityLapData` for interval splits; **`queryRestingHeartRate`** for the
      RHR series (NOT the summary header in `queryDailyHealthData`, which is a
