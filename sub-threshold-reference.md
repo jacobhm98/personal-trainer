@@ -521,7 +521,7 @@ pace settled — so the pace is the better explanation. If a 3-min session ratch
 |---|---|---|
 | HRmax | **~207** | **PROVISIONAL — raised from ~200 on 2026-10-08 (user's call).** Two independent routes converge: the LTHR row below implies **205–210**, and inverting Bakken's 83–85% tier on the 10-07 6×6 rep mean of 175.0 gives **206–211**. An assumption, not a measurement; the Fri 2026-10-23 TT is the pin. Kept at ~200 before that (user's call 2026-09-15): The 5k TT recorded a peak of only **193**, run outdoors in ~15 °C — cool, so no heat pushing HR up — on wrist optical, which under-reads maximal peaks by 5–15 bpm (§6). That is below the 195 floor observed 2026-08-20, so it neither lowers nor pins the max. Next chance: the W10 5k TT, Fri 2026-10-23. **Provenance corrected 2026-09-18:** the 195 came from `Run W1 Thu 4x1k @4:50` — a **threshold interval session** at 1,600 m, avg HR 178, reps at ~4:47/km — NOT the "altitude recovery jog" an earlier version of this row claimed. Verified sustained from lap data: per-rep max climbed 188 → 192 → 194 → **195**, and the 60 s float after rep 4 *averaged* 191, which no single-sample optical spike could produce. It is the most credible near-max reading on file, and it was reached on a **submaximal** session. **A second 195 (2026-09-06, "Run W3 Sun Long 13k", avg HR 179) is DISCARDED** — the sync log records W3's long run as HR-confounded by alcohol, which is why its decoupling went unlogged, and §6 requires discarding such conclusions outright rather than asterisking them. **One credible 195, not two.** |
 | LTHR | — | **NOT MEASURED, and will not be** — 5k TTs only; the 30-min TT is not scheduled. Golden-zone method unavailable. |
-| VDOT | **44.7 outdoor** · **46.8 treadmill** | **TWO ANCHORS, TWO PURPOSES — do not merge them (2026-10-19).** 44.7 is MEASURED 2026-09-15 on the outdoor route (grade-adjusted 21:57; raw clock 44.3) and remains **the fitness figure**. 46.8 is MEASURED 2026-10-19 on a treadmill (21:04.6, belt 14.2→14.4 kph) and is **a belt anchor only** — it is inflated by the absent air resistance (~2–4% at this pace) and by unknown belt calibration, neither of which Daniels' tables are built for. See §8.2. |
+| VDOT | **44.7 outdoor** · **46.8 treadmill** | **TWO ANCHORS, TWO PURPOSES — do not merge them (2026-10-19).** 44.7 is MEASURED 2026-09-15 on the outdoor route (grade-adjusted 21:57; raw clock 44.3) and remains **the fitness figure**. 46.8 is MEASURED 2026-10-19 on a treadmill (21:04.6, belt 14.2→14.4 kph) and is **a belt anchor only** — it is inflated by the absent air resistance (**~1%, CORRECTED 2026-11-10 — see 8.2; the figure read ~2–4% here until he challenged it**) and by unknown belt calibration, neither of which Daniels' tables are built for. See §8.2. |
 | T-pace | **4:40/km outdoor** · **4:29/km treadmill** | From the two VDOT anchors above. **Prescribe the treadmill value on a belt and the outdoor value outdoors** — they are not alternatives, they describe different venues. See §8.2. |
 | 10k shape | **45:46** | **DERIVED 2026-09-15** — Riegel from the grade-adjusted 5k (raw clock: 46:07). Replaces the unmeasured 47:00 (his August estimate); lands between that and Strava's 44:00. **NOT updated by the 10-19 treadmill TT**, whose Riegel 10k of 43:57 is a belt figure and is not a road prediction — see §8.2. |
 | Easy cap | **≤145 bpm** | **70% of max [B]**, rescaled 2026-10-08 with max 200 → 207. Was ≤140. Applies to every easy/recovery run under ~75 min — **that duration boundary is MINE and untagged until 2026-10-22, tagged [C] now; the user calls it arbitrary and is right.** A soft indication, not a gate. Applies under ~75 min. |
@@ -634,7 +634,8 @@ The watch target widens each band to ±3 s/km, because GPS pace noise is larger 
   done two more reps" was right.
 - **HR side unchanged:** easy ≤140, long ≤150 and the §3 tiers stay provisional on ~200.
   **[SUPERSEDED 2026-10-08 — max rescaled to ~207 on the user's call: easy ≤145, long opens ≤145 and drifts to ~155, sub-T tier 80–87% = 166–180. The §3 tiers are still not prescribed from.]**
-- **Every later TT:** same route, grade-adjusted time, so the series compares to itself.
+- **Every later TT:** ~~same route~~ **same FLAT course from TT3 onward**, grade-adjusted time, so the
+  series compares to itself. **VENUE CHANGED 2026-11-11 — HIS CALL: *"lets push for a 20:30 on a flat course"*. TT3 and every TT after it run a GENUINELY FLAT course (the 6x6 strip: 3 m -> 0 m, reps net +/-2 m, measured from the 11-10 FIT), not the 09-15 route. **COST, NAMED: 09-15 vs 11-27 was going to be the only clean outdoor-to-outdoor pair in the series, and it no longer is** — TT3 becomes a NEW BASELINE rather than a second point on the old one. Worth it: the old route's terrain costs ~10 s and puts its steepest 500 m AT THE FINISH, which is exactly where 09-15 faded; a flat venue removes a confounder that grade adjustment only partly prices, and sub-T describes flat running anyway. **Score flat TTs on CLOCK time — grade-adjusted and clock converge when the course is flat.**
 
 ### 8.2 5k TT record — Mon 2026-10-19, TREADMILL [S]
 
@@ -669,8 +670,10 @@ recommended carrying the treadmill bands for belt sessions and keeping the 09-15
 standby. He overruled it: *"no, these are the new sub-T paces period. the sub-threshold adjustment
 means we can use them for outdoor sessions as well."* **His argument holds.** The §2 offsets are
 deliberate headroom — the 8–12 min band is T+17–19 s/km, so even if a treadmill flatters by the
-full ~2–4% (~8 s/km at this pace), an outdoor rep at 4:46–4:48 still sits at roughly T+9–11, which
-is *another tier's* sub-T offset and not threshold. On top of that the two instruments that police
+full **~1% (~2.5–3 s/km at this pace; this read ~2–4% / ~8 s/km until 2026-11-10)**, an outdoor rep
+at 4:46–4:48 still sits at roughly **T+14–16**, which is *another tier's* sub-T offset and not
+threshold. **The correction makes his call SAFER, not riskier** — the headroom argument he won this
+on was being made against an inflated penalty, and it survives the smaller one with more room. On top of that the two instruments that police
 this — the **within-rep plateau** and the **reserve question** — are venue-independent and need no
 HRmax, and the reserve check is the only one that still decides anything. Carrying two band sets
 would have put a "which set applies today" decision at the gym door on a prescription that is
@@ -681,8 +684,17 @@ diagnostic and NOT a competing prescription:** if the plateau check fails specif
 **WHAT THIS NUMBER IS, AND WHAT IT IS NOT.** It is a **pace anchor**, and a sound one. It is
 **not a fitness measurement** and must not replace VDOT 44.7.
 Four things push the time down and only one of them is fitness:
-- **No air resistance** — worth ~2–4% of metabolic cost at 4:13/km, and Daniels is calibrated on
-  outdoor racing.
+- **No air resistance** — worth **~1% of metabolic cost at 4:13/km** (≈ **2.5–3 s/km**), and Daniels
+  is calibrated on outdoor racing. **CORRECTED 2026-11-10, HIS CHALLENGE:** *"the figure ive seen is
+  closer to 1%, not 4% when converting treadmill to outdoor."* He is right, and the error was mine.
+  The cost of overcoming air resistance scales as **v²** and is ~2% of total metabolic cost at 5 m/s
+  (Pugh 1970; di Prampero) — at his 3.95 m/s that is **~1.2%**. **WHERE THE 2–4% CAME FROM: I
+  conflated two different quantities.** Jones & Doust (1996) is a prescription for a **1% treadmill
+  GRADE**, and a 1% grade costs ~3–4% by the ACSM running equation — so quoting "the 1% convention"
+  as a *cost* triple-counts it. Worse, that convention is itself widely held to overcorrect below
+  ~16 kph, so it was the wrong end of the wrong figure. **ANSWERED 2026-11-11: the belt was at 0%** (*"i ran it at 0%"*),
+  so the ~1% penalty applies in full and the outdoor equivalent of TT2 is **~21:17, VDOT ~46.3**.
+  Had he run at 1% the compensation would already be in the time and the penalty ~0; it is not.
 - **Belt calibration unknown** — the only confounder here whose *sign* is unknown.
 - **The pacing fix**, above.
 - **Actual fitness**, over 34 days of which two weeks were Rwanda at 25–28 km.
@@ -814,12 +826,15 @@ re-anchors them properly.
 | ~~Tue 2026-09-15~~ **DONE** | All-out **5k TT**, outdoors | **21:57 grade-adjusted (22:07 clock) → VDOT 44.7 → T-pace 4:40.** Peak HR 193; HRmax kept ~200 provisional. Full record in §8.1 |
 | **Fri 2026-10-23** (W10) | All-out **5k TT**, outdoors, **same route**, grade-adjusted | Re-anchors T-pace and all §2 bands after W6–W9; another HRmax read. Replaces that week's Friday 3×10 |
 | ~~Tue 2026-09-28~~ | ~~30-min TT~~ — **dropped 2026-09-12** | — (LTHR stays unmeasured) |
-| **Fri 2026-11-27** (W15) | All-out **5k TT**, outdoors, **same route**, grade-adjusted | Re-anchors T-pace and all §2 bands after W11–W14; another HRmax read. Replaces that week's Friday 3×10 |
+| **Fri 2026-11-27** (W15) | All-out **5k TT**, outdoors, **FLAT COURSE (venue changed 2026-11-11)**, **TARGET 20:30 — his call** | Re-anchors T-pace and all §2 bands after W11–W14; another HRmax read. Replaces that week's Friday 3×10. **20:30 ⇒ VDOT ~48.4, i.e. +3.7 on the 09-15 measurement in 73 days = 1 point per 2.8 weeks — ABOVE the top of his own measured bracket (3–6 weeks), and his fastest measured interval was itself inflated by the one-off pacing fix. Recorded as his target with the cost named, not as a prediction.** Pace **4:06/km**; 500 m checkpoint **2:03** (09-15 went through in 1:55 and blew up) |
 
 **Cadence (2026-09-16):** a 5k TT **every 5th week** — W5/W10/W15, then ~Fri 2027-01-01 — replacing that week's **Friday 3×10**
 (**amended 2026-10-28: whatever the Friday rotation holds that week, and the rotation PAUSES rather than advancing** — §7),
 the most intensive sub-T session, so a TT week trades a hard session rather than adding
-one. No taper; graded at face value; same route every time. **The Dec 6 5k that used to
+one. No taper; graded at face value; ~~same route every time~~ **same flat course from TT3 — venue
+changed 2026-11-11, see the TT3 row above.** **THE NO-TAPER POLICY WAS WRITTEN FOR A ROUTINE CHECK AND
+TT3 IS NOW A TARGET ATTEMPT — those want different weeks in front of them. Flagged for the W15 build;
+NOT changed here, because he has not asked for a taper and the policy is his.** **The Dec 6 5k that used to
 end the block was dropped** the same day — the schedule replaced it.
 
 With only the 5k, the **pace** side is measured and the **HR** side stays approximate

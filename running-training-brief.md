@@ -240,6 +240,8 @@ progressing.
 | 2026-10-15 | 8.01 km | 7:57/km | **−5.2%** |
 | 2026-10-22 | 7.76 km | 7:21/km | **+3.6%** · *treadmill, constant belt* |
 | 2026-10-29 | 7.00 km | 7:33/km | **+6.9%** · *easy portion only — a 945 m hard finish excluded* |
+| 2026-11-05 | 9.96 km | 6:44/km | **+3.3%** · *grade-adjusted — 101 of 105 m of climb fell in the second half; raw reads +18.4%* |
+| 2026-11-12 | 10.50 km | 6:49/km | **+2.1%** · *flat (13 m gain); halves are km 3-6 vs 7-10, so the 500 m finish at HR 153 falls outside the split* |
 
 **2026-10-08 is logged with a method note, because the raw convention broke on it.** The run
 contained **56 s standing still inside km 7** (FIT speed <0.5 m/s; the timer never paused — one

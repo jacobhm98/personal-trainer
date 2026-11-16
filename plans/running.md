@@ -67,7 +67,8 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   to a check on 2026-09-16 and dropped the same day once the cadence made its date
   arbitrary. W16 is now an ordinary down week. Each TT returns: 5k time → VDOT → T-pace →
   all three §2 bands, plus an HRmax reading, plus a Riegel 10k-equivalent for the index.
-  Run the **same route** every time and score on **grade-adjusted** time.
+  ~~Run the **same route** every time~~ **— from TT3 (11-27) run the same FLAT course every time** and
+  score on **grade-adjusted** time (which equals clock time on a flat course). **VENUE CHANGED 2026-11-11 — HIS CALL: *"lets push for a 20:30 on a flat course"*. TT3 and every TT after it run a GENUINELY FLAT course (the 6x6 strip: 3 m -> 0 m, reps net +/-2 m, measured from the 11-10 FIT), not the 09-15 route. **COST, NAMED: 09-15 vs 11-27 was going to be the only clean outdoor-to-outdoor pair in the series, and it no longer is** — TT3 becomes a NEW BASELINE rather than a second point on the old one. Worth it: the old route's terrain costs ~10 s and puts its steepest 500 m AT THE FINISH, which is exactly where 09-15 faded; a flat venue removes a confounder that grade adjustment only partly prices, and sub-T describes flat running anyway. **Score flat TTs on CLOCK time — grade-adjusted and clock converge when the course is flat.**
 - **SIGNAL SPLIT (user 2026-09-12): easy + long runs run off HR; sub-T runs off pace.**
   Sub-T HR tiers become a **post-hoc review check, not something he watches mid-rep**.
   **And the pace itself moves ONLY at a TT (user 2026-10-09)** — *"i think the hr checks
@@ -852,6 +853,39 @@ but a **7-week supercycle** (3 + 3 + 7th Week deload); that extra week inserts a
 offset every six lifting weeks, so fixed 3-week plateaus would drift until step-ups landed
 on 95% weeks. The **4-week plateaus absorb the deload in their final week**.
 
+> ### THERE IS A GOAL RACE NOW — SF MARATHON, Sun 2027-07-25 (registered 2026-11-08)
+>
+> The 50th edition. **~37 weeks out as of 2026-11-08.** This supersedes *"no race until
+> spring/summer 2027"* wherever it appears — the window is unchanged, the date is now fixed.
+>
+> **Course, researched 2026-11-08.** Roughly **1,300 ft / 400 m of gain, net zero**; sources
+> range 990–1,700 ft because the course has changed and everyone measures differently. The
+> total matters less than the shape: **the climbing is heavily front-loaded, and over a third
+> of it sits in three miles — 6 (up onto the Golden Gate Bridge), 10 (Presidio) and 12 (27th
+> Ave).** The bridge is an out-and-back so it climbs to mid-span twice. **Miles 14–18 are
+> Golden Gate Park** — the ground he already trains on. Mile 16 is the last sustained climb;
+> flatter home from there. Documented failure mode: banking time on the flat first five miles
+> and dying on the bridge. 5:15 start, ~13 °C and fog, high ~19 °C — good racing weather.
+>
+> **VOLUME IS TAKEN WEEK BY WEEK UNTIL 60 km — his call 2026-11-08:** *"i think lets still aim
+> to hit 60km per week at the current structure, preferably by the TT week"* then *"ok lets
+> continue to take it week by week for now, until we hit 60."* Direction is **50 (W13) → 55
+> (W14) → 60 (W15, of 11-23)**, six weeks ahead of the table below. **It is NOT written into
+> that table and the table is NOT re-cut — he declined both.** Push one week at a time and
+> re-decide each time. Arithmetic worth remembering when W15 is built: **a TT week tops out
+> near 57–58 km on five runs**, because the TT day is ~3 km shorter than the quality day it
+> replaces and the long-run rule caps Sunday; reaching a true 60 needs the optional Saturday
+> shakeout, and Thursday should shorten with the long run moving to Sunday so the TT is run on
+> fresh legs.
+>
+> **THE DEDICATED LONG RUN COMES BACK ONCE 60 IS HELD — not before.** *"then we can start doing
+> the marathon block properly with the weekly long run."* This reverses his own 2026-09-16 call
+> (*"we dont need a dedicated long run, im not in a marathon block"*) by circumstance rather
+> than by argument, and it is the single biggest structural change the race brings. Longest run
+> today is **11 km**; a marathon wants ~30–32. At the standing ~1 km/week that arrives around
+> April with months to spare, so **there is no reason to rush it and no reason to start it
+> early.** Do not open the marathon block before 60 km is actually held.
+
 | Wk | of | Running | Lifting |
 |---|---|---|---|
 | W8 | 10-05 | 40 — re-entry | C14 W2 |
@@ -859,15 +893,60 @@ on 95% weeks. The **4-week plateaus absorb the deload in their final week**.
 | **W10** | 10-19 | **45 — step** | **C15 W1** · 5k TT Fri 10-23 |
 | W11 | 10-26 | 45 | C15 W2 |
 | W12 | 11-02 | 45 | C15 W3 |
-| W13 | 11-09 | 45 | *7th Week deload* |
-| **W14** | 11-16 | **50 — step** | **C16 W1** |
-| W15 | 11-23 | 50 | C16 W2 · 5k TT Fri 11-27 |
-| W16 | 11-30 | 50 | C16 W3 |
+| **W13** | 11-09 | **50 — STEP, pulled forward from W14** | **none scheduled — ad-hoc only** |
+| W14 | 11-16 | 50 — hold | **C15 W2** — slid a SECOND time |
+| W15 | 11-23 | 50 — hold (**60 is the stated aim — see the SF note**) | **DECIDE NOW, NOT LATER: C15 W3's 95% vs the TT — see below** · **5k TT Fri 11-27, FLAT COURSE, TARGET 20:30** |
+| W16 | 11-30 | 55 — step? | C16 W1 — **see the staleness note below** |
 | **W17** | 12-07 | **55 — step** | **C17 W1** |
 | W18 | 12-14 | 55 | C17 W2 |
 | W19 | 12-21 | 55 | C17 W3 |
 | W20 | 12-28 | 55 | *7th Week deload* · 5k TT ~Fri 01-01 |
 | **W21** | 01-04 | **60 — step** | **C18 W1** |
+
+**ROWS W16 AND BELOW ARE STALE — DO NOT PLAN OFF THEM WITHOUT RE-DERIVING (2026-11-08).**
+Two independent shifts have knocked the running steps out of phase with the lifting cycle:
+(a) **lifting slid a week** when W12 had no gym access in SF, so C15 W2 moved to W13, C15 W3
+to W14 and the 7th Week deload to W15; (b) **running pulled forward a week** when he took the
+50 km step at W13 instead of W14. The two shifts run in opposite directions, so the table's
+"every step lands on a lifting W1" invariant **no longer holds at W13 and is not guaranteed
+again until it is re-cut.** W13–W15 above are correct and checked; W16 onward is the old
+arithmetic. **Re-derive the whole lower half before planning W16**, and say so rather than
+reading a row off it.
+
+**C15 W2 SLID A SECOND TIME — W13 HAS NO CYCLE WORK EITHER (his call 2026-11-08):** *"i prolly
+wont gym this week either, maybe one or two sessions but ill just do them ad-hoc."*
+
+**Ad-hoc sessions in W13 are MAINTENANCE, NOT C15 W2 — do not log them as cycle work.** One or
+two sessions cannot be a cycle week: running, say, dips and pull-ups would put the two `upper`
+lifts at W2 while squat and deadlift sat at W1, which is precisely what the in-phase rule
+forbids. The 2026-11-02 row reached this same conclusion for the same reason and declined the
+same shortcut. **All four lifts stay at C15 W1 until a week where all four can run.**
+
+**THE STEP WEEK IS THEREFORE RUNNING-ONLY, AND THAT MAKES 50 km EASIER TO DEFEND, NOT HARDER.**
+W12 was 46.79 km against zero lifting; W13 is 50 km against zero-to-two ad-hoc upper sessions.
+Two consecutive running-dominant weeks is the cleanest possible setting for a volume step, and
+the absence of squat and deadlift is exactly what pays for it — the same argument the 2026-11-02
+row made when it kept legs out of the SF outdoor-gym week.
+
+**THE COLLISION DID NOT GO AWAY, IT MOVED — AND IT NOW POINTS AT THE TT.** With C15 W2 at W14,
+**C15 W3's 95% squat and deadlift fall on W15, which is the 5k TT week (Fri 11-27).** Friday is
+both D3 Deadlift and TT day. That is the 2026-10-19 configuration exactly, and it cost a squat
+top set then (3 reps @ 156.04, stacked with the TT). It is also the specific thing the lifting
+mapping was re-cut on 2026-09-24 to avoid — *"the W15 5k TT now lands in C16 W2 rather than
+C16 W3, so that Friday's deadlift is at 80% instead of 95%"* — and two slides have undone it.
+**RECOMMENDATION, TO DECIDE WHEN W14 IS BUILT, NOT NOW: keep W15 lifting-light for the TT and
+put C15 W3 in W16.** **UPGRADED 2026-11-11 FROM A RECOMMENDATION TO THE THING THAT SHOULD BE
+LOCKED FIRST.** He has set TT3 a target (**20:30 on a flat course**) that sits above the top of
+his measured progression bracket. A 95% deadlift on TT morning is the **2026-10-19 configuration
+that already cost a squat top set**, and it is no longer a tidy-schedule question — it is the
+difference between the target being reachable and not. **Lock W15 lifting-light.** The TTs are load-bearing for five weeks of pace bands and deserve fresh
+legs; a one-week deferral of a 95% session costs nothing by comparison. **Do not resolve this
+inside a running push.**
+
+**STANDING, AND SAID ONCE: this is heading for a third consecutive week without cycle work.**
+Running is the priority and wins scheduling conflicts, but lifting is a real goal too and
+should not be written off by accumulation. Worth a deliberate decision at the W14 build rather
+than another default.
 
 **The first step is deliberately unaligned** — W8 is C14 W2, not a W1 — and that is the
 safe one to have out of position, since 40 km is ground already held.
@@ -1634,7 +1713,114 @@ on, and a hard session plus a PM lift *should* move tonight's overnight numbers 
 response, not a flag.
 
 **D1 Squat is PM and not yet recorded** — no strength activity on 10-27 as of this review. RPE owed.
-## Weeks 11-13 (of 2026-10-26, 11-02, 11-09) — 45 km, the step
+## Week 13 (of 2026-11-09) — **50.0 km, THE STEP** (pulled forward from W14). **NO CYCLE LIFTING — ad-hoc only.** **First week written DIRECTLY to COROS — no Tredict, no relay, no apply step.**
+
+- Mon 11-09 | ~~Easy 7.0 km~~ | **MOVED to Wed 11-11** on 11-09 (*"im pretty knackered today"*). Not run.
+- Tue 11-10 | Quality | WU 2.0 km (HR 105-145); **6x(6min @ 4:39-4:41, 60s float)**; CD 1.5 km; **12.3 km**
+  **EXECUTED 9.91 km / 51:38 — cut in the dark after 5 full reps.** **CONFIRMED BY HIM 11-10: the
+  last 3:23 WAS rep 6, started and abandoned; the cool-down was skipped entirely.** So the session
+  ended at ~181 bpm with no cool-down — a consequence of the darkness, not a choice worth repeating.
+  **RESERVE CHECK PASSES CLEANLY: *"yeah i defo had 2 more reps in me"*** — exactly the ~third-of-the-
+  session reserve a 6x6 is supposed to leave. Combined with the paces, the session was **correctly
+  executed and mildly fast**, which is the mildest form of the quality-hot pattern. **No pace
+  consequence — the bands move at the 11-27 TT and nowhere else.**
+  Started 16:47 local against a ~16:55 sunset. **The opening-pace cue WORKED:** rep 1 opened **4:36 /
+  4:39** per 30 s against a 4:39-4:41 target, versus **3:56** in minute one on 11-06. Reps ran
+  **279 / 274 / 277 / 272 / 277 s/km** grade-adjusted (mean ~276 vs the 279-281 band) — **3-5 s/km hot,
+  against 12-16 s/km hot on 11-06.** Venue was genuinely flat (3 m -> 0 m, every rep net +/-2 m), so
+  grade-adjusted and raw agree to 1-3 s. **HR before ~rep 3 is NOT A MEASUREMENT** — two outright
+  dropouts in the warm-up (HR 104 at 6:16/km after 10 min of running) and a 23 bpm fall mid-rep-1 at
+  constant pace. Sensor locks on partway through rep 3; from there reps 4 and 5 plateau cleanly at
+  **181-182**, BELOW the 185-187 the 09-18 session held at a slower 4:51 band. **Session spread is
+  unscoreable** — third time, but the first for sensor rather than heat.
+  **Run the reps on the flat strip** that carried 11-06's reps 1 and 3 — the FIT puts it at
+  **76 m -> 74 m over 2.2 km, never leaving ±1.3%**. W12's Tuesday rolled enough to produce
+  **32 s/km of grade-adjusted spread** off a single pace target; a flat venue removes the problem
+  rather than patching it. *(His route knowledge beats mine here — this is a recommendation.)*
+- Wed 11-11 | Easy | **9.4 km**, HR 125-145 — **Monday's moved 7.0 km + the 2.4 km Tuesday lost to
+  darkness.** Pushed 11-10 on his instruction (*"will make up the lost miles tomorrow... so i dont
+  lose mileage"*). 63-66 min, under the ~75 min gate, so **one band and no drift allowance**.
+  **The 2.4 km is easy running and does NOT replace the missing sub-T rep** — see the Tuesday line.
+  Ad-hoc gym if it happens.
+- Thu 11-12 | Easy | **11.0 km**, HR 125-145 — **the week's longest easy run, carries the decoupling.**
+  ~74 min at W12 Thursday's 6:44/km, so **one band and no drift allowance** — but it sits ~1 min
+  under the ~75 min gate, and W14's long run will cross it properly.
+- Fri 11-13 | Quality + Lift | **IDENTICAL TO 11-06 — same route, same splits, same targets, deliberately.**
+  WU 2.3 km (HR 105-145); **rep 1 10min @ 4:44-4:50**; 90s float; **rep 2 = 5min @ 4:03-4:23 descent
+  -> turn -> 5min @ 5:11-5:31 ascent, continuous**; 90s float; **rep 3 10min @ 4:44-4:50**; CD 1.5 km;
+  **11.0 km**
+  **Nothing changed because nothing in the prescription was wrong.** 11-06's splits worked — reps 2a
+  and 2b came back at **4:32 / 4:34 grade-adjusted**, i.e. one effort across the turn. The session
+  failed on **execution, in the opening 90 seconds**, so repeating it unchanged makes the opening
+  the only variable.
+- Sat 11-14 | ~~— | no run~~ | **BECAME THE EASY RUN — Sat/Sun SWAPPED on his instruction 11-14**
+  (*"we gonna do easy run today... then tomorrow we will do the 3x10 intervals"*). **This was NOT
+  a Fri<->Sun swap: Friday 11-13's 3x10 was never run** (travel Sacramento -> Denver), so Friday's
+  quality landed on Sunday and Sunday's easy run moved up to Saturday.
+  **EXECUTED 9.56 km / 1:10:39, 7:23/km, avg HR 149.** Over distance, and **4 bpm over the 145
+  cap on average** — the third easy run in a row to finish or sit above it. **Altitude: Denver
+  ~1,609 m.** Against Thursday's Sacramento 6:49/km at HR 143, that is **34 s/km slower at 6 bpm
+  higher** — the altitude tax showing up in **exercising HR at a fixed workload**, which is
+  exactly where `wearable-metrics-reference.md` says to look for it (resting HR and HRV have a
+  published null at this elevation).
+- Sun 11-15 | ~~Easy 8.7 km~~ | **BECAME THE 3x10 — see Sat 11-14.** Venue **Aurora Reservoir
+  perimeter trail** (concrete, 8.85 km unbroken, measured 6.2 m net change across a 2 km rep
+  window = 0.31%), chosen over Barr Lake because soft ground would have made the pace target
+  uninterpretable on top of an altitude guess.
+  **EXECUTED 10.76 km / 59:36.** WU 2.0 km; reps **4:50.7 / 4:57.6 / 4:54.7** (grade-adjusted
+  **290 / 295 / 294 s/km**, and grade-adjusted equals raw — reps netted -2 / +1 / -1 m, so the
+  venue measurement held); 90 s floats; CD 1.5 km.
+  **BAND WAS 4:56-5:01, SO ~3-6 s/km HOT, rep 1 worst.** Mild — 11-06 ran 12-16 hot, 11-10 ran
+  3-5. **Band derivation and its correction: see `state/sync-log.md` 2026-11-15** — the first
+  push read 5:01-5:08 and **he was right to reject it** (*"that seems dummy slow"*); it stacked
+  the Kigali +15-20 s/km adjustment, which the files already record as having over-corrected, on
+  top of a higher venue, then took the slow end.
+  **PLATEAU CHECK PASSES — all three reps level off in their second half**, at **179-181 bpm**
+  (rep 3 is textbook: rises 4 min, then flat 179/180/179/179/180/181). Run with `tools/fit_hr.py`,
+  which exists **because this check failed on first attempt** when the parser was sitting in a
+  wiped scratchpad.
+  **THE PLATEAU SITS AT THE LTHR FLOOR (estimate 180-184), NOT BELOW IT.** Rep *averages* of
+  175/176/177 understate this — they are dragged down by the first 2-3 min of each rep. So this
+  was the top edge of sub-T, not the middle.
+  **Session spread 2 bpm** against the 5-8 expected for a 3x10. **Scores "too easy" and is NOT**
+  — floats recovered only to 170/173/**177**, i.e. by float 3 recovery HR equalled rep HR. At
+  altitude HR compresses toward a ceiling, flattening the spread without flattening the effort.
+  Same profile as the Kigali sessions. **No pace consequence either way — bands move at the TT.**
+  **RESERVE CHECK PASSES: *"had another rep in me"*** — exactly the one-more-rep mark a 3x10
+  should leave.
+
+**= 50.0 km as built; = 50.0 km as re-cut after Tuesday** (0 + 9.91 + 9.4 + 11.0 + 11.0 + 0 + 8.7).
+Sub-T work **66 min** as built, **~63.4 min as executed/scheduled** (~33.4 + 30) — still inside the
+60-76 range, so nothing downstream needs re-planning.
+**DAYLIGHT IS A STANDING CONSTRAINT FROM HERE.** Sunset is ~16:55 and falls ~1 min/day to the
+solstice. A 12.3 km session cannot start at 16:47. **W14 must decide this** — earlier start,
+a lit route, or quality moved to a day he can start in daylight — rather than absorbing it again. Long run **9.96 -> 11.0**,
++1.04 km, inside the ~1 km/week constraint.
+
+**THE OPENING-PACE CUE IS THE POINT OF THIS WEEK, AND IT GOES IN THE WORKOUT NAME, NOT THE
+DESCRIPTION** — he does not read descriptions or step notes (*"i literally never used the
+notes"*, 2026-11-08), so the name is the only text that reaches him. 11-06's rep 1 ran **3:56/km in minute one and 4:16 in minute two, on ground that is
+flat** (net -2 m over 2.2 km); minutes 3-10 averaged **4:41**, essentially on target. **The entire
+13 s/km overshoot was the first two minutes.** Rep 2a repeated it at **3:42** against a 4:03-4:23
+target. He read it as terrain — *"it felt like the first rep was mostly downhill so i thought the
+pacing was off"* — and that read is reasonable from inside the session, because **HR was still 156
+at one minute and 172 at two**, so 3:56 genuinely felt free. The cue: **hold the first two minutes
+at target even though it feels absurdly easy, because the HR that would correct you is ~90 seconds
+behind.** Rep 3 is the proof it is learnable — opened 5:14 into a +4.1% ramp, settled, finished at
+**4:48 adjusted, in band**, and it is the only rep whose HR plateaued cleanly.
+
+**WHY 50 NOW — his call 2026-11-08:** *"i think ill target 50km next week actually."* W12 closed at
+**46.79 km executed against a 45.5 plan**, the highest running week in the log, so 50 is **+3.2 km
+on what he actually ran (+6.9%)**, not on what was written. Progression is **RPE-gated, not
+percentage-capped** (2026-09-07) and a ~10%/week ceiling must not be re-proposed.
+**AND THE WEEK IS RUNNING-ONLY, SO +3.2 km IS THE WHOLE LOAD CHANGE** — no lifting in W12, none
+scheduled in W13 (*"i prolly wont gym this week either, maybe one or two sessions but ill just do
+them ad-hoc"*). **Any ad-hoc session is maintenance and is NOT C15 W2;** all four lifts hold at
+C15 W1 until a week where all four can run, per the in-phase rule. If he does lift, ask for an
+RPE at the next review and log it as a standalone `upper`/`legs` row with the session named as
+ad-hoc — **it is still the only record of lifting load there is.**
+
+## Weeks 11-13 (of 2026-10-26, 11-02, 11-09) — 45 km, the step — **W13 SUPERSEDED, see the Week 13 block above (50 km)**
 
 - **W11** | **45 km.** Mon Easy 5.5k · **Tue QUALITY = 10x3min @ 4:32-4:34, 60s float** (as pushed; **45 s from the next 3-min session** — his call 10-27, and he ran these at 44.9 s anyway) + **C15 W1 D1 Squat** · Wed **Dips** · Thu Easy 7k · Fri **Quality = 6x6min @ 4:39-4:41, 60s float** + **Deadlift** · Sat **Pull-ups** · **Sun Easy LONG 8.8k, no strides** (retired 2026-10-26)
 - **W12/W13** | Mon Easy 6k · **Tue QUALITY = 6x6min @ 4:39-4:41, 60s float — THE WEEKLY ANCHOR** + **D1 Squat** · Wed **Dips** · Thu Easy 10k · **Fri QUALITY = the rotation, 3x10min in both** (90s float) + **Deadlift** · Sat **Pull-ups** · Sun Easy 7k
