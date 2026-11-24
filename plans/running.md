@@ -15,7 +15,7 @@ tolerable intensity. Sparked by Bakken's *The Norwegian Method Applied* (2026).
 fall.** The Nov 1 TT (which had briefly replaced the Oct 11 TT) is **scrapped** —
 user's call: a TT is ~2.5 weeks of development budget (sharpening + taper +
 recovery) spent on curiosity. Instead: **build to 55 km/week** (the config
-ceiling at the time; raised 2026-09-16 with the five-run week, then again when the X session was deferred — **block goal now ~60 km/week, reached at W15**) with 2 well-executed sub-T sessions and a progressively growing long run
+ceiling at the time; raised 2026-09-16 with the five-run week, then again when the X session was deferred — **block goal now ~60 km/week, reached at W15** — **STEP PAUSED 2026-11-24, see CONSOLIDATION below: the goal stands, the climb toward it does not**) with 2 well-executed sub-T sessions and a progressively growing long run
 (→ 18 km, capped 2026-09-15), down-weeks roughly every 4th week, until the peak is reached — then
 **one all-out 5k inside a normal down-week** (~Sun 2026-12-06, no taper) to feed
 curiosity, re-anchor the pace bands, refine the HRmax pin, and stamp the fitness-
@@ -875,7 +875,9 @@ on 95% weeks. The **4-week plateaus absorb the deload in their final week**.
 > continue to take it week by week for now, until we hit 60."* Direction is **50 (W13) → 55
 > (W14) → 60 (W15, of 11-23)**, six weeks ahead of the table below. **It is NOT written into
 > that table and the table is NOT re-cut — he declined both.** Push one week at a time and
-> re-decide each time. Arithmetic worth remembering when W15 is built: **a TT week tops out
+> re-decide each time. **PAUSED 2026-11-24 — see the CONSOLIDATION block below. 60 is still the
+> number; it is no longer being walked toward while strength comes back.** Arithmetic worth
+> remembering when W15 is built: **a TT week tops out
 > near 57–58 km on five runs**, because the TT day is ~3 km shorter than the quality day it
 > replaces and the long-run rule caps Sunday; reaching a true 60 needs the optional Saturday
 > shakeout, and Thursday should shorten with the long run moving to Sunday so the TT is run on
@@ -912,6 +914,12 @@ on 95% weeks. The **4-week plateaus absorb the deload in their final week**.
 > | Phase | When | Running | Long run | Lifting |
 > |---|---|---|---|---|
 > | **Base** | Nov–Feb (14 wk) | 55 → **75** | 15 → **26 km** | **full 5/3/1, 4 days, FSL intact** |
+>
+> **THE BASE PHASE OPENS WITH A HOLD, NOT A CLIMB (2026-11-24).** The 55 → 75 above is the
+> phase total, not a weekly instruction: the first few weeks sit flat at ~55–57 while the four-day
+> lifting week is re-established. **That is this table's own lifting column being taken seriously** —
+> "full 5/3/1, 4 days" is the column that has not been true since W12, and it is the one with a
+> closing window. See CONSOLIDATION below.
 > | **Special** | Mar–Apr (8 wk) | 75 → **85** | 26 → **30 km** | **3 days**, FSL dropped on squat/DL |
 > | **Specific** | May–Jun (10 wk) | **85–90** | **26–28 km** (see cap below), **12–16 km at 4:37** | **2 days**, top sets only |
 > | **Taper** | final 3 wk | down | — | **no heavy lower body** |
@@ -974,6 +982,46 @@ on 95% weeks. The **4-week plateaus absorb the deload in their final week**.
 > **OPEN INPUT, ASKED TWICE AND NOT YET ANSWERED: his current weight.** The cut is on, weight
 > matters over 42 km, and `plans/config.md` still carries 80 kg with a note that it is unknown.
 
+> ### CONSOLIDATION — STABILISE THE VOLUME AND BRING STRENGTH BACK (his call, 2026-11-24)
+>
+> **His words: *"we should take some time to stabilize and re-introduce strength training into
+> the routine now. we can stop pushing the mileage up next few weeks."***
+>
+> **WHAT CHANGES: the weekly step stops.** W16 onward **holds at whatever W15 actually
+> delivers (~55–57 km)** until he says otherwise. The *"week by week until 60"* directive of
+> 2026-11-08 is **PAUSED, NOT CANCELLED** — 60 remains the base-block number, it is simply not
+> being chased while strength comes back. **Do not write a step into W16 or W17.**
+>
+> **WHAT COMES BACK: the full four-day 5/3/1 week, every week, as written in the sheet.**
+> Cycle lifting has been absent or ad-hoc since W12 — **five weeks** — and W15 is the first week
+> with all four lifts back on the board. The next few weeks exist to make that stick.
+>
+> **WHY THIS IS THE RIGHT CALL AND NOT A CONCESSION — three things line up behind it:**
+> - **The 3:15 base phase wants heavy lifting NOW.** Eihara 2022: the economy effect is
+>   strongest at ≥90% 1RM and biggest from **10–14 week programmes**, which maps onto
+>   **Nov–February, before running volume crowds lifting out.** An interrupted month of lifting
+>   is the one input in the whole block that cannot be made up later.
+> - **The last three weeks delivered 42 km against a 55 km target.** Travel, an eight-hour
+>   eastward shift and a hot gym cost a quality session in two of them. A number he actually
+>   hits is worth more than one he misses.
+> - **The risk named in the 3:15 plan is a disrupted month, not a bad session.** Consolidation
+>   is the direct countermeasure to the thing most likely to break the target.
+>
+> **WHAT DOES NOT CHANGE.** Five runs; two quality days (Tuesday 6×6 anchor, Friday rotation);
+> hard days hard, easy days easy; run AM, lift PM, six hours apart. **The long run keeps growing
+> ~0.5 km/week** — it is the marathon-specific input and the one thing still progressing. It
+> grows **inside a flat weekly total**, by taking kilometres off the easy days, not on top of them.
+>
+> **THE TRAP THIS CREATES, NAMED IN ADVANCE: holding near 60 km does NOT open the X-session
+> gate.** CLAUDE.md defers the X session — and the retired hill strides — *"until volume holds
+> ~60 km/wk"*. That gate was written when nothing else was competing for a third hard slot.
+> **The third slot is now SPENT, on strength.** Do not re-pitch the X session or the strides off
+> a volume plateau that exists for the opposite reason.
+>
+> **WHEN THIS ENDS: when he says so.** Promotion has always been RPE-gated, not calendar-gated.
+> No automatic resumption of the step, and do not propose one — report what the weeks are
+> delivering and let him call it.
+
 | Wk | of | Running | Lifting |
 |---|---|---|---|
 | W8 | 10-05 | 40 — re-entry | C14 W2 |
@@ -984,7 +1032,7 @@ on 95% weeks. The **4-week plateaus absorb the deload in their final week**.
 | **W13** | 11-09 | **50 — STEP, pulled forward from W14** | **none scheduled — ad-hoc only** |
 | W14 | 11-16 | 50 — hold | **C15 W2** — slid a SECOND time |
 | W15 | 11-23 | 60 — the stated aim · **LONG RUN RETURNS, ON SUNDAY — see `running-training-brief.md` §5 "The marathon long run", researched and agreed 2026-11-15** | **DECIDE NOW, NOT LATER: C15 W3's 95% vs the TT — see below** · **5k TT Fri 11-27, TREADMILL (same belt as TT2), TARGET 20:00 = 15.0 kph** (raised from 20:30 on 11-15 — it is the 5k that sets the 6×6 band at 4:30) |
-| W16 | 11-30 | 55 — step? | C16 W1 — **see the staleness note below** |
+| W16 | 11-30 | **HOLD — no step, ~55–57 (CONSOLIDATION, 2026-11-24)** | **C16 W1 — the four-day week is the week's PRIORITY** |
 | **W17** | 12-07 | **55 — step** | **C17 W1** |
 | W18 | 12-14 | 55 | C17 W2 |
 | W19 | 12-21 | 55 | C17 W3 |

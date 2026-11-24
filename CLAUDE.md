@@ -307,7 +307,7 @@ not a named day — **Fri** sub-T + D3 Deadlift, **Sat** D4 Pull-ups, **Sun easy
 not three, while mileage is the priority. **THE HILL STRIDES THAT STOOD IN FOR IT ARE ALSO
 RETIRED (user 2026-10-26:** *"remove the strides and just go with a regular prescribed long
 run. we arent at the mileage target yet where we can start adding in more intensity"***) and
-are deferred to the SAME ~60 km/week gate.** So **the only thing above threshold in this block
+are deferred to the SAME ~60 km/week gate.** **AND THAT GATE IS NOW CLOSED BY SOMETHING ELSE (2026-11-24): the third hard slot is SPENT ON STRENGTH.** His call — *"we should take some time to stabilize and re-introduce strength training into the routine now. we can stop pushing the mileage up next few weeks."* Volume holds near 60 while the four-day 5/3/1 week is re-established, so **a volume plateau from here is NOT the gate opening** — it exists for the opposite reason. Do not read ~60 km held as permission to add the X session or the strides. Full reasoning: `plans/running.md`, the CONSOLIDATION block above the step table. So **the only thing above threshold in this block
 is the 5k TT every 5 weeks** — a deliberate, dated deferral, not an oversight. **Do not
 re-pitch the strides.** Superseded: *"6-8 × 10-15 s hill strides on the end of Sunday's run
 every other week keep turnover alive in the meantime."* The **dedicated long run is gone** ("we dont need a dedicated long run, im
