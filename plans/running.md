@@ -987,8 +987,8 @@ on 95% weeks. The **4-week plateaus absorb the deload in their final week**.
 > **His words: *"we should take some time to stabilize and re-introduce strength training into
 > the routine now. we can stop pushing the mileage up next few weeks."***
 >
-> **WHAT CHANGES: the weekly step stops.** W16 onward **holds at whatever W15 actually
-> delivers (~55–57 km)** until he says otherwise. The *"week by week until 60"* directive of
+> **WHAT CHANGES: the 5 km step stops.** W16 onward takes its volume **only from the long run's
+> +1 km/week** (see below) — ~57 → 58 → 59 — instead of 5 km jumps. The *"week by week until 60"* directive of
 > 2026-11-08 is **PAUSED, NOT CANCELLED** — 60 remains the base-block number, it is simply not
 > being chased while strength comes back. **Do not write a step into W16 or W17.**
 >
@@ -1013,9 +1013,32 @@ on 95% weeks. The **4-week plateaus absorb the deload in their final week**.
 >   is the direct countermeasure to the thing most likely to break the target.
 >
 > **WHAT DOES NOT CHANGE.** Five runs; two quality days (Tuesday 6×6 anchor, Friday rotation);
-> hard days hard, easy days easy; run AM, lift PM, six hours apart. **The long run keeps growing
-> ~0.5 km/week** — it is the marathon-specific input and the one thing still progressing. It
-> grows **inside a flat weekly total**, by taking kilometres off the easy days, not on top of them.
+> hard days hard, easy days easy; run AM, lift PM, six hours apart.
+>
+> **HOW THE LONG RUN GROWS — HIS CALL, 2026-11-24, AND IT CORRECTS ME:** *"lets not take miles
+> away from the easy runs, we can grow the long run with 1km per week by adding to it. that's a
+> much milder and acceptable form of mileage increase than the 5km weekly jumps weve been
+> targeting."* **The easy days are left alone. The long run takes +1 km/week ON TOP, so the weekly
+> total drifts up ~1 km/week.** This **supersedes** both the *"~0.5 km/wk with a plateau every
+> 4th"* in the 11-23 sync-log row and my own *"inside a flat weekly total, by taking kilometres
+> off the easy days"* written here first.
+>
+> **HE IS RIGHT AND THE ARITHMETIC IS THE ARGUMENT: +1 km on a ~57 km week is +1.8%, against the
+> ~10% a 5 km step costs.** So "stabilise" never meant a frozen total — it meant **stop taking the
+> volume in 5 km jumps.** A continuous 1 km/week creep is a *gentler* ramp than the one being
+> replaced, and it puts every added kilometre into the one session that is marathon-specific
+> instead of spreading it across easy days that are already doing their job.
+>
+> **WHERE IT LANDS:** 15 km (W15) → 16 (W16) → 17 (W17) … **~26 km by mid-February**, which is
+> exactly the base-phase long-run target in the 3:15 table above, reached without a single step
+> week. Weekly totals follow: ~57 → 58 → 59 → **60 around W18 (of 12-14)**, 61, 62 …
+>
+> **TWO THINGS TO WATCH, STATED ONCE AND NOT TO BE RE-PITCHED.** (1) **The weekly total crosses 60
+> around W18 on its own** — that is the base-block number arriving by drift rather than by
+> decision, and it does **not** open the X-session gate (below). (2) **There is no down-week in a
+> continuous +1**, where the block has historically taken one every ~4th week; the long run is also
+> the session most exposed to a travel weekend. **Not a counter-proposal — report it if the long
+> run starts going badly and let him call it.**
 >
 > **THE TRAP THIS CREATES, NAMED IN ADVANCE: holding near 60 km does NOT open the X-session
 > gate.** CLAUDE.md defers the X session — and the retired hill strides — *"until volume holds
@@ -1037,7 +1060,7 @@ on 95% weeks. The **4-week plateaus absorb the deload in their final week**.
 | **W13** | 11-09 | **50 — STEP, pulled forward from W14** | **none scheduled — ad-hoc only** |
 | W14 | 11-16 | 50 — hold | **C15 W2** — slid a SECOND time |
 | W15 | 11-23 | 60 — the stated aim · **LONG RUN RETURNS, ON SUNDAY — see `running-training-brief.md` §5 "The marathon long run", researched and agreed 2026-11-15** | **DECIDE NOW, NOT LATER: C15 W3's 95% vs the TT — see below** · **5k TT Fri 11-27, TREADMILL (same belt as TT2), TARGET 20:00 = 15.0 kph** (raised from 20:30 on 11-15 — it is the 5k that sets the 6×6 band at 4:30) |
-| W16 | 11-30 | **HOLD — no step, ~55–57 (CONSOLIDATION, 2026-11-24)** | **C16 W1 — the four-day week is the week's PRIORITY** |
+| W16 | 11-30 | **NO STEP — easy days held, long run 15 → 16 km, so ~58 (CONSOLIDATION, 2026-11-24)** | **C16 W1 — the four-day week is the week's PRIORITY** |
 | **W17** | 12-07 | **55 — step** | **C17 W1** |
 | W18 | 12-14 | 55 | C17 W2 |
 | W19 | 12-21 | 55 | C17 W3 |
