@@ -671,9 +671,21 @@ before ever restoring the relay. **Do not build a new push on anything in this s
   and on what he tells you (same conclusion `sub-threshold-reference.md` §7 reached from the
   09-24 ramp/pause errors: ask rather than reconstruct). Keep floats and
   cool-downs OPEN; they should never alert.
-  Push treadmill runs as **time-based steps**
+  ~~Push treadmill runs as **time-based steps**
   (`durationType: "time"`; never `distance`, which ends at the wrong moment on a drifting
-  indoor estimate), with **`subSportType: "treadmill"`** and the **belt speed in kph in
+  indoor estimate)~~ — **THE TIME-BASED RULE IS DEAD, KILLED 2026-11-23 BY EVIDENCE AND BY HIM**
+  (*"wtf where did this rule come from. definitely push the kms"*). **Two things were wrong with
+  applying it.** (1) **It lives in this LEGACY section, whose own header says "Do not build a new
+  push on anything in this section"** — I took a Tredict-era rule and applied it to a COROS push,
+  which is exactly what that header forbids. (2) **The premise is empirically false on COROS:** the
+  2026-11-19 treadmill run was pushed as two 6300 m DISTANCE steps and came back at **12.61 km
+  against 12.60 prescribed.** No drift. **PUSH TREADMILL RUNS IN KILOMETRES like any other run.**
+  **What DOES survive from this paragraph, because it rests on his own behaviour rather than on a
+  guess about the device:** the **belt speed in kph in the TITLE** (the one sanctioned exception to
+  the no-pace-cues-in-names rule, since the belt is a warning the step structure cannot express),
+  **pace targets on rep steps**, **floats and cool-downs left OPEN** because he does not enter those,
+  and **execution cannot be audited from pace at all** — judge treadmill sessions on cadence, HR and
+  duration. Original text, for the record: with **`subSportType: "treadmill"`** and the **belt speed in kph in
   the TITLE** — the title is the only reliable warning surface, same lesson as the
   repurposed-workout rule. Keep a pace target on each step so Tredict can still compute
   effort, and put "set the machine, ignore watch pace" in the notes.

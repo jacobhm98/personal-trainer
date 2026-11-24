@@ -45,10 +45,14 @@ import urllib.parse
 import urllib.request
 
 UA = {"User-Agent": "personal-trainer-terrain/1.0"}
+# Global-coverage mirrors ONLY. A regional instance (overpass.osm.ch covers
+# Switzerland) answers 200 with zero elements for anywhere else, which reads as
+# "there is no trail here" rather than "wrong server" -- that cost a Denver
+# lookup on 2026-11-18. If you add a mirror, check its extent first.
 MIRRORS = [
-    "https://overpass.kumi.systems/api/interpreter",
     "https://overpass-api.de/api/interpreter",
-    "https://overpass.osm.ch/api/interpreter",
+    "https://overpass.kumi.systems/api/interpreter",
+    "https://overpass.private.coffee/api/interpreter",
 ]
 RUNNABLE = "path|footway|cycleway|track|pedestrian"
 
@@ -119,6 +123,8 @@ def main():
                    help="rep length in km; the headline window (default 2.0)")
     p.add_argument("--dataset", default="ned10m",
                    help="ned10m (US, 10 m) or srtm30m (global). Default ned10m")
+    p.add_argument("--include-unnamed", action="store_true",
+                   help="include UNNAMED footways/paths. Lakeside loops, park paths and levee\n                        tops are often unnamed; without this they are invisible. Keep the bbox tight.")
     p.add_argument("--top", type=int, default=5)
     p.add_argument("--timeout", type=int, default=40,
                    help="per-mirror HTTP timeout in seconds (default 40)")
@@ -132,10 +138,17 @@ def main():
     # Keep the query cheap: a name filter already excludes sidewalks, and
     # stacking a negative regex on top of it is what makes Overpass hang.
     if a.name:
-        q = ('[out:json][timeout:35];way%s[highway~"%s"][name~"%s",i];out body geom;'
+        q = ('[out:json][timeout:60];way%s[highway~"%s"][name~"%s",i];out body geom;'
              % (area, RUNNABLE, a.name))
+    elif a.include_unnamed:
+        # The best running ground is often an UNNAMED footway -- lakeside loops,
+        # park paths, levee tops. Requiring [name] silently drops them, which is
+        # how a Brunnsviken search returned nothing but 400 m side streets on
+        # 2026-11-23. Costs more noise, so keep the bbox tight.
+        q = ('[out:json][timeout:60];way%s[highway~"%s"]'
+             '[footway!~"^(sidewalk|crossing)$"];out body geom;' % (area, RUNNABLE))
     else:
-        q = ('[out:json][timeout:35];way%s[highway~"%s"][name]'
+        q = ('[out:json][timeout:60];way%s[highway~"%s"][name]'
              '[footway!~"^(sidewalk|crossing)$"];out body geom;' % (area, RUNNABLE))
 
     try:
@@ -154,7 +167,10 @@ def main():
         ways.append((length, pts, tags.get("name", "(unnamed)"),
                      tags.get("surface", "?"), tags.get("lit", "?")))
     if not ways:
-        sys.exit("no named runnable ways found -- widen the area or drop --name")
+        sys.exit("Overpass answered but returned NOTHING for this area.\n"
+                 "  Either the filter is too narrow (widen the area or drop --name),\n"
+                 "  or the mirror that answered does not cover this part of the world.\n"
+                 "  An empty 200 is not evidence that the ground isn't there.")
     ways.sort(reverse=True, key=lambda w: w[0])
 
     print("%d ways, %.1f km of runnable path in the area\n" % (

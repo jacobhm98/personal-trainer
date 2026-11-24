@@ -105,6 +105,9 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
   - **Expect this to feel absurdly slow — roughly 7:00–7:20/km.** Every easy run to date
     has sat at 78–84% of an assumed 200 (155–169 bpm). If the cap really does land there,
     that is not an error, it is the "high ceiling, small tank" profile showing up
+    **[SUPERSEDED TWICE OVER: the slow easy pace was ECONOMY, not a tank problem, and it resolved
+    by itself — 7:57/km @ 141 on 10-15 to 6:34 @ 142 on 11-11. The profile itself was re-scoped
+    2026-11-15; see `running-training-brief.md` §1.]**
     exactly where the brief says it should. Err slow: a cap set too high just preserves
     the status quo we are trying to change.
   - Time of day: morning runs read ~2–4 bpm lower than the same effort in the evening
@@ -886,6 +889,91 @@ on 95% weeks. The **4-week plateaus absorb the deload in their final week**.
 > April with months to spare, so **there is no reason to rush it and no reason to start it
 > early.** Do not open the marathon block before 60 km is actually held.
 
+> ### THE 3:15 ROUTE TO SF — researched and agreed 2026-11-15
+>
+> **HIS TARGET, HIS WORDS: *"so if i want to hit 3:15 by july in SF what do i need to do"*.**
+> **3:15 = 4:37/km.** **EVERYTHING BELOW THAT IS A MODEL OUTPUT IS A PREDICTION, NOT A
+> CONSTRAINT** — see the `dont-record-predictions-as-constraints` memory. Only the target and
+> the phase structure are decisions.
+>
+> **WHERE HE ACTUALLY IS (2026-11-15).** 10k shape **~44:20** (see `sub-threshold-reference.md`
+> §8 — the old 45:46 was stale and he caught it), 55 km/wk, **longest run in three months is
+> 14 km**. **Tanda (2011) run on his real W13 numbers — 51 km at a distance-weighted mean
+> training pace of 6:17/km — predicts 3:49:52.** That matched an independent estimate to within
+> five minutes, so treat ~3:50 as the honest current figure.
+>
+> **THE DIAGNOSIS, AND IT IS THE WHOLE PLAN: THE ENGINE IS NEARLY THERE, THE TANK IS NOT.**
+> Riegel says a 3:15 marathon implies a **42:23** 10k; he is at ~44:20, i.e. **~1.5 VDOT points
+> = 5–9 weeks at his measured rate.** He will have the speed by February without doing anything
+> special. Tanda says 3:15 needs **~90 km/wk at a 5:15 mean training pace** (or 109 at 5:30).
+> **So the gap is volume and durability, not speed.** **DO NOT CHASE 5k SPEED** — over-investing
+> there is the classic way to miss a marathon target, and the TT ladder already covers it.
+>
+> | Phase | When | Running | Long run | Lifting |
+> |---|---|---|---|---|
+> | **Base** | Nov–Feb (14 wk) | 55 → **75** | 15 → **26 km** | **full 5/3/1, 4 days, FSL intact** |
+> | **Special** | Mar–Apr (8 wk) | 75 → **85** | 26 → **30 km** | **3 days**, FSL dropped on squat/DL |
+> | **Specific** | May–Jun (10 wk) | **85–90** | **26–28 km** (see cap below), **12–16 km at 4:37** | **2 days**, top sets only |
+> | **Taper** | final 3 wk | down | — | **no heavy lower body** |
+>
+> **LONG-RUN CEILING — CORRECTED 2026-11-18, HE CAUGHT IT.** Daniels is *"the lesser of 25% of
+> weekly mileage OR **2.5 hours**"* and this block originally quoted only the percentage. **At his
+> pace the TIME cap binds first:** 2.5 h is **25.0 km at 6:00/km, 26.1 at 5:45, 27.3 at 5:30** —
+> and 30% of a 90 km week is 27 km. **Both land on 26-28 km, not the 30-32 written here first.**
+> Making 32 km legal would need a sub-5:00/km long run or a ~107 km week. **So 26-28 km is the long
+> run; 30-32 km is a DELIBERATE OVERDISTANCE EXCEPTION — two or three in the final block for the
+> glycogen-depletion and psychological adaptation, breached knowingly, never drifted into.**
+>
+> **LONG-RUN HR CEILING — SAME CATCH, SHARPER** (*"if we're saying the long run can be ran at up to
+> ~160bpm isnt that close to MP?"*). **Yes.** Marathon pace sits ~10-15 bpm under LTHR; his LTHR
+> estimate is 180-184, so **MP is ~165-172 — an inference on an inference, since LTHR is itself
+> derived.** Against that: **145-155 is 80-88% of MP = Canova's FUNDAMENTAL band, correct for now;
+> 158-160 is ~90% = the SPECIAL period, four months early.** **155 IS THE CEILING, NOT THE TARGET.**
+> **The underlying reason the two sit so close: his MP is limited by ENDURANCE, not by his aerobic
+> ceiling.** As marathon endurance builds, MP gets faster and the gap widens — the closeness is the
+> "small tank" signature, and it should resolve itself rather than being managed around.
+>
+> Volume grows **~1 km/week**. The peak week is Mon easy 10 / **Tue sub-T 14 + D1 Squat** / Wed
+> easy 10 / Thu medium-long 12 / **Fri sub-T 13 + D3 Deadlift** / Sat — / **Sun LONG 30** = 89 km.
+> **The lifting days do not move** — squat→deadlift stays 72 h, deadlift→squat 96 h, run AM and
+> lift PM six hours apart.
+>
+> **STRENGTH: HIS 5/3/1 IS ALREADY THE RIGHT KIND OF TRAINING FOR THIS — WHAT GIVES IS THE FSL,
+> NOT THE TOP SETS.** Eihara et al. 2022 (meta-analysis, 22 studies): heavy resistance improves
+> running economy at **g = −0.32**, well above plyometrics, and **the effect is strongest at
+> loads ≥90% of 1RM.** His W3 top sets at 95% of TM are ~87% of 1RM — already in the band that
+> pays. The FSL back-offs are volume that costs recovery without buying economy, so **cut volume,
+> keep intensity.** **AND THE WINDOW THAT MATTERS MOST IS NOW: Eihara found 10–14 week programmes
+> give the biggest gains, which maps onto Nov–February, before running volume crowds lifting out.**
+> Said once, 2026-11-15, and not to be re-raised — he has already chosen a fourth week off.
+>
+> **THE ONE STRUCTURAL COLLISION, AND IT IS A WATCH ITEM NOT A FIX: Friday deadlift PM → Sunday
+> long run AM is ~40 h, against the 48 h at which Thomas 2018 still finds peripheral leg fatigue.**
+> Harmless while Sunday is an easy 8 km; it bites once Sunday is 30 km. Every alternative is worse
+> (a Saturday long run makes it 16 h). **If the long run starts going badly in the specific phase,
+> THE FRIDAY DEADLIFT IS WHAT GIVES — not the long run.**
+>
+> **THE READINESS TEST, MID-JUNE, ~6 WEEKS OUT: 16 km at 4:37 inside a 30 km long run.** Controlled
+> = 3:15 is live. A fight = the honest target is 3:25, and **far better to learn that in June than
+> at 32 km in July.**
+>
+> **THREE THINGS THAT ARE FREE AND CURRENTLY UNBANKED.** (1) **Fuelling** — 3:15 pace needs
+> **60–90 g carbs/hour for 3¼ hours and he has never practised it**; worth ~10 min, costs only
+> doing it on long runs from March. (2) **A strict 3-week taper** was worth a **median 5.5 min**
+> in a 158,000-runner dataset. (3) **SF's climbing is front-loaded** — over a third of 400 m in
+> three miles — so **from April the long runs want hills in the FIRST third, not the last.**
+>
+> **THE RISK, NAMED: this is 1.6x his current volume, sustained eight months, while cutting
+> weight, on a calendar that cost him a quality session in two of the last three weeks.** The
+> physiology is fine; **a disrupted month is what breaks 3:15, not a bad session.**
+>
+> **THE FALLBACK, DECIDED IN ADVANCE SO IT IS NOT AN EMOTIONAL CALL LATER: if he is not holding
+> 75 km/wk with a 26 km long run by the start of March, retarget to 3:25** — still a very good
+> first marathon.
+>
+> **OPEN INPUT, ASKED TWICE AND NOT YET ANSWERED: his current weight.** The cut is on, weight
+> matters over 42 km, and `plans/config.md` still carries 80 kg with a note that it is unknown.
+
 | Wk | of | Running | Lifting |
 |---|---|---|---|
 | W8 | 10-05 | 40 — re-entry | C14 W2 |
@@ -895,7 +983,7 @@ on 95% weeks. The **4-week plateaus absorb the deload in their final week**.
 | W12 | 11-02 | 45 | C15 W3 |
 | **W13** | 11-09 | **50 — STEP, pulled forward from W14** | **none scheduled — ad-hoc only** |
 | W14 | 11-16 | 50 — hold | **C15 W2** — slid a SECOND time |
-| W15 | 11-23 | 50 — hold (**60 is the stated aim — see the SF note**) | **DECIDE NOW, NOT LATER: C15 W3's 95% vs the TT — see below** · **5k TT Fri 11-27, FLAT COURSE, TARGET 20:30** |
+| W15 | 11-23 | 60 — the stated aim · **LONG RUN RETURNS, ON SUNDAY — see `running-training-brief.md` §5 "The marathon long run", researched and agreed 2026-11-15** | **DECIDE NOW, NOT LATER: C15 W3's 95% vs the TT — see below** · **5k TT Fri 11-27, TREADMILL (same belt as TT2), TARGET 20:00 = 15.0 kph** (raised from 20:30 on 11-15 — it is the 5k that sets the 6×6 band at 4:30) |
 | W16 | 11-30 | 55 — step? | C16 W1 — **see the staleness note below** |
 | **W17** | 12-07 | **55 — step** | **C17 W1** |
 | W18 | 12-14 | 55 | C17 W2 |
@@ -936,8 +1024,9 @@ mapping was re-cut on 2026-09-24 to avoid — *"the W15 5k TT now lands in C16 W
 C16 W3, so that Friday's deadlift is at 80% instead of 95%"* — and two slides have undone it.
 **RECOMMENDATION, TO DECIDE WHEN W14 IS BUILT, NOT NOW: keep W15 lifting-light for the TT and
 put C15 W3 in W16.** **UPGRADED 2026-11-11 FROM A RECOMMENDATION TO THE THING THAT SHOULD BE
-LOCKED FIRST.** He has set TT3 a target (**20:30 on a flat course**) that sits above the top of
-his measured progression bracket. A 95% deadlift on TT morning is the **2026-10-19 configuration
+LOCKED FIRST.** He has set TT3 a target (**20:00 on the treadmill, 15.0 kph, same belt as TT2** — raised from 20:30 on
+2026-11-15 because 20:20 is the 5k that puts the 6×6 band at 4:30) that sits above the top of
+his measured progression bracket, and the raise widens that gap rather than closing it. A 95% deadlift on TT morning is the **2026-10-19 configuration
 that already cost a squat top set**, and it is no longer a tidy-schedule question — it is the
 difference between the target being reachable and not. **Lock W15 lifting-light.** The TTs are load-bearing for five weeks of pace bands and deserve fresh
 legs; a one-week deferral of a 95% session costs nothing by comparison. **Do not resolve this
@@ -1713,6 +1802,54 @@ on, and a hard session plus a PM lift *should* move tonight's overnight numbers 
 response, not a flag.
 
 **D1 Squat is PM and not yet recorded** — no strength activity on 10-27 as of this review. RPE owed.
+## Week 14 (of 2026-11-16) — **55.0 km.** **NO CYCLE LIFTING — fourth consecutive week, his call** (*"one more week no strength, and thats ok"*). **DENVER (~1,609 m) MON–FRI, STOCKHOLM FROM SAT.**
+
+**Volume is his stated direction, not an extrapolation:** 50 (W13) → **55 (W14)** → 60 (W15), from
+2026-11-08. The step table is NOT re-cut — he declined that — so this is a week-by-week decision
+each time, per the SF note above.
+
+- Mon 11-16 | Easy | **9.0 km**, HR 125-145 — Denver
+- Tue 11-17 | Quality | WU 2.0 km (HR 105-145); **6x(6min @ 4:47-4:51, 60s float)**; CD 1.5 km; **11.9 km**
+- Wed 11-18 | — | no run, no lift
+- Thu 11-19 | Easy | **12.6 km** — **the week's longest easy run, carries the decoupling.** ~95 min at
+  altitude easy pace, so **past the ~75 min gate**: pushed as two steps, first half **129-145**, second
+  half **145-155**. First decoupling measured at altitude — **log it with a venue note; do not compare
+  it straight to the Sacramento trend.**
+- Fri 11-20 | Quality | WU 2.0 km (HR 105-145); **10x(3min @ 4:40-4:43, 45s float)**; CD 1.5 km; **11.1 km**
+  **RUN IT IN THE MORNING — he flies to Stockholm that afternoon.** The alternative was moving it to
+  Thursday, which leaves only 2 days between the two quality sessions; rejected. Cost named: a hard
+  session followed by ~10 h sitting.
+- Sat 11-21 | — | **lands Stockholm in the morning after an overnight flight, 8 h eastward. No run.**
+- Sun 11-22 | Easy | **10.4 km**, HR 125-145 — Stockholm, **sea level again.** **START BY 13:50** —
+  sunset is 15:10. **The pace will improve sharply and that is the air giving it back, NOT a fitness
+  jump** — the same misreading the 11-11/11-12 easy-pace finding has to be protected from in reverse.
+
+**= 55.0 km** (9.0 + 11.9 + 12.6 + 11.1 + 10.4). Five runs, Mon/Tue/Thu/Fri/Sun as per the standard
+shape. Sub-T work **66 min** (36 + 30).
+
+**ALTITUDE BANDS — DENVER, ~1,609 m.** Sea-level bands + ~**3%**, scaled down from the ~4% that
+proved about right at Aurora Reservoir (~1,810 m) on 11-15: 6x6 **4:39-4:41 → 4:47-4:51** (287-291
+s/km); 10x3 **4:32-4:34 → 4:40-4:43** (280-283 s/km). **THIS IS NOT A BAND MOVE** — the sea-level
+bands are untouched and change only at the TT. **The acclimatisation distinction, which matters and
+is easy to get wrong: by Tuesday he is day 4-5, so the EXERCISING-HR penalty will have largely faded
+(gone by day 5 at 1,600 m) — but the PACE cost does not fade with acclimatisation, it is the thin
+air.** Expect reps that feel more normal while still needing the slower band.
+
+**DAYLIGHT — THE CONSTRAINT W13 DEFERRED, NOW FORCED BY THE TRAVEL.** Denver gives ~9.9 h (sunrise
+~06:47, sunset ~16:42). **Stockholm gives 7.2 h** (sunrise 07:59, sunset **15:10** on 11-22) — a loss
+of **2 h 40 min the moment he lands**. Sunday is the week's most likely casualty.
+
+**TWO W15 ITEMS THIS TRIP CREATED — BOTH NEED DECIDING BEFORE 11-27:**
+1. **TT3'S VENUE NO LONGER EXISTS.** The flat course locked 2026-11-11 is the **Sacramento levee
+   strip**, measured off the 11-10 FIT. He will be in **Stockholm**. A new flat course must be found
+   and measured — `tools/terrain.py` does exactly this; the criterion is **worst net change across a
+   ~2 km window**, not site elevation.
+2. **TT DAY HAS A 6.9 h WINDOW, SUNSET 15:02.** A target 5k attempt cannot be an after-work run in
+   Stockholm in late November.
+
+**AND ONE THAT MAY RESOLVE ITSELF:** if the no-strength run extends into W15, the C15 W3 95%-deadlift-
+on-TT-morning collision — the thing flagged as "lock this first" since 11-11 — simply evaporates.
+
 ## Week 13 (of 2026-11-09) — **50.0 km, THE STEP** (pulled forward from W14). **NO CYCLE LIFTING — ad-hoc only.** **First week written DIRECTLY to COROS — no Tredict, no relay, no apply step.**
 
 - Mon 11-09 | ~~Easy 7.0 km~~ | **MOVED to Wed 11-11** on 11-09 (*"im pretty knackered today"*). Not run.
@@ -1760,9 +1897,15 @@ response, not a flag.
   **EXECUTED 9.56 km / 1:10:39, 7:23/km, avg HR 149.** Over distance, and **4 bpm over the 145
   cap on average** — the third easy run in a row to finish or sit above it. **Altitude: Denver
   ~1,609 m.** Against Thursday's Sacramento 6:49/km at HR 143, that is **34 s/km slower at 6 bpm
-  higher** — the altitude tax showing up in **exercising HR at a fixed workload**, which is
-  exactly where `wearable-metrics-reference.md` says to look for it (resting HR and HRV have a
-  published null at this elevation).
+  higher.**
+  **ATTRIBUTION CORRECTED 2026-11-16 — DO NOT CREDIT THIS TO ALTITUDE. HE DID NOT SLEEP THE NIGHT
+  BEFORE** (told 11-16). **Sleep loss and altitude both raise exercising HR at a fixed workload, so
+  they push the SAME way as the observation and §6's rule applies: attribution is impossible, name
+  neither.** The original note here credited altitude alone and was wrong to. **Corroborating and
+  previously mis-blamed on travel: RHR and HRV are MISSING for 11-13 and 11-14 — consistent with a
+  night not slept — and 11-15 read RHR 60 / HRV 41 ms (below normal, baseline 56), which sleep
+  explains better than travel does.** **This run is therefore UNSCOREABLE as an altitude
+  measurement and must not be used as the slow end of any acclimatisation comparison.**
 - Sun 11-15 | ~~Easy 8.7 km~~ | **BECAME THE 3x10 — see Sat 11-14.** Venue **Aurora Reservoir
   perimeter trail** (concrete, 8.85 km unbroken, measured 6.2 m net change across a 2 km rep
   window = 0.31%), chosen over Barr Lake because soft ground would have made the pace target
@@ -1788,6 +1931,11 @@ response, not a flag.
   Same profile as the Kigali sessions. **No pace consequence either way — bands move at the TT.**
   **RESERVE CHECK PASSES: *"had another rep in me"*** — exactly the one-more-rep mark a 3x10
   should leave.
+  **UPGRADED 2026-11-16: THIS WAS RUN ON POOR SLEEP.** He did not sleep the night before Saturday
+  and the 11-15 recovery numbers (RHR 60, HRV 41 ms) show the night after was not a repair night
+  either. **A session that holds clean within-rep plateaus at the LTHR floor and still leaves a rep
+  in reserve, on that sleep, is a better performance than it was graded.** No action — it changes
+  how the session reads, not what it decides.
 
 **= 50.0 km as built; = 50.0 km as re-cut after Tuesday** (0 + 9.91 + 9.4 + 11.0 + 11.0 + 0 + 8.7).
 Sub-T work **66 min** as built, **~63.4 min as executed/scheduled** (~33.4 + 30) — still inside the

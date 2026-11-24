@@ -39,9 +39,37 @@ requirement. Recomp helps only at the margin: 10 km costs the same to carry whet
 80 kg is muscle or fat, and upper-body muscle is aerobic dead weight. Price weight out of
 race predictions from here and treat sub-40 as a multi-year engine project.
 
-**Physiological shape: high ceiling, small tank.** Interval capability is well
-ahead of endurance. This is the defining fact about this athlete and it drives
-every recommendation below.
+**Physiological shape: ~~high ceiling, small tank~~ — RE-SCOPED 2026-11-15, HE CHALLENGED IT AND
+THE DATA BACKS HIM** (*"can we update the brief lol, i been doing hella low intensity training. how
+do i get away from the high ceiling small tank accusations"*). The original claim — *"interval
+capability is well ahead of endurance; this is the defining fact about this athlete and it drives
+every recommendation below"* — was written in **August 2026** off one blind-paced 10k and a
+combat-athlete prior, **before the entire Norwegian block existed.** It is now contradicted at the
+distances he actually races.
+
+**THE EVIDENCE THAT RETIRES IT, 5k–10k:**
+
+- **Decoupling, which §5 calls the direct measure of aerobic durability and names as "the exact
+  gap" in this profile: 10-29 +6.9% → 11-05 +3.3% → 11-12 +2.1%.** All inside the "<5% =
+  aerobically adapted for that duration and pace" band, **and improving while distance grew
+  7.0 → 9.96 → 10.5 km.** That is the opposite of a small tank.
+- **Easy pace at a fixed heart rate: 7:57/km @ 141 (10-15) → 6:34/km @ 142 (11-11).** 83 s/km in
+  27 days, **cadence identical at 162 spm**, stride length 0.78 → 0.94 m. That is aerobic base and
+  running economy, not top-end.
+- **60–66 min of sub-threshold work per week absorbed** with reps plateauing properly at the LTHR
+  floor and the reserve rule intact.
+- **Volume 25–28 km/wk (Kigali, September) → 51 (W13) → 55 (W14)**, no niggles.
+
+**THE HONEST REMAINDER — AND IT IS A RE-SCOPE, NOT A DELETION: nothing he has run in three months
+goes past ~75 minutes.** Longest run since 2026-09-13 is **14 km**. So the correct claim is not
+"small tank" but **"UNTESTED BEYOND ~75 MINUTES"** — a materially different statement, because it
+asserts ignorance rather than a deficit, and the fix is a long run rather than a character trait.
+**The marathon plan (`plans/running.md`, THE 3:15 ROUTE TO SF) is what opens that tap; the W15
+Sunday long run is what starts measuring it.**
+
+**DO NOT KEEP CITING THE OLD LABEL AS A LIVE DIAGNOSIS.** It earned its place in August and it
+stopped being true in the range he currently trains. Where it still applies — marathon-length
+durability — say *that*, with the 14 km number attached, rather than invoking a profile.
 
 Notable strengths:
 - Excellent easy-pace discipline (easy runs genuinely easy — rare and valuable)
@@ -190,10 +218,83 @@ speak a short sentence, sustainable for an hour if forced. Coming from 4×4s,
 4:50/km will feel too easy for the first ten minutes. That is correct. Running
 threshold too fast is the most common way to get neither adaptation.
 
+### The marathon long run — researched 2026-11-15, DECIDED, STARTS W15
+
+**His ask:** *"lets make the long run more marathon specific pacing, so we can bump the HR cap a
+bit, and aim to increase the length of it consistently"* — plus a request to research how other
+programs fit a dedicated marathon long run alongside sub-threshold work. **He approved the
+conclusion below the same day.** This is the reinstatement his 2026-11-08 call parked behind the
+60 km/wk gate (*"then we can start doing the marathon block properly with the weekly long run"*),
+which reversed his own 2026-09-16 decision to drop the dedicated long run.
+
+**What the programs do.**
+
+- **Pfitzinger** separates the jobs: one weekend long run, **medium-long runs midweek that stay
+  strictly easy**, threshold as the top-priority quality session. Long-run pace **10–20% slower
+  than MP**; MP segments inside the long run belong to the build, not the base.
+- **Canova**, three periods: **fundamental ~80% of MP** with the emphasis on duration → **special
+  (6–8 wks) 90–95%** → **specific 95–105%, 25 → 40 km**. He and Pfitzinger converge on **80–90% of
+  MP** as the general-phase long-run range.
+- **Norwegian-influenced marathon blocks** keep two threshold days and add the long run as a third
+  session with MP or threshold work on the *end* — 28–32 km with the last 8–10 km at MP. **That is
+  the marathon-SPECIFIC version**, and the recreational adaptation drops to singles precisely to
+  keep the long run's recovery cost affordable.
+- **Daniels' ceiling, which is the binding one here: the long run is 25–30% of weekly volume**, or
+  "the lesser of 25% or 2.5 hours". Low-volume runners blow through it and pay for it.
+
+**THE LONG RUN IS VOLUME-LIMITED, NOT WILLPOWER-LIMITED.**
+
+| Weekly | Long-run ceiling (25–30%) |
+|---|---|
+| 55 km (W14) | 13.8–16.5 km |
+| 60 km (W15 aim) | **15–18 km** |
+| ~100 km | 25–30 km |
+
+**A 30 km marathon long run needs ~100 km/week to be legal.** The gate is volume and it has not
+moved — which is exactly what his 11-08 call already said. W14's Thursday at 12.6 km is already
+**23% of the week**.
+
+**THE HR CAP HE ASKED FOR MOSTLY ALREADY EXISTED.** At an estimated **MP ~4:55/km** (VDOT 46.8 —
+**treat this as unreliable**: a marathon predicted off a 5k assumes marathon-specific endurance he
+has not built and 60 km/wk does not support), Canova's 80–90% band is **6:09 → 5:28/km**. His easy
+runs at HR 142 give **6:34/km**, so the long-run band starts ~25 s/km faster than easy — and the
+old rule already allowed ≤145 opening with drift to ~155. **The top of the old allowance was the
+bottom of the Canova band.** What was missing was permission to sit there deliberately rather than
+arrive by drift.
+
+**TIMING IS THE FINDING THAT CUTS AGAINST THE ASK: MARATHON-SPECIFIC PACING IS ~4 MONTHS EARLY.**
+SF is **2027-07-25, 36 weeks out as of 2026-11-15**. Canova's special period is 6–8 weeks with the
+specific period after it; Pfitzinger's plans are 12 or 18. **That puts MP work in the long run at
+~March–April 2027.** Until then this is the fundamental period: **longer, slightly faster, NO
+race-pace segments.**
+
+**WHAT WAS AGREED, EFFECTIVE W15 (after the 11-27 TT):**
+
+1. **The long run moves to SUNDAY**; Thursday becomes a medium-long easy run. Thursday currently
+   sits *between* the two quality days, which is Pfitzinger's medium-long slot, not a long-run slot.
+2. **The long run gets its own band: HR 145–155 throughout**, not 145-drifting-to-155. That is
+   70–75% of ~207, inside the **65–79% HRmax** Daniels E range that §5 already cites as supporting
+   long runs above 70%. **The capped-opening rule survives** — raise the levels, keep the shape.
+3. **Grow ~1 km/week to the 30% ceiling**: 15 km now, 18 km at 60 km/wk.
+4. **NO MP SEGMENTS UNTIL ~MARCH 2027.** When they come they go on the END of the long run.
+5. **The decoupling measurement follows it to Sunday** — the slot tracks the week's longest easy
+   run wherever it lands, not a named day (the 2026-10-26 correction).
+
+**THE COST, NAMED: a 155-capped long run is a THIRD stress day.** Pfitzinger pays for that by
+keeping medium-longs genuinely easy, so Monday and Thursday have to stay honest or this becomes
+three hard days plus a half.
+
+**STARTED EARLY, HIS CALL: W14's Thursday 11-19 was re-pushed at 138–150 / 148–158** *("we can bump
+the HR boundary on the W14 thursday run in preparation")*. **Consequence for the measurement: the
+11-19 decoupling now carries TWO changes at once — first at altitude AND first at the new band.
+Log it as a reset, not a trend point.**
+
 ### Long-run decoupling (Pa:HR) — tracked every long run
 
 The single most informative metric in this block: it measures aerobic durability
-directly, which is the exact gap in the "high ceiling, small tank" profile (§1).
+directly, which was the exact gap in the "high ceiling, small tank" profile (§1) — **a profile
+RE-SCOPED 2026-11-15 on the strength of this very table: three straight improvements to +2.1% while
+distance grew. See §1.**
 
 **Method (Friel).** Warm up 10-15 min, then steady effort, split *that* in half.
 Fixed convention so numbers stay comparable week to week:

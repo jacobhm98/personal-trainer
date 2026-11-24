@@ -126,8 +126,13 @@ default last 7 days.
        naming a cause. At 1,550 m the altitude signal lives in **exercising HR at a
        fixed workload** (+5.4% day 1, gone by day 5), **not** in resting HR or HRV,
        which have a published null at this elevation.
-     - **THE CUT IS BACK ON from 2026-10-24** (*"im losing weight and im increasing
-       running"*), which **VOIDS** the clause that stood here: ~~"No caloric deficit from
+     - **~~THE CUT IS BACK ON~~ from 2026-10-24** (*"im losing weight and im increasing
+       running"*) — **CORRECTED 2026-11-15: that was an OBSERVATION and this file read it as an
+       INTENTION. He has never run a deliberate deficit here: *"i havent actively maintained a
+       deficit tho"*. Read it as intake lagging a rising load. Negative balance either way, so the
+       clause below still voids — but DO NOT describe it as a cut, and if weight keeps falling while
+       volume climbs toward 90 km/wk, that is UNDER-FUELLING to fix, not a plan running to schedule.**
+       It **VOIDS** the clause that stood here: ~~"No caloric deficit from
        2026-09-16 (cut abandoned, weight held ~80 kg), so a squat stall no longer has that
        excuse — treat a missed top set as real evidence about the TM or about running
        load."~~ A deficit plus rising volume is now a live explanation for a lower-body
