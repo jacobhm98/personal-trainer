@@ -239,8 +239,22 @@ which reversed his own 2026-09-16 decision to drop the dedicated long run.
   session with MP or threshold work on the *end* — 28–32 km with the last 8–10 km at MP. **That is
   the marathon-SPECIFIC version**, and the recreational adaptation drops to singles precisely to
   keep the long run's recovery cost affordable.
-- **Daniels' ceiling, which is the binding one here: the long run is 25–30% of weekly volume**, or
-  "the lesser of 25% or 2.5 hours". Low-volume runners blow through it and pay for it.
+- **~~Daniels' ceiling, which is the binding one here: the long run is 25–30% of weekly volume~~,
+  or "the lesser of 25% or 2.5 hours". ~~Low-volume runners blow through it and pay for it.~~**
+  **THE PERCENTAGE HALF IS DEMOTED — PROVENANCE CHECKED 2026-11-24 AND IT IS THIN.** Nothing
+  primary was located for any figure in this bullet; all of it is secondhand. The lenient
+  *"one-third below 40 mpw"* reading is **a single 2021 forum opening post** that names no book or
+  page and is disputed in its own thread, and **a "30% below 40 mpw" line I attributed to Strength
+  Running is not on that page at all** — it came from a search snippet I passed on without opening
+  the source. **25% and 2.5 h are what secondary sources consistently attribute; no source found
+  gives a lower-mileage tier.** **The TIME cap is now the operative one**: it has the more
+  consistent attribution and an actual mechanism, since damage and glycogen depletion accumulate
+  with **duration**, not with a ratio. **The percentage is also known to break at amateur marathon
+  volume** — at 25% a 32 km long run needs a 128 km week, which is why published plans ignore it
+  (Pfitzinger's 55-mile plan peaks near 36%; **that arithmetic is mine, not a sourced figure**).
+  **"Low-volume runners blow through it and pay for it" overstated what the sources support** —
+  they blow through it routinely; the *paying* part was not established. **Track the ratio, enforce
+  the clock.**
 
 **THE LONG RUN IS VOLUME-LIMITED, NOT WILLPOWER-LIMITED.**
 
@@ -250,9 +264,13 @@ which reversed his own 2026-09-16 decision to drop the dedicated long run.
 | 60 km (W15 aim) | **15–18 km** |
 | ~100 km | 25–30 km |
 
-**A 30 km marathon long run needs ~100 km/week to be legal.** The gate is volume and it has not
-moved — which is exactly what his 11-08 call already said. W14's Thursday at 12.6 km is already
-**23% of the week**.
+**~~A 30 km marathon long run needs ~100 km/week to be legal.~~ The gate is volume and it has not
+moved** — **AMENDED 2026-11-24. The table above is a RATIO TRACKER, NOT A PERMISSION SYSTEM**, and
+"legal" was the wrong word for a rule with this provenance. **The real ceiling is 2.5 h on the
+clock ≈ 24-25 km at his long-run pace**, reached around late February on the +1 km/week. Read the
+table as "this is how much of the week the long run is eating", which is a recovery question
+answered by watching the days around it — **not a cap that forbids a session.** W14's Thursday at
+12.6 km was 23% of the week; **W15's Sunday 15 km is 26.3% and is going ahead.**
 
 **THE HR CAP HE ASKED FOR MOSTLY ALREADY EXISTED.** At an estimated **MP ~4:55/km** (VDOT 46.8 —
 **treat this as unreliable**: a marathon predicted off a 5k assumes marathon-specific endurance he

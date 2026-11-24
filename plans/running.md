@@ -932,6 +932,38 @@ on 95% weeks. The **4-week plateaus absorb the deload in their final week**.
 > run; 30-32 km is a DELIBERATE OVERDISTANCE EXCEPTION — two or three in the final block for the
 > glycogen-depletion and psychological adaptation, breached knowingly, never drifted into.**
 >
+> **THE PERCENTAGE HALF OF THAT RULE IS DEMOTED — PROVENANCE CHECKED 2026-11-24, AND IT IS THIN.**
+> He asked where the lenient *"one-third below 40 mpw"* reading comes from, **flagging his own
+> motivated reasoning while asking** (*"also in line with what i want to hear"*). It does not
+> survive the check:
+> - **The one-third tier is ONE forum post.** RunningAHEAD, 2021, opening post: *"according to
+>   dr.jack daniels he suggests that you cap your long run at 1/3 of your weekly mileage. and if
+>   over 40mpw, then 25%. and/or 2.5hrs long run time cap."* No book, no page, no edition, and the
+>   thread's own replies dispute it. The only self-attributed rule there is a coach's *"33% is good
+>   by me"* — his own guideline, not Daniels'.
+> - **I RELAYED A FIGURE THAT IS NOT ON THE PAGE I CITED.** I told him Strength Running gives 30%
+>   below 40 mpw. It does not mention Daniels at all; it lists an unattributed spread — 20%, 25%,
+>   30%, 35%, 50% — and settles on the author's own 20-30%. **That came from a search snippet I
+>   passed on without opening the page**, which is precisely the
+>   `never-attribute-inferences-to-sources` failure. Open the page before quoting it.
+> - **No source found gives a lower-mileage tier at all.** What IS consistently attributed across
+>   secondary sources is **25% and 2.5 h / 150 min**. Nothing primary was located either way —
+>   every figure in this block is secondhand, **including the 25%.**
+>
+> **SO THE OPERATIVE CEILING IS THE TIME CAP, AND THE PERCENTAGE IS A WATCH ITEM.** Reasons, in
+> order: the time cap has the more consistent attribution; it has an actual mechanism, since damage
+> and glycogen depletion accumulate with **duration**, not with a ratio; and **the percentage is
+> known to break at amateur marathon volume** — at 25% a 32 km long run needs a 128 km week, which
+> is why published plans ignore it (Pfitzinger's 55-mile plan peaks near 36%; that arithmetic is
+> mine, not a sourced figure). **2.5 h at his long-run pace = ~24-25 km. That is the number to
+> hold.** The 26-28 km above stands as the block target and sits just past it, which is the
+> deliberate-overdistance note below, not a drift.
+>
+> **WHAT THIS DOES NOT LICENCE.** The percentage being soft is **not** evidence the long run is
+> free. A long run at a third of the week is a real recovery cost even when no rule names it —
+> **watch the days either side of it, and the Friday-deadlift-to-Sunday-long-run gap**, rather than
+> watching a ratio. **Review at ~24 km, which the +1 km/week reaches around late February.**
+>
 > **LONG-RUN HR CEILING — SAME CATCH, SHARPER** (*"if we're saying the long run can be ran at up to
 > ~160bpm isnt that close to MP?"*). **Yes.** Marathon pace sits ~10-15 bpm under LTHR; his LTHR
 > estimate is 180-184, so **MP is ~165-172 — an inference on an inference, since LTHR is itself
@@ -1032,6 +1064,15 @@ on 95% weeks. The **4-week plateaus absorb the deload in their final week**.
 > **WHERE IT LANDS:** 15 km (W15) → 16 (W16) → 17 (W17) … **~26 km by mid-February**, which is
 > exactly the base-phase long-run target in the 3:15 table above, reached without a single step
 > week. Weekly totals follow: ~57 → 58 → 59 → **60 around W18 (of 12-14)**, 61, 62 …
+>
+> **WHERE IT STOPS: the 2.5 h TIME CAP, ~24-25 km, around late February** — **NOT a percentage.**
+> He asked whether +1 km/week collides with the 25% ceiling (*"but this bites against the 25%
+> ceiling of the weekly run?"*) and **arithmetically it does, immediately**: W15 is already 15 km
+> of ~57 = **26.3%**, and holding the easy days flat drives it to 30% by W18 and 33% by W21. **But
+> the percentage rule did not survive the provenance check that question triggered** — see
+> LONG-RUN CEILING above. **Strict 25% would cap him at 14 km, shorter than this Sunday's run,
+> which is the reductio.** So the ratio is tracked, not enforced; the review point is **~24 km on
+> the clock**, and it lands where the base phase wanted 26 km anyway.
 >
 > **TWO THINGS TO WATCH, STATED ONCE AND NOT TO BE RE-PITCHED.** (1) **The weekly total crosses 60
 > around W18 on its own** — that is the base-block number arriving by drift rather than by
