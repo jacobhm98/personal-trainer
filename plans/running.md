@@ -1001,9 +1001,14 @@ on 95% weeks. The **4-week plateaus absorb the deload in their final week**.
 >   strongest at ≥90% 1RM and biggest from **10–14 week programmes**, which maps onto
 >   **Nov–February, before running volume crowds lifting out.** An interrupted month of lifting
 >   is the one input in the whole block that cannot be made up later.
-> - **The last three weeks delivered 42 km against a 55 km target.** Travel, an eight-hour
->   eastward shift and a hot gym cost a quality session in two of them. A number he actually
->   hits is worth more than one he misses.
+> - **The calendar has been the unreliable input, not his execution — and the number first
+>   written here was WRONG, he caught it (2026-11-24).** I wrote *"the last three weeks delivered
+>   42 km against a 55 km target"*; that is **W14 alone**. Measured from COROS: **W12 41.7 of 45 ·
+>   W13 51.0 of 50 · W14 42.3 of 55.** W13 came in **over target**. So this is **one disrupted
+>   week caused by travel** — Friday's 10×3 abandoned at 6.44 km, Sunday dropped on the flight
+>   home — not a trend of missing. **Do not use a shortfall pattern to argue for consolidating;
+>   it isn't there.** What the record actually supports is narrower and still true: **the weeks
+>   that break are the travel weeks, and a flat target survives one better than a climbing one.**
 > - **The risk named in the 3:15 plan is a disrupted month, not a bad session.** Consolidation
 >   is the direct countermeasure to the thing most likely to break the target.
 >
