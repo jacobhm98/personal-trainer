@@ -245,9 +245,19 @@ from 2026-11-09 onward is a COROS standalone and obeys the COROS MCP notes inste
   **not prescribed** — he takes assistance sets to near-failure, which is why they are valid
   E1RM input. Write them as `3x@weight`, never with an invented rep count. Expected set
   counts per session, useful as a cross-check against `querySportRecords`' set counter:
-  **D1 12, D2 14, D3 12, D4 14** (3 main + FSL + 2 x 3 assistance, where FSL is 3x5 on
-  squat/deadlift and 5x5 on dips/pull-ups). Corroborated: COROS logged **14 sets** for the
-  09-23 D2 session and 13 for the 09-24 D1 squat (one over, likely a counted warm-up).
+  **D1 15, D2 14, D3 12, D4 14** (3 main + FSL + 2 x 3 assistance, where FSL is 3x5 on
+  squat/deadlift and 5x5 on dips/pull-ups). **D1 IS 15, NOT 12 — THE ROW IS ONE SET PER ARM AND
+  THEREFORE LOGS TWICE (his correction, 2026-11-24:** *"yea but fuckin rows are one per arm"***).**
+  Verified on the 11-24 D1: 15 logged = Legs/Hips 6 + Back 6 + Shoulders 3, an exact match on all
+  three movements, with the Back lap reps falling in pairs (11/7, 8/7, 5/5). **This INVERTS the
+  historical reading rather than refining it:** D1 had logged **13/13/14** against the old expected
+  12 and the surplus was written up as a counted warm-up, so a "+1/+2 warm-up bias" entered
+  `state/srpe-log.md` as a recurring explanation. Against 15 those sessions were **1-2 sets SHORT**
+  — dropped assistance, most likely — and the warm-up-bias reading has no support from D1.
+  **D3 IS UNVERIFIED AND MAY BE 15 TOO:** its assistance is Curl + Lateral raises, and an
+  alternating or single-arm curl would log per arm on the same logic. Do not assume either way —
+  check the lap count on the next D3 before using 12 as a cross-check. Corroborated elsewhere:
+  COROS logged **14 sets** for the 09-23 D2 session.
 
 ## Running
 
