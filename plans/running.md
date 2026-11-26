@@ -81,6 +81,78 @@ Each week is a `## Week N (of YYYY-MM-DD)` block (date = the Monday). Each sessi
 - **EASY RUNS ARE HR-CAPPED, NOT PACE-CAPPED** (user's call 2026-09-12, from Bakken:
   easy running capped at **70% HRmax**). Pace bands below are now descriptive, not
   prescriptive — the cap governs, and being under it is always fine.
+  - **INDOORS IN WINTER THE CAP IS SUSPENDED AND PACE GOVERNS — HIS CALL, 2026-11-26**
+    (*"i think doing hr gating on these easy runs is not working tbh with you, the gym is
+    humid and hot and stale. i think during winter gym sessions in stockholm they need to
+    be pace gated"*). **This is a VENUE OVERRIDE, not a replacement of the rule above.**
+    Outdoors the cap still governs, for the reason it always did: terrain, wind and
+    altitude make pace a bad proxy there. **On a treadmill that reasoning inverts** — the
+    belt fixes the workload exactly, so pace is the reliable variable and HR is the
+    confounded one.
+    - **THE EFFECT IS REAL, IT IS LARGE, AND IT IS THIS GYM RATHER THAN TREADMILLS AS A
+      CLASS.** Matched-HR comparison, easy runs: **11-11 Sacramento outdoor 6:34 @ 142**,
+      **11-16 Denver outdoor (1,609 m) 6:33 @ 142**, **11-19 Denver INDOOR treadmill
+      (1,609 m) 6:35 @ 145**, against **Stockholm gym 11-23 6:48 @ 145** and **11-26
+      7:04 @ 146**. A Denver hotel treadmill at altitude gave 6:35 at the cap; the
+      Stockholm gym gives 7:04. **~29 s/km apart, same modality, with altitude pushing
+      AGAINST the finding** — a generic treadmill explanation predicts 11-19 to be slow
+      too, and it is not. **11-14 Denver (7:23 @ 149) is DISCARDED for cause**, not
+      convenience: it was day 1-2 at 1,609 m, where exercising HR runs +5.4% and is gone
+      by day 5 — the one run where the HR was lying.
+    - **MECHANISM, already in the files:** in heat, HR-estimated work **overstates by
+      43%**. A hot, humid, stale room raises HR through skin blood flow, not through the
+      metabolic cost of running. HR-gating in that room converts an environmental problem
+      into a ~30 s/km cut in mechanical loading — less training for the same number on
+      the watch.
+    - **IT IS AN OFFSET, NOT A DRIFT — measured 2026-11-26 [S].** At each belt speed HR
+      was *stable*: km 5-8 held 9.0 kph and ran **152 / 152 / 151 / 153**. The gym shifts
+      the level, not the slope, which is exactly what a fixed thermal load looks like and
+      is why a pace gate handles it cleanly. Same-session pace↔HR map, one room:
+      **8.5 kph → 146 · 8.6 → 149 · 9.0 → 152 · 9.5 → 155.** Against outdoor 6:42 → 143,
+      the **gym offset is ≈ +9 bpm at matched pace**.
+    - **THE PRESCRIPTION. Run the pace you would run outdoors and let the HR read high.**
+
+      | Session | Indoor belt | Pace | Expected HR | Backstop |
+      |---|---|---|---|---|
+      | **Easy / recovery** | **9.0 kph** (band 8.9-9.1) | 6:40 | ~152 | **158** |
+      | **Long run** | **9.3 kph**, to 9.6-9.8 if genuinely easy at the hour | 6:07-6:27 | ~158-162 | **165** |
+
+      **The backstop is NOT the governor** — it exists to catch illness or genuine
+      overreaching, not to steer the run. **The easy figure is MEASURED** (five outdoor
+      HR-gated runs, mean ~6:42 @ 142-145, Denver's 6:33 at altitude making it
+      conservative). **The long-run figure is EXTRAPOLATED [C]** from a single session's
+      pace↔HR map and should be treated as the softer of the two.
+    - **THE LONG RUN IS FASTER THAN EASY, NOT SLOWER — he caught me proposing the
+      opposite, 2026-11-26** (*"dont we want to run the long run slightly faster?"*). He
+      is right and the pushed session already said so: *"145-155, as a single band rather
+      than easy-drifting-upward — this is deliberately not an easy run any more."* Against
+      an easy cap of ≤145 that is deliberately harder, and I had proposed 8.8 kph for it,
+      **below** the 9.0 set for easy runs. **Whenever a long-run number is set, check it
+      against the easy number first; it must be the faster of the two.**
+    - **HOW IT ADAPTS: the gym becomes the measuring instrument.** Pace-gating does not
+      discard HR, it **promotes it from within-session governor to longitudinal tracker**,
+      and a treadmill is the only place that works properly because the belt fixes
+      workload exactly. Same room, same 9.0 kph, HR trending down over weeks **is**
+      aerobic adaptation with no terrain, wind or altitude in the way. **Rule: hold the
+      belt, log the steady-portion HR every session, and when the mean across ≥3 sessions
+      falls 4-5 bpm, raise the belt 0.2 kph.** **Never act on one session** — the gym is
+      not perfectly fixed either and varies with time of day and occupancy. Cross-check at
+      each TT: if T-pace improves and indoor easy pace does not, something is wrong.
+    - **THE TT IS NOT THE ANCHOR FOR THIS, AND HE WAS RIGHT TO CHALLENGE THE SUGGESTION
+      THAT IT SHOULD BE** (*"are you suggesting to derive easy run and long run pacing
+      from the TT max effort?"*). Sub-T and T-pace come from the TT because they sit near
+      threshold, where 5k performance predicts them. **Easy pace is defined by a
+      physiological ceiling (70% HRmax), not by race performance** — deriving it via VDOT
+      would run a population regression to estimate something there are five direct
+      personal measurements of. **For the record, the VDOT route gives ≈5:36-6:12/km at
+      VDOT 44.7 against the 6:42 actually run — and about half that gap is NOT fitness:**
+      Daniels' E zone is **65-79% HRmax** and the ≤145 cap is **70%**, i.e. the bottom
+      quartile of "easy". At 75% (~155) the implied pace lands near 6:05-6:15, inside
+      Daniels' range. The remainder is the ordinary case of a 5k-derived VDOT
+      overestimating easy pace for a runner fifteen weeks into building volume from
+      23 km/week. **This makes the HRmax pin load-bearing: the cap is 70% of an ASSUMED
+      207, and if the 11-27 TT says 207 is low, every easy pace downstream of it moves —
+      indoors and out.**
   - **Easy / recovery runs: ≤70% HRmax.** Provisional max **~207** — raised from ~200 on
     **2026-10-08 (user's call)** because two independent routes converge on 205–211
     (`plans/config.md`) → **cap 145 bpm**. The cap is a *fraction of max*, so it moves
